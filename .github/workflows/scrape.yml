@@ -1,0 +1,79 @@
+name: V2Eats - Daily Menu Scraper
+
+on:
+  # Run twice daily at 11:05 and 11:35 Vienna time (CET/CEST)
+  # Vienna is UTC+1 (winter CET) and UTC+2 (summer CEST)
+  # GitHub Actions uses UTC, so we use 10:05 and 10:35 UTC for CET (winter)
+  # Note: Times will be 1 hour off during summer (CEST), but close enough
+  schedule:
+    - cron: '5 10 * * 1-5'   # 11:05 CET Monday-Friday
+    - cron: '35 10 * * 1-5'  # 11:35 CET Monday-Friday
+  
+  # Allow manual trigger for testing
+  workflow_dispatch:
+  
+  # Run on push to main for initial testing
+  push:
+    branches:
+      - main
+    paths:
+      - 'scraper.py'
+      - '.github/workflows/scrape.yml'
+
+jobs:
+  scrape-menus:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      
+      - name: Run V2Eats scraper
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scraper.py
+      
+      - name: Check if menus.json was updated
+        id: check_changes
+        run: |
+          if [[ -f docs/menus.json ]]; then
+            echo "Menu file exists"
+            git add docs/menus.json
+            if git diff --staged --quiet; then
+              echo "changes=false" >> $GITHUB_OUTPUT
+              echo "No changes to commit"
+            else
+              echo "changes=true" >> $GITHUB_OUTPUT
+              echo "Changes detected"
+            fi
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "Menu file does not exist"
+          fi
+      
+      - name: Commit and push menu updates
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "V2Eats Bot"
+          git commit -m "🍽️ Update Viertel Zwei menus - $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+      
+      - name: No updates needed
+        if: steps.check_changes.outputs.changes == 'false'
+        run: |
+          echo "No menu changes detected - skipping commit"

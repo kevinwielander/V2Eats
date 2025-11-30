@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V2Eats</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .last-updated {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .filter-section {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .filter-section input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .filter-section input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .restaurants-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .restaurant-card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .restaurant-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+        }
+
+        .restaurant-card.unavailable {
+            opacity: 0.6;
+            background: #f5f5f5;
+        }
+
+        .restaurant-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .restaurant-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .status-badge {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: 600;
+        }
+
+        .status-badge.available {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status-badge.unavailable {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .menu-items {
+            list-style: none;
+        }
+
+        .menu-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+
+        .item-name {
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 4px;
+        }
+
+        .item-price {
+            color: #667eea;
+            font-weight: 600;
+            font-size: 0.95em;
+        }
+
+        .item-description {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 4px;
+        }
+
+        .no-items {
+            text-align: center;
+            color: #999;
+            padding: 20px;
+            font-style: italic;
+        }
+
+        .error-message {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            color: #856404;
+            padding: 12px;
+            border-radius: 8px;
+            margin-top: 12px;
+            font-size: 0.9em;
+        }
+
+        .visit-link {
+            display: inline-block;
+            margin-top: 15px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .visit-link:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        .loading {
+            text-align: center;
+            color: white;
+            font-size: 1.2em;
+            padding: 40px;
+        }
+
+        .no-results {
+            text-align: center;
+            color: white;
+            font-size: 1.2em;
+            padding: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 12px;
+        }
+
+        @media (max-width: 768px) {
+            .restaurants-grid {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍽️ V2Eats</h1>
+            <p style="font-size: 1.2em; margin-top: 10px;">Viertel Zwei Daily Menus</p>
+            <p class="last-updated" id="lastUpdated">Loading...</p>
+        </header>
+
+        <div class="filter-section">
+            <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="🔍 Search restaurants or menu items..."
+                autocomplete="off"
+            >
+        </div>
+
+        <div id="restaurantsContainer">
+            <div class="loading">Loading menus...</div>
+        </div>
+    </div>
+
+    <script>
+        let allRestaurants = [];
+
+        // Fetch and display menus
+        async function loadMenus() {
+            try {
+                const response = await fetch('docs/menus.json');
+                const data = await response.json();
+                
+                allRestaurants = data.restaurants || [];
+                
+                // Update last updated time
+                const lastUpdated = new Date(data.last_updated);
+                document.getElementById('lastUpdated').textContent = 
+                    `Last updated: ${lastUpdated.toLocaleString()}`;
+                
+                displayRestaurants(allRestaurants);
+            } catch (error) {
+                document.getElementById('restaurantsContainer').innerHTML = 
+                    `<div class="no-results">Failed to load menus. Please try again later.</div>`;
+                console.error('Error loading menus:', error);
+            }
+        }
+
+        function displayRestaurants(restaurants) {
+            const container = document.getElementById('restaurantsContainer');
+            
+            if (restaurants.length === 0) {
+                container.innerHTML = '<div class="no-results">No restaurants found.</div>';
+                return;
+            }
+
+            const html = restaurants.map(restaurant => {
+                const isAvailable = restaurant.available !== false;
+                const hasItems = restaurant.items && restaurant.items.length > 0;
+                
+                return `
+                    <div class="restaurant-card ${isAvailable ? '' : 'unavailable'}">
+                        <div class="restaurant-header">
+                            <h2 class="restaurant-name">${restaurant.name}</h2>
+                            <span class="status-badge ${isAvailable ? 'available' : 'unavailable'}">
+                                ${isAvailable ? '✓ Open' : '✗ Closed'}
+                            </span>
+                        </div>
+                        
+                        ${!isAvailable && restaurant.reason ? 
+                            `<div class="no-items">${restaurant.reason}</div>` : ''}
+                        
+                        ${hasItems ? `
+                            <ul class="menu-items">
+                                ${restaurant.items.map(item => `
+                                    <li class="menu-item">
+                                        <div class="item-name">${item.name}</div>
+                                        ${item.price ? `<div class="item-price">${item.price}</div>` : ''}
+                                        ${item.description ? `<div class="item-description">${item.description}</div>` : ''}
+                                    </li>
+                                `).join('')}
+                            </ul>
+                        ` : isAvailable ? '<div class="no-items">No menu items available</div>' : ''}
+                        
+                        ${restaurant.error ? 
+                            `<div class="error-message">⚠️ ${restaurant.error}</div>` : ''}
+                        
+                        ${restaurant.url ? 
+                            `<a href="${restaurant.url}" target="_blank" class="visit-link">Visit website →</a>` : ''}
+                    </div>
+                `;
+            }).join('');
+
+            container.innerHTML = `<div class="restaurants-grid">${html}</div>`;
+        }
+
+        // Search functionality
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            
+            if (!searchTerm) {
+                displayRestaurants(allRestaurants);
+                return;
+            }
+
+            const filtered = allRestaurants.filter(restaurant => {
+                // Search in restaurant name
+                if (restaurant.name.toLowerCase().includes(searchTerm)) {
+                    return true;
+                }
+                
+                // Search in menu items
+                if (restaurant.items) {
+                    return restaurant.items.some(item => 
+                        item.name.toLowerCase().includes(searchTerm) ||
+                        (item.description && item.description.toLowerCase().includes(searchTerm))
+                    );
+                }
+                
+                return false;
+            });
+
+            displayRestaurants(filtered);
+        });
+
+        // Load menus on page load
+        loadMenus();
+
+        // Refresh every 5 minutes
+        setInterval(loadMenus, 5 * 60 * 1000);
+    </script>
+</body>
+</html>
