@@ -50,7 +50,7 @@ RESTAURANTS = [
     },
     {
         "name": "Topf und Deckel",
-        "url": "https://web.archive.org/web/20250907205226/https://www.topfdeckel.at/",
+        "url": "https://www.topfdeckel.at/",
         "type": "restaurant",
         "use_claude_vision": False
     }
