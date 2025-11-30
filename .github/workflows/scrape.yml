@@ -20,6 +20,9 @@ on:
       - 'scraper.py'
       - '.github/workflows/scrape.yml'
 
+permissions:
+  contents: write  # Allow workflow to push changes
+
 jobs:
   scrape-menus:
     runs-on: ubuntu-latest
