@@ -1,28 +1,12 @@
 {
-  "last_updated": "2025-11-30T17:04:06.289232",
+  "last_updated": "2025-11-30T16:19:12.936112",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
-      "items": [
-        {
-          "name": "Spinach feta \"strudel\"",
-          "price": "€5.60",
-          "description": "Potatoes | Sour Cream"
-        },
-        {
-          "name": "Chicken \"Koy Soy\"",
-          "price": "€6.20",
-          "description": "rice"
-        },
-        {
-          "name": "Mensa Burger",
-          "price": "€9.40",
-          "description": "fries | beef or Planted 'Crispy Chicken style'"
-        }
-      ],
-      "scraped_at": "2025-11-30T17:03:59.165294",
+      "items": [],
+      "scraped_at": "2025-11-30T16:19:05.929171",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,45 +35,21 @@
           "description": "mit Topfencreme-Topping"
         }
       ],
-      "scraped_at": "2025-11-30T17:04:01.936557",
+      "scraped_at": "2025-11-30T16:19:09.148262",
       "available": true,
       "extraction_method": "LLM (claude)"
-    },
-    {
-      "name": "Pinsa Food Truck",
-      "url": "https://www.pinsalino.at",
-      "items": [
-        {
-          "name": "Roman-style pizza with various toppings",
-          "price": "€8-12",
-          "description": "Available on thursday"
-        }
-      ],
-      "scraped_at": "2025-11-30T17:04:01.938909",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Buddha Bowl",
+          "name": "Bowl",
           "price": "€9-11",
-          "description": "Healthy bowl with vegetables and grains"
-        },
-        {
-          "name": "Protein Bowl",
-          "price": "€10-13",
-          "description": "High-protein bowl with chicken or tofu"
-        },
-        {
-          "name": "Vegan Bowl",
-          "price": "€9-12",
-          "description": "Plant-based bowl with seasonal vegetables"
+          "description": "Healthy bowl with various ingredients"
         }
       ],
-      "scraped_at": "2025-11-30T17:04:01.938955",
+      "scraped_at": "2025-11-30T16:19:09.150151",
       "available": true,
       "extraction_method": "Static menu"
     },
@@ -98,31 +58,31 @@
       "url": "https://web.archive.org/web/20250907205226/https://www.topfdeckel.at/",
       "items": [
         {
-          "name": "Erdäpfel Gratin aus dem Ofen mit Brokkoli, Mozzarella & grünem Salat",
+          "name": "Erdäpfel Gratin",
           "price": "€8.90/€11.90",
-          "description": "Erdäpfel Gratin aus dem Ofen mit Brokkoli, Mozzarella und grünem Salat"
+          "description": "Erdäpfel Gratin aus dem Ofen mit Brokkoli, Mozzarella & grünem Salat"
         },
         {
-          "name": "Tomaten-Melanzani Korma in Kokossauce mit Basmatireis & Jogurth Dip",
+          "name": "Tomaten-Melanzani Korma",
           "price": "€8.90/€11.90",
-          "description": "Tomaten-Melanzani Korma in Kokossauce mit Basmatireis und Jogurth Dip"
+          "description": "Tomaten-Melanzani Korma in Kokossauce mit Basmatireis & Jogurth Dip"
         },
         {
-          "name": "Pasta Bolognese mit Fleischragout, Parmesan & grünem Salat",
+          "name": "Pasta Bolognese",
           "price": "€8.90/€11.90",
-          "description": "Pasta Bolognese mit Fleischragout, Parmesan und grünem Salat"
+          "description": "Pasta Bolognese mit Fleischragout, Parmesan & grünem Salat"
         }
       ],
-      "scraped_at": "2025-11-30T17:04:06.286158",
+      "scraped_at": "2025-11-30T16:19:12.934490",
       "available": true,
       "extraction_method": "LLM (claude)"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 14
+    "total_items": 8
   }
 }
