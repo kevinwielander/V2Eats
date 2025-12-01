@@ -158,7 +158,7 @@ CRITICAL: Only extract MAIN DISHES from the {today} column. No sides, no combos,
 Return ONLY the JSON array, no other text."""
 
             payload = {
-                "model": "claude-3-5-sonnet-20241022",
+                "model": "claude-sonnet-4-5",
                 "max_tokens": 2000,
                 "messages": [
                     {
@@ -477,7 +477,27 @@ Return ONLY the JSON array, no other text."""
                             if not item.get('price') or item.get('price') == '':
                                 item['price'] = default_price
                     
+                    # Filter Topf und Deckel items
+                    if name in ["Topf und Deckel"]:
+                        menu_items = [
+                            item for item in menu_items
+                            if item.get('price') and
+                            any(price_indicator in item.get('price', '') for price_indicator in ['€7.50', '€8.90', '€11.90', '€10.90']) and
+                            not any(keyword in item.get('name', '').lower() for keyword in [
+                                'crunchbox', 'base', 'top', 'topping', 'crumble', 'tempeh', 
+                                'avocado', 'kimchi', 'halloumi', 'kl.', 'gr.',
+                                'kombi', 'tagessuppe', 'gemischter salat', 'schokoladen'
+                            ]) and
+                            not any(keyword in item.get('description', '').lower() for keyword in [
+                                'crunchbox', 'kombination'
+                            ]) and
+                            item.get('price') not in ['€2.90', '€4.50', '€4.90', '€6.90', '€13.90']
+                        ]
+                    
                     print(f"✓ Found {len(menu_items)} items for {name}")
+                    
+                    # Translate menu items to have both languages
+                    menu_items = self.translate_menu_items(menu_items, name)
                     
                     return {
                         "name": name,
@@ -684,7 +704,7 @@ Return ONLY the JSON array, no other text."""
                 if restaurant['name'] == "Fat Monk Bowls":
                     print(f"✓ Using static menu for {restaurant['name']}")
                     static_items = [
-                        {"name": "Bowl", "price": "€9-11", "description": "Healthy bowls, prebuilt or custom"},
+                        {"name": "Bowl", "price": "€9-11", "description": "Prebuilt or custom bowls"},
                     ]
                     
                     # Translate static items
