@@ -4,3 +4,4 @@ lxml==5.1.0
 pdf2image==1.17.0
 pillow==12.0.0
 anthropic
+selenium==4.16.0

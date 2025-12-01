@@ -7,6 +7,18 @@ import os
 import time
 import base64
 
+# Try to import selenium
+try:
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.chrome.service import Service
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+    SELENIUM_AVAILABLE = True
+except ImportError:
+    SELENIUM_AVAILABLE = False
+
 RESTAURANTS = [
     {
         "name": "WU Mensa",
@@ -52,7 +64,7 @@ RESTAURANTS = [
         "name": "Topf und Deckel",
         "url": "https://www.topfdeckel.at/",
         "type": "restaurant",
-        "use_claude_vision": False
+        "use_selenium": True  # JavaScript-rendered site
     }
 ]
 
@@ -307,11 +319,89 @@ Return ONLY the JSON array, no other text."""
             print(f"  ❌ Groq extraction failed: {e}")
             return []
     
-    def scrape_restaurant(self, name: str, url: str, default_price: str = None, use_claude_vision: bool = False, simulate_day: str = None, debug: bool = False) -> Optional[Dict]:
+    def scrape_with_selenium(self, url: str) -> str:
+        """Scrape JavaScript-rendered page with Selenium"""
+        if not SELENIUM_AVAILABLE:
+            print("  ⚠️  Selenium not available, falling back to requests")
+            return None
+        
+        try:
+            # Setup Chrome options
+            chrome_options = Options()
+            chrome_options.add_argument('--headless')
+            chrome_options.add_argument('--no-sandbox')
+            chrome_options.add_argument('--disable-dev-shm-usage')
+            chrome_options.add_argument('--disable-gpu')
+            chrome_options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
+            
+            # Initialize driver
+            print(f"  🌐 Loading page with Selenium...")
+            driver = webdriver.Chrome(options=chrome_options)
+            driver.get(url)
+            
+            # Wait for content to load (adjust timeout as needed)
+            WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.TAG_NAME, "body"))
+            )
+            
+            # Give extra time for JavaScript to render
+            time.sleep(3)
+            
+            # Get rendered HTML
+            html_content = driver.page_source
+            driver.quit()
+            
+            return html_content
+            
+        except Exception as e:
+            print(f"  ⚠️  Selenium failed: {e}")
+            try:
+                driver.quit()
+            except:
+                pass
+            return None
+    
+    def scrape_restaurant(self, name: str, url: str, default_price: str = None, use_claude_vision: bool = False, use_selenium: bool = False, simulate_day: str = None, debug: bool = False) -> Optional[Dict]:
         """Scrape a restaurant using LLM"""
         try:
             print(f"📡 Fetching {name}...")
             
+            # Use Selenium for JavaScript-rendered sites
+            if use_selenium:
+                html_content = self.scrape_with_selenium(url)
+                if html_content:
+                    soup = BeautifulSoup(html_content, 'html.parser')
+                    website_text = self.clean_html_for_llm(soup)
+                    
+                    if debug:
+                        print(f"\n{'='*60}")
+                        print(f"DEBUG: Selenium extracted text (first 500 chars):")
+                        print(website_text[:500])
+                        print(f"{'='*60}\n")
+                    
+                    print(f"🤖 Extracting menu with LLM...")
+                    menu_items = self.extract_menu_with_groq(website_text, name)
+                    
+                    # Apply default price if specified
+                    if default_price and menu_items:
+                        for item in menu_items:
+                            if not item.get('price') or item.get('price') == '':
+                                item['price'] = default_price
+                    
+                    print(f"✓ Found {len(menu_items)} items for {name}")
+                    
+                    return {
+                        "name": name,
+                        "url": url,
+                        "items": menu_items,
+                        "scraped_at": datetime.now().isoformat(),
+                        "available": True,
+                        "extraction_method": "Selenium + LLM (groq)"
+                    }
+                else:
+                    raise Exception("Selenium scraping failed")
+            
+            # Regular requests for non-JS sites
             response = requests.get(url, timeout=15, headers={
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
             })
@@ -499,7 +589,9 @@ Return ONLY the JSON array, no other text."""
                         "name": restaurant['name'],
                         "url": restaurant['url'],
                         "items": [
-                            {"name": "Bowl", "price": "€9-11", "description": "Healthy bowl with various ingredients"},
+                            {"name": "Buddha Bowl", "price": "€9-11", "description": "Healthy bowl with vegetables and grains"},
+                            {"name": "Protein Bowl", "price": "€10-13", "description": "High-protein bowl with chicken or tofu"},
+                            {"name": "Vegan Bowl", "price": "€9-12", "description": "Plant-based bowl with seasonal vegetables"}
                         ],
                         "scraped_at": datetime.now().isoformat(),
                         "available": True,
@@ -514,6 +606,7 @@ Return ONLY the JSON array, no other text."""
                         restaurant['url'], 
                         default_price=default_price,
                         use_claude_vision=use_claude_vision,
+                        use_selenium=restaurant.get('use_selenium', False),
                         simulate_day=simulate_day,
                         debug=debug
                     )
