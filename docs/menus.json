@@ -1,12 +1,28 @@
 {
-  "last_updated": "2025-11-30T16:19:12.936112",
+  "last_updated": "2025-12-01T08:44:27.432084",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
-      "items": [],
-      "scraped_at": "2025-11-30T16:19:05.929171",
+      "items": [
+        {
+          "name": "Cheese spätzle au gratin",
+          "price": "€5.60",
+          "description": "Cheese spätzle au gratin with roast onions (Allergens: A,C,G,L)"
+        },
+        {
+          "name": "Chicken Tikka Masala",
+          "price": "€6.20",
+          "description": "Chicken Tikka Masala with basmati rice (Allergens: G,L)"
+        },
+        {
+          "name": "American Hot Dogs",
+          "price": "€9.40",
+          "description": "American Hot Dogs with different toppings, 1 Stk €2.90 (Allergens: A,C,G)"
+        }
+      ],
+      "scraped_at": "2025-12-01T08:44:21.726601",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -35,7 +51,7 @@
           "description": "mit Topfencreme-Topping"
         }
       ],
-      "scraped_at": "2025-11-30T16:19:09.148262",
+      "scraped_at": "2025-12-01T08:44:24.690393",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -49,31 +65,15 @@
           "description": "Healthy bowl with various ingredients"
         }
       ],
-      "scraped_at": "2025-11-30T16:19:09.150151",
+      "scraped_at": "2025-12-01T08:44:24.692028",
       "available": true,
       "extraction_method": "Static menu"
     },
     {
       "name": "Topf und Deckel",
-      "url": "https://web.archive.org/web/20250907205226/https://www.topfdeckel.at/",
-      "items": [
-        {
-          "name": "Erdäpfel Gratin",
-          "price": "€8.90/€11.90",
-          "description": "Erdäpfel Gratin aus dem Ofen mit Brokkoli, Mozzarella & grünem Salat"
-        },
-        {
-          "name": "Tomaten-Melanzani Korma",
-          "price": "€8.90/€11.90",
-          "description": "Tomaten-Melanzani Korma in Kokossauce mit Basmatireis & Jogurth Dip"
-        },
-        {
-          "name": "Pasta Bolognese",
-          "price": "€8.90/€11.90",
-          "description": "Pasta Bolognese mit Fleischragout, Parmesan & grünem Salat"
-        }
-      ],
-      "scraped_at": "2025-11-30T16:19:12.934490",
+      "url": "https://www.topfdeckel.at/",
+      "items": [],
+      "scraped_at": "2025-12-01T08:44:27.430739",
       "available": true,
       "extraction_method": "LLM (claude)"
     }
