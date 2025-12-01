@@ -158,7 +158,7 @@ CRITICAL: Only extract MAIN DISHES from the {today} column. No sides, no combos,
 Return ONLY the JSON array, no other text."""
 
             payload = {
-                "model": "claude-sonnet-4-5",
+                "model": "claude-3-5-sonnet-20241022",
                 "max_tokens": 2000,
                 "messages": [
                     {
@@ -208,6 +208,95 @@ Return ONLY the JSON array, no other text."""
             import traceback
             traceback.print_exc()
             return []
+    
+    def translate_menu_items(self, items: List[Dict], restaurant_name: str) -> List[Dict]:
+        """Translate menu items to both German and English using LLM and categorize diet type"""
+        
+        if not items or not self.groq_key:
+            return items
+        
+        try:
+            print(f"  🌐 Translating and categorizing menu items...")
+            
+            # Prepare items for translation
+            items_text = json.dumps(items, ensure_ascii=False, indent=2)
+            
+            prompt = f"""You are translating a restaurant menu for {restaurant_name} and categorizing each dish.
+
+Given menu items in JSON format, add translations AND diet category for each item.
+
+Rules:
+1. Detect the original language of each item
+2. Translate to the other language (if German → add English, if English → add German)
+3. Keep dish names authentic (don't translate proper names like "Erdäpfel Gratin" or "Boeuff Stroganoff")
+4. Translate descriptions naturally
+5. Keep prices unchanged
+6. Categorize each dish as one of: "vegan", "vegetarian", or "meat"
+   - "vegan": No animal products at all (no meat, dairy, eggs, honey)
+   - "vegetarian": No meat/fish, but may contain dairy, eggs
+   - "meat": Contains meat, poultry, or fish
+
+Input menu items:
+{items_text}
+
+Return the menu items in this EXACT format:
+[
+  {{
+    "name": {{
+      "de": "German name",
+      "en": "English name"
+    }},
+    "price": "€X.XX",
+    "description": {{
+      "de": "German description",
+      "en": "English description"
+    }},
+    "dietary": "vegan" | "vegetarian" | "meat"
+  }}
+]
+
+IMPORTANT: Analyze the ingredients carefully:
+- "Chicken", "Beef", "Pork", "Fish", "Schnitzel", "Stroganoff" → "meat"
+- "Cheese", "Feta", "Mozzarella", "Egg", "Cream" → "vegetarian" (not vegan)
+- "Tofu", "Vegetables only", "Vegan Bowl", "Plant-based" → "vegan"
+
+Return ONLY the JSON array, no other text."""
+
+            response = requests.post(
+                "https://api.groq.com/openai/v1/chat/completions",
+                headers={
+                    "Authorization": f"Bearer {self.groq_key}",
+                    "Content-Type": "application/json"
+                },
+                json={
+                    "model": "llama-3.3-70b-versatile",
+                    "messages": [{"role": "user", "content": prompt}],
+                    "temperature": 0.3,
+                    "max_tokens": 3000
+                },
+                timeout=60
+            )
+            
+            if response.status_code != 200:
+                print(f"  ⚠️  Translation failed, keeping original")
+                return items
+            
+            result = response.json()
+            translated_text = result['choices'][0]['message']['content']
+            
+            # Parse the translated items
+            translated_items = self.parse_llm_response(translated_text)
+            
+            if translated_items:
+                print(f"  ✓ Translated and categorized {len(translated_items)} items")
+                return translated_items
+            else:
+                print(f"  ⚠️  Translation parsing failed, keeping original")
+                return items
+                
+        except Exception as e:
+            print(f"  ⚠️  Translation error: {e}")
+            return items
     
     def parse_llm_response(self, text: str) -> List[Dict]:
         """Parse LLM response to extract menu items"""
@@ -510,6 +599,9 @@ Return ONLY the JSON array, no other text."""
             
             print(f"✓ Found {len(menu_items)} items for {name}")
             
+            # Translate menu items to have both languages
+            menu_items = self.translate_menu_items(menu_items, name)
+            
             # Rate limiting
             time.sleep(2)
             
@@ -561,14 +653,20 @@ Return ONLY the JSON array, no other text."""
                 
                 if current_day in days:
                     print(f"✓ Food truck scheduled for today")
+                    
+                    static_items = [{
+                        "name": restaurant.get('menu_description', 'Food truck special'),
+                        "price": restaurant.get('default_price', '€8-12'),
+                        "description": f"Available on {', '.join(days)}"
+                    }]
+                    
+                    # Translate food truck items
+                    translated_items = self.translate_menu_items(static_items, restaurant['name'])
+                    
                     menu = {
                         "name": restaurant['name'],
                         "url": restaurant['url'],
-                        "items": [{
-                            "name": restaurant.get('menu_description', 'Food truck special'),
-                            "price": restaurant.get('default_price', '€8-12'),
-                            "description": f"Available on {', '.join(days)}"
-                        }],
+                        "items": translated_items,
                         "scraped_at": datetime.now().isoformat(),
                         "available": True,
                         "type": "food_truck"
@@ -585,14 +683,17 @@ Return ONLY the JSON array, no other text."""
                 # Special case: Fat Monk Bowls - use static menu
                 if restaurant['name'] == "Fat Monk Bowls":
                     print(f"✓ Using static menu for {restaurant['name']}")
+                    static_items = [
+                        {"name": "Bowl", "price": "€9-11", "description": "Healthy bowls, prebuilt or custom"},
+                    ]
+                    
+                    # Translate static items
+                    translated_items = self.translate_menu_items(static_items, restaurant['name'])
+                    
                     menu = {
                         "name": restaurant['name'],
                         "url": restaurant['url'],
-                        "items": [
-                            {"name": "Buddha Bowl", "price": "€9-11", "description": "Healthy bowl with vegetables and grains"},
-                            {"name": "Protein Bowl", "price": "€10-13", "description": "High-protein bowl with chicken or tofu"},
-                            {"name": "Vegan Bowl", "price": "€9-12", "description": "Plant-based bowl with seasonal vegetables"}
-                        ],
+                        "items": translated_items,
                         "scraped_at": datetime.now().isoformat(),
                         "available": True,
                         "extraction_method": "Static menu"

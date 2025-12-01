@@ -41,6 +41,35 @@
             opacity: 0.9;
         }
 
+        .language-toggle {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .language-toggle button {
+            padding: 8px 20px;
+            border: 2px solid white;
+            background: transparent;
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+            font-size: 0.9em;
+        }
+
+        .language-toggle button:hover {
+            background: white;
+            color: #667eea;
+        }
+
+        .language-toggle button.active {
+            background: white;
+            color: #667eea;
+        }
+
         .filter-section {
             background: white;
             padding: 20px;
@@ -151,6 +180,62 @@
             margin-top: 4px;
         }
 
+        .dietary-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            font-weight: 600;
+            margin-top: 6px;
+            text-transform: uppercase;
+        }
+
+        .dietary-badge.vegan {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .dietary-badge.vegetarian {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .dietary-badge.meat {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .filter-buttons button {
+            padding: 8px 16px;
+            border: 2px solid #e0e0e0;
+            background: white;
+            color: #333;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.85em;
+            transition: all 0.3s;
+        }
+
+        .filter-buttons button:hover {
+            border-color: #667eea;
+            color: #667eea;
+        }
+
+        .filter-buttons button.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+
         .no-items {
             text-align: center;
             color: #999;
@@ -213,8 +298,12 @@
     <div class="container">
         <header>
             <h1>🍽️ V2Eats</h1>
-            <p style="font-size: 1.2em; margin-top: 10px;">Viertel Zwei Daily Menus</p>
+            <p style="font-size: 1.2em; margin-top: 10px;" id="subtitle">Viertel Zwei Daily Menus</p>
             <p class="last-updated" id="lastUpdated">Loading...</p>
+            <div class="language-toggle">
+                <button id="langDE" onclick="setLanguage('de')">🇦🇹 Deutsch</button>
+                <button id="langEN" onclick="setLanguage('en')" class="active">🇬🇧 English</button>
+            </div>
         </header>
 
         <div class="filter-section">
@@ -224,6 +313,20 @@
                 placeholder="🔍 Search restaurants or menu items..."
                 autocomplete="off"
             >
+            <div class="filter-buttons">
+                <button id="filterAll" onclick="setDietaryFilter('all')" class="active">
+                    <span id="filterAllText">All</span>
+                </button>
+                <button id="filterVegan" onclick="setDietaryFilter('vegan')">
+                    🌱 <span id="filterVeganText">Vegan</span>
+                </button>
+                <button id="filterVegetarian" onclick="setDietaryFilter('vegetarian')">
+                    🥬 <span id="filterVegetarianText">Vegetarian</span>
+                </button>
+                <button id="filterMeat" onclick="setDietaryFilter('meat')">
+                    🍖 <span id="filterMeatText">Meat</span>
+                </button>
+            </div>
         </div>
 
         <div id="restaurantsContainer">
@@ -233,6 +336,86 @@
 
     <script>
         let allRestaurants = [];
+        let currentLanguage = 'en';
+        let currentDietaryFilter = 'all';
+
+        // Translation dictionary
+        const translations = {
+            de: {
+                subtitle: 'Viertel Zwei Tagesmenüs',
+                lastUpdated: 'Zuletzt aktualisiert',
+                searchPlaceholder: '🔍 Restaurants oder Gerichte suchen...',
+                open: '✓ Geöffnet',
+                closed: '✗ Geschlossen',
+                noItems: 'Keine Menüpunkte verfügbar',
+                visitWebsite: 'Website besuchen →',
+                loading: 'Lädt Menüs...',
+                noResults: 'Keine Restaurants gefunden.',
+                failedToLoad: 'Fehler beim Laden der Menüs. Bitte versuchen Sie es später erneut.',
+                filterAll: 'Alle',
+                filterVegan: 'Vegan',
+                filterVegetarian: 'Vegetarisch',
+                filterMeat: 'Fleisch',
+                dietaryVegan: 'Vegan',
+                dietaryVegetarian: 'Vegetarisch',
+                dietaryMeat: 'Fleisch',
+            },
+            en: {
+                subtitle: 'Viertel Zwei Daily Menus',
+                lastUpdated: 'Last updated',
+                searchPlaceholder: '🔍 Search restaurants or menu items...',
+                open: '✓ Open',
+                closed: '✗ Closed',
+                noItems: 'No menu items available',
+                visitWebsite: 'Visit website →',
+                loading: 'Loading menus...',
+                noResults: 'No restaurants found.',
+                failedToLoad: 'Failed to load menus. Please try again later.',
+                filterAll: 'All',
+                filterVegan: 'Vegan',
+                filterVegetarian: 'Vegetarian',
+                filterMeat: 'Meat',
+                dietaryVegan: 'Vegan',
+                dietaryVegetarian: 'Vegetarian',
+                dietaryMeat: 'Meat',
+            }
+        };
+
+        function setDietaryFilter(filter) {
+            currentDietaryFilter = filter;
+            
+            // Update button states
+            document.querySelectorAll('.filter-buttons button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.getElementById(`filter${filter.charAt(0).toUpperCase() + filter.slice(1)}`).classList.add('active');
+            
+            // Re-render with filter
+            displayRestaurants(allRestaurants);
+        }
+
+        function setLanguage(lang) {
+            currentLanguage = lang;
+            
+            // Update button states
+            document.getElementById('langDE').classList.toggle('active', lang === 'de');
+            document.getElementById('langEN').classList.toggle('active', lang === 'en');
+            
+            // Update UI text
+            const t = translations[lang];
+            document.getElementById('subtitle').textContent = t.subtitle;
+            document.getElementById('searchInput').placeholder = t.searchPlaceholder;
+            document.getElementById('filterAllText').textContent = t.filterAll;
+            document.getElementById('filterVeganText').textContent = t.filterVegan;
+            document.getElementById('filterVegetarianText').textContent = t.filterVegetarian;
+            document.getElementById('filterMeatText').textContent = t.filterMeat;
+            
+            // Save preference
+            localStorage.setItem('v2eats-language', lang);
+            
+            // Re-render restaurants
+            displayRestaurants(allRestaurants);
+        }
 
         // Fetch and display menus
         async function loadMenus() {
@@ -244,26 +427,53 @@
                 
                 // Update last updated time
                 const lastUpdated = new Date(data.last_updated);
+                const t = translations[currentLanguage];
                 document.getElementById('lastUpdated').textContent = 
-                    `Last updated: ${lastUpdated.toLocaleString()}`;
+                    `${t.lastUpdated}: ${lastUpdated.toLocaleString()}`;
                 
                 displayRestaurants(allRestaurants);
             } catch (error) {
+                const t = translations[currentLanguage];
                 document.getElementById('restaurantsContainer').innerHTML = 
-                    `<div class="no-results">Failed to load menus. Please try again later.</div>`;
+                    `<div class="no-results">${t.failedToLoad}</div>`;
                 console.error('Error loading menus:', error);
             }
         }
 
         function displayRestaurants(restaurants) {
             const container = document.getElementById('restaurantsContainer');
+            const t = translations[currentLanguage];
             
-            if (restaurants.length === 0) {
-                container.innerHTML = '<div class="no-results">No restaurants found.</div>';
+            // Filter restaurants by dietary preference
+            let filteredRestaurants = restaurants.map(restaurant => {
+                if (!restaurant.items || restaurant.items.length === 0) {
+                    return restaurant;
+                }
+                
+                // Filter items based on dietary filter
+                let filteredItems = restaurant.items;
+                if (currentDietaryFilter !== 'all') {
+                    filteredItems = restaurant.items.filter(item => 
+                        item.dietary === currentDietaryFilter
+                    );
+                }
+                
+                return {
+                    ...restaurant,
+                    items: filteredItems,
+                    originalItemCount: restaurant.items.length
+                };
+            }).filter(restaurant => 
+                // Keep restaurants with items or those that are unavailable
+                restaurant.items.length > 0 || restaurant.available === false
+            );
+            
+            if (filteredRestaurants.length === 0) {
+                container.innerHTML = `<div class="no-results">${t.noResults}</div>`;
                 return;
             }
 
-            const html = restaurants.map(restaurant => {
+            const html = filteredRestaurants.map(restaurant => {
                 const isAvailable = restaurant.available !== false;
                 const hasItems = restaurant.items && restaurant.items.length > 0;
                 
@@ -272,7 +482,7 @@
                         <div class="restaurant-header">
                             <h2 class="restaurant-name">${restaurant.name}</h2>
                             <span class="status-badge ${isAvailable ? 'available' : 'unavailable'}">
-                                ${isAvailable ? '✓ Open' : '✗ Closed'}
+                                ${isAvailable ? t.open : t.closed}
                             </span>
                         </div>
                         
@@ -281,21 +491,38 @@
                         
                         ${hasItems ? `
                             <ul class="menu-items">
-                                ${restaurant.items.map(item => `
+                                ${restaurant.items.map(item => {
+                                    // Get name in current language
+                                    const itemName = typeof item.name === 'object' 
+                                        ? (item.name[currentLanguage] || item.name.en || item.name.de)
+                                        : item.name;
+                                    
+                                    // Get description in current language
+                                    const itemDesc = item.description 
+                                        ? (typeof item.description === 'object'
+                                            ? (item.description[currentLanguage] || item.description.en || item.description.de)
+                                            : item.description)
+                                        : '';
+                                    
+                                    // Get dietary badge text
+                                    const dietaryText = item.dietary ? t[`dietary${item.dietary.charAt(0).toUpperCase() + item.dietary.slice(1)}`] : '';
+                                    
+                                    return `
                                     <li class="menu-item">
-                                        <div class="item-name">${item.name}</div>
+                                        <div class="item-name">${itemName}</div>
                                         ${item.price ? `<div class="item-price">${item.price}</div>` : ''}
-                                        ${item.description ? `<div class="item-description">${item.description}</div>` : ''}
+                                        ${itemDesc ? `<div class="item-description">${itemDesc}</div>` : ''}
+                                        ${item.dietary ? `<span class="dietary-badge ${item.dietary}">${dietaryText}</span>` : ''}
                                     </li>
-                                `).join('')}
+                                `}).join('')}
                             </ul>
-                        ` : isAvailable ? '<div class="no-items">No menu items available</div>' : ''}
+                        ` : isAvailable ? `<div class="no-items">${t.noItems}</div>` : ''}
                         
                         ${restaurant.error ? 
                             `<div class="error-message">⚠️ ${restaurant.error}</div>` : ''}
                         
                         ${restaurant.url ? 
-                            `<a href="${restaurant.url}" target="_blank" class="visit-link">Visit website →</a>` : ''}
+                            `<a href="${restaurant.url}" target="_blank" class="visit-link">${t.visitWebsite}</a>` : ''}
                     </div>
                 `;
             }).join('');
@@ -331,6 +558,10 @@
 
             displayRestaurants(filtered);
         });
+
+        // Load saved language preference
+        const savedLang = localStorage.getItem('v2eats-language') || 'en';
+        setLanguage(savedLang);
 
         // Load menus on page load
         loadMenus();
