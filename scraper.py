@@ -34,6 +34,12 @@ RESTAURANTS = [
         "use_claude_vision": False
     },
     {
+        "name": "Topf und Deckel",
+        "url": "https://www.topfdeckel.at/",
+        "type": "restaurant",
+        "use_selenium": True  # JavaScript-rendered site
+    },
+    {
         "name": "Pinsa Food Truck",
         "url": "https://www.pinsalino.at",
         "type": "food_truck",
@@ -59,12 +65,6 @@ RESTAURANTS = [
         "type": "restaurant",
         "default_price": "€9-13",
         "use_claude_vision": False  # Don't scrape, use static menu
-    },
-    {
-        "name": "Topf und Deckel",
-        "url": "https://www.topfdeckel.at/",
-        "type": "restaurant",
-        "use_selenium": True  # JavaScript-rendered site
     }
 ]
 
