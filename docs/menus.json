@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-01T10:11:39.912636",
+  "last_updated": "2025-12-01T10:45:00.644403",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -9,20 +9,20 @@
         {
           "name": "Cheese spätzle au gratin",
           "price": "€5.60",
-          "description": "Cheese spätzle au gratin | roast onions"
+          "description": "roast onions"
         },
         {
           "name": "Chicken Tikka Masala",
           "price": "€6.20",
-          "description": "Chicken Tikka Masala | basmati rice"
+          "description": "basmati rice"
         },
         {
           "name": "American Hot Dogs",
           "price": "€9.40",
-          "description": "American Hot Dogs | different toppings (1 Stk €2.90)"
+          "description": "different toppings"
         }
       ],
-      "scraped_at": "2025-12-01T10:11:33.104937",
+      "scraped_at": "2025-12-01T10:44:54.208448",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -48,10 +48,10 @@
         {
           "name": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
           "price": "€7.90",
-          "description": "Stuffed apple croissants with quark cream topping"
+          "description": "Filled apple croissants with quark cream topping"
         }
       ],
-      "scraped_at": "2025-12-01T10:11:37.387897",
+      "scraped_at": "2025-12-01T10:44:57.469670",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -65,7 +65,7 @@
           "description": "Healthy bowl with various ingredients"
         }
       ],
-      "scraped_at": "2025-12-01T10:11:37.389639",
+      "scraped_at": "2025-12-01T10:44:57.471422",
       "available": true,
       "extraction_method": "Static menu"
     },
@@ -73,7 +73,7 @@
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
       "items": [],
-      "scraped_at": "2025-12-01T10:11:39.911352",
+      "scraped_at": "2025-12-01T10:45:00.643105",
       "available": true,
       "extraction_method": "LLM (claude)"
     }
