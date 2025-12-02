@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-01T17:08:21.029928",
+  "last_updated": "2025-12-02T10:11:50.036756",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -8,42 +8,42 @@
       "items": [
         {
           "name": {
-            "de": "Käse Spätzle au Gratin",
-            "en": "Cheese spätzle au gratin"
+            "de": "Tortilla mit Gemüsefüllung",
+            "en": "Tortilla with vegetable filling"
           },
           "price": "€5.60",
           "description": {
-            "de": "Käse Spätzle au Gratin mit gerösteten Zwiebeln",
-            "en": "Cheese spätzle au gratin with roast onions"
+            "de": "Tortilla mit Gemüsefüllung | Chili-Reis",
+            "en": "Tortilla with vegetable filling | chili rice"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Chicken Tikka Masala",
-            "en": "Chicken Tikka Masala"
+            "de": "Käsewurst",
+            "en": "Cheese sausage"
           },
-          "price": "€6.20",
+          "price": "€5.60",
           "description": {
-            "de": "Chicken Tikka Masala mit Basmatireis",
-            "en": "Chicken Tikka Masala with basmati rice"
+            "de": "Käsewurst | Pommes | Zwiebelsenf",
+            "en": "Cheese sausage | fries | onion mustard"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "American Hot Dogs",
-            "en": "American Hot Dogs"
+            "de": "Gebratene Ei-Nudeln und Gemüse",
+            "en": "Fried egg noodles and vegetable"
           },
           "price": "€9.40",
           "description": {
-            "de": "American Hot Dogs mit verschiedenen Toppings (1 Stk €2.90)",
-            "en": "American Hot Dogs with different toppings (1 piece €2.90)"
+            "de": "Gebratene Ei-Nudeln und Gemüse | Tofu oder Truthahn | Teriyaki- oder Süß-Sauer-Soße",
+            "en": "Fried egg noodles and vegetable | tofu or turkey | teriyaki or sweet and sour sauce"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-01T17:08:00.013473",
+      "scraped_at": "2025-12-02T10:11:32.199354",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -100,9 +100,99 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-01T17:08:05.250322",
+      "scraped_at": "2025-12-02T10:11:35.998682",
       "available": true,
       "extraction_method": "LLM (claude)"
+    },
+    {
+      "name": "Topf und Deckel",
+      "url": "https://www.topfdeckel.at/",
+      "items": [
+        {
+          "name": {
+            "de": "Saladbowl",
+            "en": "Salad Bowl"
+          },
+          "price": "Klein €7.50 / Gross €10.90",
+          "description": {
+            "de": "Kürbis Kichererbsen Bowl VEGGFLF mit Walnüssen, Tofu, & Gurke",
+            "en": "Pumpkin chickpea bowl with walnuts, tofu, and cucumber"
+          },
+          "dietary": "vegan"
+        },
+        {
+          "name": {
+            "de": "Kürbis Gröstl",
+            "en": "Pumpkin Gröstl"
+          },
+          "price": "Klein €7.50 / Gross €11.90",
+          "description": {
+            "de": "mit Kürbiskern-Mayo Dip VEGGIE Erdäpfel, Paprika & gemischtem Salat",
+            "en": "with pumpkin seed mayo dip, potatoes, bell peppers, and mixed salad"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Rote Rüben-Walnuss Risotto",
+            "en": "Beet-Walnut Risotto"
+          },
+          "price": "Klein €7.50 / Gross €11.90",
+          "description": {
+            "de": "mit Ricotta VEGGIEGF Wasabi Dip & gemischtem Salat",
+            "en": "with ricotta, wasabi dip, and mixed salad"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Indisches Chicken Tikka Masala",
+            "en": "Indian Chicken Tikka Masala"
+          },
+          "price": "Klein €7.50 / Gross €11.90",
+          "description": {
+            "de": "GF in Kokossauce mit Erbsen & Basmatireis",
+            "en": "GF in coconut sauce with peas and basmati rice"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Lasagne Bolognese",
+            "en": "Lasagna Bolognese"
+          },
+          "price": "Klein €7.50 / Gross €11.90",
+          "description": {
+            "de": "mit Parmesan Fleischragout, Bechamelsauce & grünem Salat",
+            "en": "with parmesan meat ragout, bechamel sauce, and green salad"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2025-12-02T10:11:49.522291",
+      "available": true,
+      "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Verfügbar am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2025-12-02T10:11:49.747097",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -121,85 +211,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-01T17:08:05.590940",
+      "scraped_at": "2025-12-02T10:11:50.036668",
       "available": true,
       "extraction_method": "Static menu"
-    },
-    {
-      "name": "Topf und Deckel",
-      "url": "https://www.topfdeckel.at/",
-      "items": [
-        {
-          "name": {
-            "de": "Kürbis Kichererbsen Bowl",
-            "en": "Pumpkin Chickpea Bowl"
-          },
-          "price": "Klein €7.50 / Gross €10.90",
-          "description": {
-            "de": "VEGFLF mit Walnüssen, Tofu, & Gurke",
-            "en": "Vegan bowl with walnuts, tofu, and cucumber"
-          },
-          "dietary": "vegan"
-        },
-        {
-          "name": {
-            "de": "Gnocchi in Kürbissauce",
-            "en": "Gnocchi in Pumpkin Sauce"
-          },
-          "price": "Klein €7.50 / Gross €11.90",
-          "description": {
-            "de": "VEGGIE mit Ruccola, Granatapfel & gemischtem Salat",
-            "en": "Vegetarian dish with arugula, pomegranate, and mixed salad"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Rote Rüben-Feta Gratin",
-            "en": "Beetroot-Feta Gratin"
-          },
-          "price": "Klein €7.50 / Gross €11.90",
-          "description": {
-            "de": "VEGGIE mit Spinat, Sonnenblumenkernen & gemischtem Salat",
-            "en": "Vegetarian dish with spinach, sunflower seeds, and mixed salad"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Paprika Hühnchen mit Spätzle",
-            "en": "Paprika Chicken with Spätzle"
-          },
-          "price": "Klein €7.50 / Gross €11.90",
-          "description": {
-            "de": "mit Paprika & Sauerrahm Dip",
-            "en": "with paprika and sour cream dip"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Boeuff Stroganoff",
-            "en": "Boeuff Stroganoff"
-          },
-          "price": "Klein €7.50 / Gross €11.90",
-          "description": {
-            "de": "mit Basilikum-Fleckerl in Senfrahmsauce",
-            "en": "with basil fleckerl in mustard cream sauce"
-          },
-          "dietary": "meat"
-        }
-      ],
-      "scraped_at": "2025-12-01T17:08:21.029844",
-      "available": true,
-      "extraction_method": "Selenium + LLM (groq)"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 13
+    "total_items": 14
   }
 }
