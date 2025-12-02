@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-02T10:11:50.036756",
+  "last_updated": "2025-12-02T10:43:57.283771",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -8,42 +8,42 @@
       "items": [
         {
           "name": {
-            "de": "Tortilla mit Gemüsefüllung",
-            "en": "Tortilla with vegetable filling"
+            "de": "Tortilla mit Gemüsefüllung | Chili-Reis",
+            "en": "Tortilla with vegetable filling | chili rice"
           },
           "price": "€5.60",
           "description": {
-            "de": "Tortilla mit Gemüsefüllung | Chili-Reis",
-            "en": "Tortilla with vegetable filling | chili rice"
+            "de": "Vegetarische/pflanzliche Option mit Tortilla, Gemüsefüllung und Chili-Reis. Allergene: A,L",
+            "en": "Vegetarian/plant-based option with tortilla, vegetable filling and chili rice. Allergens: A,L"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Käsewurst",
-            "en": "Cheese sausage"
+            "de": "Käsewurst | Pommes | Zwiebel-Senf",
+            "en": "Cheese sausage | fries | onion mustard"
           },
           "price": "€5.60",
           "description": {
-            "de": "Käsewurst | Pommes | Zwiebelsenf",
-            "en": "Cheese sausage | fries | onion mustard"
+            "de": "Fleischoption mit Käsewurst, Pommes und Zwiebel-Senf. Allergene: G,M",
+            "en": "Meat option with cheese sausage, fries and onion mustard. Allergens: G,M"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gebratene Ei-Nudeln und Gemüse",
-            "en": "Fried egg noodles and vegetable"
+            "de": "Gebratene Ei-Nudeln und Gemüse | Tofu oder Truthahn | Teriyaki- oder süß-saure Soße",
+            "en": "Fried egg noodles and vegetable | tofu or turkey | teriyaki or sweet and sour sauce"
           },
           "price": "€9.40",
           "description": {
-            "de": "Gebratene Ei-Nudeln und Gemüse | Tofu oder Truthahn | Teriyaki- oder Süß-Sauer-Soße",
-            "en": "Fried egg noodles and vegetable | tofu or turkey | teriyaki or sweet and sour sauce"
+            "de": "Global & Grill-Spezialität mit gebratenen Ei-Nudeln, Gemüse, Wahl zwischen Tofu oder Truthahn und Wahl zwischen Teriyaki- oder süß-saurer Soße. Allergene: A,C,F,L,H,O",
+            "en": "Global & Grill special with fried egg noodles, vegetables, choice of tofu or turkey, and choice of teriyaki or sweet and sour sauce. Allergens: A,C,F,L,H,O"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-02T10:11:32.199354",
+      "scraped_at": "2025-12-02T10:43:44.524362",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -90,17 +90,17 @@
         {
           "name": {
             "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
-            "en": "Stuffed Apple Croissants with Quark Cream Topping"
+            "en": "Filled Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
-            "en": "Stuffed apple croissants with quark cream topping"
+            "de": "Gefüllte apfel-croissants mit topfencreme-topping",
+            "en": "Filled apple croissants with quark cream topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-02T10:11:35.998682",
+      "scraped_at": "2025-12-02T10:43:48.621049",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -135,7 +135,7 @@
         {
           "name": {
             "de": "Rote Rüben-Walnuss Risotto",
-            "en": "Beet-Walnut Risotto"
+            "en": "Beet Walnut Risotto"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
@@ -169,7 +169,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-02T10:11:49.522291",
+      "scraped_at": "2025-12-02T10:43:56.668748",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -190,7 +190,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-02T10:11:49.747097",
+      "scraped_at": "2025-12-02T10:43:56.996296",
       "available": true,
       "type": "food_truck"
     },
@@ -205,13 +205,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder individuelle Schalen",
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-02T10:11:50.036668",
+      "scraped_at": "2025-12-02T10:43:57.283702",
       "available": true,
       "extraction_method": "Static menu"
     }
