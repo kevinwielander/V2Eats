@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-03T10:45:17.046001",
+  "last_updated": "2025-12-04T10:12:12.726172",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -8,42 +8,42 @@
       "items": [
         {
           "name": {
-            "de": "Winterliche Gemüse-Eintopf",
-            "en": "Winterly vegetable stew"
-          },
-          "price": "€6.10",
-          "description": {
-            "de": "Brotbrötchen",
-            "en": "bread roll"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Gebratenes Hähnchenschnitzel",
-            "en": "Fried chicken schnitzel"
+            "de": "Springroll | asiatischer Gemüse-Reis | Teriyaki-Sauce",
+            "en": "Springroll | asian vegetable rice | teriyaki sauce"
           },
           "price": "€5.60",
           "description": {
-            "de": "Petersilienkartoffeln",
-            "en": "parsley potatoes"
+            "de": "Pflanzliches Gericht mit Springroll, asiatischem Gemüse-Reis und Teriyaki-Sauce",
+            "en": "Plant-based dish with springroll, asian vegetable rice and teriyaki sauce"
+          },
+          "dietary": "vegan"
+        },
+        {
+          "name": {
+            "de": "Goulash (Schweinefleisch) | Nudeln | Sauerrahm",
+            "en": "Goulash (pork) | pasta | sour cream"
+          },
+          "price": "€6.20",
+          "description": {
+            "de": "Schweinegoulash mit Nudeln und Sauerrahm",
+            "en": "Pork goulash served with pasta and sour cream"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Bao Buns",
-            "en": "Bao Buns"
+            "de": "Mensa Burger | Pommes",
+            "en": "Mensa Burger | fries"
           },
           "price": "€9.40",
           "description": {
-            "de": "Pulled Pork oder Pflanzliches Pulled BBQ",
-            "en": "Pulled Pork or Planted Pulled BBQ"
+            "de": "Wahl zwischen Rindfleisch oder Planted 'Crispy Chicken style'",
+            "en": "Choice of beef or Planted 'Crispy Chicken style'"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-03T10:44:50.643187",
+      "scraped_at": "2025-12-04T10:11:40.769269",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -78,7 +78,7 @@
         {
           "name": {
             "de": "Krautfleckerl",
-            "en": "Braised Cabbage Dish"
+            "en": "Cabbage Dish"
           },
           "price": "€7.90",
           "description": {
@@ -90,17 +90,17 @@
         {
           "name": {
             "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
-            "en": "Stuffed Apple Croissants with Quark Cream Topping"
+            "en": "Filled Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "Gefüllte apfel-croissants mit topfencreme-topping",
-            "en": "Stuffed apple croissants with quark cream topping"
+            "de": "Gefüllte apfelcroissants mit topfencreme-topping",
+            "en": "Filled apple croissants with quark cream topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-03T10:44:54.511648",
+      "scraped_at": "2025-12-04T10:11:45.442260",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -122,56 +122,65 @@
         },
         {
           "name": {
-            "de": "Überbackenes Süßkartoffel-Spinat Gratin",
-            "en": "Baked Sweet Potato Spinach Gratin"
+            "de": "Tomaten Mozzarella Lasagne",
+            "en": "Tomato Mozzarella Lasagna"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "VEGGIE mit Mozzarella & grünem Salat",
-            "en": "Vegetarian dish with mozzarella and green salad"
+            "de": "VEGGIE mit Bechamelsauce & grünem Salat",
+            "en": "Vegetarian with bechamel sauce and green salad"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Erdnuss-Brokkoli Tikka Masla",
-            "en": "Peanut Broccoli Tikka Masala"
+            "de": "Kürbis-Kichererbsen Korma",
+            "en": "Pumpkin Chickpea Korma"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "VEGFLF in cremiger Kokossauce & Basmatireis",
-            "en": "Vegan dish in creamy coconut sauce with basmati rice"
+            "de": "VEGGFLF in Kokos-Ingwersauce mit Zitronenreis",
+            "en": "Vegan in coconut-ginger sauce with lemon rice"
           },
           "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Alt Wiener Schinkenfleckerl",
-            "en": "Old Viennese Ham Fleckerl"
+            "de": "Spinta-Ricotta Tortelloni",
+            "en": "Spinach-Ricotta Tortelloni"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Käse überbacken & grünem Salat",
-            "en": "with cheese baked on top and green salad"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Rehragout mit Schupfnudeln",
-            "en": "Venison Ragout with Schupfnudeln"
-          },
-          "price": "€7.50 / €11.90",
-          "description": {
-            "de": "in Wacholder-Rotweinsauce mit Wurzelgemüse",
-            "en": "in juniper red wine sauce with root vegetables"
+            "de": "in Schinken-Rahmsauce mit grünem Salat",
+            "en": "in ham cream sauce with green salad"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-03T10:45:16.655290",
+      "scraped_at": "2025-12-04T10:12:11.648833",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
+          "price": "€8-12",
+          "description": {
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2025-12-04T10:12:12.173699",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -190,15 +199,15 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-03T10:45:17.045947",
+      "scraped_at": "2025-12-04T10:12:12.726095",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
     "total_items": 13
   }
