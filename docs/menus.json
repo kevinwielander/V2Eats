@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-04T10:12:12.726172",
+  "last_updated": "2025-12-04T10:44:48.877417",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -13,10 +13,10 @@
           },
           "price": "€5.60",
           "description": {
-            "de": "Pflanzliches Gericht mit Springroll, asiatischem Gemüse-Reis und Teriyaki-Sauce",
-            "en": "Plant-based dish with springroll, asian vegetable rice and teriyaki sauce"
+            "de": "Veggie-Option mit Springroll, asiatischem Gemüse-Reis und Teriyaki-Sauce",
+            "en": "Veggie option with springroll, asian vegetable rice and teriyaki sauce"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
@@ -43,7 +43,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-04T10:11:40.769269",
+      "scraped_at": "2025-12-04T10:44:30.808300",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -90,17 +90,17 @@
         {
           "name": {
             "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
-            "en": "Filled Apple Croissants with Quark Cream Topping"
+            "en": "Stuffed Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "Gefüllte apfelcroissants mit topfencreme-topping",
-            "en": "Filled apple croissants with quark cream topping"
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
+            "en": "Stuffed apple croissants with quark cream topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-04T10:11:45.442260",
+      "scraped_at": "2025-12-04T10:44:34.867598",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -139,7 +139,7 @@
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "VEGGFLF in Kokos-Ingwersauce mit Zitronenreis",
+            "de": "VEGFLF in Kokos-Ingwersauce mit Zitronenreis",
             "en": "Vegan in coconut-ginger sauce with lemon rice"
           },
           "dietary": "vegan"
@@ -157,7 +157,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-04T10:12:11.648833",
+      "scraped_at": "2025-12-04T10:44:48.228822",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -178,7 +178,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-04T10:12:12.173699",
+      "scraped_at": "2025-12-04T10:44:48.528756",
       "available": true,
       "type": "food_truck"
     },
@@ -199,7 +199,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-04T10:12:12.726095",
+      "scraped_at": "2025-12-04T10:44:48.877366",
       "available": true,
       "extraction_method": "Static menu"
     }
