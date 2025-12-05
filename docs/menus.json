@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-05T10:11:35.830698",
+  "last_updated": "2025-12-05T10:43:18.863145",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -13,25 +13,25 @@
           },
           "price": "€5.60",
           "description": {
-            "de": "100% pflanzlich - Spaghetti mit Tomatensauce und ohne Fleischbällchen",
-            "en": "100% plant based - Spaghetti with tomato sauce and no meat balls"
+            "de": "100% pflanzlich - Pasta mit Tomatensauce und fleischlosen Bällen",
+            "en": "100% plant based - Pasta with tomato sauce and meatless balls"
           },
           "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Gebratener Kohlfisch | Petersilienkartoffeln | Remouladentunke",
-            "en": "Fried coalfish | parsley potatoes | Tartare sauce"
+            "de": "Gebratener Kohlfisch | Petersilienkartoffeln | Sc. Tartare",
+            "en": "Fried coalfish | parsley potatoes | Sc. Tartare"
           },
           "price": "€6.20",
           "description": {
-            "de": "Gebratener Kohlfisch serviert mit Petersilienkartoffeln und Remouladentunke",
-            "en": "Fried coalfish served with parsley potatoes and tartare sauce"
+            "de": "Gebratener Fisch mit Petersilienkartoffeln und Tartarsauce",
+            "en": "Fried fish with parsley potatoes and tartar sauce"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-05T10:11:13.623431",
+      "scraped_at": "2025-12-05T10:43:00.626490",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -82,13 +82,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Gefüllte apfelcroissants mit topfencreme-topping",
+            "de": "Gefüllte bratapfel-croissants mit topfencreme-topping",
             "en": "Stuffed apple croissants with quark cream topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-05T10:11:17.989972",
+      "scraped_at": "2025-12-05T10:43:09.333047",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -103,7 +103,7 @@
           },
           "price": "€7.50 / €10.90",
           "description": {
-            "de": "VEGFLF mit Walnüssen, Tofu, & Gurke",
+            "de": "VEGGFLF mit Walnüssen, Tofu, & Gurke",
             "en": "Vegan bowl with walnuts, tofu, and cucumber"
           },
           "dietary": "vegan"
@@ -145,7 +145,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-05T10:11:35.474487",
+      "scraped_at": "2025-12-05T10:43:18.391352",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -166,7 +166,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-05T10:11:35.830615",
+      "scraped_at": "2025-12-05T10:43:18.863072",
       "available": true,
       "extraction_method": "Static menu"
     }
