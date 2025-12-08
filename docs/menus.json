@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-08T10:11:55.245288",
+  "last_updated": "2025-12-08T10:44:43.239215",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -8,24 +8,24 @@
       "items": [
         {
           "name": {
-            "de": "Vegetable patty",
+            "de": "Gemüse-Patty",
             "en": "Vegetable patty"
           },
           "price": "€5.60",
           "description": {
-            "de": "Patty aus Gemüse | Kartoffeln | Körvel-Dip",
-            "en": "Vegetable patty | potatoes | chervil-dip"
+            "de": "Gemüse-Patty | Kartoffeln | Körvel-Dip",
+            "en": "Vegetable patty | potatoes | chervil- dip"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Hühnchen süß und sauer",
+            "de": "Hühnchen süß & sauer",
             "en": "Chicken sweet & sour"
           },
           "price": "€5.60",
           "description": {
-            "de": "Hühnchen süß und sauer | Basmati-Reis",
+            "de": "Hühnchen süß & sauer | Basmati-Reis",
             "en": "Chicken sweet & sour | basmati rice"
           },
           "dietary": "meat"
@@ -43,7 +43,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-08T10:11:36.633351",
+      "scraped_at": "2025-12-08T10:44:23.512584",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -100,7 +100,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-08T10:11:42.127248",
+      "scraped_at": "2025-12-08T10:44:27.175007",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -140,7 +140,7 @@
           "price": "€7.50 / €11.90",
           "description": {
             "de": "VEGGIE mit Wirsing & grünem Salat",
-            "en": "Vegetarian with savoy cabbage and green salad"
+            "en": "Vegetarian with kale and green salad"
           },
           "dietary": "vegetarian"
         },
@@ -157,7 +157,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-08T10:11:54.745775",
+      "scraped_at": "2025-12-08T10:44:42.965815",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -172,13 +172,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "de": "Vordefinierte oder individuelle Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-08T10:11:55.245214",
+      "scraped_at": "2025-12-08T10:44:43.239147",
       "available": true,
       "extraction_method": "Static menu"
     }
