@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-05T10:43:18.863145",
+  "last_updated": "2025-12-08T10:11:55.245288",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -8,30 +8,42 @@
       "items": [
         {
           "name": {
-            "de": "Spaghetti | Tomatensauce | NO MEAT balls",
-            "en": "Spaghetti | Tomato sauce | NO MEAT balls"
+            "de": "Vegetable patty",
+            "en": "Vegetable patty"
           },
           "price": "€5.60",
           "description": {
-            "de": "100% pflanzlich - Pasta mit Tomatensauce und fleischlosen Bällen",
-            "en": "100% plant based - Pasta with tomato sauce and meatless balls"
+            "de": "Patty aus Gemüse | Kartoffeln | Körvel-Dip",
+            "en": "Vegetable patty | potatoes | chervil-dip"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Gebratener Kohlfisch | Petersilienkartoffeln | Sc. Tartare",
-            "en": "Fried coalfish | parsley potatoes | Sc. Tartare"
+            "de": "Hühnchen süß und sauer",
+            "en": "Chicken sweet & sour"
           },
-          "price": "€6.20",
+          "price": "€5.60",
           "description": {
-            "de": "Gebratener Fisch mit Petersilienkartoffeln und Tartarsauce",
-            "en": "Fried fish with parsley potatoes and tartar sauce"
+            "de": "Hühnchen süß und sauer | Basmati-Reis",
+            "en": "Chicken sweet & sour | basmati rice"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Chili Burrito",
+            "en": "Chili Burrito"
+          },
+          "price": "€9.40",
+          "description": {
+            "de": "Chili Burrito | Rindfleisch | Bohnenreis | Cheddar-Käsesauce | Dips | Tortilla-Chips",
+            "en": "Chili Burrito | beef | bean rice | cheddar cheese sauce | dips | tortilla chips"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-05T10:43:00.626490",
+      "scraped_at": "2025-12-08T10:11:36.633351",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -82,13 +94,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Gefüllte bratapfel-croissants mit topfencreme-topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
             "en": "Stuffed apple croissants with quark cream topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-05T10:43:09.333047",
+      "scraped_at": "2025-12-08T10:11:42.127248",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -103,7 +115,7 @@
           },
           "price": "€7.50 / €10.90",
           "description": {
-            "de": "VEGGFLF mit Walnüssen, Tofu, & Gurke",
+            "de": "VEGFLF mit Walnüssen, Tofu, & Gurke",
             "en": "Vegan bowl with walnuts, tofu, and cucumber"
           },
           "dietary": "vegan"
@@ -128,7 +140,7 @@
           "price": "€7.50 / €11.90",
           "description": {
             "de": "VEGGIE mit Wirsing & grünem Salat",
-            "en": "Vegetarian with kale and green salad"
+            "en": "Vegetarian with savoy cabbage and green salad"
           },
           "dietary": "vegetarian"
         },
@@ -145,7 +157,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-05T10:43:18.391352",
+      "scraped_at": "2025-12-08T10:11:54.745775",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -166,7 +178,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-05T10:43:18.863072",
+      "scraped_at": "2025-12-08T10:11:55.245214",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -176,6 +188,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 11
+    "total_items": 12
   }
 }
