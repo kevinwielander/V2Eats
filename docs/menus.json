@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-09T10:45:13.080562",
+  "last_updated": "2025-12-10T10:11:55.306697",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -13,8 +13,8 @@
           },
           "price": "€5.60",
           "description": {
-            "de": "Curry Cous Cous | Gemüse | Sojajoghurt",
-            "en": "Curry Cous Cous | vegetable | soy yogurt"
+            "de": "Gemüse | Sojajoghurt",
+            "en": "vegetable | soy yogurt"
           },
           "dietary": "vegetarian"
         },
@@ -25,8 +25,8 @@
           },
           "price": "€5.60",
           "description": {
-            "de": "Gebratenes Hähnchenschnitzel | Petersilienkartoffeln",
-            "en": "Fried chicken schnitzel | parsley potatoes"
+            "de": "Petersilienkartoffeln",
+            "en": "parsley potatoes"
           },
           "dietary": "meat"
         },
@@ -37,13 +37,13 @@
           },
           "price": "€9.40",
           "description": {
-            "de": "Zerzupftes Schweinefleisch oder pflanzliches BBQ",
+            "de": "Pulled Pork oder pflanzliches Pulled BBQ",
             "en": "Pulled Pork or Planted Pulled BBQ"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-09T10:44:54.440759",
+      "scraped_at": "2025-12-10T10:11:27.226580",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -58,8 +58,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Eine klassische italienische Lasagne mit vielen Schichten",
-            "en": "A classic Italian lasagna with many layers"
+            "de": "Eine klassische italienische Lasagne mit frischen Zutaten",
+            "en": "A classic Italian lasagna with fresh ingredients"
           },
           "dietary": "vegetarian"
         },
@@ -70,8 +70,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein traditionelles ungarisches Gulasch mit Serviettenknödeln",
-            "en": "A traditional Hungarian goulash with serviettenknödel"
+            "de": "Ein traditionelles ungarisches Gulasch mit zarten Rindfleischstücken und Serviettenknödeln",
+            "en": "A traditional Hungarian goulash with tender beef pieces and serviettenknödel"
           },
           "dietary": "meat"
         },
@@ -82,8 +82,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein aromatisches Kichererbsen-Curry mit Basmati-Reis",
-            "en": "An aromatic chickpea curry with basmati rice"
+            "de": "Ein cremiges und aromatisches Kichererbsen-Curry mit Basmati Reis",
+            "en": "A creamy and aromatic chickpea curry with basmati rice"
           },
           "dietary": "vegan"
         },
@@ -94,13 +94,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Gefüllte Bratapfel-Croissants mit einer leckeren Topfencreme",
-            "en": "Stuffed apple croissants with a delicious quark cream"
+            "de": "Flaky Croissants gefüllt mit saftigen Äpfeln und einem cremigen Topfencreme-Topping",
+            "en": "Flaky croissants filled with juicy apples and a creamy quark cream topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-09T10:44:59.911772",
+      "scraped_at": "2025-12-10T10:11:31.446162",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -122,77 +122,56 @@
         },
         {
           "name": {
-            "de": "Traditionelle Käsespätzle",
-            "en": "Traditional Cheese Spaetzle"
+            "de": "Faschierter Braten",
+            "en": "Shredded Roast"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "mit Bergkäse geröstetem Speck & grünem Salat",
-            "en": "with mountain cheese, roasted bacon, and green salad"
+            "de": "mit Kartoffelpüree Bratensaft & grünem Salat",
+            "en": "with mashed potatoes, roast gravy, and green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Rotes Thai Hühnchen Curry",
-            "en": "Red Thai Chicken Curry"
+            "de": "Gnocchi Carbonara",
+            "en": "Gnocchi Carbonara"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "GFLF mit Wokgemüse, Kokossauce & Basmatireis",
-            "en": "GFLF with wok vegetables, coconut sauce, and basmati rice"
+            "de": "mit geröstetem Speck in Käsesauce & grünem Salat",
+            "en": "with roasted bacon in cheese sauce and green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Überbackenes Erdäpfel-Brokkoli Gratin",
-            "en": "Baked Potato and Broccoli Gratin"
+            "de": "Indisches Linsen Dal",
+            "en": "Indian Lentil Dal"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "VEGGIE mit Käse gratiniert & grünem Salat",
-            "en": "VEGGIE with cheese gratin and green salad"
+            "de": "VEGFLF mit Spinat & Basmatireis",
+            "en": "VEGFLF with spinach and basmati rice"
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Spinat-Pilzrisotto",
-            "en": "Spinach Mushroom Risotto"
+            "de": "Vegetarische Tomaten-Pilz Lasagne",
+            "en": "Vegetarian Tomato Mushroom Lasagna"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "VEGGIEGF mit grünem Salat",
-            "en": "VEGGIEGF with green salad"
+            "de": "VEGGIE mit Mozzarella & grünem Salat",
+            "en": "VEGGIE with mozzarella and green salad"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-09T10:45:12.351793",
+      "scraped_at": "2025-12-10T10:11:54.974987",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Verfügbar am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2025-12-09T10:45:12.698040",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -211,16 +190,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-09T10:45:13.080494",
+      "scraped_at": "2025-12-10T10:11:55.306642",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 14
+    "total_items": 13
   }
 }
