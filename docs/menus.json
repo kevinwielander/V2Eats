@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-11T10:45:25.017156",
+  "last_updated": "2025-12-12T10:11:31.464546",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -8,78 +8,30 @@
       "items": [
         {
           "name": {
-            "de": "Kartoffel- und Gemüse-Gratin",
-            "en": "Potato and vegetable casserolle"
+            "de": "Erdäpfel 'Spätzle' | Schnittlauch",
+            "en": "Egg 'spätzle' | chives"
           },
           "price": "€5.60",
           "description": {
-            "de": "Mit Schnittlauch-Dip",
-            "en": "With chives dip"
+            "de": "Vegetarisches Hauptgericht mit Eiernudeln und Schnittlauch",
+            "en": "Vegetarian main dish with egg noodles and chives"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Chili con carne",
-            "en": "Chili con carne"
+            "de": "Gebratener Kohlfisch | Petersilienkartoffeln | Skandinavische Tartare",
+            "en": "Fried coalfish | parsley potatoes | Sc. Tartare"
           },
           "price": "€6.20",
           "description": {
-            "de": "Serviert mit Brot",
-            "en": "Served with bread"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Pizza Margherita",
-            "en": "Pizza Margherita"
-          },
-          "price": "€7.60",
-          "description": {
-            "de": "Klassische Margherita-Pizza",
-            "en": "Classic margherita pizza"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Pizza Speciale",
-            "en": "Pizza Speciale"
-          },
-          "price": "€7.90",
-          "description": {
-            "de": "Spezial-Pizza",
-            "en": "Specialty pizza"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Pinsa Prosciutto oder Mozzarella",
-            "en": "Pinsa Prosciutto or Mozzarella"
-          },
-          "price": "€7.90",
-          "description": {
-            "de": "Wahl zwischen Prosciutto- oder Mozzarella-Pinsa",
-            "en": "Choice of prosciutto or mozzarella pinsa"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Mensa Burger",
-            "en": "Mensa Burger"
-          },
-          "price": "€9.40",
-          "description": {
-            "de": "Mit Pommes, Wahl zwischen Rindfleisch oder Planted 'Crispy Chicken style'",
-            "en": "With fries, choice of beef or Planted 'Crispy Chicken style'"
+            "de": "Gebratener Kohlfisch mit Petersilienkartoffeln und Tartare-Sauce",
+            "en": "Fried coalfish with parsley potatoes and tartare sauce"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-11T10:45:04.512327",
+      "scraped_at": "2025-12-12T10:11:18.755964",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -136,7 +88,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-11T10:45:08.537911",
+      "scraped_at": "2025-12-12T10:11:22.812232",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -154,81 +106,48 @@
             "de": "",
             "en": ""
           },
-          "dietary": "vegan"
-        },
-        {
-          "name": {
-            "de": "Griechisches Moussaka",
-            "en": "Greek Moussaka"
-          },
-          "price": "Klein €7.50 / Gross €11.90",
-          "description": {
-            "de": "aus dem Ofen mit Melanzani, Erdäpfel & grünem Salat",
-            "en": "from the oven with eggplant, potatoes & green salad"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Hühnergeschnetzeltes",
-            "en": "Chicken Stir Fry"
-          },
-          "price": "Klein €7.50 / Gross €11.90",
-          "description": {
-            "de": "mit Spätzle in Senfrahmsauce & Wurzelgemüse",
-            "en": "with spaetzle in mustard cream sauce & root vegetables"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Schupfnudeln",
-            "en": "Schupfnudeln"
-          },
-          "price": "Klein €7.50 / Gross €11.90",
-          "description": {
-            "de": "in Steinpilzsauce VEGGIE mit Spinat & grünem Salat",
-            "en": "in mushroom sauce VEGGIE with spinach & green salad"
-          },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Süßkartoffel-Cashew Tikka Masala",
-            "en": "Sweet Potato-Cashew Tikka Masala"
+            "de": "Rehragout",
+            "en": "Venison Stew"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "VEGGFLF in Kokossauce mit Basmatireis",
-            "en": "VEGGFLF in coconut sauce with basmati rice"
+            "de": "in Wacholder-Rahmsauce mit Wurzelgemüse, Spätzle & grünem Salat",
+            "en": "in juniper cream sauce with root vegetables, spaetzle and green salad"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Gelbes Curry",
+            "en": "Yellow Curry"
+          },
+          "price": "Klein €7.50 / Gross €11.90",
+          "description": {
+            "de": "mit Hühnerfilet in Mangosauce VEGGFLF Wokgemüse & Erdnussreis",
+            "en": "with chicken breast in mango sauce, wok vegetables and peanut rice"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Überbackenes Kürbis-Ricotta Gratin",
+            "en": "Baked Pumpkin-Ricotta Gratin"
+          },
+          "price": "Klein €7.50 / Gross €11.90",
+          "description": {
+            "de": "VEGGIE mit Pastinaken & grünem Salat",
+            "en": "VEGGIE with parsnips and green salad"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-11T10:45:24.257930",
+      "scraped_at": "2025-12-12T10:11:31.135036",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pinsa Food Truck",
-      "url": "https://www.pinsalino.at",
-      "items": [
-        {
-          "name": {
-            "de": "Römische Pizza mit verschiedenen Belägen",
-            "en": "Roman-style pizza with various toppings"
-          },
-          "price": "€8-12",
-          "description": {
-            "de": "Verfügbar am Donnerstag",
-            "en": "Available on Thursday"
-          },
-          "dietary": "meat"
-        }
-      ],
-      "scraped_at": "2025-12-11T10:45:24.624518",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -247,16 +166,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-11T10:45:25.017091",
+      "scraped_at": "2025-12-12T10:11:31.464496",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 17
+    "total_items": 11
   }
 }
