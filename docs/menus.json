@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-12T10:11:31.464546",
+  "last_updated": "2025-12-12T10:44:22.460690",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -8,8 +8,8 @@
       "items": [
         {
           "name": {
-            "de": "Erdäpfel 'Spätzle' | Schnittlauch",
-            "en": "Egg 'spätzle' | chives"
+            "de": "Ei \"Spätzle\" | Schnittlauch",
+            "en": "Egg \"spätzle\" | chives"
           },
           "price": "€5.60",
           "description": {
@@ -20,18 +20,30 @@
         },
         {
           "name": {
-            "de": "Gebratener Kohlfisch | Petersilienkartoffeln | Skandinavische Tartare",
-            "en": "Fried coalfish | parsley potatoes | Sc. Tartare"
+            "de": "Gebratener Kohlfisch | Petersilienkartoffeln | Remoulade",
+            "en": "Fried coalfish | parsley potatoes | tartare sauce"
           },
           "price": "€6.20",
           "description": {
-            "de": "Gebratener Kohlfisch mit Petersilienkartoffeln und Tartare-Sauce",
+            "de": "Gebratener Kohlfisch mit Petersilienkartoffeln und Remouladensoße",
             "en": "Fried coalfish with parsley potatoes and tartare sauce"
           },
           "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Stop Food Waste",
+            "en": "Stop Food Waste"
+          },
+          "price": "€9.40",
+          "description": {
+            "de": "Global & Grill Spezialgericht - Gericht zur Vermeidung von Lebensmittelabfällen",
+            "en": "Global & Grill special - food waste prevention dish"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-12T10:11:18.755964",
+      "scraped_at": "2025-12-12T10:44:05.551463",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -70,25 +82,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein cremiges Kichererbsen-Curry mit Basmati Reis",
-            "en": "A creamy chickpea curry with basmati rice"
+            "de": "Ein aromatisches Kichererbsen-Curry mit Basmati Reis",
+            "en": "An aromatic chickpea curry with basmati rice"
           },
           "dietary": "vegan"
         },
         {
           "name": {
             "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
-            "en": "Stuffed Apple Croissants with Quark Cream Topping"
+            "en": "Stuffed Apple Croissants with Topfen Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "Gefüllte Bratapfel-Croissants mit einer leichten Topfencreme",
-            "en": "Stuffed apple croissants with a light quark cream"
+            "de": "Gefüllte Bratapfel-Croissants mit einer leckeren Topfencreme",
+            "en": "Stuffed apple croissants with a delicious topfen cream"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-12T10:11:22.812232",
+      "scraped_at": "2025-12-12T10:44:09.145075",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -145,7 +157,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-12T10:11:31.135036",
+      "scraped_at": "2025-12-12T10:44:22.139087",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -166,7 +178,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-12T10:11:31.464496",
+      "scraped_at": "2025-12-12T10:44:22.460629",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -176,6 +188,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 11
+    "total_items": 12
   }
 }
