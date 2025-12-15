@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-12T10:44:22.460690",
+  "last_updated": "2025-12-15T10:13:04.669860",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -8,42 +8,42 @@
       "items": [
         {
           "name": {
-            "de": "Ei \"Spätzle\" | Schnittlauch",
-            "en": "Egg \"spätzle\" | chives"
+            "de": "Spinat Lasagne",
+            "en": "Spinach lasagne"
           },
-          "price": "€5.60",
+          "price": "€5,60",
           "description": {
-            "de": "Vegetarisches Hauptgericht mit Eiernudeln und Schnittlauch",
-            "en": "Vegetarian main dish with egg noodles and chives"
+            "de": "leichte Knoblauch-Creme-Soße",
+            "en": "light garlic cream sauce"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Gebratener Kohlfisch | Petersilienkartoffeln | Remoulade",
-            "en": "Fried coalfish | parsley potatoes | tartare sauce"
+            "de": "Indisches Butter Hühnchen",
+            "en": "Indian butter chicken"
           },
-          "price": "€6.20",
+          "price": "€6,20",
           "description": {
-            "de": "Gebratener Kohlfisch mit Petersilienkartoffeln und Remouladensoße",
-            "en": "Fried coalfish with parsley potatoes and tartare sauce"
+            "de": "Gewürzreis",
+            "en": "spice rice"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Stop Food Waste",
-            "en": "Stop Food Waste"
+            "de": "Hühnchen Gyoza",
+            "en": "Chicken Gyoza"
           },
-          "price": "€9.40",
+          "price": "€9,40",
           "description": {
-            "de": "Global & Grill Spezialgericht - Gericht zur Vermeidung von Lebensmittelabfällen",
-            "en": "Global & Grill special - food waste prevention dish"
+            "de": "Asiasalat | Sojasoße",
+            "en": "asiasalad | soy dip"
           },
-          "dietary": "vegetarian"
+          "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-12T10:44:05.551463",
+      "scraped_at": "2025-12-15T10:12:45.843836",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -58,8 +58,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Eine klassische italienische Lasagne",
-            "en": "A classic Italian lasagna"
+            "de": "Eine klassische italienische Lasagne mit Schichten aus Nudeln, Sauce und Käse.",
+            "en": "A classic Italian lasagna with layers of noodles, sauce, and cheese."
           },
           "dietary": "vegetarian"
         },
@@ -70,8 +70,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein traditionelles ungarisches Gulasch mit Serviettenknödel",
-            "en": "A traditional Hungarian goulash with serviettenknödel"
+            "de": "Ein herzhaftes ungarisches Gulasch mit Rindfleisch und Serviettenknödeln.",
+            "en": "A hearty Hungarian goulash with beef and serviettenknödel."
           },
           "dietary": "meat"
         },
@@ -82,25 +82,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein aromatisches Kichererbsen-Curry mit Basmati Reis",
-            "en": "An aromatic chickpea curry with basmati rice"
+            "de": "Ein aromatisches indisches Curry mit Kichererbsen und Basmati-Reis.",
+            "en": "An aromatic Indian curry with chickpeas and basmati rice."
           },
           "dietary": "vegan"
         },
         {
           "name": {
             "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
-            "en": "Stuffed Apple Croissants with Topfen Cream Topping"
+            "en": "Stuffed Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "Gefüllte Bratapfel-Croissants mit einer leckeren Topfencreme",
-            "en": "Stuffed apple croissants with a delicious topfen cream"
+            "de": "Flaky Croissants gefüllt mit Äpfeln und einem cremigen Topfen-Topping.",
+            "en": "Flaky croissants filled with apples and a creamy quark topping."
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-12T10:44:09.145075",
+      "scraped_at": "2025-12-15T10:12:51.075645",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -118,46 +118,58 @@
             "de": "",
             "en": ""
           },
+          "dietary": "vegan"
+        },
+        {
+          "name": {
+            "de": "Kürbisrisotto",
+            "en": "Pumpkin Risotto"
+          },
+          "price": "Klein €7.50 / Gross €11.90",
+          "description": {
+            "de": "mit Parmesan VEGGIEGF gerösteten Kürbiskernen & grünem Salat",
+            "en": "with parmesan, roasted pumpkin seeds, and green salad"
+          },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Rehragout",
-            "en": "Venison Stew"
+            "de": "Grünes Thai Curry",
+            "en": "Green Thai Curry"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "in Wacholder-Rahmsauce mit Wurzelgemüse, Spätzle & grünem Salat",
-            "en": "in juniper cream sauce with root vegetables, spaetzle and green salad"
+            "de": "in Kokossauce VEGGFLF mit wokgemüse & Basmatireis",
+            "en": "in coconut sauce with wok vegetables and basmati rice"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Boeuff Stroganoff",
+            "en": "Boeuff Stroganoff"
+          },
+          "price": "Klein €7.50 / Gross €11.90",
+          "description": {
+            "de": "in Senfrahmsauce mit Polenta",
+            "en": "in mustard cream sauce with polenta"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gelbes Curry",
-            "en": "Yellow Curry"
+            "de": "Überbackene Alt Wiener Schinkenflecker",
+            "en": "Baked Old Viennese Ham Fritters"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "mit Hühnerfilet in Mangosauce VEGGFLF Wokgemüse & Erdnussreis",
-            "en": "with chicken breast in mango sauce, wok vegetables and peanut rice"
+            "de": "mit grünem Salat",
+            "en": "with green salad"
           },
           "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Überbackenes Kürbis-Ricotta Gratin",
-            "en": "Baked Pumpkin-Ricotta Gratin"
-          },
-          "price": "Klein €7.50 / Gross €11.90",
-          "description": {
-            "de": "VEGGIE mit Pastinaken & grünem Salat",
-            "en": "VEGGIE with parsnips and green salad"
-          },
-          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-12T10:44:22.139087",
+      "scraped_at": "2025-12-15T10:13:04.343118",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -178,7 +190,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-12T10:44:22.460629",
+      "scraped_at": "2025-12-15T10:13:04.669795",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -188,6 +200,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 12
+    "total_items": 13
   }
 }
