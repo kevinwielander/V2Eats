@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-15T10:46:58.369424",
+  "last_updated": "2025-12-16T10:12:15.963246",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -8,42 +8,42 @@
       "items": [
         {
           "name": {
-            "de": "Spinat Lasagne",
-            "en": "Spinach lasagne"
+            "de": "Kichererbsen- und Gemüse-Curry",
+            "en": "Chickpea and vegetable curry"
           },
-          "price": "€5.60",
+          "price": "€6.10",
           "description": {
-            "de": "leichte Knoblauch-Creme-Soße",
-            "en": "light garlic cream sauce"
+            "de": "Bulgur (vegan)",
+            "en": "bulgur (vegan)"
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Indisches Butter Hühnchen",
-            "en": "Indian butter chicken"
+            "de": "Kartoffel- und Wurstgulasch",
+            "en": "Potato and sausage goulash"
           },
-          "price": "€6.20",
+          "price": "€5.60",
           "description": {
-            "de": "Gewürzreis",
-            "en": "spice rice"
+            "de": "Schweinefleisch | Brot",
+            "en": "pork | bread"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Hühnchen Gyoza",
-            "en": "Chicken Gyoza"
+            "de": "Lachs-Teppanyaki",
+            "en": "Salmon teppanyaki"
           },
           "price": "€9.40",
           "description": {
-            "de": "Asiasalat | Sojasoße",
-            "en": "asiasalad | soy dip"
+            "de": "Gemüse | Jasmin-Reis | Teriyaki-Sauce",
+            "en": "vegetable | jasmine rice | teriyaki sauce"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-15T10:46:44.830638",
+      "scraped_at": "2025-12-16T10:11:56.852811",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -58,8 +58,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "ACFLO",
-            "en": "ACFLO"
+            "de": "Ein Salat mit Hühnchen",
+            "en": "A salad with chicken"
           },
           "dietary": "meat"
         },
@@ -70,8 +70,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "AGLO",
-            "en": "AGLO"
+            "de": "Spätzle mit Spinat und Käse, serviert mit grünem Salat",
+            "en": "Spaetzle with spinach and cheese, served with green salad"
           },
           "dietary": "vegetarian"
         },
@@ -82,8 +82,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "LOG",
-            "en": "LOG"
+            "de": "Hühnchen in Teriyaki-Soße, serviert mit Asia-Nudeln",
+            "en": "Chicken in teriyaki sauce, served with Asian noodles"
           },
           "dietary": "meat"
         },
@@ -94,13 +94,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "AG",
-            "en": "AG"
+            "de": "Croissants mit Apfel-Füllung und Topfencreme-Oberteil",
+            "en": "Croissants with apple filling and quark cream top"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-15T10:46:49.628122",
+      "scraped_at": "2025-12-16T10:12:02.970163",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -118,60 +118,81 @@
             "de": "",
             "en": ""
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Kürbisrisotto",
-            "en": "Pumpkin Risotto"
+            "de": "Cremiges Waldpilzgulasch mit Spätzle",
+            "en": "Creamy Mushroom Goulash with Spaetzle"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "mit Parmesan VEGGIEGF gerösteten Kürbiskernen & grünem Salat",
-            "en": "with parmesan, roasted pumpkin seeds, and green salad"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Grünes Thai Curry",
-            "en": "Green Thai Curry"
-          },
-          "price": "Klein €7.50 / Gross €11.90",
-          "description": {
-            "de": "in Kokossauce VEGGFLF mit wokgemüse & Basmatireis",
-            "en": "in coconut sauce with wok vegetables and basmati rice"
+            "de": "VEGGIE mit Sauerrahm Dip",
+            "en": "VEGGIE with Sour Cream Dip"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Boeuff Stroganoff",
-            "en": "Boeuff Stroganoff"
+            "de": "Überbackener Süßkartoffel-Feta Auflauf",
+            "en": "Baked Sweet Potato and Feta Casserole"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "in Senfrahmsauce mit Polenta",
-            "en": "in mustard cream sauce with polenta"
+            "de": "VEGGIE mit Spinat & grünem Salat",
+            "en": "VEGGIE with Spinach and Green Salad"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Indisches Chicken Tikka Masala",
+            "en": "Indian Chicken Tikka Masala"
+          },
+          "price": "Klein €7.50 / Gross €11.90",
+          "description": {
+            "de": "in Cashewsauce mit Basmatireis",
+            "en": "in Cashew Sauce with Basmati Rice"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Überbackene Alt Wiener Schinkenflecker",
-            "en": "Baked Old Viennese Ham Fritters"
+            "de": "Lasagne Bolognese",
+            "en": "Lasagna Bolognese"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "mit grünem Salat",
-            "en": "with green salad"
+            "de": "mit Parmesan Bechamelsauce & grünem Salat",
+            "en": "with Parmesan Bechamel Sauce and Green Salad"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-15T10:46:58.016832",
+      "scraped_at": "2025-12-16T10:12:15.295394",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Erhältlich am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2025-12-16T10:12:15.667233",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -190,16 +211,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-15T10:46:58.369378",
+      "scraped_at": "2025-12-16T10:12:15.963178",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 13
+    "total_items": 14
   }
 }
