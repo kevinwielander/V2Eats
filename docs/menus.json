@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-16T10:12:15.963246",
+  "last_updated": "2025-12-16T10:45:36.866986",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -8,7 +8,7 @@
       "items": [
         {
           "name": {
-            "de": "Kichererbsen- und Gemüse-Curry",
+            "de": "Kichererbsen und Gemüse Curry",
             "en": "Chickpea and vegetable curry"
           },
           "price": "€6.10",
@@ -20,7 +20,7 @@
         },
         {
           "name": {
-            "de": "Kartoffel- und Wurstgulasch",
+            "de": "Kartoffel und Wurst Gulasch",
             "en": "Potato and sausage goulash"
           },
           "price": "€5.60",
@@ -32,18 +32,18 @@
         },
         {
           "name": {
-            "de": "Lachs-Teppanyaki",
+            "de": "Lachs Teppanyaki",
             "en": "Salmon teppanyaki"
           },
           "price": "€9.40",
           "description": {
-            "de": "Gemüse | Jasmin-Reis | Teriyaki-Sauce",
+            "de": "Gemüse | Jasminreis | Teriyakisauce",
             "en": "vegetable | jasmine rice | teriyaki sauce"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-16T10:11:56.852811",
+      "scraped_at": "2025-12-16T10:45:19.570714",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -58,8 +58,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein Salat mit Hühnchen",
-            "en": "A salad with chicken"
+            "de": "ACFLO",
+            "en": "ACFLO"
           },
           "dietary": "meat"
         },
@@ -70,8 +70,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Spätzle mit Spinat und Käse, serviert mit grünem Salat",
-            "en": "Spaetzle with spinach and cheese, served with green salad"
+            "de": "AGLO",
+            "en": "AGLO"
           },
           "dietary": "vegetarian"
         },
@@ -82,25 +82,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Hühnchen in Teriyaki-Soße, serviert mit Asia-Nudeln",
-            "en": "Chicken in teriyaki sauce, served with Asian noodles"
+            "de": "LOG",
+            "en": "LOG"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
             "en": "Stuffed Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "Croissants mit Apfel-Füllung und Topfencreme-Oberteil",
-            "en": "Croissants with apple filling and quark cream top"
+            "de": "AG",
+            "en": "AG"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-16T10:12:02.970163",
+      "scraped_at": "2025-12-16T10:45:23.526310",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -118,12 +118,12 @@
             "de": "",
             "en": ""
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
             "de": "Cremiges Waldpilzgulasch mit Spätzle",
-            "en": "Creamy Mushroom Goulash with Spaetzle"
+            "en": "Creamy Mushroom Goulash with Spätzle"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
@@ -169,7 +169,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-16T10:12:15.295394",
+      "scraped_at": "2025-12-16T10:45:36.172732",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -190,7 +190,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-16T10:12:15.667233",
+      "scraped_at": "2025-12-16T10:45:36.487602",
       "available": true,
       "type": "food_truck"
     },
@@ -211,7 +211,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-16T10:12:15.963178",
+      "scraped_at": "2025-12-16T10:45:36.866916",
       "available": true,
       "extraction_method": "Static menu"
     }
