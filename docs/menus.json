@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-16T10:45:36.866986",
+  "last_updated": "2025-12-17T10:12:01.594659",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -8,42 +8,42 @@
       "items": [
         {
           "name": {
-            "de": "Kichererbsen und Gemüse Curry",
-            "en": "Chickpea and vegetable curry"
+            "de": "Pilzsoße | Brotknödel",
+            "en": "Mushroom sauce | bread dumpling"
           },
           "price": "€6.10",
           "description": {
-            "de": "Bulgur (vegan)",
-            "en": "bulgur (vegan)"
+            "de": "Vegetarische Option mit Pilzsoße und Brotknödel",
+            "en": "Vegetarian option with mushroom sauce and bread dumpling"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Kartoffel und Wurst Gulasch",
-            "en": "Potato and sausage goulash"
+            "de": "Gebratenes Hähnchenschnitzel | Petersilkartoffeln",
+            "en": "Fried chicken schnitzel | parsley potatoes"
           },
           "price": "€5.60",
           "description": {
-            "de": "Schweinefleisch | Brot",
-            "en": "pork | bread"
+            "de": "Fleischige Option - gebratenes Hähnchenschnitzel serviert mit Petersilkartoffeln",
+            "en": "Meaty option - fried chicken schnitzel served with parsley potatoes"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Lachs Teppanyaki",
-            "en": "Salmon teppanyaki"
+            "de": "Bao Buns",
+            "en": "Bao Buns"
           },
           "price": "€9.40",
           "description": {
-            "de": "Gemüse | Jasminreis | Teriyakisauce",
-            "en": "vegetable | jasmine rice | teriyaki sauce"
+            "de": "Wahl zwischen Pulled Pork oder pflanzlichem Pulled BBQ",
+            "en": "Choice of Pulled Pork or Planted Pulled BBQ"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-16T10:45:19.570714",
+      "scraped_at": "2025-12-17T10:11:42.174621",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -66,7 +66,7 @@
         {
           "name": {
             "de": "Spinat-Käse Spätzle mit grünen Salat",
-            "en": "Spinach Cheese Spaetzle with Green Salad"
+            "en": "Spinach Cheese Spätzle with Green Salad"
           },
           "price": "€7.90",
           "description": {
@@ -100,7 +100,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-16T10:45:23.526310",
+      "scraped_at": "2025-12-17T10:11:46.025384",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -122,77 +122,56 @@
         },
         {
           "name": {
-            "de": "Cremiges Waldpilzgulasch mit Spätzle",
-            "en": "Creamy Mushroom Goulash with Spätzle"
+            "de": "Balsamico Linsen mit hausgemachten Semmelknödel",
+            "en": "Balsamic Lentils with Homemade Bread Dumplings"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "VEGGIE mit Sauerrahm Dip",
-            "en": "VEGGIE with Sour Cream Dip"
+            "de": "VEGGIE & Sauerrahm Dip",
+            "en": "VEGGIE & Sour Cream Dip"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Überbackener Süßkartoffel-Feta Auflauf",
-            "en": "Baked Sweet Potato and Feta Casserole"
+            "de": "Vegetarisches Erdäpfel Pilz Gröstl",
+            "en": "Vegetarian Potato Mushroom Gröstl"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "VEGGIE mit Spinat & grünem Salat",
-            "en": "VEGGIE with Spinach and Green Salad"
+            "de": "VEGFLF mit Kürbiskernen & Chili Cream Dip",
+            "en": "VEGFLF with Pumpkin Seeds & Chili Cream Dip"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Indisches Chicken Tikka Masala",
-            "en": "Indian Chicken Tikka Masala"
+            "de": "Paprikahühnchen mit Nudeln in cremiger Rahmsauce",
+            "en": "Paprika Chicken with Noodles in Creamy Sauce"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "in Cashewsauce mit Basmatireis",
-            "en": "in Cashew Sauce with Basmati Rice"
+            "de": "& Sauerrahm Dip",
+            "en": "with Sour Cream Dip"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Lasagne Bolognese",
-            "en": "Lasagna Bolognese"
+            "de": "Griechische Hühnerpfanne mit Tzatziki",
+            "en": "Greek Chicken Pan with Tzatziki"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "mit Parmesan Bechamelsauce & grünem Salat",
-            "en": "with Parmesan Bechamel Sauce and Green Salad"
+            "de": "GF Röstkartoffel, Schmorgemüse & grünem Salat",
+            "en": "GF Roasted Potatoes, Stewed Vegetables & Green Salad"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-16T10:45:36.172732",
+      "scraped_at": "2025-12-17T10:12:01.293678",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Erhältlich am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2025-12-16T10:45:36.487602",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -211,16 +190,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-16T10:45:36.866916",
+      "scraped_at": "2025-12-17T10:12:01.594596",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 14
+    "total_items": 13
   }
 }
