@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-17T10:12:01.594659",
+  "last_updated": "2025-12-17T10:44:59.263705",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -20,30 +20,30 @@
         },
         {
           "name": {
-            "de": "Gebratenes Hähnchenschnitzel | Petersilkartoffeln",
+            "de": "Gebratenes Hähnchenschnitzel | Petersilienkartoffeln",
             "en": "Fried chicken schnitzel | parsley potatoes"
           },
           "price": "€5.60",
           "description": {
-            "de": "Fleischige Option - gebratenes Hähnchenschnitzel serviert mit Petersilkartoffeln",
+            "de": "Fleischige Option - gebratenes Hähnchenschnitzel serviert mit Petersilienkartoffeln",
             "en": "Meaty option - fried chicken schnitzel served with parsley potatoes"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Bao Buns",
-            "en": "Bao Buns"
+            "de": "Bao Buns - Pulled Pork oder Pflanzliches Pulled BBQ",
+            "en": "Bao Buns - Pulled Pork or Planted Pulled BBQ"
           },
           "price": "€9.40",
           "description": {
-            "de": "Wahl zwischen Pulled Pork oder pflanzlichem Pulled BBQ",
-            "en": "Choice of Pulled Pork or Planted Pulled BBQ"
+            "de": "Global & Grill Spezial - Bao Buns mit Auswahl von Pulled Pork oder pflanzlichem Pulled BBQ",
+            "en": "Global & Grill special - Bao buns with choice of pulled pork or plant-based pulled BBQ"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-17T10:11:42.174621",
+      "scraped_at": "2025-12-17T10:44:41.599358",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -58,20 +58,20 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "ACFLO",
-            "en": "ACFLO"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Spinat-Käse Spätzle mit grünen Salat",
-            "en": "Spinach Cheese Spätzle with Green Salad"
+            "en": "Spinach Cheese Spaetzle with Green Salad"
           },
           "price": "€7.90",
           "description": {
-            "de": "AGLO",
-            "en": "AGLO"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         },
@@ -82,25 +82,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "LOG",
-            "en": "LOG"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
             "en": "Stuffed Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "AG",
-            "en": "AG"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-17T10:11:46.025384",
+      "scraped_at": "2025-12-17T10:44:44.889534",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -123,7 +123,7 @@
         {
           "name": {
             "de": "Balsamico Linsen mit hausgemachten Semmelknödel",
-            "en": "Balsamic Lentils with Homemade Bread Dumplings"
+            "en": "Balsamic Lentils with Homemade Semmelknödel"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
@@ -169,7 +169,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-17T10:12:01.293678",
+      "scraped_at": "2025-12-17T10:44:58.989018",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -190,7 +190,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-17T10:12:01.594596",
+      "scraped_at": "2025-12-17T10:44:59.263634",
       "available": true,
       "extraction_method": "Static menu"
     }
