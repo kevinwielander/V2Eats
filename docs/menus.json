@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-18T10:11:31.605645",
+  "last_updated": "2025-12-18T10:44:27.364813",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -43,7 +43,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-18T10:11:11.785699",
+      "scraped_at": "2025-12-18T10:44:10.355420",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -58,20 +58,20 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "ACFLO",
-            "en": "ACFLO"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Spinat-Käse Spätzle mit grünen Salat",
-            "en": "Spinach Cheese Spätzle with Green Salad"
+            "en": "Spinach Cheese Spaetzle with Green Salad"
           },
           "price": "€7.90",
           "description": {
-            "de": "AGLO",
-            "en": "AGLO"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         },
@@ -82,25 +82,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "LOG",
-            "en": "LOG"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
             "en": "Stuffed Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "AG",
-            "en": "AG"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-18T10:11:15.693169",
+      "scraped_at": "2025-12-18T10:44:13.977578",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -169,7 +169,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-18T10:11:31.015529",
+      "scraped_at": "2025-12-18T10:44:26.768479",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -190,7 +190,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-18T10:11:31.306416",
+      "scraped_at": "2025-12-18T10:44:27.076501",
       "available": true,
       "type": "food_truck"
     },
@@ -211,7 +211,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-18T10:11:31.605571",
+      "scraped_at": "2025-12-18T10:44:27.364745",
       "available": true,
       "extraction_method": "Static menu"
     }
