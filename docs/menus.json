@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-17T10:44:59.263705",
+  "last_updated": "2025-12-18T10:11:31.605645",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -8,42 +8,42 @@
       "items": [
         {
           "name": {
-            "de": "Pilzsoße | Brotknödel",
-            "en": "Mushroom sauce | bread dumpling"
+            "de": "Rote Linsen Dal",
+            "en": "Red lentils dal"
           },
-          "price": "€6.10",
+          "price": "€5.60",
           "description": {
-            "de": "Vegetarische Option mit Pilzsoße und Brotknödel",
-            "en": "Vegetarian option with mushroom sauce and bread dumpling"
+            "de": "süße Kartoffeln | Reis",
+            "en": "sweet potatoes | rice"
+          },
+          "dietary": "vegan"
+        },
+        {
+          "name": {
+            "de": "Chili gefüllte Enchiladas au Gratin",
+            "en": "Chili filled enchiladas au gratin"
+          },
+          "price": "€6.20",
+          "description": {
+            "de": "mexikanischer Bulgur | Sauerrahm",
+            "en": "mexican bulgur | sour cream"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Gebratenes Hähnchenschnitzel | Petersilienkartoffeln",
-            "en": "Fried chicken schnitzel | parsley potatoes"
-          },
-          "price": "€5.60",
-          "description": {
-            "de": "Fleischige Option - gebratenes Hähnchenschnitzel serviert mit Petersilienkartoffeln",
-            "en": "Meaty option - fried chicken schnitzel served with parsley potatoes"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Bao Buns - Pulled Pork oder Pflanzliches Pulled BBQ",
-            "en": "Bao Buns - Pulled Pork or Planted Pulled BBQ"
+            "de": "Mensa Burger",
+            "en": "Mensa Burger"
           },
           "price": "€9.40",
           "description": {
-            "de": "Global & Grill Spezial - Bao Buns mit Auswahl von Pulled Pork oder pflanzlichem Pulled BBQ",
-            "en": "Global & Grill special - Bao buns with choice of pulled pork or plant-based pulled BBQ"
+            "de": "Pommes - Rindfleisch oder pflanzlicher 'Crispy Chicken Style'",
+            "en": "Pommes - Beef or Planted 'Crispy Chicken style'"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-17T10:44:41.599358",
+      "scraped_at": "2025-12-18T10:11:11.785699",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -58,20 +58,20 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "ACFLO",
+            "en": "ACFLO"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Spinat-Käse Spätzle mit grünen Salat",
-            "en": "Spinach Cheese Spaetzle with Green Salad"
+            "en": "Spinach Cheese Spätzle with Green Salad"
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "AGLO",
+            "en": "AGLO"
           },
           "dietary": "vegetarian"
         },
@@ -82,25 +82,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "LOG",
+            "en": "LOG"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
             "en": "Stuffed Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "AG",
+            "en": "AG"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-17T10:44:44.889534",
+      "scraped_at": "2025-12-18T10:11:15.693169",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -122,56 +122,77 @@
         },
         {
           "name": {
-            "de": "Balsamico Linsen mit hausgemachten Semmelknödel",
-            "en": "Balsamic Lentils with Homemade Semmelknödel"
+            "de": "Kürbis-Ricotta Lasagne",
+            "en": "Pumpkin-Ricotta Lasagna"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "VEGGIE & Sauerrahm Dip",
-            "en": "VEGGIE & Sour Cream Dip"
+            "de": "VEGGIE überbackenem Käse & grünem Salat",
+            "en": "VEGGIE with baked cheese and green salad"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Vegetarisches Erdäpfel Pilz Gröstl",
-            "en": "Vegetarian Potato Mushroom Gröstl"
+            "de": "Thailändische Panang Mango Curry",
+            "en": "Thai Panang Mango Curry"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "VEGFLF mit Kürbiskernen & Chili Cream Dip",
-            "en": "VEGFLF with Pumpkin Seeds & Chili Cream Dip"
+            "de": "VEGFLF mit Brokkoli, Kokos & Basmatireis",
+            "en": "VEGFLF with broccoli, coconut and basmati rice"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Paprikahühnchen mit Nudeln in cremiger Rahmsauce",
-            "en": "Paprika Chicken with Noodles in Creamy Sauce"
+            "de": "Gnocchi",
+            "en": "Gnocchi"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "& Sauerrahm Dip",
-            "en": "with Sour Cream Dip"
+            "de": "mit knusprigem Rohschinken & Pinienkernsauce mit Parmesan, Ruccola & grünem Salat",
+            "en": "with crispy raw ham and pine nut sauce with parmesan, arugula and green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Griechische Hühnerpfanne mit Tzatziki",
-            "en": "Greek Chicken Pan with Tzatziki"
+            "de": "Indisches Tandoori",
+            "en": "Indian Tandoori"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "GF Röstkartoffel, Schmorgemüse & grünem Salat",
-            "en": "GF Roasted Potatoes, Stewed Vegetables & Green Salad"
+            "de": "mit Hühnerfilet in cremiger Sauce & Basmatireis",
+            "en": "with chicken breast in creamy sauce and basmati rice"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-17T10:44:58.989018",
+      "scraped_at": "2025-12-18T10:11:31.015529",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
+          "price": "€8-12",
+          "description": {
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2025-12-18T10:11:31.306416",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -190,16 +211,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-17T10:44:59.263634",
+      "scraped_at": "2025-12-18T10:11:31.605571",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 13
+    "total_items": 14
   }
 }
