@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-18T10:44:27.364813",
+  "last_updated": "2025-12-19T10:11:22.774318",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -8,42 +8,42 @@
       "items": [
         {
           "name": {
-            "de": "Rote Linsen Dal",
-            "en": "Red lentils dal"
+            "de": "Spaghetti • Soja und Gemüse Bolognese • Oliven",
+            "en": "Spaghetti • soy and vegetable bolognese • olives"
           },
           "price": "€5.60",
           "description": {
-            "de": "süße Kartoffeln | Reis",
-            "en": "sweet potatoes | rice"
+            "de": "Angetrieben von Pflanzen / 100% pflanzlich",
+            "en": "Powered by plants / 100% plant based"
           },
           "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Chili gefüllte Enchiladas au Gratin",
-            "en": "Chili filled enchiladas au gratin"
+            "de": "Gebratener Kohlfisch | Petersilienkartoffeln | Sc. Tartare",
+            "en": "Fried coalfish | parsley potatoes | Sc. Tartare"
           },
           "price": "€6.20",
           "description": {
-            "de": "mexikanischer Bulgur | Sauerrahm",
-            "en": "mexican bulgur | sour cream"
+            "de": "Fleischige Option mit gebratenem Kohlfisch, Petersilienkartoffeln und Tartare-Sauce",
+            "en": "Meaty option with fried coalfish, parsley potatoes and tartare sauce"
           },
-          "dietary": "vegetarian"
+          "dietary": "meat"
         },
         {
           "name": {
-            "de": "Mensa Burger",
-            "en": "Mensa Burger"
+            "de": "Food Waste Tag",
+            "en": "Food Waste Day"
           },
-          "price": "€9.40",
+          "price": "€5.60",
           "description": {
-            "de": "Pommes - Rindfleisch oder pflanzlicher 'Crispy Chicken Style'",
-            "en": "Pommes - Beef or Planted 'Crispy Chicken style'"
+            "de": "Global & Grill Spezialität",
+            "en": "Global & Grill special"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2025-12-18T10:44:10.355420",
+      "scraped_at": "2025-12-19T10:11:05.225663",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -58,20 +58,20 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "ACFLO",
+            "en": "ACFLO"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Spinat-Käse Spätzle mit grünen Salat",
-            "en": "Spinach Cheese Spaetzle with Green Salad"
+            "en": "Spinach Cheese Spätzle with Green Salad"
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "AGLO",
+            "en": "AGLO"
           },
           "dietary": "vegetarian"
         },
@@ -82,25 +82,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "LOG",
+            "en": "LOG"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
             "en": "Stuffed Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "AG",
+            "en": "AG"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-18T10:44:13.977578",
+      "scraped_at": "2025-12-19T10:11:09.262929",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -122,77 +122,44 @@
         },
         {
           "name": {
-            "de": "Kürbis-Ricotta Lasagne",
-            "en": "Pumpkin-Ricotta Lasagna"
+            "de": "Hühner Stroganoff",
+            "en": "Chicken Stroganoff"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "VEGGIE überbackenem Käse & grünem Salat",
-            "en": "VEGGIE with baked cheese and green salad"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Thailändische Panang Mango Curry",
-            "en": "Thai Panang Mango Curry"
-          },
-          "price": "Klein €7.50 / Gross €11.90",
-          "description": {
-            "de": "VEGFLF mit Brokkoli, Kokos & Basmatireis",
-            "en": "VEGFLF with broccoli, coconut and basmati rice"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Gnocchi",
-            "en": "Gnocchi"
-          },
-          "price": "Klein €7.50 / Gross €11.90",
-          "description": {
-            "de": "mit knusprigem Rohschinken & Pinienkernsauce mit Parmesan, Ruccola & grünem Salat",
-            "en": "with crispy raw ham and pine nut sauce with parmesan, arugula and green salad"
+            "de": "mit Spätzle in Senfrahmsauce",
+            "en": "with spaetzle in mustard cream sauce"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Indisches Tandoori",
-            "en": "Indian Tandoori"
+            "de": "Tomaten Mozzarella Lasagne",
+            "en": "Tomato Mozzarella Lasagna"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "mit Hühnerfilet in cremiger Sauce & Basmatireis",
-            "en": "with chicken breast in creamy sauce and basmati rice"
+            "de": "VEGGIE mit Bechamelsauce & grünem Salat",
+            "en": "VEGGIE with bechamel sauce and green salad"
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Veganes Kürbis-Kichererbsen Curry",
+            "en": "Vegan Pumpkin-Chickpea Curry"
+          },
+          "price": "Klein €7.50 / Gross €11.90",
+          "description": {
+            "de": "VEGFLF mit Basmatireis",
+            "en": "VEGFLF with basmati rice"
+          },
+          "dietary": "vegan"
         }
       ],
-      "scraped_at": "2025-12-18T10:44:26.768479",
+      "scraped_at": "2025-12-19T10:11:22.443681",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pinsa Food Truck",
-      "url": "https://www.pinsalino.at",
-      "items": [
-        {
-          "name": {
-            "de": "Römische Pizza mit verschiedenen Belägen",
-            "en": "Roman-style pizza with various toppings"
-          },
-          "price": "€8-12",
-          "description": {
-            "de": "Erhältlich am Donnerstag",
-            "en": "Available on Thursday"
-          },
-          "dietary": "meat"
-        }
-      ],
-      "scraped_at": "2025-12-18T10:44:27.076501",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -211,16 +178,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-18T10:44:27.364745",
+      "scraped_at": "2025-12-19T10:11:22.774265",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 14
+    "total_items": 12
   }
 }
