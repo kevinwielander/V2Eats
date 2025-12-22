@@ -1,49 +1,12 @@
 {
-  "last_updated": "2025-12-19T10:43:38.254247",
+  "last_updated": "2025-12-22T10:11:37.037257",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
-      "items": [
-        {
-          "name": {
-            "de": "Spaghetti • Soja und Gemüse Bolognese • Oliven",
-            "en": "Spaghetti • soy and vegetable bolognese • olives"
-          },
-          "price": "€5.60",
-          "description": {
-            "de": "100% pflanzliches Nudelgericht mit Soja und Gemüse Bolognese und Oliven",
-            "en": "100% plant based pasta dish with soy and vegetable bolognese and olives"
-          },
-          "dietary": "vegan"
-        },
-        {
-          "name": {
-            "de": "Gebratener Kohlfisch | Petersilienkartoffeln | Remoulade",
-            "en": "Fried coalfish | parsley potatoes | tartare sauce"
-          },
-          "price": "€6.20",
-          "description": {
-            "de": "Gebratener Kohlfisch serviert mit Petersilienkartoffeln und Remouladensoße",
-            "en": "Fried coalfish served with parsley potatoes and tartare sauce"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Food Waste Tag",
-            "en": "Food Waste Day"
-          },
-          "price": "€5.60",
-          "description": {
-            "de": "Spezielles Food Waste Tag-Angebot",
-            "en": "Special Food Waste Day offering"
-          },
-          "dietary": "meat"
-        }
-      ],
-      "scraped_at": "2025-12-19T10:43:21.668788",
+      "items": [],
+      "scraped_at": "2025-12-22T10:11:06.138868",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -58,20 +21,20 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "ACFLO",
-            "en": "ACFLO"
+            "de": "Ein klassischer Salat mit Hühnchen",
+            "en": "A classic salad with chicken"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Spinat-Käse Spätzle mit grünen Salat",
-            "en": "Spinach Cheese Spaetzle with Green Salad"
+            "en": "Spinach Cheese Spätzle with Green Salad"
           },
           "price": "€7.90",
           "description": {
-            "de": "AGLO",
-            "en": "AGLO"
+            "de": "Ein cremiger Spinat-Käse-Spätzle mit frischem grünen Salat",
+            "en": "A creamy spinach cheese spätzle with fresh green salad"
           },
           "dietary": "vegetarian"
         },
@@ -82,25 +45,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "LOG",
-            "en": "LOG"
+            "de": "Mariniertes Huhn in Teriyaki-Sauce mit Asia-Nudeln",
+            "en": "Marinated chicken in teriyaki sauce with Asian noodles"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
             "en": "Stuffed Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "AG",
-            "en": "AG"
+            "de": "Gefüllte Bratapfel-Croissants mit einer leichten Topfencreme",
+            "en": "Stuffed apple croissants with a light quark cream"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-19T10:43:25.814878",
+      "scraped_at": "2025-12-22T10:11:11.867817",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -122,20 +85,32 @@
         },
         {
           "name": {
-            "de": "Hühner Stroganoff",
-            "en": "Chicken Stroganoff"
+            "de": "Saftiges Rindsgeschnetzeltes",
+            "en": "Tender Beef Strips"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "mit Spätzle in Senfrahmsauce",
-            "en": "with spaetzle in mustard cream sauce"
+            "de": "mit Polenta mit Wurzelgemüse & Sauerrahm Dip",
+            "en": "with polenta, root vegetables, and sour cream dip"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Tomaten Mozzarella Lasagne",
-            "en": "Tomato Mozzarella Lasagna"
+            "de": "Indisches Butter Chicken",
+            "en": "Indian Butter Chicken"
+          },
+          "price": "Klein €7.50 / Gross €11.90",
+          "description": {
+            "de": "in Cashewsauce mit Kokosmilch & Basmatireis",
+            "en": "in cashew sauce with coconut milk and basmati rice"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Gratinierte Spinta-Feta Lasagne",
+            "en": "Gratinated Spinach-Feta Lasagna"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
@@ -146,18 +121,18 @@
         },
         {
           "name": {
-            "de": "Veganes Kürbis-Kichererbsen Curry",
-            "en": "Vegan Pumpkin Chickpea Curry"
+            "de": "Weißweinrisotto",
+            "en": "White Wine Risotto"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "VEGFLF mit Basmatireis",
-            "en": "VEGAN with basmati rice"
+            "de": "VEGGIEGF mit Eierschwammerl, Parmesan & grünem Salat",
+            "en": "VEGGIE with oyster mushrooms, parmesan, and green salad"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-19T10:43:37.876724",
+      "scraped_at": "2025-12-22T10:11:36.705011",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -178,7 +153,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-19T10:43:38.254175",
+      "scraped_at": "2025-12-22T10:11:37.037173",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -188,6 +163,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 12
+    "total_items": 10
   }
 }
