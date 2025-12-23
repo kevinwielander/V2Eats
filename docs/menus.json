@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-12-22T10:43:28.518276",
+  "last_updated": "2025-12-23T10:11:29.738990",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2025-12-22T10:43:16.741995",
+      "scraped_at": "2025-12-23T10:11:11.341889",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -63,7 +63,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-22T10:43:20.204925",
+      "scraped_at": "2025-12-23T10:11:14.839382",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -85,56 +85,65 @@
         },
         {
           "name": {
-            "de": "Saftiges Rindsgeschnetzeltes mit Polenta",
-            "en": "Tender Beef Strips with Polenta"
+            "de": "Wildragout mit Steinpilzen",
+            "en": "Wild Ragout with Porcini Mushrooms"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "mit Wurzelgemüse",
-            "en": "with root vegetables"
+            "de": "Spätzle & Sauerrahm Dip",
+            "en": "Spätzle & Sour Cream Dip"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Indisches Butter Chicken",
-            "en": "Indian Butter Chicken"
+            "de": "Herzhaftes Reisfleisch",
+            "en": "Hearty Rice Meat"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "in Cashewsauce mit Kokosmilch & Basmatireis",
-            "en": "in cashew sauce with coconut milk and basmati rice"
+            "de": "mit Sauerrahm Dip GF & grünem Salat",
+            "en": "with Sour Cream Dip GF & green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gratinierte Spinta-Feta Lasagne",
-            "en": "Gratinated Spinach-Feta Lasagna"
+            "de": "Vegetarisches Erdäpfel-Kürbis Gröstl",
+            "en": "Vegetarian Potato-Pumpkin Gröstl"
           },
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
-            "de": "VEGGIE mit Bechamelsauce & grünem Salat",
-            "en": "VEGGIE with bechamel sauce and green salad"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Weißweinrisotto",
-            "en": "White Wine Risotto"
-          },
-          "price": "Klein €7.50 / Gross €11.90",
-          "description": {
-            "de": "VEGGIEGF mit Eierschwammerl, Parmesan & grünem Salat",
-            "en": "VEGGIE with oyster mushrooms, parmesan and green salad"
+            "de": "VEGGIEGF mit grünem Salat",
+            "en": "VEGGIEGF with green salad"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-22T10:43:28.198709",
+      "scraped_at": "2025-12-23T10:11:28.857252",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Verfügbar am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2025-12-23T10:11:29.313172",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -153,15 +162,15 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-22T10:43:28.518223",
+      "scraped_at": "2025-12-23T10:11:29.738927",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
     "total_items": 10
   }
