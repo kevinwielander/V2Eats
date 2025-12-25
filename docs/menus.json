@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-12-24T10:43:07.358366",
+  "last_updated": "2025-12-25T10:11:08.701591",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2025-12-24T10:42:47.853402",
+      "scraped_at": "2025-12-25T10:10:51.274247",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,20 +21,20 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "ACFLO",
-            "en": "ACFLO"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Spinat-Käse Spätzle mit grünen Salat",
-            "en": "Spinach Cheese Spätzle with Green Salad"
+            "en": "Spinach Cheese Spaetzle with Green Salad"
           },
           "price": "€7.90",
           "description": {
-            "de": "AGLO",
-            "en": "AGLO"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         },
@@ -45,25 +45,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "LOG",
-            "en": "LOG"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
             "en": "Stuffed Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "AG",
-            "en": "AG"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-24T10:42:52.477207",
+      "scraped_at": "2025-12-25T10:10:55.147204",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -103,7 +103,7 @@
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
             "de": "mit Sauerrahm Dip GF & grünem Salat",
-            "en": "with Sour Cream Dip GF & green salad"
+            "en": "with Sour Cream Dip GF & Green Salad"
           },
           "dietary": "meat"
         },
@@ -115,14 +115,35 @@
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
             "de": "VEGGIEGF mit grünem Salat",
-            "en": "VEGGIEGF with green salad"
+            "en": "VEGGIEGF with Green Salad"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-24T10:43:07.046371",
+      "scraped_at": "2025-12-25T10:11:08.074762",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
+          "price": "€8-12",
+          "description": {
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2025-12-25T10:11:08.366629",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -130,27 +151,27 @@
       "items": [
         {
           "name": {
-            "de": "Schüssel",
+            "de": "Schale",
             "en": "Bowl"
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schüsseln",
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-24T10:43:07.358317",
+      "scraped_at": "2025-12-25T10:11:08.701521",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 9
+    "total_items": 10
   }
 }
