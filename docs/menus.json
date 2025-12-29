@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-12-29T10:11:46.265779",
+  "last_updated": "2025-12-29T10:44:40.523532",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2025-12-29T10:11:30.783459",
+      "scraped_at": "2025-12-29T10:44:24.165035",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,8 +21,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "ACFLO",
-            "en": "ACFLO"
+            "de": "Salat mit Hühnchen",
+            "en": "Salad with chicken"
           },
           "dietary": "meat"
         },
@@ -33,8 +33,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "AGLO",
-            "en": "AGLO"
+            "de": "Spätzle mit Spinat und Käse",
+            "en": "Spaetzle with spinach and cheese"
           },
           "dietary": "vegetarian"
         },
@@ -45,25 +45,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "LOG",
-            "en": "LOG"
+            "de": "Hühnchen mit Teriyaki-Sauce und Asia-Nudeln",
+            "en": "Chicken with teriyaki sauce and Asian noodles"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
-            "en": "Stuffed Apple Croissants with Quark Cream Topping"
+            "en": "Filled Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "AG",
-            "en": "AG"
+            "de": "Croissants mit Apfel und Topfencreme",
+            "en": "Croissants with apple and quark cream"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-29T10:11:35.582425",
+      "scraped_at": "2025-12-29T10:44:28.577130",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -103,7 +103,7 @@
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
             "de": "mit Sauerrahm Dip GF & grünem Salat",
-            "en": "with Sour Cream Dip GF & green salad"
+            "en": "with Sour Cream Dip GF & Green Salad"
           },
           "dietary": "meat"
         },
@@ -115,12 +115,12 @@
           "price": "Klein €7.50 / Gross €11.90",
           "description": {
             "de": "VEGGIEGF mit grünem Salat",
-            "en": "VEGGIEGF with green salad"
+            "en": "VEGGIEGF with Green Salad"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-29T10:11:45.875019",
+      "scraped_at": "2025-12-29T10:44:40.130375",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-29T10:11:46.265718",
+      "scraped_at": "2025-12-29T10:44:40.523421",
       "available": true,
       "extraction_method": "Static menu"
     }
