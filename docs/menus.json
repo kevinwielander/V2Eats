@@ -1,12 +1,12 @@
 {
-  "last_updated": "2025-12-30T10:44:14.092823",
+  "last_updated": "2025-12-31T10:11:07.804973",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2025-12-30T10:43:52.217233",
+      "scraped_at": "2025-12-31T10:10:49.837628",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -53,7 +53,7 @@
         {
           "name": {
             "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
-            "en": "Stuffed Baked Apple Croissants with Cream Cheese Topping"
+            "en": "Stuffed Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
@@ -63,7 +63,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-30T10:43:56.835239",
+      "scraped_at": "2025-12-31T10:10:54.007075",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -120,30 +120,9 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-30T10:44:13.417993",
+      "scraped_at": "2025-12-31T10:11:07.340982",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Verfügbar am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2025-12-30T10:44:13.735279",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -162,16 +141,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2025-12-30T10:44:14.092760",
+      "scraped_at": "2025-12-31T10:11:07.804917",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 10
+    "total_items": 9
   }
 }
