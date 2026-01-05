@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-05T10:12:38.657726",
+  "last_updated": "2026-01-05T10:46:28.187822",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -25,13 +25,13 @@
           },
           "price": "€6.20",
           "description": {
-            "de": "Fleischklöße",
-            "en": "Meaty dumplings"
+            "de": "Fleischklöße mit Sauerkraut und Jus",
+            "en": "Meaty dumplings with sauerkraut and jus"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-05T10:12:19.948075",
+      "scraped_at": "2026-01-05T10:46:09.468123",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -82,13 +82,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Croissants mit Apfel und Topfencreme",
-            "en": "Croissants with apple and quark cream"
+            "de": "Croissants mit Äpfeln und Topfencreme",
+            "en": "Croissants with apples and quark cream"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-05T10:12:25.013213",
+      "scraped_at": "2026-01-05T10:46:13.724622",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -103,10 +103,10 @@
           },
           "price": "€7.50 / €10.90",
           "description": {
-            "de": "Klein / Groß",
-            "en": "Small / Large"
+            "de": "",
+            "en": ""
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
@@ -121,7 +121,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-05T10:12:38.355141",
+      "scraped_at": "2026-01-05T10:46:27.864071",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -136,13 +136,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder individuelle Schalen",
+            "de": "Vorgefertigte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-05T10:12:38.657673",
+      "scraped_at": "2026-01-05T10:46:28.187758",
       "available": true,
       "extraction_method": "Static menu"
     }
