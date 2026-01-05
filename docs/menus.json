@@ -1,12 +1,37 @@
 {
-  "last_updated": "2026-01-02T10:42:49.243072",
+  "last_updated": "2026-01-05T10:12:38.657726",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
-      "items": [],
-      "scraped_at": "2026-01-02T10:42:28.132474",
+      "items": [
+        {
+          "name": {
+            "de": "Pflanzliche Scheiben mit Paprika | Spätzle",
+            "en": "Planted slices with paprika | spätzle"
+          },
+          "price": "€5.60",
+          "description": {
+            "de": "100% pflanzlich",
+            "en": "100% plant based"
+          },
+          "dietary": "vegan"
+        },
+        {
+          "name": {
+            "de": "Klöße gefüllt mit Fleisch | Sauerkraut | Jus",
+            "en": "Dumplings filled with meat | sauerkraut | jus"
+          },
+          "price": "€6.20",
+          "description": {
+            "de": "Fleischklöße",
+            "en": "Meaty dumplings"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-01-05T10:12:19.948075",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -45,25 +70,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Hühnchen mit Teriyaki-Sauce und Nudeln",
-            "en": "Chicken with teriyaki sauce and noodles"
+            "de": "Hühnchen mit Teriyaki-Sauce und Asia-Nudeln",
+            "en": "Chicken with teriyaki sauce and Asian noodles"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
-            "en": "Filled Apple Croissants with Quark Cream Topping"
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
+            "en": "Stuffed Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "Croissants mit Äpfeln und Topfencreme",
-            "en": "Croissants with apples and quark cream"
+            "de": "Croissants mit Apfel und Topfencreme",
+            "en": "Croissants with apple and quark cream"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-02T10:42:32.843122",
+      "scraped_at": "2026-01-05T10:12:25.013213",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -81,7 +106,7 @@
             "de": "Klein / Groß",
             "en": "Small / Large"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
@@ -96,7 +121,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-02T10:42:48.917588",
+      "scraped_at": "2026-01-05T10:12:38.355141",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -111,13 +136,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "de": "Vordefinierte oder individuelle Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-02T10:42:49.243005",
+      "scraped_at": "2026-01-05T10:12:38.657673",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -127,6 +152,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 7
+    "total_items": 9
   }
 }
