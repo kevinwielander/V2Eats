@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-06T10:11:34.398899",
+  "last_updated": "2026-01-06T10:45:19.501969",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -8,7 +8,7 @@
       "items": [
         {
           "name": {
-            "de": "Gemüse Linsen | Klöße",
+            "de": "Vegetable lentils | Klöße",
             "en": "Vegetable lentils | dumpling"
           },
           "price": "€5.60",
@@ -17,9 +17,21 @@
             "en": "100% plant based / Veggie option"
           },
           "dietary": "vegan"
+        },
+        {
+          "name": {
+            "de": "Gebratenes Hähnchen-Schnitzel | Petersilienkartoffeln",
+            "en": "Fried chicken schnitzel | parsley potatoes"
+          },
+          "price": "€5.60",
+          "description": {
+            "de": "Fleisch-Option",
+            "en": "Meaty option"
+          },
+          "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-06T10:11:21.905615",
+      "scraped_at": "2026-01-06T10:45:02.052646",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -34,20 +46,20 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "ACFLO",
-            "en": "ACFLO"
+            "de": "Ein Salat mit Hühnchen",
+            "en": "A salad with chicken"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Spinat-Käse Spätzle mit grünen Salat",
-            "en": "Spinach Cheese Spätzle with Green Salad"
+            "en": "Spinach Cheese Spaetzle with Green Salad"
           },
           "price": "€7.90",
           "description": {
-            "de": "AGLO",
-            "en": "AGLO"
+            "de": "Spätzle mit Spinat und Käse",
+            "en": "Spaetzle with spinach and cheese"
           },
           "dietary": "vegetarian"
         },
@@ -58,8 +70,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "LOG",
-            "en": "LOG"
+            "de": "Hühnchen mit Teriyaki-Sauce und Asia-Nudeln",
+            "en": "Chicken with teriyaki sauce and Asian noodles"
           },
           "dietary": "meat"
         },
@@ -70,13 +82,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "AG",
-            "en": "AG"
+            "de": "Croissants mit Äpfeln und Topfencreme",
+            "en": "Croissants with apples and quark cream"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-06T10:11:26.804147",
+      "scraped_at": "2026-01-06T10:45:05.744537",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -109,7 +121,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-06T10:11:33.620034",
+      "scraped_at": "2026-01-06T10:45:18.853160",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -124,13 +136,13 @@
           },
           "price": "€8-13",
           "description": {
-            "de": "Erhältlich am Dienstag",
+            "de": "Verfügbar am Dienstag",
             "en": "Available on Tuesday"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-06T10:11:34.002225",
+      "scraped_at": "2026-01-06T10:45:19.149054",
       "available": true,
       "type": "food_truck"
     },
@@ -151,7 +163,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-06T10:11:34.398821",
+      "scraped_at": "2026-01-06T10:45:19.501904",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -161,6 +173,6 @@
     "total_restaurants": 5,
     "successful": 5,
     "failed": 0,
-    "total_items": 9
+    "total_items": 10
   }
 }
