@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-07T10:12:19.177958",
+  "last_updated": "2026-01-07T10:45:25.172548",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -8,7 +8,7 @@
       "items": [
         {
           "name": {
-            "de": "Vegetable lentils | Klöße",
+            "de": "Vegetable lentils | dumpling",
             "en": "Vegetable lentils | dumpling"
           },
           "price": "€5.60",
@@ -20,7 +20,7 @@
         },
         {
           "name": {
-            "de": "Gebratenes Hähnchenschnitzel | Petersilienkartoffeln",
+            "de": "Gebratenes Hähnchen-Schnitzel | Petersilienkartoffeln",
             "en": "Fried chicken schnitzel | parsley potatoes"
           },
           "price": "€5.60",
@@ -37,13 +37,13 @@
           },
           "price": "€9.40",
           "description": {
-            "de": "Global & Grill-Spezialität",
+            "de": "Global & Grill-Spezial",
             "en": "Global & Grill special"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-07T10:11:59.014565",
+      "scraped_at": "2026-01-07T10:45:11.977762",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -58,8 +58,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein Salat mit Hühnchen",
-            "en": "A salad with chicken"
+            "de": "Ein klassischer Salat mit Hühnchen",
+            "en": "A classic salad with chicken"
           },
           "dietary": "meat"
         },
@@ -70,8 +70,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Spätzle mit Spinat und Käse",
-            "en": "Spaetzle with spinach and cheese"
+            "de": "Ein herzhafter Spätzle-Teller mit Spinat, Käse und Salat",
+            "en": "A hearty spaetzle dish with spinach, cheese, and salad"
           },
           "dietary": "vegetarian"
         },
@@ -82,25 +82,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Hühnchen in Teriyaki-Soße mit Nudeln",
-            "en": "Chicken in teriyaki sauce with noodles"
+            "de": "Ein asiatisch inspirierter Teller mit Hühnchen und Nudeln",
+            "en": "An Asian-inspired dish with chicken and noodles"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
             "en": "Stuffed Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "Croissants mit Äpfeln und Topfencreme",
-            "en": "Croissants with apples and quark cream"
+            "de": "Ein süßer Apfel-Croissant mit einer cremigen Topfen-Topping",
+            "en": "A sweet apple croissant with a creamy quark topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-07T10:12:03.008640",
+      "scraped_at": "2026-01-07T10:45:15.881425",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -147,7 +147,7 @@
         {
           "name": {
             "de": "Gratiniertes Erdäpfel-Brokkoli Gratin",
-            "en": "Baked Potato-Broccoli Gratin"
+            "en": "Gratined Potato-Broccoli Gratin"
           },
           "price": "€7.50 / €11.90",
           "description": {
@@ -157,7 +157,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-07T10:12:18.866018",
+      "scraped_at": "2026-01-07T10:45:24.781120",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -167,18 +167,18 @@
       "items": [
         {
           "name": {
-            "de": "Schüssel",
+            "de": "Schale",
             "en": "Bowl"
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schüsseln",
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-07T10:12:19.177899",
+      "scraped_at": "2026-01-07T10:45:25.172447",
       "available": true,
       "extraction_method": "Static menu"
     }
