@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-08T10:12:09.214724",
+  "last_updated": "2026-01-08T10:45:59.734962",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -20,7 +20,7 @@
         },
         {
           "name": {
-            "de": "Mango Hühnchen",
+            "de": "Mango Hähnchen",
             "en": "Mango Chicken"
           },
           "price": "€6.20",
@@ -37,13 +37,13 @@
           },
           "price": "€9.40",
           "description": {
-            "de": "Pommes - Rindfleisch oder pflanzlich 'Crispy Chicken Style'",
+            "de": "Pommes frites - Rindfleisch oder pflanzlich 'Crispy Chicken style'",
             "en": "fries - beef or Planted 'Crispy Chicken style'"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-08T10:11:56.162417",
+      "scraped_at": "2026-01-08T10:45:35.215699",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -59,14 +59,14 @@
           "price": "€7.90",
           "description": {
             "de": "mit Parmesan",
-            "en": "with parmesan"
+            "en": "with Parmesan"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
             "de": "Spinat-Feta-Lasagne",
-            "en": "Spinat-Feta-Lasagne"
+            "en": "Spinach-Feta Lasagna"
           },
           "price": "€7.90",
           "description": {
@@ -78,29 +78,29 @@
         {
           "name": {
             "de": "Hühnerfleisch Süß-Sauer",
-            "en": "Hühnerfleisch Süß-Sauer"
+            "en": "Chicken Sweet and Sour"
           },
           "price": "€7.90",
           "description": {
             "de": "mit Basmati Reis",
-            "en": "with basmati rice"
+            "en": "with Basmati rice"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Gefüllte Bratapfel-Croissants",
-            "en": "Gefüllte Bratapfel-Croissants"
+            "en": "Stuffed Apple Croissants"
           },
           "price": "€7.90",
           "description": {
             "de": "mit Topfencreme-Topping",
-            "en": "with quark cream topping"
+            "en": "with cream cheese topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-08T10:12:00.822531",
+      "scraped_at": "2026-01-08T10:45:39.802501",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -169,7 +169,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-08T10:12:08.323504",
+      "scraped_at": "2026-01-08T10:45:58.984128",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -184,13 +184,13 @@
           },
           "price": "€8-12",
           "description": {
-            "de": "Verfügbar am Donnerstag",
+            "de": "Erhältlich am Donnerstag",
             "en": "Available on Thursday"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-08T10:12:08.823139",
+      "scraped_at": "2026-01-08T10:45:59.325902",
       "available": true,
       "type": "food_truck"
     },
@@ -205,13 +205,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vorgefertigte oder benutzerdefinierte Schalen",
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-08T10:12:09.214637",
+      "scraped_at": "2026-01-08T10:45:59.734896",
       "available": true,
       "extraction_method": "Static menu"
     }
