@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-07T10:45:25.172548",
+  "last_updated": "2026-01-08T10:12:09.214724",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -8,42 +8,42 @@
       "items": [
         {
           "name": {
-            "de": "Vegetable lentils | dumpling",
-            "en": "Vegetable lentils | dumpling"
+            "de": "Spinat Feta Strudel",
+            "en": "Spinach feta strudel"
           },
           "price": "€5.60",
           "description": {
-            "de": "100% pflanzlich / Veggie-Option",
-            "en": "100% plant based / Veggie option"
+            "de": "Kartoffeln | Sauerrahm",
+            "en": "Potatoes | Sour Cream"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Gebratenes Hähnchen-Schnitzel | Petersilienkartoffeln",
-            "en": "Fried chicken schnitzel | parsley potatoes"
+            "de": "Mango Hühnchen",
+            "en": "Mango Chicken"
           },
-          "price": "€5.60",
+          "price": "€6.20",
           "description": {
-            "de": "Fleisch-Option",
-            "en": "Meaty option"
+            "de": "Reis",
+            "en": "rice"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Bao Buns - Pulled Pork oder Pflanzliches Pulled BBQ",
-            "en": "Bao Buns - Pulled Pork or Planted Pulled BBQ"
+            "de": "Mensa Burger",
+            "en": "Mensa Burger"
           },
           "price": "€9.40",
           "description": {
-            "de": "Global & Grill-Spezial",
-            "en": "Global & Grill special"
+            "de": "Pommes - Rindfleisch oder pflanzlich 'Crispy Chicken Style'",
+            "en": "fries - beef or Planted 'Crispy Chicken style'"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-07T10:45:11.977762",
+      "scraped_at": "2026-01-08T10:11:56.162417",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -53,54 +53,54 @@
       "items": [
         {
           "name": {
-            "de": "Steirischer Backhendlsalat",
-            "en": "Styrian Fried Chicken Salad"
+            "de": "Gnocchi alla Sorrentina",
+            "en": "Gnocchi alla Sorrentina"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein klassischer Salat mit Hühnchen",
-            "en": "A classic salad with chicken"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Spinat-Käse Spätzle mit grünen Salat",
-            "en": "Spinach Cheese Spaetzle with Green Salad"
-          },
-          "price": "€7.90",
-          "description": {
-            "de": "Ein herzhafter Spätzle-Teller mit Spinat, Käse und Salat",
-            "en": "A hearty spaetzle dish with spinach, cheese, and salad"
+            "de": "mit Parmesan",
+            "en": "with parmesan"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Teriyaki-Huhn mit Asia-Nudeln",
-            "en": "Teriyaki Chicken with Asian Noodles"
+            "de": "Spinat-Feta-Lasagne",
+            "en": "Spinat-Feta-Lasagne"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein asiatisch inspirierter Teller mit Hühnchen und Nudeln",
-            "en": "An Asian-inspired dish with chicken and noodles"
+            "de": "",
+            "en": ""
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Hühnerfleisch Süß-Sauer",
+            "en": "Hühnerfleisch Süß-Sauer"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "mit Basmati Reis",
+            "en": "with basmati rice"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
-            "en": "Stuffed Apple Croissants with Quark Cream Topping"
+            "de": "Gefüllte Bratapfel-Croissants",
+            "en": "Gefüllte Bratapfel-Croissants"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein süßer Apfel-Croissant mit einer cremigen Topfen-Topping",
-            "en": "A sweet apple croissant with a creamy quark topping"
+            "de": "mit Topfencreme-Topping",
+            "en": "with quark cream topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-07T10:45:15.881425",
+      "scraped_at": "2026-01-08T10:12:00.822531",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -110,56 +110,89 @@
       "items": [
         {
           "name": {
-            "de": "Käsespätzle",
-            "en": "Cheese Spaetzle"
+            "de": "Saladbowl",
+            "en": "Salad Bowl"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50 / €10.90",
           "description": {
-            "de": "mit Bergkäse & geröstetem Speck mit grünem Salat (A, C, G, L, M)",
-            "en": "with mountain cheese and roasted bacon with green salad (A, C, G, L, M)"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Zarte Rinderstreifen",
-            "en": "Tender Beef Strips"
-          },
-          "price": "€7.50 / €11.90",
-          "description": {
-            "de": "in Honig-Senf Rotweinsauce mit Polenta (G, L, M, O)",
-            "en": "in honey-mustard red wine sauce with polenta (G, L, M, O)"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Indisches Kokos-Linsen Dal",
-            "en": "Indian Coconut Lentil Dal"
-          },
-          "price": "€7.50 / €11.90",
-          "description": {
-            "de": "VEGFLF mit Basmatireis (E, F, G, H, L, M, N)",
-            "en": "VEGFLF with basmati rice (E, F, G, H, L, M, N)"
+            "de": "Gemischter Salat VEGGIE mit Tomate, Gurke & Balsamicodressing",
+            "en": "Mixed salad VEGGIE with tomato, cucumber & balsamic dressing"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Gratiniertes Erdäpfel-Brokkoli Gratin",
-            "en": "Gratined Potato-Broccoli Gratin"
+            "de": "Lasgane Bolognese",
+            "en": "Lasagna Bolognese"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "VEGGIE mit Käse & grünem Salat (G, L, M)",
-            "en": "VEGGIE with cheese and green salad (G, L, M)"
+            "de": "mit Fleischragout & Parmesan mit grünem Salat",
+            "en": "with meat ragout & parmesan with green salad"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Chicken Tikka Masala",
+            "en": "Chicken Tikka Masala"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "mit Erbsen in Currysauce mit Basmatireis",
+            "en": "with peas in curry sauce with basmati rice"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Gnocchi",
+            "en": "Gnocchi"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "in Kürbis-Granatapfelsauce mit Ruccola VEGGIE & grünem Salat",
+            "en": "in pumpkin-pomegranate sauce with arugula VEGGIE & green salad"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Waldpilzgulasch",
+            "en": "Mushroom Goulash"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "Traditionelles mit Semmelknödel VEGGIE & Sauerrahm Dip",
+            "en": "Traditional with bread dumpling VEGGIE & sour cream dip"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-07T10:45:24.781120",
+      "scraped_at": "2026-01-08T10:12:08.323504",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
+          "price": "€8-12",
+          "description": {
+            "de": "Verfügbar am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-01-08T10:12:08.823139",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -172,22 +205,22 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "de": "Vorgefertigte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-07T10:45:25.172447",
+      "scraped_at": "2026-01-08T10:12:09.214637",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 12
+    "total_items": 14
   }
 }
