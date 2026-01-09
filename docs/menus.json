@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-08T10:45:59.734962",
+  "last_updated": "2026-01-09T10:11:31.047033",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -8,42 +8,42 @@
       "items": [
         {
           "name": {
-            "de": "Spinat Feta Strudel",
-            "en": "Spinach feta strudel"
+            "de": "Kichererbsen- und Gemüse-Curry",
+            "en": "Chick pea and vegetable curry"
           },
           "price": "€5.60",
           "description": {
-            "de": "Kartoffeln | Sauerrahm",
-            "en": "Potatoes | Sour Cream"
+            "de": "Serviert mit Bulgur",
+            "en": "Served with bulgur"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Mango Hähnchen",
-            "en": "Mango Chicken"
+            "de": "Gebratener Kohlfisch",
+            "en": "Fried coalfish"
           },
           "price": "€6.20",
           "description": {
-            "de": "Reis",
-            "en": "rice"
+            "de": "Mit Petersilkartoffeln und Sauce Tartare",
+            "en": "With parsley potatoes and Sauce Tartare"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Mensa Burger",
-            "en": "Mensa Burger"
+            "de": "Stop Food Waste",
+            "en": "Stop Food Waste"
           },
           "price": "€9.40",
           "description": {
-            "de": "Pommes frites - Rindfleisch oder pflanzlich 'Crispy Chicken style'",
-            "en": "fries - beef or Planted 'Crispy Chicken style'"
+            "de": "Spezialgericht zur Reduzierung von Lebensmittelabfällen",
+            "en": "Special dish to reduce food waste"
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-08T10:45:35.215699",
+      "scraped_at": "2026-01-09T10:11:15.230684",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -100,7 +100,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-08T10:45:39.802501",
+      "scraped_at": "2026-01-09T10:11:18.706584",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -110,89 +110,44 @@
       "items": [
         {
           "name": {
-            "de": "Saladbowl",
-            "en": "Salad Bowl"
-          },
-          "price": "€7.50 / €10.90",
-          "description": {
-            "de": "Gemischter Salat VEGGIE mit Tomate, Gurke & Balsamicodressing",
-            "en": "Mixed salad VEGGIE with tomato, cucumber & balsamic dressing"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Lasgane Bolognese",
-            "en": "Lasagna Bolognese"
+            "de": "Mediterrane Chicken Pfanne",
+            "en": "Mediterranean Chicken Pan"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Fleischragout & Parmesan mit grünem Salat",
-            "en": "with meat ragout & parmesan with green salad"
+            "de": "mit Schmorgemüse GF mit Kapern, Basilikum Dip & grünem Salat (G, L, M)",
+            "en": "with braised vegetables, capers, basil dip, and green salad (G, L, M)"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Chicken Tikka Masala",
-            "en": "Chicken Tikka Masala"
+            "de": "Kalbsrahmgulasch",
+            "en": "Veal Cream Goulash"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Erbsen in Currysauce mit Basmatireis",
-            "en": "with peas in curry sauce with basmati rice"
+            "de": "mit Spätzle & Sauerrahm Dip (A, C, G, L, M)",
+            "en": "with spaetzle and sour cream dip (A, C, G, L, M)"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gnocchi",
-            "en": "Gnocchi"
+            "de": "Überbackenes Kürbis-Ricotta Bake",
+            "en": "Baked Pumpkin-Ricotta Bake"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "in Kürbis-Granatapfelsauce mit Ruccola VEGGIE & grünem Salat",
-            "en": "in pumpkin-pomegranate sauce with arugula VEGGIE & green salad"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Waldpilzgulasch",
-            "en": "Mushroom Goulash"
-          },
-          "price": "€7.50 / €11.90",
-          "description": {
-            "de": "Traditionelles mit Semmelknödel VEGGIE & Sauerrahm Dip",
-            "en": "Traditional with bread dumpling VEGGIE & sour cream dip"
+            "de": "VEGGIE mit grünem Salat ( G, L, M)",
+            "en": "VEGGIE with green salad (G, L, M)"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-08T10:45:58.984128",
+      "scraped_at": "2026-01-09T10:11:30.684428",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pinsa Food Truck",
-      "url": "https://www.pinsalino.at",
-      "items": [
-        {
-          "name": {
-            "de": "Römische Pizza mit verschiedenen Belägen",
-            "en": "Roman-style pizza with various toppings"
-          },
-          "price": "€8-12",
-          "description": {
-            "de": "Erhältlich am Donnerstag",
-            "en": "Available on Thursday"
-          },
-          "dietary": "meat"
-        }
-      ],
-      "scraped_at": "2026-01-08T10:45:59.325902",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -211,16 +166,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-08T10:45:59.734896",
+      "scraped_at": "2026-01-09T10:11:31.046989",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 14
+    "total_items": 11
   }
 }
