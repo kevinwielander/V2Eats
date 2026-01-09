@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-09T10:11:31.047033",
+  "last_updated": "2026-01-09T10:45:05.924512",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -38,12 +38,12 @@
           "price": "€9.40",
           "description": {
             "de": "Spezialgericht zur Reduzierung von Lebensmittelabfällen",
-            "en": "Special dish to reduce food waste"
+            "en": "Special item to reduce food waste"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-09T10:11:15.230684",
+      "scraped_at": "2026-01-09T10:44:37.977103",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -95,12 +95,12 @@
           "price": "€7.90",
           "description": {
             "de": "mit Topfencreme-Topping",
-            "en": "with cream cheese topping"
+            "en": "with quark cream topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-09T10:11:18.706584",
+      "scraped_at": "2026-01-09T10:44:42.786054",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -116,7 +116,7 @@
           "price": "€7.50 / €11.90",
           "description": {
             "de": "mit Schmorgemüse GF mit Kapern, Basilikum Dip & grünem Salat (G, L, M)",
-            "en": "with braised vegetables, capers, basil dip, and green salad (G, L, M)"
+            "en": "with sautéed vegetables, capers, basil dip, and green salad (G, L, M)"
           },
           "dietary": "meat"
         },
@@ -145,7 +145,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-09T10:11:30.684428",
+      "scraped_at": "2026-01-09T10:45:05.643859",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -166,7 +166,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-09T10:11:31.046989",
+      "scraped_at": "2026-01-09T10:45:05.924447",
       "available": true,
       "extraction_method": "Static menu"
     }
