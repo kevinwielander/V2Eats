@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-12T10:13:06.458212",
+  "last_updated": "2026-01-12T10:46:28.642828",
   "llm_provider": "claude",
   "restaurants": [
     {
@@ -43,7 +43,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-12T10:12:45.798317",
+      "scraped_at": "2026-01-12T10:46:05.492041",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -53,54 +53,54 @@
       "items": [
         {
           "name": {
-            "de": "Gnocchi alla Sorrentina",
-            "en": "Gnocchi alla Sorrentina"
+            "de": "Linseneintopf mit Serviettenknödel",
+            "en": "Lentil Stew with Serviettenknödel"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Parmesan",
-            "en": "with Parmesan"
+            "de": "Linseneintopf mit Serviettenknödel",
+            "en": "Lentil stew with serviettenknödel"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Spinat-Feta-Lasagne",
-            "en": "Spinach-Feta Lasagna"
+            "de": "Gebackene Champignons mit Reis & Sauce Tartare",
+            "en": "Baked Mushrooms with Rice & Tartare Sauce"
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Gebackene Champignons mit Reis & Sauce Tartare",
+            "en": "Baked mushrooms with rice and tartare sauce"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Hühnerfleisch Süß-Sauer",
-            "en": "Chicken Sweet and Sour"
+            "de": "Paprikahendl mit Nockerl",
+            "en": "Paprika Chicken with Nockerl"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Basmati Reis",
-            "en": "with Basmati rice"
+            "de": "Paprikahendl mit Nockerl",
+            "en": "Paprika chicken with nockerl"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants",
-            "en": "Stuffed Apple Croissants"
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
+            "en": "Stuffed Apple Croissants with Cream Cheese Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Topfencreme-Topping",
-            "en": "with cream cheese topping"
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
+            "en": "Stuffed apple croissants with cream cheese topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-12T10:12:50.374705",
+      "scraped_at": "2026-01-12T10:46:10.185067",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -135,7 +135,7 @@
         {
           "name": {
             "de": "Rote Rüben-Feta Gratin",
-            "en": "Beet-Feta Gratin"
+            "en": "Red Beet Feta Gratin"
           },
           "price": "€7.50 / €11.90",
           "description": {
@@ -147,7 +147,7 @@
         {
           "name": {
             "de": "Alt Wiener Schinkenfleckerl",
-            "en": "Old Viennese Ham Fritters"
+            "en": "Old Viennese Ham Fleckerl"
           },
           "price": "€7.50 / €11.90",
           "description": {
@@ -169,7 +169,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-12T10:13:06.147163",
+      "scraped_at": "2026-01-12T10:46:28.298855",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -190,7 +190,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-12T10:13:06.458148",
+      "scraped_at": "2026-01-12T10:46:28.642768",
       "available": true,
       "extraction_method": "Static menu"
     }
