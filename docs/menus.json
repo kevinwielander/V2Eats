@@ -1,49 +1,12 @@
 {
-  "last_updated": "2026-01-12T10:46:28.642828",
+  "last_updated": "2026-01-13T10:11:42.894859",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
-      "items": [
-        {
-          "name": {
-            "de": "Käse Spätzle au Gratin",
-            "en": "Cheese spätzle au gratin"
-          },
-          "price": "€5.60",
-          "description": {
-            "de": "Käse Spätzle au Gratin | geröstete Zwiebeln",
-            "en": "Cheese spätzle au gratin | roast onions"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Chicken Tikka Masala",
-            "en": "Chicken Tikka Masala"
-          },
-          "price": "€6.20",
-          "description": {
-            "de": "Chicken Tikka Masala | Basmatireis",
-            "en": "Chicken Tikka Masala | basmati rice"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "American Hot Dogs",
-            "en": "American Hot Dogs"
-          },
-          "price": "€9.40",
-          "description": {
-            "de": "American Hot Dogs | verschiedene Toppings",
-            "en": "American Hot Dogs | different toppings"
-          },
-          "dietary": "meat"
-        }
-      ],
-      "scraped_at": "2026-01-12T10:46:05.492041",
+      "items": [],
+      "scraped_at": "2026-01-13T10:11:25.048643",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -54,12 +17,12 @@
         {
           "name": {
             "de": "Linseneintopf mit Serviettenknödel",
-            "en": "Lentil Stew with Serviettenknödel"
+            "en": "Lentil Stew with Bread Dumplings"
           },
           "price": "€7.90",
           "description": {
             "de": "Linseneintopf mit Serviettenknödel",
-            "en": "Lentil stew with serviettenknödel"
+            "en": "Lentil stew with bread dumplings"
           },
           "dietary": "vegetarian"
         },
@@ -78,29 +41,29 @@
         {
           "name": {
             "de": "Paprikahendl mit Nockerl",
-            "en": "Paprika Chicken with Nockerl"
+            "en": "Paprikahendl with Nockerl"
           },
           "price": "€7.90",
           "description": {
             "de": "Paprikahendl mit Nockerl",
-            "en": "Paprika chicken with nockerl"
+            "en": "Paprika chicken with noodles"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
-            "en": "Stuffed Apple Croissants with Cream Cheese Topping"
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
+            "en": "Stuffed Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
-            "en": "Stuffed apple croissants with cream cheese topping"
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
+            "en": "Stuffed apple croissants with quark cream topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-12T10:46:10.185067",
+      "scraped_at": "2026-01-13T10:11:28.770282",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -122,56 +85,77 @@
         },
         {
           "name": {
-            "de": "Weißwein-Parmesan Risotto",
-            "en": "White Wine Parmesan Risotto"
+            "de": "Tomaten Mozzarella Lasagne",
+            "en": "Tomato Mozzarella Lasagna"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Waldpilzen & Spinat VEGGIE GF & grünem Salat",
-            "en": "with wild mushrooms & spinach VEGGIE GF & green salad"
+            "de": "mit Bechamelsauce VEGGIE & grünem Salat",
+            "en": "with bechamel sauce VEGGIE & green salad"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Rote Rüben-Feta Gratin",
-            "en": "Red Beet Feta Gratin"
+            "de": "Gelbes Pumpkin Curry",
+            "en": "Yellow Pumpkin Curry"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "aus dem Ofen VEGGIE mit grünem Salat",
-            "en": "from the oven VEGGIE with green salad"
+            "de": "mit Ofenkarfiol & Kokossauce VEGGFLF & Basmatireis",
+            "en": "with roasted cauliflower & coconut sauce VEGGFLF & basmati rice"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Alt Wiener Schinkenfleckerl",
-            "en": "Old Viennese Ham Fleckerl"
+            "de": "Balsamico Linsen",
+            "en": "Balsamic Lentils"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Käse überbacken & grünem Salat",
-            "en": "with cheese baked on top & green salad"
+            "de": "mit geröstetem Speck & Semmelknödel",
+            "en": "with roasted bacon & bread dumpling"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Thailändisches Red-Kokos Chicken Curry",
-            "en": "Thai Red Coconut Chicken Curry"
+            "de": "Sauerrahm Dip Cremiges Paprikahühnchen",
+            "en": "Sour Cream Dip Creamy Paprika Chicken"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "GFLF mit Kurkuma Reis",
-            "en": "GFLF with turmeric rice"
+            "de": "mit Hühnerfilet & Spiralnudeln",
+            "en": "with chicken breast & spiral noodles"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-12T10:46:28.298855",
+      "scraped_at": "2026-01-13T10:11:42.225809",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Verfügbar am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-01-13T10:11:42.498684",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -184,22 +168,22 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "de": "Vorgefertigte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-12T10:46:28.642768",
+      "scraped_at": "2026-01-13T10:11:42.894801",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 13
+    "total_items": 11
   }
 }
