@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-13T10:11:42.894859",
+  "last_updated": "2026-01-13T10:45:37.786734",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-01-13T10:11:25.048643",
+      "scraped_at": "2026-01-13T10:45:22.847939",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,12 +17,12 @@
         {
           "name": {
             "de": "Linseneintopf mit Serviettenknödel",
-            "en": "Lentil Stew with Bread Dumplings"
+            "en": "Lentil Stew with Serviettenknödel"
           },
           "price": "€7.90",
           "description": {
             "de": "Linseneintopf mit Serviettenknödel",
-            "en": "Lentil stew with bread dumplings"
+            "en": "Lentil stew with serviettenknödel"
           },
           "dietary": "vegetarian"
         },
@@ -46,24 +46,24 @@
           "price": "€7.90",
           "description": {
             "de": "Paprikahendl mit Nockerl",
-            "en": "Paprika chicken with noodles"
+            "en": "Paprika chicken with nockerl"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
             "en": "Stuffed Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
             "en": "Stuffed apple croissants with quark cream topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-13T10:11:28.770282",
+      "scraped_at": "2026-01-13T10:45:29.298646",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -115,7 +115,7 @@
           "price": "€7.50 / €11.90",
           "description": {
             "de": "mit geröstetem Speck & Semmelknödel",
-            "en": "with roasted bacon & bread dumpling"
+            "en": "with roasted bacon & bread dumplings"
           },
           "dietary": "meat"
         },
@@ -132,7 +132,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-13T10:11:42.225809",
+      "scraped_at": "2026-01-13T10:45:36.954303",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -153,7 +153,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-13T10:11:42.498684",
+      "scraped_at": "2026-01-13T10:45:37.286136",
       "available": true,
       "type": "food_truck"
     },
@@ -168,13 +168,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vorgefertigte oder benutzerdefinierte Schalen",
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-13T10:11:42.894801",
+      "scraped_at": "2026-01-13T10:45:37.786674",
       "available": true,
       "extraction_method": "Static menu"
     }
