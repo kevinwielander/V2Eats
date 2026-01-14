@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-13T10:45:37.786734",
+  "last_updated": "2026-01-14T10:12:09.423558",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-01-13T10:45:22.847939",
+      "scraped_at": "2026-01-14T10:11:50.704416",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -63,7 +63,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-13T10:45:29.298646",
+      "scraped_at": "2026-01-14T10:11:54.972723",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -85,77 +85,56 @@
         },
         {
           "name": {
-            "de": "Tomaten Mozzarella Lasagne",
-            "en": "Tomato Mozzarella Lasagna"
+            "de": "Cheesy Bergkäse-Spätzle",
+            "en": "Cheesy Bergkäse-Spätzle"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Bechamelsauce VEGGIE & grünem Salat",
-            "en": "with bechamel sauce VEGGIE & green salad"
+            "de": "mit knusprigen Röstzwiebeln VEGGIE & grünem Salat",
+            "en": "with crispy fried onions VEGGIE & green salad"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Gelbes Pumpkin Curry",
-            "en": "Yellow Pumpkin Curry"
+            "de": "Veganes Sweetpotato-Cashew Tikka Masala",
+            "en": "Vegan Sweet Potato-Cashew Tikka Masala"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Ofenkarfiol & Kokossauce VEGGFLF & Basmatireis",
-            "en": "with roasted cauliflower & coconut sauce VEGGFLF & basmati rice"
+            "de": "VEGFLF & Basmatireis",
+            "en": "VEGFLF & basmati rice"
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Balsamico Linsen",
-            "en": "Balsamic Lentils"
+            "de": "Faschierter Braten aus dem Ofen",
+            "en": "Shredded Roast from the Oven"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit geröstetem Speck & Semmelknödel",
-            "en": "with roasted bacon & bread dumplings"
+            "de": "mit Kartoffelpüree Bratensaft & grünem Salat",
+            "en": "with mashed potatoes, roast gravy & green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Sauerrahm Dip Cremiges Paprikahühnchen",
-            "en": "Sour Cream Dip Creamy Paprika Chicken"
+            "de": "Griechische Hühnerpfanne",
+            "en": "Greek Chicken Pan"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Hühnerfilet & Spiralnudeln",
-            "en": "with chicken breast & spiral noodles"
+            "de": "mit Schmorgemüse & Tzatziki Röstkartoffel & grüner Salat",
+            "en": "with stewed vegetables & tzatziki, roasted potatoes & green salad"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-13T10:45:36.954303",
+      "scraped_at": "2026-01-14T10:12:08.978742",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Verfügbar am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-01-13T10:45:37.286136",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -168,22 +147,22 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "de": "Vordefinierte oder individuelle Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-13T10:45:37.786674",
+      "scraped_at": "2026-01-14T10:12:09.423496",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 11
+    "total_items": 10
   }
 }
