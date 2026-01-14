@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-14T10:12:09.423558",
+  "last_updated": "2026-01-14T10:46:21.219727",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-01-14T10:11:50.704416",
+      "scraped_at": "2026-01-14T10:46:06.582558",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -52,18 +52,18 @@
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
             "en": "Stuffed Apple Croissants with Quark Cream Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
             "en": "Stuffed apple croissants with quark cream topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-14T10:11:54.972723",
+      "scraped_at": "2026-01-14T10:46:13.126253",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -86,12 +86,12 @@
         {
           "name": {
             "de": "Cheesy Bergkäse-Spätzle",
-            "en": "Cheesy Bergkäse-Spätzle"
+            "en": "Cheesy Bergkäse Spaetzle"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit knusprigen Röstzwiebeln VEGGIE & grünem Salat",
-            "en": "with crispy fried onions VEGGIE & green salad"
+            "de": "VEGGIE & grünem Salat mit knusprigen Röstzwiebeln",
+            "en": "VEGGIE & green salad with crispy fried onions"
           },
           "dietary": "vegetarian"
         },
@@ -103,19 +103,19 @@
           "price": "€7.50 / €11.90",
           "description": {
             "de": "VEGFLF & Basmatireis",
-            "en": "VEGFLF & basmati rice"
+            "en": "VEGAN & basmati rice"
           },
           "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Faschierter Braten aus dem Ofen",
-            "en": "Shredded Roast from the Oven"
+            "de": "Faschierter Braten",
+            "en": "Shredded Roast"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Kartoffelpüree Bratensaft & grünem Salat",
-            "en": "with mashed potatoes, roast gravy & green salad"
+            "de": "aus dem Ofen mit Kartoffelpüree Bratensaft & grünem Salat",
+            "en": "from the oven with mashed potatoes, roast gravy & green salad"
           },
           "dietary": "meat"
         },
@@ -132,7 +132,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-14T10:12:08.978742",
+      "scraped_at": "2026-01-14T10:46:20.922708",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -147,13 +147,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder individuelle Schalen",
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-14T10:12:09.423496",
+      "scraped_at": "2026-01-14T10:46:21.219678",
       "available": true,
       "extraction_method": "Static menu"
     }
