@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-16T10:12:01.420056",
+  "last_updated": "2026-01-16T10:45:05.390237",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-01-16T10:11:20.853979",
+      "scraped_at": "2026-01-16T10:44:52.989801",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -63,7 +63,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-16T10:11:25.153929",
+      "scraped_at": "2026-01-16T10:44:57.113485",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -110,7 +110,7 @@
         {
           "name": {
             "de": "Rehragout",
-            "en": "Venison Stew"
+            "en": "Venison Ragout"
           },
           "price": "€7.50 / €11.90",
           "description": {
@@ -120,7 +120,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-16T10:12:01.030532",
+      "scraped_at": "2026-01-16T10:45:05.072270",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -135,13 +135,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder individuelle Schalen",
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-16T10:12:01.419996",
+      "scraped_at": "2026-01-16T10:45:05.390174",
       "available": true,
       "extraction_method": "Static menu"
     }
