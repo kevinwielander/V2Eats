@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-19T10:48:18.946694",
+  "last_updated": "2026-01-20T10:14:04.791065",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-01-19T10:47:54.006000",
+      "scraped_at": "2026-01-20T10:13:42.373557",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -29,41 +29,41 @@
         {
           "name": {
             "de": "Schinkenfleckerl",
-            "en": "Ham Fleckerl"
+            "en": "Schinkenfleckerl"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein klassisches österreichisches Gericht mit Schinken und Ei",
-            "en": "A classic Austrian dish with ham and egg"
+            "de": "Ein herzhaftes Gericht mit Schinken und Eiern",
+            "en": "A hearty dish with ham and eggs"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Wiener Erdäpfelgulasch mit Schwarzbrot",
-            "en": "Viennese Potato Goulash with Dark Bread"
+            "en": "Wiener Erdäpfelgulasch mit Schwarzbrot"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein herzhaftes Gulasch mit Erdäpfeln und serviert mit Schwarzbrot",
-            "en": "A hearty goulash with potatoes, served with dark bread"
+            "de": "Ein traditionelles Wiener Gulasch mit Erdäpfeln und Schwarzbrot",
+            "en": "A traditional Viennese goulash with potatoes and dark bread"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Gefüllte Bratapfel-Croissants mit Topfencreme",
-            "en": "Stuffed Apple Croissants with Quark Cream"
+            "en": "Gefüllte Bratapfel-Croissants mit Topfencreme"
           },
           "price": "€7.90",
           "description": {
             "de": "Gefüllte Bratapfel-Croissants mit einer leichten Topfencreme",
-            "en": "Stuffed apple croissants with a light quark cream"
+            "en": "Stuffed apple croissants with a light cream cheese"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-19T10:47:57.637820",
+      "scraped_at": "2026-01-20T10:13:47.936675",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -81,60 +81,81 @@
             "de": "Gemischter Salat VEGGIE mit Tomate, Gurke & Balsamicodressing",
             "en": "Mixed salad VEGGIE with tomato, cucumber & balsamic dressing"
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Vegetarisches Moussaka",
-            "en": "Vegetarian Moussaka"
+            "de": "Ofenkartoffel",
+            "en": "Baked Potato"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Erdäpfel, Melanzani & Tomatensauce VEGGIE mit grünem Salat",
-            "en": "with potatoes, eggplant & tomato sauce VEGGIE with green salad"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Indisches Kokos-Linsen Dal",
-            "en": "Indian Coconut Lentil Dal"
-          },
-          "price": "€7.50 / €11.90",
-          "description": {
-            "de": "mit Spinat VEGFLF & Basmatireis",
-            "en": "with spinach VEGFLF & basmati rice"
+            "de": "gefüllt mit Chili Sin Carne & Avocado Dip VEGGIE",
+            "en": "filled with chili sin carne & avocado dip VEGGIE"
           },
           "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Gnocchi in cremiger Carbonarasauce",
-            "en": "Gnocchi in creamy Carbonara sauce"
+            "de": "Süßkartoffel-Feta Lasagne",
+            "en": "Sweet Potato Feta Lasagna"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit geröstetem Speck & grünem Salat",
-            "en": "with roasted bacon & green salad"
+            "de": "mit roten Rüben VEGGIE",
+            "en": "with red beets VEGGIE"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Hühnerfilet in feiner Stroganoff Sauce",
+            "en": "Chicken Fillet in Fine Stroganoff Sauce"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "mit Tomaten-Bulgur",
+            "en": "with tomato bulgur"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Zartes Kalbsrahmgulasch",
-            "en": "Tender Veal Goulash"
+            "de": "Cremiges Beef Korma",
+            "en": "Creamy Beef Korma"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "in feiner Sauce mit Spätzle",
-            "en": "in fine sauce with spaetzle"
+            "de": "mit Gemüse & Safran-Orangenreis",
+            "en": "with vegetables & saffron orange rice"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-19T10:48:18.654480",
+      "scraped_at": "2026-01-20T10:14:03.731119",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Verfügbar am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-01-20T10:14:04.335698",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -153,16 +174,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-19T10:48:18.946642",
+      "scraped_at": "2026-01-20T10:14:04.790998",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 10
+    "total_items": 11
   }
 }
