@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-21T10:13:48.154810",
+  "last_updated": "2026-01-21T10:48:47.276629",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-01-21T10:13:31.669546",
+      "scraped_at": "2026-01-21T10:48:29.897326",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,49 +21,49 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Penne-Pasta mit Tomatensauce",
-            "en": "Penne pasta with tomato sauce"
+            "de": "Penne-Pasta mit Tomaten und Basilikum",
+            "en": "Penne pasta with tomatoes and basil"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
             "de": "Schinkenfleckerl",
-            "en": "Ham Fleckerl"
+            "en": "Schinkenfleckerl"
           },
           "price": "€7.90",
           "description": {
-            "de": "Fleckerl mit Schinken",
-            "en": "Fleckerl with ham"
+            "de": "Ein herzhaftes Gericht mit Schinken und Eiern",
+            "en": "A hearty dish with ham and eggs"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Wiener Erdäpfelgulasch mit Schwarzbrot",
-            "en": "Viennese Potato Goulash with Black Bread"
+            "en": "Viennese Potato Goulash with Dark Bread"
           },
           "price": "€7.90",
           "description": {
-            "de": "Wiener Gulasch mit Erdäpfeln und Schwarzbrot",
-            "en": "Viennese goulash with potatoes and black bread"
+            "de": "Ein traditionelles Wiener Gulasch mit Kartoffeln und Schwarzbrot",
+            "en": "A traditional Viennese goulash with potatoes and dark bread"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Gefüllte Bratapfel-Croissants mit Topfencreme",
-            "en": "Stuffed Apple Croissants with Quark Cream"
+            "en": "Stuffed Apple Croissants with Cream Cheese"
           },
           "price": "€7.90",
           "description": {
-            "de": "Gefüllte Bratapfel-Croissants mit einer leichten Topfencreme",
-            "en": "Stuffed apple croissants with a light quark cream"
+            "de": "Ein süßes Gebäck mit Äpfeln und einer cremigen Topfencreme",
+            "en": "A sweet pastry with apples and a creamy cream cheese"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-21T10:13:35.531231",
+      "scraped_at": "2026-01-21T10:48:33.974371",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -120,7 +120,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-21T10:13:47.859509",
+      "scraped_at": "2026-01-21T10:48:46.989671",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-21T10:13:48.154753",
+      "scraped_at": "2026-01-21T10:48:47.276566",
       "available": true,
       "extraction_method": "Static menu"
     }
