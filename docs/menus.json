@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-20T10:47:56.742868",
+  "last_updated": "2026-01-21T10:13:48.154810",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-01-20T10:47:37.037313",
+      "scraped_at": "2026-01-21T10:13:31.669546",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -33,20 +33,20 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Fleckerl mit Schinken und Käse",
-            "en": "Fleckerl with ham and cheese"
+            "de": "Fleckerl mit Schinken",
+            "en": "Fleckerl with ham"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Wiener Erdäpfelgulasch mit Schwarzbrot",
-            "en": "Viennese Potato Goulash with Dark Bread"
+            "en": "Viennese Potato Goulash with Black Bread"
           },
           "price": "€7.90",
           "description": {
             "de": "Wiener Gulasch mit Erdäpfeln und Schwarzbrot",
-            "en": "Viennese goulash with potatoes and dark bread"
+            "en": "Viennese goulash with potatoes and black bread"
           },
           "dietary": "meat"
         },
@@ -63,7 +63,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-20T10:47:40.787107",
+      "scraped_at": "2026-01-21T10:13:35.531231",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,89 +73,56 @@
       "items": [
         {
           "name": {
-            "de": "Saladbowl",
-            "en": "Salad Bowl"
-          },
-          "price": "€7.50 / €10.90",
-          "description": {
-            "de": "Gemischter Salat VEGGIE mit Tomate, Gurke & Balsamicodressing",
-            "en": "Mixed salad VEGGIE with tomato, cucumber & balsamic dressing"
-          },
-          "dietary": "vegan"
-        },
-        {
-          "name": {
-            "de": "Ofenkartoffel",
-            "en": "Baked Potato"
+            "de": "Überbackenes Kürbis-Walnuss Gratin",
+            "en": "Baked Pumpkin Walnut Gratin"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "gefüllt mit Chili Sin Carne & Avocado Dip VEGGIE",
-            "en": "filled with chili sin carne & avocado dip VEGGIE"
-          },
-          "dietary": "vegan"
-        },
-        {
-          "name": {
-            "de": "Süßkartoffel-Feta Lasagne",
-            "en": "Sweet Potato Feta Lasagna"
-          },
-          "price": "€7.50 / €11.90",
-          "description": {
-            "de": "mit roten Rüben VEGGIE",
-            "en": "with red beets VEGGIE"
+            "de": "VEGGIE mit Pastinaken",
+            "en": "VEGGIE with parsnips"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Hühnerfilet in feiner Stroganoff Sauce",
-            "en": "Chicken Filet in fine Stroganoff Sauce"
+            "de": "Zucchini Feta Risotto",
+            "en": "Zucchini Feta Risotto"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Tomaten-Bulgur",
-            "en": "with tomato bulgur"
+            "de": "VEGGIE mit Parmesan & Tomaten",
+            "en": "VEGGIE with parmesan and tomatoes"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Indisches Butter Chicken",
+            "en": "Indian Butter Chicken"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "mit Basmitreis & gerösteten Mandeln",
+            "en": "with basmati rice and roasted almonds"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Cremiges Beef Korma",
-            "en": "Creamy Beef Korma"
+            "de": "Rehragout",
+            "en": "Venison Stew"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Gemüse & Safran-Orangenreis",
-            "en": "with vegetables & saffron orange rice"
+            "de": "in Wacholdersauce mit Rosmarin Polenta",
+            "en": "in juniper sauce with rosemary polenta"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-20T10:47:56.005954",
+      "scraped_at": "2026-01-21T10:13:47.859509",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Erhältlich am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-01-20T10:47:56.267389",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -163,27 +130,27 @@
       "items": [
         {
           "name": {
-            "de": "Schale",
+            "de": "Schüssel",
             "en": "Bowl"
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder individuelle Schalen",
+            "de": "Vordefinierte oder benutzerdefinierte Schüsseln",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-20T10:47:56.742798",
+      "scraped_at": "2026-01-21T10:13:48.154753",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 11
+    "total_items": 9
   }
 }
