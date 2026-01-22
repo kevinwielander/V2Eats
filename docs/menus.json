@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-21T10:48:47.276629",
+  "last_updated": "2026-01-22T10:13:59.868706",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-01-21T10:48:29.897326",
+      "scraped_at": "2026-01-22T10:13:39.968434",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,8 +21,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Penne-Pasta mit Tomaten und Basilikum",
-            "en": "Penne pasta with tomatoes and basil"
+            "de": "Penne-Pasta mit Tomatensauce und Kräutern",
+            "en": "Penne pasta with tomato sauce and herbs"
           },
           "dietary": "vegetarian"
         },
@@ -41,11 +41,11 @@
         {
           "name": {
             "de": "Wiener Erdäpfelgulasch mit Schwarzbrot",
-            "en": "Viennese Potato Goulash with Dark Bread"
+            "en": "Wiener Erdäpfelgulasch mit Schwarzbrot"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein traditionelles Wiener Gulasch mit Kartoffeln und Schwarzbrot",
+            "de": "Ein traditionelles Wiener Gulasch mit Erdäpfeln und Schwarzbrot",
             "en": "A traditional Viennese goulash with potatoes and dark bread"
           },
           "dietary": "meat"
@@ -53,17 +53,17 @@
         {
           "name": {
             "de": "Gefüllte Bratapfel-Croissants mit Topfencreme",
-            "en": "Stuffed Apple Croissants with Cream Cheese"
+            "en": "Gefüllte Bratapfel-Croissants mit Topfencreme"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein süßes Gebäck mit Äpfeln und einer cremigen Topfencreme",
-            "en": "A sweet pastry with apples and a creamy cream cheese"
+            "de": "Gefüllte Bratäpfel mit einer cremigen Topfencreme in Croissants",
+            "en": "Filled baked apples with a creamy quark cheese cream in croissants"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-21T10:48:33.974371",
+      "scraped_at": "2026-01-22T10:13:43.802489",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,56 +73,89 @@
       "items": [
         {
           "name": {
-            "de": "Überbackenes Kürbis-Walnuss Gratin",
-            "en": "Baked Pumpkin Walnut Gratin"
+            "de": "Saladbowl",
+            "en": "Salad Bowl"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50 / €10.90",
           "description": {
-            "de": "VEGGIE mit Pastinaken",
-            "en": "VEGGIE with parsnips"
+            "de": "Gemischter Salat VEGGIE mit Tomate, Gurke & Balsamicodressing",
+            "en": "Mixed salad VEGGIE with tomato, cucumber & balsamic dressing"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Zucchini Feta Risotto",
-            "en": "Zucchini Feta Risotto"
+            "de": "Rotes Curry",
+            "en": "Red Curry"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "VEGGIE mit Parmesan & Tomaten",
-            "en": "VEGGIE with parmesan and tomatoes"
+            "de": "mit Süßkartoffel in cremiger Kokossauce mit Basmatireis",
+            "en": "with sweet potato in creamy coconut sauce with basmati rice"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Indisches Butter Chicken",
-            "en": "Indian Butter Chicken"
+            "de": "Cremiges Kürbisragout",
+            "en": "Creamy Pumpkin Stew"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Basmitreis & gerösteten Mandeln",
-            "en": "with basmati rice and roasted almonds"
+            "de": "mit Linsen & hausgemachten Semmelknödel VEGGIE",
+            "en": "with lentils & homemade bread dumplings VEGGIE"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Käsespätzle",
+            "en": "Cheese Spaetzle"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "mit Bergkäse & geröstetem Speck",
+            "en": "with mountain cheese & roasted bacon"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Rehragout",
-            "en": "Venison Stew"
+            "de": "Grüner Salat Lasagne Bolognese",
+            "en": "Green Salad Lasagna Bolognese"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "in Wacholdersauce mit Rosmarin Polenta",
-            "en": "in juniper sauce with rosemary polenta"
+            "de": "mit saftigem Fleischragout & Parmesan",
+            "en": "with juicy meat ragout & parmesan"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-21T10:48:46.989671",
+      "scraped_at": "2026-01-22T10:13:59.110101",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
+          "price": "€8-12",
+          "description": {
+            "de": "Verfügbar am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-01-22T10:13:59.554836",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -130,27 +163,27 @@
       "items": [
         {
           "name": {
-            "de": "Schüssel",
+            "de": "Schale",
             "en": "Bowl"
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schüsseln",
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-21T10:48:47.276566",
+      "scraped_at": "2026-01-22T10:13:59.868648",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 9
+    "total_items": 11
   }
 }
