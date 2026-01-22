@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-22T10:13:59.868706",
+  "last_updated": "2026-01-22T10:48:01.006587",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-01-22T10:13:39.968434",
+      "scraped_at": "2026-01-22T10:47:37.762156",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,49 +21,49 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Penne-Pasta mit Tomatensauce und Kräutern",
-            "en": "Penne pasta with tomato sauce and herbs"
+            "de": "Penne-Pasta mit Tomaten und Basilikum",
+            "en": "Penne pasta with tomatoes and basil"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
             "de": "Schinkenfleckerl",
-            "en": "Schinkenfleckerl"
+            "en": "Ham Fritters"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein herzhaftes Gericht mit Schinken und Eiern",
-            "en": "A hearty dish with ham and eggs"
+            "de": "Kleine Teigstücke gefüllt mit Schinken",
+            "en": "Small dough pieces filled with ham"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Wiener Erdäpfelgulasch mit Schwarzbrot",
-            "en": "Wiener Erdäpfelgulasch mit Schwarzbrot"
+            "en": "Viennese Potato Goulash with Dark Bread"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein traditionelles Wiener Gulasch mit Erdäpfeln und Schwarzbrot",
-            "en": "A traditional Viennese goulash with potatoes and dark bread"
+            "de": "Ein herzhafter Gulasch aus Erdäpfeln, serviert mit Schwarzbrot",
+            "en": "A hearty goulash made from potatoes, served with dark bread"
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         },
         {
           "name": {
             "de": "Gefüllte Bratapfel-Croissants mit Topfencreme",
-            "en": "Gefüllte Bratapfel-Croissants mit Topfencreme"
+            "en": "Stuffed Apple Croissants with Quark Cream"
           },
           "price": "€7.90",
           "description": {
-            "de": "Gefüllte Bratäpfel mit einer cremigen Topfencreme in Croissants",
-            "en": "Filled baked apples with a creamy quark cheese cream in croissants"
+            "de": "Flaky Croissants gefüllt mit Bratäpfeln und einer leichten Topfencreme",
+            "en": "Flaky croissants filled with baked apples and a light quark cream"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-22T10:13:43.802489",
+      "scraped_at": "2026-01-22T10:47:42.739670",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -132,7 +132,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-22T10:13:59.110101",
+      "scraped_at": "2026-01-22T10:48:00.129863",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -153,7 +153,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-22T10:13:59.554836",
+      "scraped_at": "2026-01-22T10:48:00.425445",
       "available": true,
       "type": "food_truck"
     },
@@ -174,7 +174,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-22T10:13:59.868648",
+      "scraped_at": "2026-01-22T10:48:01.006527",
       "available": true,
       "extraction_method": "Static menu"
     }
