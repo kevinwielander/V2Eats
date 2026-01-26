@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-26T10:13:38.905437",
+  "last_updated": "2026-01-26T10:47:06.752327",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-01-26T10:13:19.275046",
+      "scraped_at": "2026-01-26T10:46:53.658150",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,7 +22,7 @@
           "price": "€7.90",
           "description": {
             "de": "mit Erdäpfel-Vorgerl-Salat",
-            "en": "with potato and salad"
+            "en": "with potato and lettuce salad"
           },
           "dietary": "meat"
         },
@@ -63,7 +63,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-26T10:13:24.985996",
+      "scraped_at": "2026-01-26T10:46:58.526646",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,10 +73,10 @@
       "items": [
         {
           "name": {
-            "de": "Saladbowl",
-            "en": "Salad Bowl"
+            "de": "Saladbowl (Klein)",
+            "en": "Small Salad Bowl"
           },
-          "price": "€7.50/€10.90",
+          "price": "€7.50",
           "description": {
             "de": "VEGGIE",
             "en": "Veggie"
@@ -85,54 +85,42 @@
         },
         {
           "name": {
-            "de": "Cremiges Kürbisrisotto",
-            "en": "Creamy Pumpkin Risotto"
+            "de": "Saladbowl (Gross)",
+            "en": "Large Salad Bowl"
           },
-          "price": "€7.50/€11.90",
+          "price": "€10.90",
           "description": {
-            "de": "mit gerösteten Kürbiskernen und feinem Parmesan VEGGIEGF",
-            "en": "with roasted pumpkin seeds and fine parmesan"
+            "de": "VEGGIE",
+            "en": "Veggie"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Grünes Thai Curry",
-            "en": "Green Thai Curry"
+            "de": "Main Dish (Klein)",
+            "en": "Small Main Dish"
           },
-          "price": "€7.50/€11.90",
+          "price": "€7.50",
           "description": {
-            "de": "mit Gemüse in milder Kokossauce VEGGFLF",
-            "en": "with vegetables in mild coconut sauce"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Schinkenfleckerl",
-            "en": "Ham Fleckerl"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit überbackenem Käse & Sauerrahm-Dip",
-            "en": "with baked cheese and sour cream dip"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Paprikahühnchen",
-            "en": "Paprika Chicken"
+            "de": "Main Dish (Gross)",
+            "en": "Large Main Dish"
           },
-          "price": "€7.50/€11.90",
+          "price": "€11.90",
           "description": {
-            "de": "in Rahmsauce mit Spiralnudeln Sauerrahm Dip",
-            "en": "in cream sauce with spiral noodles and sour cream dip"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-26T10:13:38.451904",
+      "scraped_at": "2026-01-26T10:47:06.428901",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -153,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-26T10:13:38.905373",
+      "scraped_at": "2026-01-26T10:47:06.752263",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -163,6 +151,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 10
+    "total_items": 9
   }
 }
