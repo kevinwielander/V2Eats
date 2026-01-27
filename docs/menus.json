@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-27T10:13:44.475924",
+  "last_updated": "2026-01-27T10:48:39.127491",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-01-27T10:13:22.674921",
+      "scraped_at": "2026-01-27T10:48:18.388150",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,14 +22,14 @@
           "price": "€7.90",
           "description": {
             "de": "mit Erdäpfel-Vorgerl-Salat",
-            "en": "with potato and salad"
+            "en": "with potato and lettuce salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Schweinsbraten",
-            "en": "Pork Roast"
+            "en": "Roast Pork"
           },
           "price": "€7.90",
           "description": {
@@ -63,7 +63,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-27T10:13:28.303977",
+      "scraped_at": "2026-01-27T10:48:23.218041",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,10 +73,10 @@
       "items": [
         {
           "name": {
-            "de": "Saladbowl",
-            "en": "Salad Bowl"
+            "de": "Saladbowl (Klein)",
+            "en": "Small Salad Bowl"
           },
-          "price": "€7.50 / €10.90",
+          "price": "€7.50",
           "description": {
             "de": "VEGGIE",
             "en": "Veggie"
@@ -85,10 +85,22 @@
         },
         {
           "name": {
-            "de": "Spinat-Feta Lasagne",
-            "en": "Spinach-Feta Lasagna"
+            "de": "Saladbowl (Gross)",
+            "en": "Large Salad Bowl"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€10.90",
+          "description": {
+            "de": "VEGGIE",
+            "en": "Veggie"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Spinat-Feta Lasagne (Klein)",
+            "en": "Small Spinach-Feta Lasagna"
+          },
+          "price": "€7.50",
           "description": {
             "de": "mit getrockneten Tomaten & Bechamelsauce VEGGIE",
             "en": "with dried tomatoes and bechamel sauce, veggie"
@@ -97,34 +109,70 @@
         },
         {
           "name": {
-            "de": "Waldpilzgulasch",
-            "en": "Mushroom Goulash"
+            "de": "Spinat-Feta Lasagne (Gross)",
+            "en": "Large Spinach-Feta Lasagna"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€11.90",
           "description": {
-            "de": "mit Kräutern & Spätzle VEGGIE",
-            "en": "with herbs and spaetzle, veggie"
+            "de": "mit getrockneten Tomaten & Bechamelsauce VEGGIE",
+            "en": "with dried tomatoes and bechamel sauce, veggie"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Indisches Chicken Tikka Masala",
-            "en": "Indian Chicken Tikka Masala"
+            "de": "Waldpilzgulasch (Klein)",
+            "en": "Small Mushroom Goulash"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50",
           "description": {
-            "de": "in cremiger Tomatensauce, Basmatireis, glutenfrei",
-            "en": "in creamy tomato sauce, basmati rice, gluten-free"
+            "de": "mit Kräutern & Spätzle VEGGIE",
+            "en": "with herbs and spätzle, veggie"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Waldpilzgulasch (Gross)",
+            "en": "Large Mushroom Goulash"
+          },
+          "price": "€11.90",
+          "description": {
+            "de": "mit Kräutern & Spätzle VEGGIE",
+            "en": "with herbs and spätzle, veggie"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Indisches Chicken Tikka Masala (Klein)",
+            "en": "Small Indian Chicken Tikka Masala"
+          },
+          "price": "€7.50",
+          "description": {
+            "de": "in cremiger Tomatensauce GF Basmatireis",
+            "en": "in creamy tomato sauce with basmati rice, gluten-free"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Faschierter Köttbullarbraten",
-            "en": "Minced Meatballs Roast"
+            "de": "Indisches Chicken Tikka Masala (Gross)",
+            "en": "Large Indian Chicken Tikka Masala"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€11.90",
+          "description": {
+            "de": "in cremiger Tomatensauce GF Basmatireis",
+            "en": "in creamy tomato sauce with basmati rice, gluten-free"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Faschierter Köttbullarbraten (Klein)",
+            "en": "Small Meatball Braten"
+          },
+          "price": "€7.50",
           "description": {
             "de": "in feiner Senfsauce mit Petersilerdäpfel",
             "en": "in fine mustard sauce with parsley potatoes"
@@ -133,30 +181,18 @@
         },
         {
           "name": {
-            "de": "Hauptgericht klein",
-            "en": "Main Dish small"
-          },
-          "price": "€7.50",
-          "description": {
-            "de": "",
-            "en": ""
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Hauptgericht groß",
-            "en": "Main Dish large"
+            "de": "Faschierter Köttbullarbraten (Gross)",
+            "en": "Large Meatball Braten"
           },
           "price": "€11.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "in feiner Senfsauce mit Petersilerdäpfel",
+            "en": "in fine mustard sauce with parsley potatoes"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-27T10:13:43.640198",
+      "scraped_at": "2026-01-27T10:48:38.442262",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -171,13 +207,13 @@
           },
           "price": "€8-13",
           "description": {
-            "de": "Erhältlich am Dienstag",
+            "de": "Verfügbar am Dienstag",
             "en": "Available on Tuesday"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-27T10:13:44.018332",
+      "scraped_at": "2026-01-27T10:48:38.708289",
       "available": true,
       "type": "food_truck"
     },
@@ -198,7 +234,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-27T10:13:44.475860",
+      "scraped_at": "2026-01-27T10:48:39.127418",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -208,6 +244,6 @@
     "total_restaurants": 5,
     "successful": 5,
     "failed": 0,
-    "total_items": 13
+    "total_items": 16
   }
 }
