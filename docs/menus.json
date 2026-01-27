@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-26T10:47:06.752327",
+  "last_updated": "2026-01-27T10:13:44.475924",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-01-26T10:46:53.658150",
+      "scraped_at": "2026-01-27T10:13:22.674921",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,14 +22,14 @@
           "price": "€7.90",
           "description": {
             "de": "mit Erdäpfel-Vorgerl-Salat",
-            "en": "with potato and lettuce salad"
+            "en": "with potato and salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Schweinsbraten",
-            "en": "Roast Pork"
+            "en": "Pork Roast"
           },
           "price": "€7.90",
           "description": {
@@ -58,12 +58,12 @@
           "price": "€7.90",
           "description": {
             "de": "mit Topfencreme-Topping",
-            "en": "with quark cream topping"
+            "en": "with cream cheese topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-26T10:46:58.526646",
+      "scraped_at": "2026-01-27T10:13:28.303977",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,10 +73,10 @@
       "items": [
         {
           "name": {
-            "de": "Saladbowl (Klein)",
-            "en": "Small Salad Bowl"
+            "de": "Saladbowl",
+            "en": "Salad Bowl"
           },
-          "price": "€7.50",
+          "price": "€7.50 / €10.90",
           "description": {
             "de": "VEGGIE",
             "en": "Veggie"
@@ -85,20 +85,56 @@
         },
         {
           "name": {
-            "de": "Saladbowl (Gross)",
-            "en": "Large Salad Bowl"
+            "de": "Spinat-Feta Lasagne",
+            "en": "Spinach-Feta Lasagna"
           },
-          "price": "€10.90",
+          "price": "€7.50 / €11.90",
           "description": {
-            "de": "VEGGIE",
-            "en": "Veggie"
+            "de": "mit getrockneten Tomaten & Bechamelsauce VEGGIE",
+            "en": "with dried tomatoes and bechamel sauce, veggie"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Main Dish (Klein)",
-            "en": "Small Main Dish"
+            "de": "Waldpilzgulasch",
+            "en": "Mushroom Goulash"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "mit Kräutern & Spätzle VEGGIE",
+            "en": "with herbs and spaetzle, veggie"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Indisches Chicken Tikka Masala",
+            "en": "Indian Chicken Tikka Masala"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "in cremiger Tomatensauce, Basmatireis, glutenfrei",
+            "en": "in creamy tomato sauce, basmati rice, gluten-free"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Faschierter Köttbullarbraten",
+            "en": "Minced Meatballs Roast"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "in feiner Senfsauce mit Petersilerdäpfel",
+            "en": "in fine mustard sauce with parsley potatoes"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Hauptgericht klein",
+            "en": "Main Dish small"
           },
           "price": "€7.50",
           "description": {
@@ -109,8 +145,8 @@
         },
         {
           "name": {
-            "de": "Main Dish (Gross)",
-            "en": "Large Main Dish"
+            "de": "Hauptgericht groß",
+            "en": "Main Dish large"
           },
           "price": "€11.90",
           "description": {
@@ -120,9 +156,30 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-26T10:47:06.428901",
+      "scraped_at": "2026-01-27T10:13:43.640198",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Erhältlich am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-01-27T10:13:44.018332",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -141,16 +198,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-26T10:47:06.752263",
+      "scraped_at": "2026-01-27T10:13:44.475860",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 9
+    "total_items": 13
   }
 }
