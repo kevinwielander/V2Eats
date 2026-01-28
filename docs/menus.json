@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-28T10:14:36.356877",
+  "last_updated": "2026-01-28T10:48:46.974329",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-01-28T10:14:18.360241",
+      "scraped_at": "2026-01-28T10:48:24.958162",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,7 +22,7 @@
           "price": "€7.90",
           "description": {
             "de": "mit Erdäpfel-Vorgerl-Salat",
-            "en": "with potato and Vorgerl salad"
+            "en": "with potato and lettuce salad"
           },
           "dietary": "meat"
         },
@@ -63,7 +63,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-28T10:14:22.475763",
+      "scraped_at": "2026-01-28T10:48:29.424012",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -97,8 +97,8 @@
         },
         {
           "name": {
-            "de": "Hauptgericht (Klein)",
-            "en": "Main Dish (Small)"
+            "de": "Main Dish (Klein)",
+            "en": "Small Main Dish"
           },
           "price": "€7.50",
           "description": {
@@ -109,8 +109,8 @@
         },
         {
           "name": {
-            "de": "Hauptgericht (Gross)",
-            "en": "Main Dish (Large)"
+            "de": "Main Dish (Gross)",
+            "en": "Large Main Dish"
           },
           "price": "€11.90",
           "description": {
@@ -120,7 +120,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-28T10:14:35.974295",
+      "scraped_at": "2026-01-28T10:48:46.595413",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -135,13 +135,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder individuelle Schalen",
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-28T10:14:36.356814",
+      "scraped_at": "2026-01-28T10:48:46.974269",
       "available": true,
       "extraction_method": "Static menu"
     }
