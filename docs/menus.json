@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-27T10:48:39.127491",
+  "last_updated": "2026-01-28T10:14:36.356877",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-01-27T10:48:18.388150",
+      "scraped_at": "2026-01-28T10:14:18.360241",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,7 +22,7 @@
           "price": "€7.90",
           "description": {
             "de": "mit Erdäpfel-Vorgerl-Salat",
-            "en": "with potato and lettuce salad"
+            "en": "with potato and Vorgerl salad"
           },
           "dietary": "meat"
         },
@@ -58,12 +58,12 @@
           "price": "€7.90",
           "description": {
             "de": "mit Topfencreme-Topping",
-            "en": "with cream cheese topping"
+            "en": "with quark cream topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-27T10:48:23.218041",
+      "scraped_at": "2026-01-28T10:14:22.475763",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -97,125 +97,32 @@
         },
         {
           "name": {
-            "de": "Spinat-Feta Lasagne (Klein)",
-            "en": "Small Spinach-Feta Lasagna"
+            "de": "Hauptgericht (Klein)",
+            "en": "Main Dish (Small)"
           },
           "price": "€7.50",
           "description": {
-            "de": "mit getrockneten Tomaten & Bechamelsauce VEGGIE",
-            "en": "with dried tomatoes and bechamel sauce, veggie"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Spinat-Feta Lasagne (Gross)",
-            "en": "Large Spinach-Feta Lasagna"
-          },
-          "price": "€11.90",
-          "description": {
-            "de": "mit getrockneten Tomaten & Bechamelsauce VEGGIE",
-            "en": "with dried tomatoes and bechamel sauce, veggie"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Waldpilzgulasch (Klein)",
-            "en": "Small Mushroom Goulash"
-          },
-          "price": "€7.50",
-          "description": {
-            "de": "mit Kräutern & Spätzle VEGGIE",
-            "en": "with herbs and spätzle, veggie"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Waldpilzgulasch (Gross)",
-            "en": "Large Mushroom Goulash"
-          },
-          "price": "€11.90",
-          "description": {
-            "de": "mit Kräutern & Spätzle VEGGIE",
-            "en": "with herbs and spätzle, veggie"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Indisches Chicken Tikka Masala (Klein)",
-            "en": "Small Indian Chicken Tikka Masala"
-          },
-          "price": "€7.50",
-          "description": {
-            "de": "in cremiger Tomatensauce GF Basmatireis",
-            "en": "in creamy tomato sauce with basmati rice, gluten-free"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Indisches Chicken Tikka Masala (Gross)",
-            "en": "Large Indian Chicken Tikka Masala"
+            "de": "Hauptgericht (Gross)",
+            "en": "Main Dish (Large)"
           },
           "price": "€11.90",
           "description": {
-            "de": "in cremiger Tomatensauce GF Basmatireis",
-            "en": "in creamy tomato sauce with basmati rice, gluten-free"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Faschierter Köttbullarbraten (Klein)",
-            "en": "Small Meatball Braten"
-          },
-          "price": "€7.50",
-          "description": {
-            "de": "in feiner Senfsauce mit Petersilerdäpfel",
-            "en": "in fine mustard sauce with parsley potatoes"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Faschierter Köttbullarbraten (Gross)",
-            "en": "Large Meatball Braten"
-          },
-          "price": "€11.90",
-          "description": {
-            "de": "in feiner Senfsauce mit Petersilerdäpfel",
-            "en": "in fine mustard sauce with parsley potatoes"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-27T10:48:38.442262",
+      "scraped_at": "2026-01-28T10:14:35.974295",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Verfügbar am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-01-27T10:48:38.708289",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -228,22 +135,22 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "de": "Vordefinierte oder individuelle Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-27T10:48:39.127418",
+      "scraped_at": "2026-01-28T10:14:36.356814",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 16
+    "total_items": 9
   }
 }
