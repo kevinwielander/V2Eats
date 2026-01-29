@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-29T10:19:59.838022",
+  "last_updated": "2026-01-29T10:52:41.128667",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-01-29T10:19:38.704872",
+      "scraped_at": "2026-01-29T10:52:22.523207",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,7 +22,7 @@
           "price": "€7.90",
           "description": {
             "de": "mit Erdäpfel-Vorgerl-Salat",
-            "en": "with potato and Vorgerl salad"
+            "en": "with potato and salad"
           },
           "dietary": "meat"
         },
@@ -58,12 +58,12 @@
           "price": "€7.90",
           "description": {
             "de": "mit Topfencreme-Topping",
-            "en": "with quark cream topping"
+            "en": "with cream cheese topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-29T10:19:42.139027",
+      "scraped_at": "2026-01-29T10:52:26.741429",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,54 +73,66 @@
       "items": [
         {
           "name": {
-            "de": "Saladbowl (Klein)",
-            "en": "Small Salad Bowl"
+            "de": "Saladbowl",
+            "en": "Salad Bowl"
           },
-          "price": "€7.50",
+          "price": "€7.50 / €10.90",
           "description": {
-            "de": "VEGGIE",
-            "en": "Veggie"
+            "de": "Klein / Gross, VEGGIE",
+            "en": "Small / Large, vegetarian"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Saladbowl (Gross)",
-            "en": "Large Salad Bowl"
+            "de": "Gnocchi in Parmesan-Pinienkernsauce mit Rohschinkenstreifen",
+            "en": "Gnocchi in Parmesan-Pine Nut Sauce with Prosciutto Strips"
           },
-          "price": "€10.90",
+          "price": "€7.50 / €11.90",
           "description": {
-            "de": "VEGGIE",
-            "en": "Veggie"
+            "de": "Ruccola & grüner Salat",
+            "en": "Arugula and mixed greens"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Zartes Tandoori Chicken",
+            "en": "Tender Tandoori Chicken"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "in milder Joghurt-Gewürzsauce, GF, Basmatireis",
+            "en": "in mild yogurt spice sauce, gluten-free, basmati rice"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Balsamico-Linsen",
+            "en": "Balsamic Lentils"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "in feiner Sauce mit hausgemachten Semmelknödel, VEGGIE",
+            "en": "in fine sauce with homemade bread dumplings, vegetarian"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Main Dish (Klein)",
-            "en": "Small Main Dish"
+            "de": "Ricotta-Lasagne",
+            "en": "Ricotta Lasagna"
           },
-          "price": "€7.50",
+          "price": "€7.50 / €11.90",
           "description": {
-            "de": "Verschiedene Hauptgerichte",
-            "en": "Various main dishes"
+            "de": "mit geröstetem Kürbis & Bechamelsauce, VEGGIE",
+            "en": "with roasted pumpkin and bechamel sauce, vegetarian"
           },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Main Dish (Gross)",
-            "en": "Large Main Dish"
-          },
-          "price": "€11.90",
-          "description": {
-            "de": "Verschiedene Hauptgerichte",
-            "en": "Various main dishes"
-          },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-29T10:19:59.237196",
+      "scraped_at": "2026-01-29T10:52:40.276773",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -135,13 +147,13 @@
           },
           "price": "€8-12",
           "description": {
-            "de": "Verfügbar am Donnerstag",
+            "de": "Erhältlich am Donnerstag",
             "en": "Available on Thursday"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-29T10:19:59.534494",
+      "scraped_at": "2026-01-29T10:52:40.652748",
       "available": true,
       "type": "food_truck"
     },
@@ -156,13 +168,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vorher zusammengestellte oder benutzerdefinierte Schalen",
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-29T10:19:59.837968",
+      "scraped_at": "2026-01-29T10:52:41.128590",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -172,6 +184,6 @@
     "total_restaurants": 5,
     "successful": 5,
     "failed": 0,
-    "total_items": 10
+    "total_items": 11
   }
 }
