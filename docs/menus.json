@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-28T10:48:46.974329",
+  "last_updated": "2026-01-29T10:19:59.838022",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-01-28T10:48:24.958162",
+      "scraped_at": "2026-01-29T10:19:38.704872",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,7 +22,7 @@
           "price": "€7.90",
           "description": {
             "de": "mit Erdäpfel-Vorgerl-Salat",
-            "en": "with potato and lettuce salad"
+            "en": "with potato and Vorgerl salad"
           },
           "dietary": "meat"
         },
@@ -63,7 +63,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-28T10:48:29.424012",
+      "scraped_at": "2026-01-29T10:19:42.139027",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -102,8 +102,8 @@
           },
           "price": "€7.50",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Verschiedene Hauptgerichte",
+            "en": "Various main dishes"
           },
           "dietary": "meat"
         },
@@ -114,15 +114,36 @@
           },
           "price": "€11.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Verschiedene Hauptgerichte",
+            "en": "Various main dishes"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-01-28T10:48:46.595413",
+      "scraped_at": "2026-01-29T10:19:59.237196",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
+          "price": "€8-12",
+          "description": {
+            "de": "Verfügbar am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-01-29T10:19:59.534494",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -135,22 +156,22 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "de": "Vorher zusammengestellte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-01-28T10:48:46.974269",
+      "scraped_at": "2026-01-29T10:19:59.837968",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 9
+    "total_items": 10
   }
 }
