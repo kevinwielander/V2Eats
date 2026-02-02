@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-02T10:26:09.456131",
+  "last_updated": "2026-02-02T10:54:14.966679",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-02T10:24:47.167977",
+      "scraped_at": "2026-02-02T10:53:56.160234",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -63,7 +63,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-02T10:24:51.576454",
+      "scraped_at": "2026-02-02T10:54:00.765521",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -76,22 +76,22 @@
             "de": "Saladbowl",
             "en": "Salad Bowl"
           },
-          "price": "€7.50 / €10.90",
+          "price": "€7.50/€10.90",
           "description": {
-            "de": "VEGGIE",
-            "en": "Veggie"
+            "de": "",
+            "en": ""
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
             "de": "Burritos",
             "en": "Burritos"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "gefüllt mit Chili con Carne & cremiger Avocado Guacamole",
-            "en": "filled with chili con carne and creamy avocado guacamole"
+            "en": "filled with Chili con Carne and creamy Avocado Guacamole"
           },
           "dietary": "meat"
         },
@@ -100,22 +100,22 @@
             "de": "Indisches Butter Chicken",
             "en": "Indian Butter Chicken"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "in Cashewsauce mit Basmatireis",
-            "en": "in cashew sauce with basmati rice"
+            "en": "in Cashew sauce with Basmati rice"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Cremiges Steinpilzrisotto",
-            "en": "Creamy Mushroom Risotto"
+            "en": "Creamy Porcini Risotto"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Ruccola und feinem Parmesan VEGGIE",
-            "en": "with arugula and fine parmesan, veggie"
+            "de": "mit Ruccola und feinem Parmesan VEGGIEGF",
+            "en": "with arugula and fine Parmesan"
           },
           "dietary": "vegetarian"
         },
@@ -124,15 +124,15 @@
             "de": "Gnocchi",
             "en": "Gnocchi"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "in cremiger Kürbis-Fetasauce mit Spinat VEGGIE",
-            "en": "in creamy pumpkin-feta sauce with spinach, veggie"
+            "en": "in creamy Pumpkin-Feta sauce with spinach"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-02T10:25:09.359379",
+      "scraped_at": "2026-02-02T10:54:14.487433",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,12 +141,19 @@
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-02T10:26:09.456054",
+      "scraped_at": "2026-02-02T10:54:14.966618",
       "available": true,
       "extraction_method": "Static menu"
     }
