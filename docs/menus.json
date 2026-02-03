@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-02T10:54:14.966679",
+  "last_updated": "2026-02-03T10:22:01.975985",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-02T10:53:56.160234",
+      "scraped_at": "2026-02-03T10:21:43.018842",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -29,7 +29,7 @@
         {
           "name": {
             "de": "Szegediner Gulasch mit Öfferl Brot",
-            "en": "Szegediner Goulash with Bread"
+            "en": "Szegediner Goulash with Öfferl Bread"
           },
           "price": "€7.90",
           "description": {
@@ -52,7 +52,7 @@
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
             "en": "Stuffed Apple Croissants with Cream Cheese Topping"
           },
           "price": "€7.90",
@@ -63,7 +63,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-02T10:54:00.765521",
+      "scraped_at": "2026-02-03T10:21:47.236829",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -76,65 +76,86 @@
             "de": "Saladbowl",
             "en": "Salad Bowl"
           },
-          "price": "€7.50/€10.90",
+          "price": "€7.50 / €10.90",
           "description": {
             "de": "",
             "en": ""
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Burritos",
-            "en": "Burritos"
+            "de": "Rote-Rüben-Feta-Gratin",
+            "en": "Rote-Rüben-Feta-Gratin"
           },
-          "price": "€7.50/€11.90",
+          "price": "€7.50 / €11.90",
           "description": {
-            "de": "gefüllt mit Chili con Carne & cremiger Avocado Guacamole",
-            "en": "filled with Chili con Carne and creamy Avocado Guacamole"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Indisches Butter Chicken",
-            "en": "Indian Butter Chicken"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "in Cashewsauce mit Basmatireis",
-            "en": "in Cashew sauce with Basmati rice"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Cremiges Steinpilzrisotto",
-            "en": "Creamy Porcini Risotto"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit Ruccola und feinem Parmesan VEGGIEGF",
-            "en": "with arugula and fine Parmesan"
+            "de": "mit Walnüssen, mildem Wasabi-Joghurt-Dip & grünem Salat VEGGIE g,h,l,m",
+            "en": "with walnuts, mild wasabi yogurt dip & green salad VEGGIE g,h,l,m"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Gnocchi",
-            "en": "Gnocchi"
+            "de": "Grünes Curry",
+            "en": "Green Curry"
           },
-          "price": "€7.50/€11.90",
+          "price": "€7.50 / €11.90",
           "description": {
-            "de": "in cremiger Kürbis-Fetasauce mit Spinat VEGGIE",
-            "en": "in creamy Pumpkin-Feta sauce with spinach"
+            "de": "mit Süßkartoffel in cremiger Kokossauce mit Basmatireis VEGGFLF e,f,l,m",
+            "en": "with sweet potato in creamy coconut sauce with basmati rice VEGGFLF e,f,l,m"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Boeuf Bourguignon",
+            "en": "Boeuf Bourguignon"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "in herzhafter Schmorsauce mit Wurzelgemüse & Thymiankartoffel GF g,l,m,o",
+            "en": "in hearty stew sauce with root vegetables & thyme potato GF g,l,m,o"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Überbackene Käsespätzle",
+            "en": "Überbackene Käsespätzle"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "mit Bergkäse, geröstetem Speck & grünem Salat a,c,g,l,m",
+            "en": "with mountain cheese, roasted bacon & green salad a,c,g,l,m"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-02-03T10:22:01.220987",
+      "available": true,
+      "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Verfügbar am Dienstag",
+            "en": "Available on Tuesday"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-02T10:54:14.487433",
+      "scraped_at": "2026-02-03T10:22:01.497704",
       "available": true,
-      "extraction_method": "Selenium + LLM (groq)"
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -153,16 +174,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-02T10:54:14.966618",
+      "scraped_at": "2026-02-03T10:22:01.975909",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 10
+    "total_items": 11
   }
 }
