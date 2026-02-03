@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-03T10:22:01.975985",
+  "last_updated": "2026-02-03T10:54:01.310614",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-03T10:21:43.018842",
+      "scraped_at": "2026-02-03T10:53:25.304730",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,8 +21,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Traditionelle Käse-Spätzle",
+            "en": "Traditional cheese spaetzle"
           },
           "dietary": "vegetarian"
         },
@@ -33,8 +33,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Ein herzhaftes Szegediner Gulasch mit Öfferl Brot",
+            "en": "A hearty Szegediner goulash with Öfferl bread"
           },
           "dietary": "meat"
         },
@@ -45,25 +45,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Huhn in Teriyaki-Soße mit Nudeln",
+            "en": "Chicken in teriyaki sauce with noodles"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
             "en": "Stuffed Apple Croissants with Cream Cheese Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Gefüllte Bratapfel-Croissants mit einer leckeren Topfencreme",
+            "en": "Stuffed apple croissants with a delicious cream cheese topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-03T10:21:47.236829",
+      "scraped_at": "2026-02-03T10:53:29.304943",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,66 +73,30 @@
       "items": [
         {
           "name": {
-            "de": "Saladbowl",
-            "en": "Salad Bowl"
+            "de": "Salatschüssel",
+            "en": "Saladbowl"
           },
           "price": "€7.50 / €10.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Eine Auswahl an frischen Gemüsen",
+            "en": "A selection of fresh vegetables"
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Rote-Rüben-Feta-Gratin",
-            "en": "Rote-Rüben-Feta-Gratin"
+            "de": "Hauptgericht",
+            "en": "Main Dish"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Walnüssen, mildem Wasabi-Joghurt-Dip & grünem Salat VEGGIE g,h,l,m",
-            "en": "with walnuts, mild wasabi yogurt dip & green salad VEGGIE g,h,l,m"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Grünes Curry",
-            "en": "Green Curry"
-          },
-          "price": "€7.50 / €11.90",
-          "description": {
-            "de": "mit Süßkartoffel in cremiger Kokossauce mit Basmatireis VEGGFLF e,f,l,m",
-            "en": "with sweet potato in creamy coconut sauce with basmati rice VEGGFLF e,f,l,m"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Boeuf Bourguignon",
-            "en": "Boeuf Bourguignon"
-          },
-          "price": "€7.50 / €11.90",
-          "description": {
-            "de": "in herzhafter Schmorsauce mit Wurzelgemüse & Thymiankartoffel GF g,l,m,o",
-            "en": "in hearty stew sauce with root vegetables & thyme potato GF g,l,m,o"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Überbackene Käsespätzle",
-            "en": "Überbackene Käsespätzle"
-          },
-          "price": "€7.50 / €11.90",
-          "description": {
-            "de": "mit Bergkäse, geröstetem Speck & grünem Salat a,c,g,l,m",
-            "en": "with mountain cheese, roasted bacon & green salad a,c,g,l,m"
+            "de": "Unser täglich wechselndes Hauptgericht",
+            "en": "Our daily changing main dish"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-03T10:22:01.220987",
+      "scraped_at": "2026-02-03T10:54:00.486039",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -153,7 +117,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-03T10:22:01.497704",
+      "scraped_at": "2026-02-03T10:54:00.868356",
       "available": true,
       "type": "food_truck"
     },
@@ -174,7 +138,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-03T10:22:01.975909",
+      "scraped_at": "2026-02-03T10:54:01.310551",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -184,6 +148,6 @@
     "total_restaurants": 5,
     "successful": 5,
     "failed": 0,
-    "total_items": 11
+    "total_items": 8
   }
 }
