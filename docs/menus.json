@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-03T10:54:01.310614",
+  "last_updated": "2026-02-04T10:22:08.177989",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-03T10:53:25.304730",
+      "scraped_at": "2026-02-04T10:21:54.780893",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,20 +21,20 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Traditionelle Käse-Spätzle",
-            "en": "Traditional cheese spaetzle"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
             "de": "Szegediner Gulasch mit Öfferl Brot",
-            "en": "Szegediner Goulash with Öfferl Bread"
+            "en": "Szegediner Goulash with Bread"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein herzhaftes Szegediner Gulasch mit Öfferl Brot",
-            "en": "A hearty Szegediner goulash with Öfferl bread"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
@@ -45,25 +45,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Huhn in Teriyaki-Soße mit Nudeln",
-            "en": "Chicken in teriyaki sauce with noodles"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
             "en": "Stuffed Apple Croissants with Cream Cheese Topping"
           },
           "price": "€7.90",
           "description": {
-            "de": "Gefüllte Bratapfel-Croissants mit einer leckeren Topfencreme",
-            "en": "Stuffed apple croissants with a delicious cream cheese topping"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-03T10:53:29.304943",
+      "scraped_at": "2026-02-04T10:21:58.760335",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,53 +73,68 @@
       "items": [
         {
           "name": {
-            "de": "Salatschüssel",
-            "en": "Saladbowl"
+            "de": "Saladbowl",
+            "en": "Salad Bowl"
           },
-          "price": "€7.50 / €10.90",
+          "price": "€7.50/€10.90",
           "description": {
-            "de": "Eine Auswahl an frischen Gemüsen",
-            "en": "A selection of fresh vegetables"
+            "de": "",
+            "en": ""
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Süßkartoffel Feta Auflauf",
+            "en": "Sweet Potato Feta Casserole"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit Spinat & grünem Salat VEGGIE l,m,a,h",
+            "en": "with spinach and green salad VEGGIE l,m,a,h"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Indisches Linsen-Dal",
+            "en": "Indian Lentil Dal"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit Spinat in cremiger Kokossauce & Basmatireis VEGGFLF e,f,l,m,n",
+            "en": "with spinach in creamy coconut sauce and basmati rice VEGGFLF e,f,l,m,n"
           },
           "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Hauptgericht",
-            "en": "Main Dish"
+            "de": "Kalbsrahmgulasch",
+            "en": "Veal Goulash"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "Unser täglich wechselndes Hauptgericht",
-            "en": "Our daily changing main dish"
+            "de": "in feiner Paprika-Rahmsauce mit Spätzle & Sauerrahm Dip a,c,g,l,m",
+            "en": "in fine paprika cream sauce with spätzle and sour cream dip a,c,g,l,m"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Lasagne Bolognese",
+            "en": "Lasagna Bolognese"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit saftigem Fleischragout, Bechamelsauce, Parmesan & grünem Salat a,c,g,l,m",
+            "en": "with juicy meat ragout, bechamel sauce, parmesan and green salad a,c,g,l,m"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-03T10:54:00.486039",
+      "scraped_at": "2026-02-04T10:22:07.891442",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Verfügbar am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-02-03T10:54:00.868356",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -138,16 +153,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-03T10:54:01.310551",
+      "scraped_at": "2026-02-04T10:22:08.177913",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 8
+    "total_items": 10
   }
 }
