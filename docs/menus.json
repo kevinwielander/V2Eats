@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-04T10:22:08.177989",
+  "last_updated": "2026-02-04T10:53:19.911474",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-04T10:21:54.780893",
+      "scraped_at": "2026-02-04T10:52:58.928621",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -52,7 +52,7 @@
         },
         {
           "name": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
             "en": "Stuffed Apple Croissants with Cream Cheese Topping"
           },
           "price": "€7.90",
@@ -63,7 +63,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-04T10:21:58.760335",
+      "scraped_at": "2026-02-04T10:53:02.537233",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -105,7 +105,7 @@
             "de": "mit Spinat in cremiger Kokossauce & Basmatireis VEGGFLF e,f,l,m,n",
             "en": "with spinach in creamy coconut sauce and basmati rice VEGGFLF e,f,l,m,n"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
@@ -132,7 +132,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-04T10:22:07.891442",
+      "scraped_at": "2026-02-04T10:53:19.588151",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -153,7 +153,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-04T10:22:08.177913",
+      "scraped_at": "2026-02-04T10:53:19.911407",
       "available": true,
       "extraction_method": "Static menu"
     }
