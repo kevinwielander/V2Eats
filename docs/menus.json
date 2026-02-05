@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-04T10:53:19.911474",
+  "last_updated": "2026-02-05T10:23:09.009622",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-04T10:52:58.928621",
+      "scraped_at": "2026-02-05T10:22:55.436235",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -63,7 +63,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-04T10:53:02.537233",
+      "scraped_at": "2026-02-05T10:23:00.152954",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -76,7 +76,7 @@
             "de": "Saladbowl",
             "en": "Salad Bowl"
           },
-          "price": "€7.50/€10.90",
+          "price": "€7.50 / €10.90",
           "description": {
             "de": "",
             "en": ""
@@ -85,56 +85,77 @@
         },
         {
           "name": {
-            "de": "Süßkartoffel Feta Auflauf",
-            "en": "Sweet Potato Feta Casserole"
+            "de": "Vegetarische Moussaka",
+            "en": "Vegetarian Moussaka"
           },
-          "price": "€7.50/€11.90",
+          "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Spinat & grünem Salat VEGGIE l,m,a,h",
-            "en": "with spinach and green salad VEGGIE l,m,a,h"
+            "de": "mit Melanzani und Erdäpfeln in Tomatenragout & grünem Salat VEGGIE a,g,l,m",
+            "en": "with eggplant and potatoes in tomato stew & green salad VEGGIE a,g,l,m"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Indisches Linsen-Dal",
-            "en": "Indian Lentil Dal"
+            "de": "Erdäpfelgulasch",
+            "en": "Potato Goulash"
           },
-          "price": "€7.50/€11.90",
+          "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Spinat in cremiger Kokossauce & Basmatireis VEGGFLF e,f,l,m,n",
-            "en": "with spinach in creamy coconut sauce and basmati rice VEGGFLF e,f,l,m,n"
+            "de": "mit Spätzle & cremigen Sauerrahm-Dip VEGGIE a,c,g,l,m,o",
+            "en": "with spaetzle & creamy sour cream dip VEGGIE a,c,g,l,m,o"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Kalbsrahmgulasch",
-            "en": "Veal Goulash"
+            "de": "Chicken Stroganoff",
+            "en": "Chicken Stroganoff"
           },
-          "price": "€7.50/€11.90",
+          "price": "€7.50 / €11.90",
           "description": {
-            "de": "in feiner Paprika-Rahmsauce mit Spätzle & Sauerrahm Dip a,c,g,l,m",
-            "en": "in fine paprika cream sauce with spätzle and sour cream dip a,c,g,l,m"
+            "de": "in cremiger Paprikasauce mit Waldpilzen & Erbsenreis a,c,g,l,m,o",
+            "en": "in creamy paprika sauce with mushrooms & pea rice a,c,g,l,m,o"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Lasagne Bolognese",
-            "en": "Lasagna Bolognese"
+            "de": "Gnocchi",
+            "en": "Gnocchi"
           },
-          "price": "€7.50/€11.90",
+          "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit saftigem Fleischragout, Bechamelsauce, Parmesan & grünem Salat a,c,g,l,m",
-            "en": "with juicy meat ragout, bechamel sauce, parmesan and green salad a,c,g,l,m"
+            "de": "in cremiger Carbonara Sauce mit geröstetem Speck & grünem Salat a,c,g,l,m,o",
+            "en": "in creamy carbonara sauce with roasted bacon & green salad a,c,g,l,m,o"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-04T10:53:19.588151",
+      "scraped_at": "2026-02-05T10:23:08.037711",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
+          "price": "€8-12",
+          "description": {
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-02-05T10:23:08.517367",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -153,16 +174,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-04T10:53:19.911407",
+      "scraped_at": "2026-02-05T10:23:09.009541",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 10
+    "total_items": 11
   }
 }
