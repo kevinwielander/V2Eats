@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-09T10:31:37.212580",
+  "last_updated": "2026-02-09T10:55:28.452449",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-09T10:31:15.004973",
+      "scraped_at": "2026-02-09T10:55:11.137500",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -29,41 +29,41 @@
         {
           "name": {
             "de": "Pekinger Chicken Wings",
-            "en": "Pekinger Chicken Wings"
+            "en": "Peking Chicken Wings"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Basmati Reis",
-            "en": "with Basmati rice"
+            "de": "Chicken Wings mit Basmati Reis",
+            "en": "Chicken Wings with Basmati Rice"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Geb. Karfiol",
-            "en": "Fried Cauliflower"
+            "en": "Steamed Cauliflower"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit grünem Salat und Sauce Tartare",
-            "en": "with green salad and tartare sauce"
+            "de": "Karfiol mit grünem Salat und Sauce Tartare",
+            "en": "Cauliflower with green salad and tartare sauce"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
             "de": "Gefüllte Bratapfel-Croissants",
-            "en": "Stuffed Apple Croissants"
+            "en": "Stuffed Baked Apple Croissants"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Topfencreme-Topping",
-            "en": "with quark cream topping"
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
+            "en": "Stuffed baked apple croissants with cream cheese topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-09T10:31:20.543331",
+      "scraped_at": "2026-02-09T10:55:15.448521",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -81,7 +81,7 @@
             "de": "",
             "en": ""
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
@@ -132,7 +132,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-09T10:31:36.761482",
+      "scraped_at": "2026-02-09T10:55:28.101149",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -153,7 +153,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-09T10:31:37.212516",
+      "scraped_at": "2026-02-09T10:55:28.452399",
       "available": true,
       "extraction_method": "Static menu"
     }
