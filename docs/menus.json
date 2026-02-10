@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-10T10:28:26.804012",
+  "last_updated": "2026-02-10T10:55:16.683763",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-10T10:28:06.783887",
+      "scraped_at": "2026-02-10T10:54:56.393186",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -41,7 +41,7 @@
         {
           "name": {
             "de": "Geb. Karfiol",
-            "en": "Fried Cauliflower"
+            "en": "Roasted Cauliflower"
           },
           "price": "€7.90",
           "description": {
@@ -57,13 +57,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
             "en": "Stuffed Baked Apple Croissants with Cream Cheese Topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-10T10:28:10.688335",
+      "scraped_at": "2026-02-10T10:55:00.152075",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -91,7 +91,7 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "Eierschwammerl Risotto mit Parmesan, Babyspinat & grünem Salat",
-            "en": "Eierschwammerl Risotto with parmesan, baby spinach & green salad"
+            "en": "Eierschwammerl Risotto with Parmesan, baby spinach, and green salad"
           },
           "dietary": "vegetarian"
         },
@@ -103,7 +103,7 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "Sweetpotato Chili Sin Carne mit Avocado-Guacamole & Reis",
-            "en": "Sweet potato chili sin carne with avocado guacamole & rice"
+            "en": "Sweet potato chili sin carne with avocado guacamole and rice"
           },
           "dietary": "vegan"
         },
@@ -115,7 +115,7 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "Zartes Paprikahühnchen in cremiger Rahmsauce mit Creme-Dip & Teigwaren",
-            "en": "Tender paprika chicken in creamy sauce with cream dip & pasta"
+            "en": "Tender paprika chicken in creamy sauce with cream dip and pasta"
           },
           "dietary": "meat"
         },
@@ -127,12 +127,12 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "Griechisches Moussaka mit Fleischragout, Schmormelanzani, Creme-Dip & grünem Salat",
-            "en": "Greek moussaka with meat stew, eggplant, cream dip & green salad"
+            "en": "Greek moussaka with meat ragout, eggplant, cream dip, and green salad"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-10T10:28:26.069216",
+      "scraped_at": "2026-02-10T10:55:15.681046",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -147,13 +147,13 @@
           },
           "price": "€8-13",
           "description": {
-            "de": "Verfügbar am Dienstag",
+            "de": "Erhältlich am Dienstag",
             "en": "Available on Tuesday"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-10T10:28:26.477994",
+      "scraped_at": "2026-02-10T10:55:16.217172",
       "available": true,
       "type": "food_truck"
     },
@@ -174,7 +174,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-10T10:28:26.803945",
+      "scraped_at": "2026-02-10T10:55:16.683680",
       "available": true,
       "extraction_method": "Static menu"
     }
