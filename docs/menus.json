@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-10T10:55:16.683763",
+  "last_updated": "2026-02-11T10:26:29.048005",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-10T10:54:56.393186",
+      "scraped_at": "2026-02-11T10:26:11.903972",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -57,13 +57,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
-            "en": "Stuffed Baked Apple Croissants with Cream Cheese Topping"
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
+            "en": "Stuffed Baked Apple Croissants with Quark Cream Topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-10T10:55:00.152075",
+      "scraped_at": "2026-02-11T10:26:16.004968",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,89 +73,32 @@
       "items": [
         {
           "name": {
-            "de": "Saladbowl",
+            "de": "Salatschüssel",
             "en": "Salad Bowl"
           },
-          "price": "€7.50/€10.90",
+          "price": "€7.50 / €10.90",
           "description": {
-            "de": "",
-            "en": ""
-          },
-          "dietary": "vegan"
-        },
-        {
-          "name": {
-            "de": "Eierschwammerl Risotto",
-            "en": "Eierschwammerl Risotto"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "Eierschwammerl Risotto mit Parmesan, Babyspinat & grünem Salat",
-            "en": "Eierschwammerl Risotto with Parmesan, baby spinach, and green salad"
+            "de": "Eine Auswahl an frischen Gemüsen",
+            "en": "A selection of fresh vegetables"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Sweetpotato Chili Sin Carne",
-            "en": "Sweet Potato Chili Sin Carne"
+            "de": "Hauptgericht",
+            "en": "Main Course"
           },
-          "price": "€7.50/€11.90",
+          "price": "€7.50 / €11.90",
           "description": {
-            "de": "Sweetpotato Chili Sin Carne mit Avocado-Guacamole & Reis",
-            "en": "Sweet potato chili sin carne with avocado guacamole and rice"
-          },
-          "dietary": "vegan"
-        },
-        {
-          "name": {
-            "de": "Paprikahühnchen",
-            "en": "Paprika Chicken"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "Zartes Paprikahühnchen in cremiger Rahmsauce mit Creme-Dip & Teigwaren",
-            "en": "Tender paprika chicken in creamy sauce with cream dip and pasta"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Griechisches Moussaka",
-            "en": "Greek Moussaka"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "Griechisches Moussaka mit Fleischragout, Schmormelanzani, Creme-Dip & grünem Salat",
-            "en": "Greek moussaka with meat ragout, eggplant, cream dip, and green salad"
+            "de": "Unser täglich wechselndes Hauptgericht",
+            "en": "Our daily changing main course"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-10T10:55:15.681046",
+      "scraped_at": "2026-02-11T10:26:28.637208",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Erhältlich am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-02-10T10:55:16.217172",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -174,16 +117,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-10T10:55:16.683680",
+      "scraped_at": "2026-02-11T10:26:29.047945",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 11
+    "total_items": 7
   }
 }
