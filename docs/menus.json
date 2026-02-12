@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-12T10:24:58.971503",
+  "last_updated": "2026-02-12T10:54:26.143961",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-12T10:24:38.936690",
+      "scraped_at": "2026-02-12T10:54:14.000669",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,7 +22,7 @@
           "price": "€7.90",
           "description": {
             "de": "Nudeln mit Fleisch",
-            "en": "Noodles with meat"
+            "en": "Noodles with Meat"
           },
           "dietary": "meat"
         },
@@ -46,7 +46,7 @@
           "price": "€7.90",
           "description": {
             "de": "Karfiol mit grünem Salat und Sauce Tartare",
-            "en": "Cauliflower with green salad and Tartare sauce"
+            "en": "Cauliflower with Green Salad and Tartare Sauce"
           },
           "dietary": "vegetarian"
         },
@@ -57,13 +57,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
-            "en": "Stuffed baked apple croissants with cream cheese topping"
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
+            "en": "Stuffed Baked Apple Croissants with Quark Cream Topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-12T10:24:43.034432",
+      "scraped_at": "2026-02-12T10:54:17.664772",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -132,7 +132,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-12T10:24:58.119881",
+      "scraped_at": "2026-02-12T10:54:25.549400",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -153,7 +153,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-12T10:24:58.476856",
+      "scraped_at": "2026-02-12T10:54:25.819912",
       "available": true,
       "type": "food_truck"
     },
@@ -168,13 +168,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder individuelle Schalen",
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-12T10:24:58.971428",
+      "scraped_at": "2026-02-12T10:54:26.143883",
       "available": true,
       "extraction_method": "Static menu"
     }
