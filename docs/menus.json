@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-11T10:54:56.962202",
+  "last_updated": "2026-02-12T10:24:58.971503",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-11T10:54:38.360457",
+      "scraped_at": "2026-02-12T10:24:38.936690",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,14 +22,14 @@
           "price": "€7.90",
           "description": {
             "de": "Nudeln mit Fleisch",
-            "en": "Noodles with Meat"
+            "en": "Noodles with meat"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Pekinger Chicken Wings",
-            "en": "Peking Chicken Wings"
+            "en": "Pekinger Chicken Wings"
           },
           "price": "€7.90",
           "description": {
@@ -41,12 +41,12 @@
         {
           "name": {
             "de": "Geb. Karfiol",
-            "en": "Fried Cauliflower"
+            "en": "Steamed Cauliflower"
           },
           "price": "€7.90",
           "description": {
             "de": "Karfiol mit grünem Salat und Sauce Tartare",
-            "en": "Cauliflower with Green Salad and Tartare Sauce"
+            "en": "Cauliflower with green salad and Tartare sauce"
           },
           "dietary": "vegetarian"
         },
@@ -58,12 +58,12 @@
           "price": "€7.90",
           "description": {
             "de": "Gefüllte Bratapfel-Croissants mit Topfencreme -Topping",
-            "en": "Stuffed Baked Apple Croissants with Cream Cheese Topping"
+            "en": "Stuffed baked apple croissants with cream cheese topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-11T10:54:42.980815",
+      "scraped_at": "2026-02-12T10:24:43.034432",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,32 +73,89 @@
       "items": [
         {
           "name": {
-            "de": "Salatschüssel",
+            "de": "Saladbowl",
             "en": "Salad Bowl"
           },
-          "price": "€7.50 / €10.90",
+          "price": "€7.50/€10.90",
           "description": {
-            "de": "Eine Auswahl an frischen Gemüsen",
-            "en": "A selection of fresh vegetables"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Hauptgericht",
-            "en": "Main Course"
+            "de": "Balsamico-Linsen",
+            "en": "Balsamic Lentils"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "Unser täglich wechselndes Hauptgericht",
-            "en": "Our daily changing main course"
+            "de": "in feiner Sauce mit hausgemachten Semmelknödel VEGGIE a,c,g,l,m",
+            "en": "in fine sauce with homemade bread dumplings VEGGIE a,c,g,l,m"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Vegetarisches Käsepätzle",
+            "en": "Vegetarian Cheese Spaetzle"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit Bergkäse überbacken & grünem Salat EXTRA: Röstzwiebel VEGGIE a,c,g,l,m,o",
+            "en": "with mountain cheese baked on top & green salad EXTRA: roasted onion VEGGIE a,c,g,l,m,o"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Rehragout",
+            "en": "Venison Ragout"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "in cremiger Wacholdersauce mit, Wurzelgemüse & Rosmarinpolenta GF a,g,l,m,o",
+            "en": "in creamy juniper sauce with root vegetables & rosemary polenta GF a,g,l,m,o"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Indisches Butter Chicken",
+            "en": "Indian Butter Chicken"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "in Cashewsauce mit Basmatireis GF a,g,l,m,h",
+            "en": "in cashew sauce with basmati rice GF a,g,l,m,h"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-11T10:54:56.655826",
+      "scraped_at": "2026-02-12T10:24:58.119881",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
+          "price": "€8-12",
+          "description": {
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-02-12T10:24:58.476856",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -111,22 +168,22 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "de": "Vordefinierte oder individuelle Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-11T10:54:56.962155",
+      "scraped_at": "2026-02-12T10:24:58.971428",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 7
+    "total_items": 11
   }
 }
