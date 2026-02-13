@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-13T10:22:18.452341",
+  "last_updated": "2026-02-13T10:53:38.685925",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-13T10:21:59.231511",
+      "scraped_at": "2026-02-13T10:53:18.411137",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -33,37 +33,37 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Basmati Reis",
-            "en": "with Basmati Rice"
+            "de": "Chicken Wings mit Basmati Reis",
+            "en": "Chicken Wings with Basmati Rice"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Geb. Karfiol",
-            "en": "Fried Cauliflower"
+            "en": "Steamed Cauliflower"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit grünem Salat und Sauce Tartare",
-            "en": "with Green Salad and Tartare Sauce"
+            "de": "Karfiol mit grünem Salat und Sauce Tartare",
+            "en": "Cauliflower with Green Salad and Tartare Sauce"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
             "de": "Gefüllte Bratapfel-Croissants",
-            "en": "Stuffed Apple Croissants"
+            "en": "Stuffed Baked Apple Croissants"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Topfencreme-Topping",
-            "en": "with Cream Cheese Topping"
+            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
+            "en": "Stuffed Baked Apple Croissants with Quark Cream Topping"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-13T10:22:03.841869",
+      "scraped_at": "2026-02-13T10:53:22.788298",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -96,7 +96,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-13T10:22:18.042613",
+      "scraped_at": "2026-02-13T10:53:38.281479",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -117,7 +117,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-13T10:22:18.452280",
+      "scraped_at": "2026-02-13T10:53:38.685855",
       "available": true,
       "extraction_method": "Static menu"
     }
