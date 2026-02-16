@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-13T10:53:38.685925",
+  "last_updated": "2026-02-16T10:27:42.715383",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-13T10:53:18.411137",
+      "scraped_at": "2026-02-16T10:27:23.240915",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,54 +16,42 @@
       "items": [
         {
           "name": {
-            "de": "Tarhonya Nudeln mit Fleisch",
-            "en": "Tarhonya Noodles with Meat"
+            "de": "Stroganoff vom Schwein",
+            "en": "Pork Stroganoff"
           },
           "price": "€7.90",
           "description": {
-            "de": "Nudeln mit Fleisch",
-            "en": "Noodles with Meat"
+            "de": "mit Basmati Reis",
+            "en": "with Basmati rice"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Pekinger Chicken Wings",
-            "en": "Pekinger Chicken Wings"
+            "de": "Serbische Bohnensuppe",
+            "en": "Serbian Bean Soup"
           },
           "price": "€7.90",
           "description": {
-            "de": "Chicken Wings mit Basmati Reis",
-            "en": "Chicken Wings with Basmati Rice"
+            "de": "mit Schwarzbrot",
+            "en": "with black bread"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Piri-Piri Hähnchen",
+            "en": "Piri-Piri Chicken"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "mit Ebly",
+            "en": "with Ebly"
           },
           "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Geb. Karfiol",
-            "en": "Steamed Cauliflower"
-          },
-          "price": "€7.90",
-          "description": {
-            "de": "Karfiol mit grünem Salat und Sauce Tartare",
-            "en": "Cauliflower with Green Salad and Tartare Sauce"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Gefüllte Bratapfel-Croissants",
-            "en": "Stuffed Baked Apple Croissants"
-          },
-          "price": "€7.90",
-          "description": {
-            "de": "Gefüllte Bratapfel-Croissants mit Topfencreme-Topping",
-            "en": "Stuffed Baked Apple Croissants with Quark Cream Topping"
-          },
-          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-13T10:53:22.788298",
+      "scraped_at": "2026-02-16T10:27:27.829173",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,30 +61,66 @@
       "items": [
         {
           "name": {
-            "de": "Salatschüssel",
+            "de": "Saladbowl",
             "en": "Salad Bowl"
           },
-          "price": "€7.50 / €10.90",
+          "price": "€7.50/€10.90",
           "description": {
-            "de": "Klein / Groß",
-            "en": "Small / Large"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Hauptgericht",
-            "en": "Main Dish"
+            "de": "Gnocchi in feiner Steinpilzsauce",
+            "en": "Gnocchi in Fine Mushroom Sauce"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "Klein / Groß",
-            "en": "Small / Large"
+            "de": "mit Rucola, Parmesan & grünem Salat VEGGIE a,c,g,l",
+            "en": "with arugula, parmesan, and green salad VEGGIE a,c,g,l"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Pastinaken-Walnuss Auflauf",
+            "en": "Parsnip-Walnut Casserole"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit Spinat, Erdäpfel & grünem Salat VEGGIE g,l,h",
+            "en": "with spinach, potatoes, and green salad VEGGIE g,l,h"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Schinkenfleckerl",
+            "en": "Ham Fritters"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit überbackenem Käse, Sauerrahm Dip & grünem Salat GF a,c,g,l",
+            "en": "with baked cheese, sour cream dip, and green salad GF a,c,g,l"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Indisches Beef Korma",
+            "en": "Indian Beef Korma"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "in cremiger Sauce mit Gemüse & Basmatireis GF g,l,m,h",
+            "en": "in creamy sauce with vegetables and basmati rice GF g,l,m,h"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-13T10:53:38.281479",
+      "scraped_at": "2026-02-16T10:27:42.388840",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -111,13 +135,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "de": "Vordefinierte oder individuelle Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-13T10:53:38.685855",
+      "scraped_at": "2026-02-16T10:27:42.715329",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -127,6 +151,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 7
+    "total_items": 9
   }
 }
