@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-16T10:54:28.788989",
+  "last_updated": "2026-02-17T10:25:42.223512",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-16T10:54:11.051663",
+      "scraped_at": "2026-02-17T10:25:29.433863",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -34,7 +34,7 @@
           "price": "€7.90",
           "description": {
             "de": "mit Schwarzbrot",
-            "en": "with black bread"
+            "en": "with dark bread"
           },
           "dietary": "vegetarian"
         },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-16T10:54:14.316403",
+      "scraped_at": "2026-02-17T10:25:33.487482",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -69,60 +69,81 @@
             "de": "",
             "en": ""
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Gnocchi in feiner Steinpilzsauce",
-            "en": "Gnocchi in fine mushroom sauce"
+            "de": "Mozzarella Lasagne",
+            "en": "Mozzarella Lasagna"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Rucola, Parmesan & grünem Salat VEGGIE a,c,g,l",
-            "en": "with arugula, parmesan and green salad VEGGIE a,c,g,l"
+            "de": "aus dem Ofen mit gerösteten Tomaten, Bechamelsauce & grünem Salat VEGGIE a,c,g,l",
+            "en": "from the oven with roasted tomatoes, bechamel sauce & green salad VEGGIE a,c,g,l"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Pastinaken-Walnuss Auflauf",
-            "en": "Parsnip and walnut casserole"
+            "de": "Indisches Kokos-Linsen Dal",
+            "en": "Indian Coconut Lentil Dal"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Spinat, Erdäpfel & grünem Salat VEGGIE g,l,h",
-            "en": "with spinach, potatoes and green salad VEGGIE g,l,h"
+            "de": "mit Kokosmilch, Spinat & Basmatireis VEGGFLF a,g,l",
+            "en": "with coconut milk, spinach & basmati rice VEGGFLF a,g,l"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Schinkenfleckerl",
-            "en": "Ham fleckerl"
+            "de": "Garnelen-Mango Risotto",
+            "en": "Shrimp Mango Risotto"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit überbackenem Käse, Sauerrahm Dip & grünem Salat GF a,c,g,l",
-            "en": "with baked cheese, sour cream dip and green salad GF a,c,g,l"
+            "de": "mit Parmesan, Rucola & grünem Salat GF b,g,l",
+            "en": "with parmesan, arugula & green salad GF b,g,l"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Indisches Beef Korma",
-            "en": "Indian Beef Korma"
+            "de": "Zartes Kalbsrahmgulasch",
+            "en": "Tender Veal Goulash"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Sauce mit Gemüse & Basmatireis GF g,l,m,h",
-            "en": "in creamy sauce with vegetables and basmati rice GF g,l,m,h"
+            "de": "in feiner Paprikasauce mit Spätzle & Sauerrahm Dip a,c,g,l",
+            "en": "in fine paprika sauce with spaetzle & sour cream dip a,c,g,l"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-16T10:54:28.464885",
+      "scraped_at": "2026-02-17T10:25:41.576378",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Verfügbar am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-02-17T10:25:41.895901",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -141,16 +162,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-16T10:54:28.788915",
+      "scraped_at": "2026-02-17T10:25:42.223422",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 9
+    "total_items": 10
   }
 }
