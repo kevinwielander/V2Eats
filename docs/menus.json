@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-18T10:24:45.869131",
+  "last_updated": "2026-02-18T10:53:57.997997",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-18T10:24:00.234460",
+      "scraped_at": "2026-02-18T10:53:46.518558",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-18T10:24:03.888443",
+      "scraped_at": "2026-02-18T10:53:49.772669",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -103,7 +103,7 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "in herzhafter Schmorsauce mit Wurzelgemüse & Thymiankartoffeln GF a,l,o",
-            "en": "in hearty stew sauce with root vegetables and thyme potatoes GF a,l,o"
+            "en": "in hearty stew sauce with root vegetables & thyme potatoes GF a,l,o"
           },
           "dietary": "meat"
         },
@@ -115,12 +115,12 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "mit Fleischragout, Bechamelsauce, Parmesan & grünem Salat a,c,g,l,o",
-            "en": "with meat ragout, bechamel sauce, parmesan and green salad a,c,g,l,o"
+            "en": "with meat ragout, bechamel sauce, parmesan & green salad a,c,g,l,o"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-18T10:24:45.590641",
+      "scraped_at": "2026-02-18T10:53:57.700545",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-18T10:24:45.869001",
+      "scraped_at": "2026-02-18T10:53:57.997934",
       "available": true,
       "extraction_method": "Static menu"
     }
