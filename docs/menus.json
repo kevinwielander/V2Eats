@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-17T10:54:00.415755",
+  "last_updated": "2026-02-18T10:24:45.869131",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-17T10:53:48.361858",
+      "scraped_at": "2026-02-18T10:24:00.234460",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-17T10:53:52.002832",
+      "scraped_at": "2026-02-18T10:24:03.888443",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,77 +73,56 @@
         },
         {
           "name": {
-            "de": "Mozzarella Lasagne",
-            "en": "Mozzarella Lasagna"
+            "de": "Kürbis-Erdäpfel Gröstl",
+            "en": "Pumpkin-Potato Gröstl"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "aus dem Ofen mit gerösteten Tomaten, Bechamelsauce & grünem Salat VEGGIE a,c,g,l",
-            "en": "from the oven with roasted tomatoes, bechamel sauce & green salad VEGGIE a,c,g,l"
+            "de": "mit gerösteten Kürbiskernen und veganem Cream-Dip VEGGIEGFLF f,m,l",
+            "en": "with roasted pumpkin seeds and vegan cream dip VEGGIEGFLF f,m,l"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Indisches Kokos-Linsen Dal",
-            "en": "Indian Coconut Lentil Dal"
+            "de": "Süßkartoffel-Cashew Tikka Masala",
+            "en": "Sweet Potato-Cashew Tikka Masala"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Kokosmilch, Spinat & Basmatireis VEGGFLF a,g,l",
-            "en": "with coconut milk, spinach & basmati rice VEGGFLF a,g,l"
+            "de": "in Kokosmilchsauce mit Basmatireis VEGGFLF a,f,l,m",
+            "en": "in coconut milk sauce with basmati rice VEGGFLF a,f,l,m"
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Garnelen-Mango Risotto",
-            "en": "Shrimp Mango Risotto"
+            "de": "Boeuf Bourguignon",
+            "en": "Boeuf Bourguignon"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Parmesan, Rucola & grünem Salat GF b,g,l",
-            "en": "with parmesan, arugula & green salad GF b,g,l"
+            "de": "in herzhafter Schmorsauce mit Wurzelgemüse & Thymiankartoffeln GF a,l,o",
+            "en": "in hearty stew sauce with root vegetables and thyme potatoes GF a,l,o"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Zartes Kalbsrahmgulasch",
-            "en": "Tender Veal Goulash"
+            "de": "Lasagne Bolognese",
+            "en": "Lasagna Bolognese"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in feiner Paprikasauce mit Spätzle & Sauerrahm Dip a,c,g,l",
-            "en": "in fine paprika sauce with spaetzle & sour cream dip a,c,g,l"
+            "de": "mit Fleischragout, Bechamelsauce, Parmesan & grünem Salat a,c,g,l,o",
+            "en": "with meat ragout, bechamel sauce, parmesan and green salad a,c,g,l,o"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-17T10:53:59.514063",
+      "scraped_at": "2026-02-18T10:24:45.590641",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Verfügbar am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-02-17T10:54:00.023601",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -162,16 +141,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-17T10:54:00.415688",
+      "scraped_at": "2026-02-18T10:24:45.869001",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 10
+    "total_items": 9
   }
 }
