@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-19T10:23:56.215079",
+  "last_updated": "2026-02-19T10:54:04.370755",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-19T10:23:33.721251",
+      "scraped_at": "2026-02-19T10:53:44.895813",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -34,7 +34,7 @@
           "price": "€7.90",
           "description": {
             "de": "mit Schwarzbrot",
-            "en": "with black bread"
+            "en": "with dark bread"
           },
           "dietary": "vegetarian"
         },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-19T10:23:38.004099",
+      "scraped_at": "2026-02-19T10:53:48.778081",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -69,7 +69,7 @@
             "de": "",
             "en": ""
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
@@ -120,7 +120,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-19T10:23:55.257560",
+      "scraped_at": "2026-02-19T10:54:03.737151",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -135,13 +135,13 @@
           },
           "price": "€8-12",
           "description": {
-            "de": "Verfügbar am Donnerstag",
+            "de": "Erhältlich am Donnerstag",
             "en": "Available on Thursday"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-19T10:23:55.837785",
+      "scraped_at": "2026-02-19T10:54:04.065644",
       "available": true,
       "type": "food_truck"
     },
@@ -156,13 +156,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "de": "Vordefinierte oder individuelle Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-19T10:23:56.215006",
+      "scraped_at": "2026-02-19T10:54:04.370672",
       "available": true,
       "extraction_method": "Static menu"
     }
