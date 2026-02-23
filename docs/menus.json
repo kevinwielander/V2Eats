@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-20T10:52:33.462771",
+  "last_updated": "2026-02-23T10:27:08.910119",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-20T10:52:13.954011",
+      "scraped_at": "2026-02-23T10:26:50.256571",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-20T10:52:17.979537",
+      "scraped_at": "2026-02-23T10:26:54.483285",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,30 +61,66 @@
       "items": [
         {
           "name": {
-            "de": "Salatschüssel",
-            "en": "Saladbowl"
+            "de": "Saladbowl",
+            "en": "Salad Bowl"
           },
-          "price": "€7.50 / €10.90",
+          "price": "€7.50/€10.90",
           "description": {
-            "de": "Klein / Groß",
-            "en": "Small / Large"
+            "de": "",
+            "en": ""
+          },
+          "dietary": "vegan"
+        },
+        {
+          "name": {
+            "de": "Vegetarische Pilzlasagne",
+            "en": "Vegetarian Mushroom Lasagna"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit Parmesan, Tomaten & grünem Salat VEGGIE a,g",
+            "en": "with parmesan, tomatoes, and green salad VEGGIE a,g"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Hauptgericht",
-            "en": "Main Dish"
+            "de": "Sweetpotato Chili",
+            "en": "Sweet Potato Chili"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "Klein / Groß",
-            "en": "Small / Large"
+            "de": "mit Avocado-Guacamole Dip & Langkornreis VEGGFLF m,l,g",
+            "en": "with avocado guacamole dip and long-grain rice VEGGFLF m,l,g"
+          },
+          "dietary": "vegan"
+        },
+        {
+          "name": {
+            "de": "Rotes Thai Hühnchen Curry",
+            "en": "Red Thai Chicken Curry"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "in Kokoscremesauce mit Basmatireis GFLF l,f,d,e,h,m",
+            "en": "in coconut cream sauce with basmati rice GFLF l,f,d,e,h,m"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Bergkäse-Käsespätzle",
+            "en": "Mountain Cheese Spaetzle"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit geröstetem Speck & grünem Salat a,c,g,l,m",
+            "en": "with roasted bacon and green salad a,c,g,l,m"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-20T10:52:33.068914",
+      "scraped_at": "2026-02-23T10:27:08.529883",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -99,13 +135,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder individuelle Schalen",
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-20T10:52:33.462706",
+      "scraped_at": "2026-02-23T10:27:08.910056",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -115,6 +151,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 6
+    "total_items": 9
   }
 }
