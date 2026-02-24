@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-23T10:54:24.542970",
+  "last_updated": "2026-02-24T10:25:48.064341",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-23T10:54:05.502828",
+      "scraped_at": "2026-02-24T10:25:27.293628",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,42 +16,42 @@
       "items": [
         {
           "name": {
-            "de": "Stroganoff vom Schwein",
-            "en": "Pork Stroganoff"
+            "de": "Cremige Schwammerl mit Serviettenknödel",
+            "en": "Creamy Mushrooms with Bread Dumplings"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Basmati Reis",
-            "en": "with Basmati rice"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Serbische Bohnensuppe",
-            "en": "Serbian Bean Soup"
-          },
-          "price": "€7.90",
-          "description": {
-            "de": "mit Schwarzbrot",
-            "en": "with black bread"
+            "de": "Cremige Pilzgericht mit Serviettenknödeln",
+            "en": "Creamy mushroom dish with bread dumplings"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Piri-Piri Hähnchen",
-            "en": "Piri-Piri Chicken"
+            "de": "Erdäpfelgulasch mit Schwarzbrot",
+            "en": "Potato Goulash with Black Bread"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Ebly",
-            "en": "with Ebly"
+            "de": "Erdäpfelgulasch mit Schwarzbrot",
+            "en": "Potato goulash with black bread"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Caesar Salad mit Hühnerstreifen in Sesampanade",
+            "en": "Caesar Salad with Chicken Strips in Sesame Breading"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "Caesar Salat mit Hühnerstreifen in Sesampanade",
+            "en": "Caesar salad with chicken strips in sesame breading"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-23T10:54:08.887706",
+      "scraped_at": "2026-02-24T10:25:32.238213",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,56 +73,77 @@
         },
         {
           "name": {
-            "de": "Vegetarische Pilzlasagne",
-            "en": "Vegetarian Mushroom Lasagna"
+            "de": "Cremiges Safran-Parmesan Risotto",
+            "en": "Creamy Saffron Parmesan Risotto"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Parmesan, Tomaten & grünem Salat VEGGIE a,g",
-            "en": "with parmesan, tomatoes, and green salad VEGGIE a,g"
+            "de": "mit Spinat, Tomaten & grünem Salat VEGGIEGF g,l,m",
+            "en": "with spinach, tomatoes, and green salad VEGGIEGF g,l,m"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Sweetpotato Chili",
-            "en": "Sweet Potato Chili"
+            "de": "Ricotta-Lasagne",
+            "en": "Ricotta Lasagna"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Avocado-Guacamole Dip & Langkornreis VEGGFLF m,l,g",
-            "en": "with avocado guacamole dip and long-grain rice VEGGFLF m,l,g"
+            "de": "mit geröstetem Kürbis, Bechamelsauce & grünem Salat VEGGIE a,c,l,g",
+            "en": "with roasted pumpkin, bechamel sauce, and green salad VEGGIE a,c,l,g"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Red Thai Chicken Curry",
-            "en": "Red Thai Chicken Curry"
+            "de": "Geschmortes Rindergulasch",
+            "en": "Beef Goulash"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in Kokoscremesauce mit Basmatireis GFLF l,f,d,e,h,m",
-            "en": "in coconut cream sauce with basmati rice GFLF l,f,d,e,h,m"
+            "de": "in Paprikasauce mit Spätzle & Sauerrahm Dip a,c,g,m",
+            "en": "in paprika sauce with spaetzle and sour cream dip a,c,g,m"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Bergkäse-Käsespätzle",
-            "en": "Mountain Cheese Spaetzle"
+            "de": "Paprikahühnchen",
+            "en": "Paprika Chicken"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit geröstetem Speck & grünem Salat a,c,g,l,m",
-            "en": "with roasted bacon and green salad a,c,g,l,m"
+            "de": "in cremiger Rahmsauce mit Hühnerfilet & Erbsenreis a,c,g,l,m",
+            "en": "in creamy cream sauce with chicken filet and pea rice a,c,g,l,m"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-23T10:54:24.005436",
+      "scraped_at": "2026-02-24T10:25:47.233210",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Erhältlich am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-02-24T10:25:47.678066",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -141,16 +162,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-23T10:54:24.542904",
+      "scraped_at": "2026-02-24T10:25:48.064269",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 9
+    "total_items": 10
   }
 }
