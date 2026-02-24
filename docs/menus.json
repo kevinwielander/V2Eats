@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-24T10:25:48.064341",
+  "last_updated": "2026-02-24T10:54:28.647315",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-24T10:25:27.293628",
+      "scraped_at": "2026-02-24T10:54:06.225420",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,12 +17,12 @@
         {
           "name": {
             "de": "Cremige Schwammerl mit Serviettenknödel",
-            "en": "Creamy Mushrooms with Bread Dumplings"
+            "en": "Creamy Mushrooms with Serviette Dumplings"
           },
           "price": "€7.90",
           "description": {
             "de": "Cremige Pilzgericht mit Serviettenknödeln",
-            "en": "Creamy mushroom dish with bread dumplings"
+            "en": "Creamy mushroom dish with serviette dumplings"
           },
           "dietary": "vegetarian"
         },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-24T10:25:32.238213",
+      "scraped_at": "2026-02-24T10:54:11.182058",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -115,12 +115,12 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "in cremiger Rahmsauce mit Hühnerfilet & Erbsenreis a,c,g,l,m",
-            "en": "in creamy cream sauce with chicken filet and pea rice a,c,g,l,m"
+            "en": "in creamy cream sauce with chicken breast and pea rice a,c,g,l,m"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-24T10:25:47.233210",
+      "scraped_at": "2026-02-24T10:54:27.745842",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -135,13 +135,13 @@
           },
           "price": "€8-13",
           "description": {
-            "de": "Erhältlich am Dienstag",
+            "de": "Verfügbar am Dienstag",
             "en": "Available on Tuesday"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-24T10:25:47.678066",
+      "scraped_at": "2026-02-24T10:54:28.225806",
       "available": true,
       "type": "food_truck"
     },
@@ -162,7 +162,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-24T10:25:48.064269",
+      "scraped_at": "2026-02-24T10:54:28.647236",
       "available": true,
       "extraction_method": "Static menu"
     }
