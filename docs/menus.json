@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-25T10:26:38.651356",
+  "last_updated": "2026-02-25T10:54:30.132317",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-25T10:26:19.194470",
+      "scraped_at": "2026-02-25T10:54:14.092364",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,12 +17,12 @@
         {
           "name": {
             "de": "Cremige Schwammerl mit Serviettenknödel",
-            "en": "Creamy Mushrooms with Bread Dumplings"
+            "en": "Creamy Mushrooms with Serviette Dumplings"
           },
           "price": "€7.90",
           "description": {
-            "de": "Cremige Schwammerl mit Serviettenknödel",
-            "en": "Creamy mushroom dish with bread dumplings"
+            "de": "Cremige Pilzgericht mit Serviettenknödeln",
+            "en": "Creamy mushroom dish with serviette dumplings"
           },
           "dietary": "vegetarian"
         },
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Caesar Salad mit Hühnerstreifen in Sesampanade",
+            "de": "Caesar Salat mit Hühnerstreifen in Sesampanade",
             "en": "Caesar salad with chicken strips in sesame breading"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-25T10:26:24.227145",
+      "scraped_at": "2026-02-25T10:54:17.851748",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -62,19 +62,19 @@
         {
           "name": {
             "de": "Salatschüssel",
-            "en": "Salad Bowl"
+            "en": "Saladbowl"
           },
           "price": "€7.50 / €10.90",
           "description": {
-            "de": "Eine Auswahl an frischen Gemüse und Kräutern",
-            "en": "A selection of fresh vegetables and herbs"
+            "de": "Eine Auswahl an frischen Gemüsen",
+            "en": "A selection of fresh vegetables"
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
             "de": "Hauptgericht",
-            "en": "Main Course"
+            "en": "Main Dish"
           },
           "price": "€7.50 / €11.90",
           "description": {
@@ -84,7 +84,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-25T10:26:38.294310",
+      "scraped_at": "2026-02-25T10:54:29.636645",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -105,7 +105,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-25T10:26:38.651292",
+      "scraped_at": "2026-02-25T10:54:30.132242",
       "available": true,
       "extraction_method": "Static menu"
     }
