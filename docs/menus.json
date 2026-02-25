@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-24T10:54:28.647315",
+  "last_updated": "2026-02-25T10:26:38.651356",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-24T10:54:06.225420",
+      "scraped_at": "2026-02-25T10:26:19.194470",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,12 +17,12 @@
         {
           "name": {
             "de": "Cremige Schwammerl mit Serviettenknödel",
-            "en": "Creamy Mushrooms with Serviette Dumplings"
+            "en": "Creamy Mushrooms with Bread Dumplings"
           },
           "price": "€7.90",
           "description": {
-            "de": "Cremige Pilzgericht mit Serviettenknödeln",
-            "en": "Creamy mushroom dish with serviette dumplings"
+            "de": "Cremige Schwammerl mit Serviettenknödel",
+            "en": "Creamy mushroom dish with bread dumplings"
           },
           "dietary": "vegetarian"
         },
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Caesar Salat mit Hühnerstreifen in Sesampanade",
+            "de": "Caesar Salad mit Hühnerstreifen in Sesampanade",
             "en": "Caesar salad with chicken strips in sesame breading"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-24T10:54:11.182058",
+      "scraped_at": "2026-02-25T10:26:24.227145",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,89 +61,32 @@
       "items": [
         {
           "name": {
-            "de": "Saladbowl",
+            "de": "Salatschüssel",
             "en": "Salad Bowl"
           },
-          "price": "€7.50/€10.90",
+          "price": "€7.50 / €10.90",
           "description": {
-            "de": "",
-            "en": ""
-          },
-          "dietary": "vegan"
-        },
-        {
-          "name": {
-            "de": "Cremiges Safran-Parmesan Risotto",
-            "en": "Creamy Saffron Parmesan Risotto"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit Spinat, Tomaten & grünem Salat VEGGIEGF g,l,m",
-            "en": "with spinach, tomatoes, and green salad VEGGIEGF g,l,m"
+            "de": "Eine Auswahl an frischen Gemüse und Kräutern",
+            "en": "A selection of fresh vegetables and herbs"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Ricotta-Lasagne",
-            "en": "Ricotta Lasagna"
+            "de": "Hauptgericht",
+            "en": "Main Course"
           },
-          "price": "€7.50/€11.90",
+          "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit geröstetem Kürbis, Bechamelsauce & grünem Salat VEGGIE a,c,l,g",
-            "en": "with roasted pumpkin, bechamel sauce, and green salad VEGGIE a,c,l,g"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Geschmortes Rindergulasch",
-            "en": "Beef Goulash"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "in Paprikasauce mit Spätzle & Sauerrahm Dip a,c,g,m",
-            "en": "in paprika sauce with spaetzle and sour cream dip a,c,g,m"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Paprikahühnchen",
-            "en": "Paprika Chicken"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "in cremiger Rahmsauce mit Hühnerfilet & Erbsenreis a,c,g,l,m",
-            "en": "in creamy cream sauce with chicken breast and pea rice a,c,g,l,m"
+            "de": "Unser täglich wechselndes Hauptgericht",
+            "en": "Our daily changing main course"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-24T10:54:27.745842",
+      "scraped_at": "2026-02-25T10:26:38.294310",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Verfügbar am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-02-24T10:54:28.225806",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -162,16 +105,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-24T10:54:28.647236",
+      "scraped_at": "2026-02-25T10:26:38.651292",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 10
+    "total_items": 6
   }
 }
