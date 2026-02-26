@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-26T10:24:41.067369",
+  "last_updated": "2026-02-26T10:54:09.656444",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-26T10:24:20.611687",
+      "scraped_at": "2026-02-26T10:53:51.242375",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,12 +17,12 @@
         {
           "name": {
             "de": "Cremige Schwammerl mit Serviettenknödel",
-            "en": "Creamy Mushrooms with Bread Dumplings"
+            "en": "Creamy Mushrooms with Serviette Dumplings"
           },
           "price": "€7.90",
           "description": {
-            "de": "Cremige Schwammerl mit Serviettenknödel",
-            "en": "Creamy mushroom dish with bread dumplings"
+            "de": "Cremige Pilzgericht mit Serviettenknödeln",
+            "en": "Creamy mushroom dish with serviette dumplings"
           },
           "dietary": "vegetarian"
         },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-26T10:24:25.168772",
+      "scraped_at": "2026-02-26T10:53:55.077613",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -66,8 +66,8 @@
           },
           "price": "€7.50 / €10.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Klein oder Gross",
+            "en": "Small or Large"
           },
           "dietary": "vegetarian"
         },
@@ -98,12 +98,12 @@
         {
           "name": {
             "de": "Faschierter Braten",
-            "en": "Shredded Roast"
+            "en": "Minced Beef Roast"
           },
           "price": "€7.50 / €11.90",
           "description": {
             "de": "mit cremigem Kartoffelpüree, Bratensaft & grünem Salat, a, c, g, m",
-            "en": "with creamy mashed potatoes, roast juice & green salad, a, c, g, m"
+            "en": "with creamy mashed potatoes, roast gravy & green salad, a, c, g, m"
           },
           "dietary": "meat"
         },
@@ -120,7 +120,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-26T10:24:40.347227",
+      "scraped_at": "2026-02-26T10:54:08.944579",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -135,13 +135,13 @@
           },
           "price": "€8-12",
           "description": {
-            "de": "Erhältlich am Donnerstag",
+            "de": "Verfügbar am Donnerstag",
             "en": "Available on Thursday"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-26T10:24:40.708861",
+      "scraped_at": "2026-02-26T10:54:09.249494",
       "available": true,
       "type": "food_truck"
     },
@@ -162,7 +162,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-26T10:24:41.067299",
+      "scraped_at": "2026-02-26T10:54:09.656363",
       "available": true,
       "extraction_method": "Static menu"
     }
