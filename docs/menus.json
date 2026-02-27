@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-27T10:20:38.224796",
+  "last_updated": "2026-02-27T10:52:52.213159",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-27T10:20:16.247496",
+      "scraped_at": "2026-02-27T10:52:29.326277",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,12 +17,12 @@
         {
           "name": {
             "de": "Cremige Schwammerl mit Serviettenknödel",
-            "en": "Creamy Mushrooms with Serviettenknödel"
+            "en": "Creamy Mushrooms with Bread Dumplings"
           },
           "price": "€7.90",
           "description": {
             "de": "Cremige Schwammerl mit Serviettenknödel",
-            "en": "Creamy mushroom dish with serviettenknödel"
+            "en": "Creamy mushroom dish with bread dumplings"
           },
           "dietary": "vegetarian"
         },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-27T10:20:21.776184",
+      "scraped_at": "2026-02-27T10:52:33.758666",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -64,27 +64,51 @@
             "de": "Saladbowl",
             "en": "Salad Bowl"
           },
-          "price": "€7.50/€10.90",
+          "price": "€7.50 / €10.90",
           "description": {
-            "de": "Klein/Gross",
-            "en": "Small/Large"
+            "de": "Klein / Gross",
+            "en": "Small / Large"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
             "de": "Blunzengröstl",
             "en": "Blunzengröstl"
           },
-          "price": "€7.50/€11.90",
+          "price": "€7.50 / €11.90",
           "description": {
             "de": "mit Erdäpfel, Lauch, Kräuterrahm Dip & grünem Salat",
-            "en": "with potatoes, leeks, herb cream dip & green salad"
+            "en": "with potatoes, leek, herb cream dip & green salad"
           },
           "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Süßkartoffel-Feta Gratin",
+            "en": "Sweet Potato Feta Gratin"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "mit Blattspinat & grünem Salat",
+            "en": "with spinach & green salad"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Hühnerfilet in feiner Stroganoff-Sauce",
+            "en": "Chicken Filet in fine Stroganoff Sauce"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "mit Waldpilzen & Spätzle",
+            "en": "with wild mushrooms & spaetzle"
+          },
+          "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-27T10:20:37.768968",
+      "scraped_at": "2026-02-27T10:52:51.674381",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -105,7 +129,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-27T10:20:38.224732",
+      "scraped_at": "2026-02-27T10:52:52.213093",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -115,6 +139,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 6
+    "total_items": 8
   }
 }
