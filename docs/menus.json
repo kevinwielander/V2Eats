@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-26T10:54:09.656444",
+  "last_updated": "2026-02-27T10:20:38.224796",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-02-26T10:53:51.242375",
+      "scraped_at": "2026-02-27T10:20:16.247496",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,12 +17,12 @@
         {
           "name": {
             "de": "Cremige Schwammerl mit Serviettenknödel",
-            "en": "Creamy Mushrooms with Serviette Dumplings"
+            "en": "Creamy Mushrooms with Serviettenknödel"
           },
           "price": "€7.90",
           "description": {
-            "de": "Cremige Pilzgericht mit Serviettenknödeln",
-            "en": "Creamy mushroom dish with serviette dumplings"
+            "de": "Cremige Schwammerl mit Serviettenknödel",
+            "en": "Creamy mushroom dish with serviettenknödel"
           },
           "dietary": "vegetarian"
         },
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Caesar Salat mit Hühnerstreifen in Sesampanade",
+            "de": "Caesar Salad mit Hühnerstreifen in Sesampanade",
             "en": "Caesar salad with chicken strips in sesame breading"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-26T10:53:55.077613",
+      "scraped_at": "2026-02-27T10:20:21.776184",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -64,86 +64,29 @@
             "de": "Saladbowl",
             "en": "Salad Bowl"
           },
-          "price": "€7.50 / €10.90",
+          "price": "€7.50/€10.90",
           "description": {
-            "de": "Klein oder Gross",
-            "en": "Small or Large"
+            "de": "Klein/Gross",
+            "en": "Small/Large"
+          },
+          "dietary": "vegan"
+        },
+        {
+          "name": {
+            "de": "Blunzengröstl",
+            "en": "Blunzengröstl"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit Erdäpfel, Lauch, Kräuterrahm Dip & grünem Salat",
+            "en": "with potatoes, leeks, herb cream dip & green salad"
           },
           "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Cremiges Pilzrahmragout",
-            "en": "Creamy Mushroom Ragout"
-          },
-          "price": "€7.50 / €11.90",
-          "description": {
-            "de": "in Senfrahmsauce mit hausgemachten Semmelknödel, VEGGIE, a, c, g, l, m",
-            "en": "in mustard cream sauce with homemade bread dumplings, VEGGIE, a, c, g, l, m"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Indisches Karfiol-Cashew Tikka Masala",
-            "en": "Indian Cauliflower-Cashew Tikka Masala"
-          },
-          "price": "€7.50 / €11.90",
-          "description": {
-            "de": "mit Mandelreis, VEGGFLF, e, f, h, l, m, n, o",
-            "en": "with almond rice, VEGGFLF, e, f, h, l, m, n, o"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Faschierter Braten",
-            "en": "Minced Beef Roast"
-          },
-          "price": "€7.50 / €11.90",
-          "description": {
-            "de": "mit cremigem Kartoffelpüree, Bratensaft & grünem Salat, a, c, g, m",
-            "en": "with creamy mashed potatoes, roast gravy & green salad, a, c, g, m"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Griechische Hühnerpfanne",
-            "en": "Greek Chicken Pan"
-          },
-          "price": "€7.50 / €11.90",
-          "description": {
-            "de": "mit Bratkartoffel, Schmorgemüse, cremigen Tzatziki & grünem Salat, g, l, m, o",
-            "en": "with fried potatoes, stewed vegetables, creamy tzatziki & green salad, g, l, m, o"
-          },
-          "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-02-26T10:54:08.944579",
+      "scraped_at": "2026-02-27T10:20:37.768968",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pinsa Food Truck",
-      "url": "https://www.pinsalino.at",
-      "items": [
-        {
-          "name": {
-            "de": "Römische Pizza mit verschiedenen Belägen",
-            "en": "Roman-style pizza with various toppings"
-          },
-          "price": "€8-12",
-          "description": {
-            "de": "Verfügbar am Donnerstag",
-            "en": "Available on Thursday"
-          },
-          "dietary": "meat"
-        }
-      ],
-      "scraped_at": "2026-02-26T10:54:09.249494",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -162,16 +105,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-02-26T10:54:09.656363",
+      "scraped_at": "2026-02-27T10:20:38.224732",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 10
+    "total_items": 6
   }
 }
