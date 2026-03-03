@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-02T10:53:39.723228",
+  "last_updated": "2026-03-03T10:21:49.548623",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-02T10:53:20.632101",
+      "scraped_at": "2026-03-03T10:21:30.889301",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,9 +22,9 @@
           "price": "€7.90",
           "description": {
             "de": "mit Dürre und Schwarzbrot",
-            "en": "with dried legumes and dark bread"
+            "en": "with dried meat and dark bread"
           },
-          "dietary": "vegan"
+          "dietary": "meat"
         },
         {
           "name": {
@@ -36,7 +36,7 @@
             "de": "mit grünem Salat und Sauce Tartare",
             "en": "with green salad and tartare sauce"
           },
-          "dietary": "vegetarian"
+          "dietary": "meat"
         },
         {
           "name": {
@@ -51,7 +51,7 @@
           "dietary": "vegan"
         }
       ],
-      "scraped_at": "2026-03-02T10:53:25.467920",
+      "scraped_at": "2026-03-03T10:21:35.235423",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -69,60 +69,81 @@
             "de": "",
             "en": ""
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Zartes Kalbsrahmgulasch",
-            "en": "Tender Veal Goulash"
+            "de": "Paprikahühnchen",
+            "en": "Paprika Chicken"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in Paprika-Oberssaucemit Spätzle & Sauerrahm-Dip a,g,l",
-            "en": "in paprika cream sauce with spaetzle and sour cream dip"
+            "de": "in cremiger Rahmsauce mit Spätzle & Sauerrahm Dip a,c,g,l",
+            "en": "in creamy cream sauce with spaetzle and sour cream dip a,c,g,l"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Burritos Chili Con Carne",
-            "en": "Beef Chili Burritos"
+            "de": "Bœuf Bourguignon",
+            "en": "Beef Bourguignon"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Avocado-Guacamole, überbackenem Käse & grünem Salat a,g,l",
-            "en": "with avocado guacamole, baked cheese, and green salad"
+            "de": "in Rotwein-Senfsauce mit Wurzelgemüse & Kartoffelpüree g,l,m,u",
+            "en": "in red wine mustard sauce with root vegetables and mashed potatoes g,l,m,u"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Feta-Tomaten Risotto",
-            "en": "Feta Tomato Risotto"
+            "de": "Lasagne",
+            "en": "Lasagna"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Basilikum & grünem Salat VEGGIEGF a,c,g",
-            "en": "with basil and green salad"
+            "de": "mit geröstetem Kürbis, Ricotta, Kürbiskernen & grünem Sala VEGGIE a,g,l,m,o",
+            "en": "with roasted pumpkin, ricotta, pumpkin seeds and green salad VEGGIE a,g,l,m,o"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Süßkartoffel Curry",
-            "en": "Sweet Potato Curry"
+            "de": "Steinpilz Gnocchi",
+            "en": "Steinpilz Gnocchi"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in Kokos-Zitronensauce mit Brokkoli & Basmatireis VEGGFLF e,f,h,l,m,n,o",
-            "en": "in coconut lemon sauce with broccoli and basmati rice"
+            "de": "in Parmesansauce mit Ruccola & grünem Salat VEG a,g,l,m,o",
+            "en": "in parmesan sauce with arugula and green salad VEG a,g,l,m,o"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-02T10:53:39.321086",
+      "scraped_at": "2026-03-03T10:21:48.845894",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Erhältlich am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-03-03T10:21:49.208489",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -141,16 +162,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-02T10:53:39.723164",
+      "scraped_at": "2026-03-03T10:21:49.548553",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 9
+    "total_items": 10
   }
 }
