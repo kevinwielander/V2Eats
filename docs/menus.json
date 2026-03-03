@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-03T10:21:49.548623",
+  "last_updated": "2026-03-03T10:53:39.761884",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-03T10:21:30.889301",
+      "scraped_at": "2026-03-03T10:53:20.099533",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,9 +22,9 @@
           "price": "€7.90",
           "description": {
             "de": "mit Dürre und Schwarzbrot",
-            "en": "with dried meat and dark bread"
+            "en": "with dried legumes and dark bread"
           },
-          "dietary": "meat"
+          "dietary": "vegan"
         },
         {
           "name": {
@@ -36,7 +36,7 @@
             "de": "mit grünem Salat und Sauce Tartare",
             "en": "with green salad and tartare sauce"
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         },
         {
           "name": {
@@ -51,7 +51,7 @@
           "dietary": "vegan"
         }
       ],
-      "scraped_at": "2026-03-03T10:21:35.235423",
+      "scraped_at": "2026-03-03T10:53:23.619568",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -79,7 +79,7 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "in cremiger Rahmsauce mit Spätzle & Sauerrahm Dip a,c,g,l",
-            "en": "in creamy cream sauce with spaetzle and sour cream dip a,c,g,l"
+            "en": "in creamy sour cream sauce with spaetzle and sour cream dip a,c,g,l"
           },
           "dietary": "meat"
         },
@@ -120,7 +120,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-03T10:21:48.845894",
+      "scraped_at": "2026-03-03T10:53:38.931046",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-03T10:21:49.208489",
+      "scraped_at": "2026-03-03T10:53:39.255692",
       "available": true,
       "type": "food_truck"
     },
@@ -162,7 +162,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-03T10:21:49.548553",
+      "scraped_at": "2026-03-03T10:53:39.761820",
       "available": true,
       "extraction_method": "Static menu"
     }
