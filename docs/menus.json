@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-04T10:19:38.623632",
+  "last_updated": "2026-03-04T10:52:13.207289",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-04T10:19:18.377088",
+      "scraped_at": "2026-03-04T10:51:54.089733",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -28,15 +28,15 @@
         },
         {
           "name": {
-            "de": "Karfiol",
-            "en": "Cauliflower"
+            "de": "Geb. Karfiol",
+            "en": "Roasted Cauliflower"
           },
           "price": "€7.90",
           "description": {
             "de": "mit grünem Salat und Sauce Tartare",
             "en": "with green salad and tartare sauce"
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         },
         {
           "name": {
@@ -51,7 +51,7 @@
           "dietary": "vegan"
         }
       ],
-      "scraped_at": "2026-03-04T10:19:21.892934",
+      "scraped_at": "2026-03-04T10:51:57.636812",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -64,22 +64,22 @@
             "de": "Saladbowl",
             "en": "Salad Bowl"
           },
-          "price": "€7.50 / €10.90",
+          "price": "€7.50/€10.90",
           "description": {
             "de": "",
             "en": ""
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
             "de": "Griechische Hühnerpfanne",
             "en": "Greek Chicken Pan"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "mit Schmorgemüse, Tzatziki & Grünem Salat a,c,g,l",
-            "en": "with sautéed vegetables, tzatziki & green salad a,c,g,l"
+            "en": "with stewed vegetables, tzatziki and green salad a,c,g,l"
           },
           "dietary": "meat"
         },
@@ -88,10 +88,10 @@
             "de": "Rehragout",
             "en": "Venison Ragout"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "in Wacholdersauce mit Wurzelgemüse & Spätzle g,l,m,u",
-            "en": "in juniper sauce with root vegetables & spaetzle g,l,m,u"
+            "en": "in juniper sauce with root vegetables and spaetzle g,l,m,u"
           },
           "dietary": "meat"
         },
@@ -100,7 +100,7 @@
             "de": "Indisches Dal",
             "en": "Indian Dal"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "mit roten Linsen in cremiger Kokos-Spinatsauce mit Basmatireis VEGGFLF a,g,l,m,o",
             "en": "with red lentils in creamy coconut spinach sauce with basmati rice VEGGFLF a,g,l,m,o"
@@ -112,7 +112,7 @@
             "de": "Mac&Cheese Tortiglioni",
             "en": "Mac&Cheese Tortiglioni"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "aus dem Ofen mit grünem Salat VEGGIE a,g,l,m,o",
             "en": "from the oven with green salad VEGGIE a,g,l,m,o"
@@ -120,7 +120,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-04T10:19:38.271323",
+      "scraped_at": "2026-03-04T10:52:12.541334",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -135,13 +135,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "de": "Vordefinierte oder individuelle Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-04T10:19:38.623560",
+      "scraped_at": "2026-03-04T10:52:13.207229",
       "available": true,
       "extraction_method": "Static menu"
     }
