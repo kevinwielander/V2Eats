@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-06T10:18:35.603581",
+  "last_updated": "2026-03-06T10:51:40.477689",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-06T10:18:15.055204",
+      "scraped_at": "2026-03-06T10:51:27.274546",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,9 +22,9 @@
           "price": "€7.90",
           "description": {
             "de": "mit Dürre und Schwarzbrot",
-            "en": "with dried meat and dark bread"
+            "en": "with dried legumes and dark bread"
           },
-          "dietary": "meat"
+          "dietary": "vegan"
         },
         {
           "name": {
@@ -36,7 +36,7 @@
             "de": "mit grünem Salat und Sauce Tartare",
             "en": "with green salad and tartare sauce"
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         },
         {
           "name": {
@@ -51,7 +51,7 @@
           "dietary": "vegan"
         }
       ],
-      "scraped_at": "2026-03-06T10:18:18.609484",
+      "scraped_at": "2026-03-06T10:51:31.389846",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -91,7 +91,7 @@
           "price": "€7.50 / €11.90",
           "description": {
             "de": "mit Bechamelsauce & grünem Salat a,g,l,m,o",
-            "en": "with bechamel sauce and green salad a,g,l,m,o"
+            "en": "with Béchamel sauce and green salad a,g,l,m,o"
           },
           "dietary": "vegetarian"
         },
@@ -108,7 +108,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-06T10:18:35.233943",
+      "scraped_at": "2026-03-06T10:51:40.094208",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -129,7 +129,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-06T10:18:35.603518",
+      "scraped_at": "2026-03-06T10:51:40.477643",
       "available": true,
       "extraction_method": "Static menu"
     }
