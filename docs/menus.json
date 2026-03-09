@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-06T10:51:40.477689",
+  "last_updated": "2026-03-09T10:25:23.244812",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-06T10:51:27.274546",
+      "scraped_at": "2026-03-09T10:24:58.188309",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,21 +22,21 @@
           "price": "€7.90",
           "description": {
             "de": "mit Dürre und Schwarzbrot",
-            "en": "with dried legumes and dark bread"
+            "en": "with dried meat and dark bread"
           },
-          "dietary": "vegan"
+          "dietary": "meat"
         },
         {
           "name": {
-            "de": "Geb. Karfiol",
-            "en": "Roasted Cauliflower"
+            "de": "Karfiol",
+            "en": "Cauliflower"
           },
           "price": "€7.90",
           "description": {
             "de": "mit grünem Salat und Sauce Tartare",
             "en": "with green salad and tartare sauce"
           },
-          "dietary": "vegetarian"
+          "dietary": "meat"
         },
         {
           "name": {
@@ -51,7 +51,7 @@
           "dietary": "vegan"
         }
       ],
-      "scraped_at": "2026-03-06T10:51:31.389846",
+      "scraped_at": "2026-03-09T10:25:04.489073",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -66,49 +66,61 @@
           },
           "price": "€7.50 / €10.90",
           "description": {
-            "de": "Klein / Gross",
-            "en": "Small / Large"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Chicken-Stroganoff",
-            "en": "Chicken Stroganoff"
+            "de": "Butter Chicken",
+            "en": "Butter Chicken"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "in Senf-Rahmsauce mit Waldpilzen & Semmelknödel a,c,g,l",
-            "en": "in mustard cream sauce with wild mushrooms and bread dumplings a,c,g,l"
+            "de": "in cremiger Cashewsauce mit Basmatireis E, F, H, L, M, N, O",
+            "en": "in creamy cashew sauce with basmati rice E, F, H, L, M, N, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Tomaten Mozzarella Lasagne",
-            "en": "Tomato Mozzarella Lasagna"
+            "de": "Griechisches Moussaka",
+            "en": "Greek Moussaka"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Bechamelsauce & grünem Salat a,g,l,m,o",
-            "en": "with Béchamel sauce and green salad a,g,l,m,o"
+            "de": "mit Faschiertem, Schmormelanzani & grünem Salat G,L,M,O",
+            "en": "with minced meat, eggplant, and green salad G,L,M,O"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Süßkartoffel Curry",
+            "en": "Sweet Potato Curry"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "in cremiger Kokos-Limettensauce & Basmatireis VEGGFLF E, F, H, L, M, N, O",
+            "en": "in creamy coconut-lime sauce and basmati rice VEGGFLF E, F, H, L, M, N, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Kürbis-Feta Gratin",
-            "en": "Pumpkin Feta Gratin"
+            "de": "Eierschwammerl Risotto",
+            "en": "Chanterelle Risotto"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Spinat, überbackenem Käse & grünem Salat VEGGIE a,g,l,m,o",
-            "en": "with spinach, baked cheese and green salad VEGGIE a,g,l,m,o"
+            "de": "mit Parmesan & grünem Salat VEGGIEGF A,G,L,M,O",
+            "en": "with parmesan and green salad VEGGIEGF A,G,L,M,O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-06T10:51:40.094208",
+      "scraped_at": "2026-03-09T10:25:22.930559",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -129,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-06T10:51:40.477643",
+      "scraped_at": "2026-03-09T10:25:23.244745",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -139,6 +151,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 8
+    "total_items": 9
   }
 }
