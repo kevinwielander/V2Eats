@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-09T10:25:23.244812",
+  "last_updated": "2026-03-09T10:53:47.216775",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-09T10:24:58.188309",
+      "scraped_at": "2026-03-09T10:53:26.761573",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,42 +16,42 @@
       "items": [
         {
           "name": {
-            "de": "Linseneintopf",
-            "en": "Lentil Stew"
+            "de": "Szegedinger Gulasch mit Schwarzbrot",
+            "en": "Szegediner Goulash with Dark Bread"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Dürre und Schwarzbrot",
-            "en": "with dried meat and dark bread"
+            "de": "Ein herzhaftes Gulasch aus Rindfleisch, serviert mit Schwarzbrot",
+            "en": "A hearty goulash made from beef, served with dark bread"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Karfiol",
-            "en": "Cauliflower"
+            "de": "Spinatspätzle mit Käsesauce",
+            "en": "Spinach Spaetzle with Cheese Sauce"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit grünem Salat und Sauce Tartare",
-            "en": "with green salad and tartare sauce"
+            "de": "Frische Spinatblätter mit hausgemachten Spätzle und einer cremigen Käsesauce",
+            "en": "Fresh spinach leaves with homemade spaetzle and a creamy cheese sauce"
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Kichererbsen-Curry",
-            "en": "Chickpea Curry"
+            "de": "Lasagne al forno",
+            "en": "Lasagne al forno"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Basmati Reis",
-            "en": "with basmati rice"
+            "de": "Italienische Lasagne, hergestellt mit frischem Gemüse, Käse und Fleisch, im Ofen gebacken",
+            "en": "Italian lasagna made with fresh vegetables, cheese, and meat, baked in the oven"
           },
-          "dietary": "vegan"
+          "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-09T10:25:04.489073",
+      "scraped_at": "2026-03-09T10:53:30.755621",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -64,7 +64,7 @@
             "de": "Saladbowl",
             "en": "Salad Bowl"
           },
-          "price": "€7.50 / €10.90",
+          "price": "€7.50/€10.90",
           "description": {
             "de": "",
             "en": ""
@@ -76,7 +76,7 @@
             "de": "Butter Chicken",
             "en": "Butter Chicken"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "in cremiger Cashewsauce mit Basmatireis E, F, H, L, M, N, O",
             "en": "in creamy cashew sauce with basmati rice E, F, H, L, M, N, O"
@@ -88,7 +88,7 @@
             "de": "Griechisches Moussaka",
             "en": "Greek Moussaka"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "mit Faschiertem, Schmormelanzani & grünem Salat G,L,M,O",
             "en": "with minced meat, eggplant, and green salad G,L,M,O"
@@ -100,7 +100,7 @@
             "de": "Süßkartoffel Curry",
             "en": "Sweet Potato Curry"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "in cremiger Kokos-Limettensauce & Basmatireis VEGGFLF E, F, H, L, M, N, O",
             "en": "in creamy coconut-lime sauce and basmati rice VEGGFLF E, F, H, L, M, N, O"
@@ -112,7 +112,7 @@
             "de": "Eierschwammerl Risotto",
             "en": "Chanterelle Risotto"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "mit Parmesan & grünem Salat VEGGIEGF A,G,L,M,O",
             "en": "with parmesan and green salad VEGGIEGF A,G,L,M,O"
@@ -120,7 +120,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-09T10:25:22.930559",
+      "scraped_at": "2026-03-09T10:53:46.881017",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-09T10:25:23.244745",
+      "scraped_at": "2026-03-09T10:53:47.216707",
       "available": true,
       "extraction_method": "Static menu"
     }
