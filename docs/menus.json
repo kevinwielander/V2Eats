@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-10T10:22:07.368863",
+  "last_updated": "2026-03-10T10:53:26.713072",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-10T10:21:45.373828",
+      "scraped_at": "2026-03-10T10:53:05.832311",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,7 +17,7 @@
         {
           "name": {
             "de": "Szegedinger Gulasch mit Schwarzbrot",
-            "en": "Szegediner Goulash with Dark Bread"
+            "en": "Szegediner Goulash with Black Bread"
           },
           "price": "€7.90",
           "description": {
@@ -51,7 +51,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-10T10:21:48.862600",
+      "scraped_at": "2026-03-10T10:53:10.483777",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -79,7 +79,7 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "mit Safran, Ruccola, Parmesan & grünem Salat GF B,G,L,M,O",
-            "en": "with saffron, arugula, parmesan & green salad GF B,G,L,M,O"
+            "en": "with saffron, arugula, parmesan, and green salad GF B,G,L,M,O"
           },
           "dietary": "meat"
         },
@@ -91,7 +91,7 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "mit Erbsen & Basmatireis GF E, F, H, L, M, N, O",
-            "en": "with peas & basmati rice GF E, F, H, L, M, N, O"
+            "en": "with peas and basmati rice GF E, F, H, L, M, N, O"
           },
           "dietary": "meat"
         },
@@ -103,7 +103,7 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "mit Kürbiskernen, veganem Kräuter Cream Dip & grünem Salat VEGGFLF L,M,O",
-            "en": "with pumpkin seeds, vegan herb cream dip & green salad VEGGFLF L,M,O"
+            "en": "with pumpkin seeds, vegan herb cream dip, and green salad VEGGFLF L,M,O"
           },
           "dietary": "vegan"
         },
@@ -115,12 +115,12 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "mit Bechamelsauce & grünem Salat VEGGIE A,G,L,M,O",
-            "en": "with bechamel sauce & green salad VEGGIE A,G,L,M,O"
+            "en": "with bechamel sauce and green salad VEGGIE A,G,L,M,O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-10T10:22:06.608792",
+      "scraped_at": "2026-03-10T10:53:26.137203",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -135,13 +135,13 @@
           },
           "price": "€8-13",
           "description": {
-            "de": "Erhältlich am Dienstag",
+            "de": "Verfügbar am Dienstag",
             "en": "Available on Tuesday"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-10T10:22:07.039872",
+      "scraped_at": "2026-03-10T10:53:26.405586",
       "available": true,
       "type": "food_truck"
     },
@@ -162,7 +162,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-10T10:22:07.368785",
+      "scraped_at": "2026-03-10T10:53:26.712992",
       "available": true,
       "extraction_method": "Static menu"
     }
