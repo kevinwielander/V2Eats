@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-09T10:53:47.216775",
+  "last_updated": "2026-03-10T10:22:07.368863",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-09T10:53:26.761573",
+      "scraped_at": "2026-03-10T10:21:45.373828",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,8 +21,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein herzhaftes Gulasch aus Rindfleisch, serviert mit Schwarzbrot",
-            "en": "A hearty goulash made from beef, served with dark bread"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
@@ -33,8 +33,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Frische Spinatblätter mit hausgemachten Spätzle und einer cremigen Käsesauce",
-            "en": "Fresh spinach leaves with homemade spaetzle and a creamy cheese sauce"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         },
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Italienische Lasagne, hergestellt mit frischem Gemüse, Käse und Fleisch, im Ofen gebacken",
-            "en": "Italian lasagna made with fresh vegetables, cheese, and meat, baked in the oven"
+            "de": "",
+            "en": ""
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-09T10:53:30.755621",
+      "scraped_at": "2026-03-10T10:21:48.862600",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -69,60 +69,81 @@
             "de": "",
             "en": ""
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Butter Chicken",
-            "en": "Butter Chicken"
+            "de": "Garnelen Risotto",
+            "en": "Shrimp Risotto"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Cashewsauce mit Basmatireis E, F, H, L, M, N, O",
-            "en": "in creamy cashew sauce with basmati rice E, F, H, L, M, N, O"
+            "de": "mit Safran, Ruccola, Parmesan & grünem Salat GF B,G,L,M,O",
+            "en": "with saffron, arugula, parmesan & green salad GF B,G,L,M,O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Griechisches Moussaka",
-            "en": "Greek Moussaka"
+            "de": "Chicken Tikka Masala",
+            "en": "Chicken Tikka Masala"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Faschiertem, Schmormelanzani & grünem Salat G,L,M,O",
-            "en": "with minced meat, eggplant, and green salad G,L,M,O"
+            "de": "mit Erbsen & Basmatireis GF E, F, H, L, M, N, O",
+            "en": "with peas & basmati rice GF E, F, H, L, M, N, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Süßkartoffel Curry",
-            "en": "Sweet Potato Curry"
+            "de": "Veganes Kürbis Gröstl",
+            "en": "Vegan Pumpkin Gröstl"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Kokos-Limettensauce & Basmatireis VEGGFLF E, F, H, L, M, N, O",
-            "en": "in creamy coconut-lime sauce and basmati rice VEGGFLF E, F, H, L, M, N, O"
+            "de": "mit Kürbiskernen, veganem Kräuter Cream Dip & grünem Salat VEGGFLF L,M,O",
+            "en": "with pumpkin seeds, vegan herb cream dip & green salad VEGGFLF L,M,O"
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Eierschwammerl Risotto",
-            "en": "Chanterelle Risotto"
+            "de": "Rote Rüben-Erdäpfel Lasagne",
+            "en": "Beet-Potato Lasagna"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Parmesan & grünem Salat VEGGIEGF A,G,L,M,O",
-            "en": "with parmesan and green salad VEGGIEGF A,G,L,M,O"
+            "de": "mit Bechamelsauce & grünem Salat VEGGIE A,G,L,M,O",
+            "en": "with bechamel sauce & green salad VEGGIE A,G,L,M,O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-09T10:53:46.881017",
+      "scraped_at": "2026-03-10T10:22:06.608792",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Erhältlich am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-03-10T10:22:07.039872",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -141,16 +162,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-09T10:53:47.216707",
+      "scraped_at": "2026-03-10T10:22:07.368785",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 9
+    "total_items": 10
   }
 }
