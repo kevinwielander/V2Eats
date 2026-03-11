@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-10T10:53:26.713072",
+  "last_updated": "2026-03-11T10:21:54.603008",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-10T10:53:05.832311",
+      "scraped_at": "2026-03-11T10:21:29.253546",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,20 +21,20 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Ein herzhaftes Gulasch mit Schwarzbrot",
+            "en": "A hearty goulash with black bread"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Spinatspätzle mit Käsesauce",
-            "en": "Spinach Spaetzle with Cheese Sauce"
+            "en": "Spinach Spätzle with Cheese Sauce"
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Frische Spinatblätter mit hausgemachter Käsesauce",
+            "en": "Fresh spinach leaves with homemade cheese sauce"
           },
           "dietary": "vegetarian"
         },
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Italienische Lasagne mit Käse und Fleisch",
+            "en": "Italian lasagna with cheese and meat"
           },
-          "dietary": "vegetarian"
+          "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-10T10:53:10.483777",
+      "scraped_at": "2026-03-11T10:21:32.781590",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -64,7 +64,7 @@
             "de": "Saladbowl",
             "en": "Salad Bowl"
           },
-          "price": "€7.50/€10.90",
+          "price": "€7.50 / €10.90",
           "description": {
             "de": "",
             "en": ""
@@ -73,77 +73,56 @@
         },
         {
           "name": {
-            "de": "Garnelen Risotto",
-            "en": "Shrimp Risotto"
+            "de": "Paprikahühnchen",
+            "en": "Paprika Chicken"
           },
-          "price": "€7.50/€11.90",
+          "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Safran, Ruccola, Parmesan & grünem Salat GF B,G,L,M,O",
-            "en": "with saffron, arugula, parmesan, and green salad GF B,G,L,M,O"
+            "de": "in cremiger Rahmsauce mit Spätzle & Sauerrahm Dip A,C,G,L,M,O",
+            "en": "in creamy cream sauce with spaetzle and sour cream dip A,C,G,L,M,O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Chicken Tikka Masala",
-            "en": "Chicken Tikka Masala"
+            "de": "Faschierter Braten",
+            "en": "Shredded Roast"
           },
-          "price": "€7.50/€11.90",
+          "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Erbsen & Basmatireis GF E, F, H, L, M, N, O",
-            "en": "with peas and basmati rice GF E, F, H, L, M, N, O"
+            "de": "with Bratensaft, Erdäpfelpüree & grünem Salat A,C,G,L,M,O",
+            "en": "with roast juice, potato puree and green salad A,C,G,L,M,O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Veganes Kürbis Gröstl",
-            "en": "Vegan Pumpkin Gröstl"
+            "de": "Spinat Feta Lasagne",
+            "en": "Spinach Feta Lasagna"
           },
-          "price": "€7.50/€11.90",
+          "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Kürbiskernen, veganem Kräuter Cream Dip & grünem Salat VEGGFLF L,M,O",
-            "en": "with pumpkin seeds, vegan herb cream dip, and green salad VEGGFLF L,M,O"
+            "de": "mit Bechamelsauce & grünem Salat VEG A,C,G,L,M,O",
+            "en": "with bechamel sauce and green salad VEG A,C,G,L,M,O"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Rote Rüben-Erdäpfel Lasagne",
-            "en": "Beet-Potato Lasagna"
+            "de": "Erdnuss Brokkoli Curry",
+            "en": "Peanut Broccoli Curry"
           },
-          "price": "€7.50/€11.90",
+          "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Bechamelsauce & grünem Salat VEGGIE A,G,L,M,O",
-            "en": "with bechamel sauce and green salad VEGGIE A,G,L,M,O"
+            "de": "in cremiger Kokossauce mit Basmatireis VEGGFLF E, F, H, L, M, N, O",
+            "en": "in creamy coconut sauce with basmati rice VEGGFLF E, F, H, L, M, N, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-10T10:53:26.137203",
+      "scraped_at": "2026-03-11T10:21:54.165954",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Verfügbar am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-03-10T10:53:26.405586",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -162,16 +141,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-10T10:53:26.712992",
+      "scraped_at": "2026-03-11T10:21:54.602924",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 10
+    "total_items": 9
   }
 }
