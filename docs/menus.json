@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-11T10:21:54.603008",
+  "last_updated": "2026-03-11T10:53:20.742714",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-11T10:21:29.253546",
+      "scraped_at": "2026-03-11T10:53:08.978346",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,24 +17,24 @@
         {
           "name": {
             "de": "Szegedinger Gulasch mit Schwarzbrot",
-            "en": "Szegediner Goulash with Black Bread"
+            "en": "Szegediner Goulash with Dark Bread"
           },
           "price": "€7.90",
           "description": {
             "de": "Ein herzhaftes Gulasch mit Schwarzbrot",
-            "en": "A hearty goulash with black bread"
+            "en": "A hearty goulash with dark bread"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Spinatspätzle mit Käsesauce",
-            "en": "Spinach Spätzle with Cheese Sauce"
+            "en": "Spinach Spaetzle with Cheese Sauce"
           },
           "price": "€7.90",
           "description": {
-            "de": "Frische Spinatblätter mit hausgemachter Käsesauce",
-            "en": "Fresh spinach leaves with homemade cheese sauce"
+            "de": "Frische Spinat mit hausgemachten Spätzle und Käsesauce",
+            "en": "Fresh spinach with homemade spaetzle and cheese sauce"
           },
           "dietary": "vegetarian"
         },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-11T10:21:32.781590",
+      "scraped_at": "2026-03-11T10:53:12.276910",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -120,7 +120,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-11T10:21:54.165954",
+      "scraped_at": "2026-03-11T10:53:20.426850",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-11T10:21:54.602924",
+      "scraped_at": "2026-03-11T10:53:20.742649",
       "available": true,
       "extraction_method": "Static menu"
     }
