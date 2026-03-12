@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-11T10:53:20.742714",
+  "last_updated": "2026-03-12T10:22:14.239813",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-11T10:53:08.978346",
+      "scraped_at": "2026-03-12T10:21:53.409209",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,12 +17,12 @@
         {
           "name": {
             "de": "Szegedinger Gulasch mit Schwarzbrot",
-            "en": "Szegediner Goulash with Dark Bread"
+            "en": "Szegediner Goulash with Black Bread"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein herzhaftes Gulasch mit Schwarzbrot",
-            "en": "A hearty goulash with dark bread"
+            "de": "Ein herzhafter Gulasch mit Schwarzbrot",
+            "en": "A hearty goulash with black bread"
           },
           "dietary": "meat"
         },
@@ -33,8 +33,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Frische Spinat mit hausgemachten Spätzle und Käsesauce",
-            "en": "Fresh spinach with homemade spaetzle and cheese sauce"
+            "de": "Frische Spinatspätzle mit einer cremigen Käsesauce",
+            "en": "Fresh spinach spaetzle with a creamy cheese sauce"
           },
           "dietary": "vegetarian"
         },
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Italienische Lasagne mit Käse und Fleisch",
-            "en": "Italian lasagna with cheese and meat"
+            "de": "Klassische italienische Lasagne mit Käse und Fleisch",
+            "en": "Classic Italian lasagna with cheese and meat"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-11T10:53:12.276910",
+      "scraped_at": "2026-03-12T10:21:56.852739",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -66,63 +66,84 @@
           },
           "price": "€7.50 / €10.90",
           "description": {
-            "de": "",
-            "en": ""
-          },
-          "dietary": "vegan"
-        },
-        {
-          "name": {
-            "de": "Paprikahühnchen",
-            "en": "Paprika Chicken"
-          },
-          "price": "€7.50 / €11.90",
-          "description": {
-            "de": "in cremiger Rahmsauce mit Spätzle & Sauerrahm Dip A,C,G,L,M,O",
-            "en": "in creamy cream sauce with spaetzle and sour cream dip A,C,G,L,M,O"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Faschierter Braten",
-            "en": "Shredded Roast"
-          },
-          "price": "€7.50 / €11.90",
-          "description": {
-            "de": "with Bratensaft, Erdäpfelpüree & grünem Salat A,C,G,L,M,O",
-            "en": "with roast juice, potato puree and green salad A,C,G,L,M,O"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Spinat Feta Lasagne",
-            "en": "Spinach Feta Lasagna"
-          },
-          "price": "€7.50 / €11.90",
-          "description": {
-            "de": "mit Bechamelsauce & grünem Salat VEG A,C,G,L,M,O",
-            "en": "with bechamel sauce and green salad VEG A,C,G,L,M,O"
+            "de": "Klein / Gross",
+            "en": "Small / Large"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Erdnuss Brokkoli Curry",
-            "en": "Peanut Broccoli Curry"
+            "de": "Rehragout",
+            "en": "Venison Ragout"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "in cremiger Kokossauce mit Basmatireis VEGGFLF E, F, H, L, M, N, O",
-            "en": "in creamy coconut sauce with basmati rice VEGGFLF E, F, H, L, M, N, O"
+            "de": "in Wacholdersauce mit Wurzelgemüse & Polenta A,C,G,L,M,O",
+            "en": "in juniper sauce with root vegetables and polenta A,C,G,L,M,O"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Beef Gnocchi",
+            "en": "Beef Gnocchi"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "mit Babyspinat in Pomodoro Ragout mit grünem Salat A,C,G,L,M,O",
+            "en": "with baby spinach in tomato ragout with green salad A,C,G,L,M,O"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Rotes Thai-Curry",
+            "en": "Red Thai Curry"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "in cremiger Kokos-Limettensauce mit Wokgemüse & Basmatireis VEGGFLF E, F, H, L, M, N, O",
+            "en": "in creamy coconut-lime sauce with wok vegetables and basmati rice VEGGFLF E, F, H, L, M, N, O"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Erdäpfel Brokkoli Gratin",
+            "en": "Potato Broccoli Gratin"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "mit überbackenem Cheddar & grünem Salat VEGGIE A,C,G,L,M,O",
+            "en": "with baked cheddar and green salad VEGGIE A,C,G,L,M,O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-11T10:53:20.426850",
+      "scraped_at": "2026-03-12T10:22:13.598378",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
+          "price": "€8-12",
+          "description": {
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-03-12T10:22:13.924177",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -141,16 +162,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-11T10:53:20.742649",
+      "scraped_at": "2026-03-12T10:22:14.239734",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 9
+    "total_items": 10
   }
 }
