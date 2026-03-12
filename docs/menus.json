@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-12T10:22:14.239813",
+  "last_updated": "2026-03-12T10:53:15.494991",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-12T10:21:53.409209",
+      "scraped_at": "2026-03-12T10:52:52.621350",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,8 +21,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein herzhafter Gulasch mit Schwarzbrot",
-            "en": "A hearty goulash with black bread"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
@@ -33,8 +33,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Frische Spinatspätzle mit einer cremigen Käsesauce",
-            "en": "Fresh spinach spaetzle with a creamy cheese sauce"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         },
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Klassische italienische Lasagne mit Käse und Fleisch",
-            "en": "Classic Italian lasagna with cheese and meat"
+            "de": "",
+            "en": ""
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-12T10:21:56.852739",
+      "scraped_at": "2026-03-12T10:52:55.966463",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -120,7 +120,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-12T10:22:13.598378",
+      "scraped_at": "2026-03-12T10:53:14.922037",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-12T10:22:13.924177",
+      "scraped_at": "2026-03-12T10:53:15.201199",
       "available": true,
       "type": "food_truck"
     },
@@ -162,7 +162,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-12T10:22:14.239734",
+      "scraped_at": "2026-03-12T10:53:15.494940",
       "available": true,
       "extraction_method": "Static menu"
     }
