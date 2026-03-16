@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-13T10:52:14.979608",
+  "last_updated": "2026-03-16T10:32:07.508930",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-13T10:51:54.306444",
+      "scraped_at": "2026-03-16T10:31:25.046388",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,42 +16,42 @@
       "items": [
         {
           "name": {
-            "de": "Szegedinger Gulasch mit Schwarzbrot",
-            "en": "Szegediner Goulash with Dark Bread"
+            "de": "Gnocchi Verdure mit Parmesan",
+            "en": "Gnocchi Verdure with Parmesan"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein herzhaftes Gulasch mit Schwarzbrot",
-            "en": "A hearty goulash with dark bread"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Spinatspätzle mit Käsesauce",
-            "en": "Spinach Spaetzle with Cheese Sauce"
-          },
-          "price": "€7.90",
-          "description": {
-            "de": "Frische Spinat mit hausgemachten Spätzle und Käsesauce",
-            "en": "Fresh spinach with homemade spaetzle and cheese sauce"
+            "de": "AGLO",
+            "en": "AGLO"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Lasagne al forno",
-            "en": "Lasagne al forno"
+            "de": "Schnitzel mit Erdäpfel-Vogerl-Salat",
+            "en": "Schnitzel with Erdäpfel-Vogerl-Salat"
           },
           "price": "€7.90",
           "description": {
-            "de": "Klassische italienische Lasagne mit Käse und Fleisch",
-            "en": "Classic Italian lasagna with cheese and meat"
+            "de": "ACGLO",
+            "en": "ACGLO"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Huhn Süß-Sauer mit Basmati Reis",
+            "en": "Huhn Sweet-Sour with Basmati Rice"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "LO",
+            "en": "LO"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-13T10:51:58.158182",
+      "scraped_at": "2026-03-16T10:31:29.650871",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,42 +73,54 @@
         },
         {
           "name": {
-            "de": "Lasagne Bolognese",
-            "en": "Lasagne Bolognese"
+            "de": "Geschmortes Boeuf Bourguignon",
+            "en": "Boeuf Bourguignon Stew"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit Fleischragout, Parmesan & grünem Salat A,C,G,L,M,O",
-            "en": "with meat ragout, parmesan and green salad A,C,G,L,M,O"
+            "de": "mit Wurzelgemüse & Spätzle A,C,G,L,M,O",
+            "en": "with root vegetables and spaetzle A,C,G,L,M,O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Cremiges Waldpilzgulasch",
-            "en": "Creamy Mushroom Goulash"
+            "de": "Indisches Tandoori",
+            "en": "Indian Tandoori"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "in Rahmsauce mit Semmelknödel & Dip VEGGIE A,C,G,L,M,O",
-            "en": "in cream sauce with bread dumpling and dip VEGGIE A,C,G,L,M,O"
+            "de": "mit mariniertem Chicken & Basmatireis GF E,F,H,L,M,N,O",
+            "en": "with marinated chicken and basmati rice GF E,F,H,L,M,N,O"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Kürbis-Feta Gratin",
+            "en": "Pumpkin-Feta Gratin"
+          },
+          "price": "€7.50 / €11.90",
+          "description": {
+            "de": "aus dem Ofen mit Spinat & grünem Salat VEGGIE A, G, H, L, M, O",
+            "en": "from the oven with spinach and green salad VEGGIE A, G, H, L, M, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Süßkartoffel Gratin",
-            "en": "Sweet Potato Gratin"
+            "de": "Überbackene Käsespätzle",
+            "en": "Baked Cheese Spaetzle"
           },
           "price": "€7.50 / €11.90",
           "description": {
-            "de": "mit mit Feta, Spinat & grünem Salat VEGGIE A, G, H, L, M, O",
-            "en": "with feta, spinach and green salad VEGGIE A, G, H, L, M, O"
+            "de": "mit geribenem Bergkäse & grünem Salat VEGGIE",
+            "en": "with grated mountain cheese and green salad VEGGIE"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-13T10:52:14.651627",
+      "scraped_at": "2026-03-16T10:32:07.183747",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -129,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-13T10:52:14.979534",
+      "scraped_at": "2026-03-16T10:32:07.508863",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -139,6 +151,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 8
+    "total_items": 9
   }
 }
