@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-16T10:54:56.820391",
+  "last_updated": "2026-03-17T10:25:29.858704",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-16T10:54:36.920916",
+      "scraped_at": "2026-03-17T10:25:11.687626",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,37 +21,37 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Gnocchi with vegetables and parmesan",
-            "en": "Gnocchi mit Gemüse und Parmesan"
+            "de": "Gnocchi mit Gemüse und Parmesan",
+            "en": "Gnocchi with vegetables and parmesan"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
             "de": "Schnitzel mit Erdäpfel-Vogerl-Salat",
-            "en": "Schnitzel with Potato and Bird's Salad"
+            "en": "Schnitzel with Erdäpfel-Vogerl-Salat"
           },
           "price": "€7.90",
           "description": {
-            "de": "Schnitzel with potato and bird's salad",
-            "en": "Schnitzel mit Erdäpfel und Vogelsalat"
+            "de": "Schnitzel mit Erdäpfel und Vogerl-Salat",
+            "en": "Schnitzel with potatoes and Vogerl salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Huhn Süß-Sauer mit Basmati Reis",
-            "en": "Sweet and Sour Chicken with Basmati Rice"
+            "en": "Huhn Sweet-Sour with Basmati Rice"
           },
           "price": "€7.90",
           "description": {
-            "de": "Sweet and sour chicken with basmati rice",
-            "en": "Huhn Süß-Sauer mit Basmati-Reis"
+            "de": "Huhn in süß-saurer Soße mit Basmati Reis",
+            "en": "Chicken in sweet and sour sauce with basmati rice"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-16T10:54:41.486171",
+      "scraped_at": "2026-03-17T10:25:15.340567",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -64,65 +64,86 @@
             "de": "Saladbowl",
             "en": "Salad Bowl"
           },
-          "price": "€7.50 / €10.90",
+          "price": "€7.50/€10.90",
           "description": {
             "de": "",
             "en": ""
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Geschmortes Boeuf Bourguignon",
-            "en": "Boeuf Bourguignon"
+            "de": "Kalbsrahmgulasch",
+            "en": "Veal Goulash"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Wurzelgemüse & Spätzle A,C,G,L,M,O",
-            "en": "with root vegetables and spaetzle A,C,G,L,M,O"
+            "de": "in feiner Sauce mit Kräuterpüree & Cream Dip G,L,M,O",
+            "en": "in a fine sauce with herb puree and cream dip G,L,M,O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Indisches Tandoori",
-            "en": "Indian Tandoori"
+            "de": "Chicken in Kirschtomaten-Fetasauce",
+            "en": "Chicken in Cherry Tomato Feta Sauce"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit mariniertem Chicken & Basmatireis GF E,F,H,L,M,N,O",
-            "en": "with marinated chicken and basmati rice GF E,F,H,L,M,N,O"
+            "de": "mit Schupfnudeln A,C,G,L,M,O",
+            "en": "with Schupfnudeln A,C,G,L,M,O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Kürbis-Feta Gratin",
-            "en": "Pumpkin-Feta Gratin"
+            "de": "Tomaten-Mozzarella Lasagne",
+            "en": "Tomato Mozzarella Lasagna"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "aus dem Ofen mit Spinat & grünem Salat VEGGIE A, G, H, L, M, O",
-            "en": "from the oven with spinach and green salad VEGGIE A, G, H, L, M, O"
+            "de": "mit Bechamelsauce & grünem Salat VEGGIE A, G, H, L, M, O",
+            "en": "with Bechamel sauce and green salad VEGGIE A, G, H, L, M, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Überbackene Käsespätzle",
-            "en": "Baked Cheese Spaetzle"
+            "de": "Erdäpfel Walnuss Gratin",
+            "en": "Potato Walnut Gratin"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit geribenem Bergkäse & grünem Salat VEGGIE",
-            "en": "with grated mountain cheese and green salad VEGGIE"
+            "de": "mit Käsekruste, Spinat & grünem Salat VEGGIE A,C,G,L,M,O",
+            "en": "with cheese crust, spinach and green salad VEGGIE A,C,G,L,M,O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-16T10:54:56.496197",
+      "scraped_at": "2026-03-17T10:25:29.235087",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Erhältlich am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-03-17T10:25:29.547533",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -141,16 +162,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-16T10:54:56.820333",
+      "scraped_at": "2026-03-17T10:25:29.858624",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 9
+    "total_items": 10
   }
 }
