@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-18T10:27:58.996562",
+  "last_updated": "2026-03-18T10:54:42.891147",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-18T10:27:39.537440",
+      "scraped_at": "2026-03-18T10:54:31.091768",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,7 +17,7 @@
         {
           "name": {
             "de": "Gnocchi Verdure mit Parmesan",
-            "en": "Gnocchi with Vegetables and Parmesan"
+            "en": "Gnocchi Verdure with Parmesan"
           },
           "price": "€7.90",
           "description": {
@@ -29,29 +29,29 @@
         {
           "name": {
             "de": "Schnitzel mit Erdäpfel-Vogerl-Salat",
-            "en": "Schnitzel with Potato and Bird's Salad"
+            "en": "Schnitzel with Erdäpfel-Vogerl-Salat"
           },
           "price": "€7.90",
           "description": {
-            "de": "Schnitzel mit Kartoffel- und Vogelsalat",
-            "en": "Schnitzel with potato and bird's salad"
+            "de": "Schnitzel mit Kartoffel-Vogerl-Salat",
+            "en": "Schnitzel with potato-Vogerl-salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Huhn Süß-Sauer mit Basmati Reis",
-            "en": "Sweet and Sour Chicken with Basmati Rice"
+            "en": "Huhn Sweet-Sour with Basmati Rice"
           },
           "price": "€7.90",
           "description": {
-            "de": "Süß-saures Huhn mit Basmati-Reis",
-            "en": "Sweet and sour chicken with basmati rice"
+            "de": "Huhn in süß-saurer Soße mit Basmati Reis",
+            "en": "Chicken in sweet and sour sauce with basmati rice"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-18T10:27:43.473645",
+      "scraped_at": "2026-03-18T10:54:34.686685",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -69,7 +69,7 @@
             "de": "",
             "en": ""
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
@@ -103,7 +103,7 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "VEGGIE mit Semmelknödel & Sauerrahm Dip",
-            "en": "VEGGIE with bread dumpling & sour cream dip"
+            "en": "VEGGIE with bread dumplings & sour cream dip"
           },
           "dietary": "vegetarian"
         },
@@ -120,7 +120,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-18T10:27:58.530030",
+      "scraped_at": "2026-03-18T10:54:42.609595",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-18T10:27:58.996492",
+      "scraped_at": "2026-03-18T10:54:42.891078",
       "available": true,
       "extraction_method": "Static menu"
     }
