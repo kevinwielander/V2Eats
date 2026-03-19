@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-19T10:22:11.486612",
+  "last_updated": "2026-03-19T10:53:41.871891",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-19T10:21:52.095983",
+      "scraped_at": "2026-03-19T10:53:19.673613",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,8 +21,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Parmesan",
-            "en": "with Parmesan"
+            "de": "AGLO",
+            "en": "AGLO"
           },
           "dietary": "vegetarian"
         },
@@ -33,25 +33,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "ACGLO",
+            "en": "ACGLO"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Huhn Süß-Sauer",
-            "en": "Huhn Sweet and Sour"
+            "de": "Huhn Süß-Sauer mit Basmati Reis",
+            "en": "Huhn Sweet and Sour with Basmati Rice"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Basmati Reis",
-            "en": "with Basmati Rice"
+            "de": "LO",
+            "en": "LO"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-19T10:21:56.767900",
+      "scraped_at": "2026-03-19T10:53:23.695300",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -120,7 +120,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-19T10:22:10.611772",
+      "scraped_at": "2026-03-19T10:53:40.953007",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-19T10:22:11.046814",
+      "scraped_at": "2026-03-19T10:53:41.401511",
       "available": true,
       "type": "food_truck"
     },
@@ -162,7 +162,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-19T10:22:11.486544",
+      "scraped_at": "2026-03-19T10:53:41.871797",
       "available": true,
       "extraction_method": "Static menu"
     }
