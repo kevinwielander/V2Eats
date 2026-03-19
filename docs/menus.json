@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-18T10:54:42.891147",
+  "last_updated": "2026-03-19T10:22:11.486612",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-18T10:54:31.091768",
+      "scraped_at": "2026-03-19T10:21:52.095983",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,8 +21,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Gnocchi mit Gemüse und Parmesan",
-            "en": "Gnocchi with vegetables and parmesan"
+            "de": "mit Parmesan",
+            "en": "with Parmesan"
           },
           "dietary": "vegetarian"
         },
@@ -33,25 +33,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Schnitzel mit Kartoffel-Vogerl-Salat",
-            "en": "Schnitzel with potato-Vogerl-salad"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Huhn Süß-Sauer mit Basmati Reis",
-            "en": "Huhn Sweet-Sour with Basmati Rice"
+            "de": "Huhn Süß-Sauer",
+            "en": "Huhn Sweet and Sour"
           },
           "price": "€7.90",
           "description": {
-            "de": "Huhn in süß-saurer Soße mit Basmati Reis",
-            "en": "Chicken in sweet and sour sauce with basmati rice"
+            "de": "mit Basmati Reis",
+            "en": "with Basmati Rice"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-18T10:54:34.686685",
+      "scraped_at": "2026-03-19T10:21:56.767900",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -69,60 +69,81 @@
             "de": "",
             "en": ""
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Lasagne Bolognese",
-            "en": "Lasagne Bolognese"
+            "de": "Chicken-Stroganoff",
+            "en": "Chicken Stroganoff"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Fleischragout, Bechamelsauce & grünem Salat",
-            "en": "with meat ragout, bechamel sauce & green salad"
+            "de": "in Senf-Rahmsauce mit Waldpilzen & Sauerrahm Dip mit Lankornreis (G, L, M, O)",
+            "en": "in mustard cream sauce with wild mushrooms and sour cream dip with long grain rice"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Paprikahühnchen",
-            "en": "Paprika Chicken"
+            "de": "Burritos Chili Con Carne",
+            "en": "Beef Chili Burritos"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Rahmsauce mit Spätzle & Sauerrahm Dip Balsamico",
-            "en": "in creamy cream sauce with spaetzle & sour cream dip balsamico"
+            "de": "mit Avocado-Guacamole, überbackenem Käse & grünem Salat (A, G, L, M, O)",
+            "en": "with avocado guacamole, baked cheese, and green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Linsen",
-            "en": "Lentils"
+            "de": "Rote Rüben-Erdäpfel Gratin",
+            "en": "Beet and Potato Gratin"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "VEGGIE mit Semmelknödel & Sauerrahm Dip",
-            "en": "VEGGIE with bread dumplings & sour cream dip"
+            "de": "mit Feta, Walnüssen & grünem Salat VEGGIE (G, L, M, O)",
+            "en": "with feta, walnuts, and green salad"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Griechisches Veggie Moussaka",
-            "en": "Greek Veggie Moussaka"
+            "de": "Steinpilz Gnocchi",
+            "en": "Mushroom Gnocchi"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "VEGGIE mit mediterranem Gemüse & grünem Salat",
-            "en": "VEGGIE with mediterranean vegetables & green salad"
+            "de": "in Parmesansauce mit Ruccola & grünem Salat VEGGIE (A, C, G, L, M, O)",
+            "en": "in parmesan sauce with arugula and green salad"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-18T10:54:42.609595",
+      "scraped_at": "2026-03-19T10:22:10.611772",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
+          "price": "€8-12",
+          "description": {
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-03-19T10:22:11.046814",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -141,16 +162,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-18T10:54:42.891078",
+      "scraped_at": "2026-03-19T10:22:11.486544",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 9
+    "total_items": 10
   }
 }
