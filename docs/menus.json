@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-19T10:53:41.871891",
+  "last_updated": "2026-03-20T10:20:18.873293",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-19T10:53:19.673613",
+      "scraped_at": "2026-03-20T10:20:00.416749",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -41,7 +41,7 @@
         {
           "name": {
             "de": "Huhn Süß-Sauer mit Basmati Reis",
-            "en": "Huhn Sweet and Sour with Basmati Rice"
+            "en": "Huhn Sweet-Sour with Basmati Rice"
           },
           "price": "€7.90",
           "description": {
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-19T10:53:23.695300",
+      "scraped_at": "2026-03-20T10:20:04.330981",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -66,84 +66,51 @@
           },
           "price": "€7.50/€10.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Haussalat VEGGIE",
+            "en": "House salad VEGGIE"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Chicken-Stroganoff",
-            "en": "Chicken Stroganoff"
+            "de": "Alt Wiener Schinkenfleckerl",
+            "en": "Alt Wiener Schinkenfleckerl"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in Senf-Rahmsauce mit Waldpilzen & Sauerrahm Dip mit Lankornreis (G, L, M, O)",
-            "en": "in mustard cream sauce with wild mushrooms and sour cream dip with long grain rice"
+            "de": "mit grünem Salat & Sauerrahm Dip A, C, G, L, M, O",
+            "en": "with green salad & sour cream dip A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Burritos Chili Con Carne",
-            "en": "Beef Chili Burritos"
+            "de": "Lasagne Kürbis-Ricotta",
+            "en": "Lasagne Pumpkin-Ricotta"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Avocado-Guacamole, überbackenem Käse & grünem Salat (A, G, L, M, O)",
-            "en": "with avocado guacamole, baked cheese, and green salad"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Rote Rüben-Erdäpfel Gratin",
-            "en": "Beet and Potato Gratin"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit Feta, Walnüssen & grünem Salat VEGGIE (G, L, M, O)",
-            "en": "with feta, walnuts, and green salad"
+            "de": "mit grünem Salat VEGGIE G, L, M",
+            "en": "with green salad VEGGIE G, L, M"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Steinpilz Gnocchi",
-            "en": "Mushroom Gnocchi"
+            "de": "Grünes Curry",
+            "en": "Green Curry"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in Parmesansauce mit Ruccola & grünem Salat VEGGIE (A, C, G, L, M, O)",
-            "en": "in parmesan sauce with arugula and green salad"
+            "de": "mit Süßkartoffeln in Kokossauce VEGGIE mit Basmatireis - A, G, L",
+            "en": "with sweet potatoes in coconut sauce VEGGIE with basmati rice - A, G, L"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-19T10:53:40.953007",
+      "scraped_at": "2026-03-20T10:20:18.374161",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pinsa Food Truck",
-      "url": "https://www.pinsalino.at",
-      "items": [
-        {
-          "name": {
-            "de": "Römische Pizza mit verschiedenen Belägen",
-            "en": "Roman-style pizza with various toppings"
-          },
-          "price": "€8-12",
-          "description": {
-            "de": "Erhältlich am Donnerstag",
-            "en": "Available on Thursday"
-          },
-          "dietary": "meat"
-        }
-      ],
-      "scraped_at": "2026-03-19T10:53:41.401511",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -162,16 +129,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-19T10:53:41.871797",
+      "scraped_at": "2026-03-20T10:20:18.873226",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 10
+    "total_items": 8
   }
 }
