@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-23T10:30:16.507479",
+  "last_updated": "2026-03-23T10:54:30.157915",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-23T10:29:51.909801",
+      "scraped_at": "2026-03-23T10:54:10.823458",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,12 +17,12 @@
         {
           "name": {
             "de": "Schwammerlgulasch mit Serviettenknödel",
-            "en": "Mushroom Goulash with Serviettenknödel"
+            "en": "Mushroom Goulash with Bread Dumplings"
           },
           "price": "€7.90",
           "description": {
-            "de": "Gulasch with serviettenknödel",
-            "en": "Goulash with bread dumplings"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
@@ -33,25 +33,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Linsen dal mit naan brot",
-            "en": "Lentil dal with naan bread"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegan"
         },
         {
           "name": {
             "de": "Naturschnitzel vom Schwein Erbsenragout und Reis",
-            "en": "Pork Schnitzel with Pea Ragout and Rice"
+            "en": "Pork Cutlet with Pea Stew and Rice"
           },
           "price": "€7.90",
           "description": {
-            "de": "Pork schnitzel with pea ragout and rice",
-            "en": "Pork schnitzel with pea stew and rice"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-23T10:29:56.317144",
+      "scraped_at": "2026-03-23T10:54:16.025943",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -64,7 +64,7 @@
             "de": "Saladbowl",
             "en": "Salad Bowl"
           },
-          "price": "€7.50 / €10.90",
+          "price": "€7.50/€10.90",
           "description": {
             "de": "Haussalat",
             "en": "House Salad"
@@ -76,7 +76,7 @@
             "de": "Gnocchi Bolognese",
             "en": "Gnocchi Bolognese"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "mit Parmesan & grünem Salat",
             "en": "with Parmesan and green salad"
@@ -88,7 +88,7 @@
             "de": "Alt Wiener Schinkenfleckerl",
             "en": "Alt Wiener Schinkenfleckerl"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "with grünem Salat A, C, G",
             "en": "with green salad A, C, G"
@@ -100,7 +100,7 @@
             "de": "Tomaten Basilikum Risotto",
             "en": "Tomato Basil Risotto"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "mit Feta & grünem Salat VEGGIE A, G, L",
             "en": "with Feta and green salad VEGGIE A, G, L"
@@ -112,7 +112,7 @@
             "de": "Erdnuss-Brokkoli Curry",
             "en": "Peanut Broccoli Curry"
           },
-          "price": "€7.50 / €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "in cremiger Kokonusssauce VEGGFLF",
             "en": "in creamy coconut sauce VEGGFLF"
@@ -120,7 +120,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-23T10:30:16.197293",
+      "scraped_at": "2026-03-23T10:54:29.855630",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-23T10:30:16.507371",
+      "scraped_at": "2026-03-23T10:54:30.157847",
       "available": true,
       "extraction_method": "Static menu"
     }
