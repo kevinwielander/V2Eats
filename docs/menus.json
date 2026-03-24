@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-23T10:54:30.157915",
+  "last_updated": "2026-03-24T10:26:03.277967",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-23T10:54:10.823458",
+      "scraped_at": "2026-03-24T10:25:45.980261",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,8 +21,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Ein herzhafter Pilzgulasch, serviert mit leichten Serviettenknödeln",
+            "en": "A hearty mushroom goulash, served with light bread dumplings"
           },
           "dietary": "meat"
         },
@@ -33,25 +33,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Ein traditionelles indisches Gericht aus Linsen und Gewürzen, serviert mit frischem Naan-Brot",
+            "en": "A traditional Indian dish made from lentils and spices, served with fresh naan bread"
           },
           "dietary": "vegan"
         },
         {
           "name": {
             "de": "Naturschnitzel vom Schwein Erbsenragout und Reis",
-            "en": "Pork Cutlet with Pea Stew and Rice"
+            "en": "Pork Cutlet with Pea Ragout and Rice"
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Ein zartes Schweineschnitzel, serviert mit einem cremigen Erbsenragout und Duftreis",
+            "en": "A tender pork cutlet, served with a creamy pea ragout and fragrant rice"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-23T10:54:16.025943",
+      "scraped_at": "2026-03-24T10:25:49.808660",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -66,63 +66,84 @@
           },
           "price": "€7.50/€10.90",
           "description": {
-            "de": "Haussalat",
-            "en": "House Salad"
+            "de": "VEGGIE",
+            "en": "Veggie"
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Gnocchi Bolognese",
-            "en": "Gnocchi Bolognese"
+            "de": "Paprika Hühnchen",
+            "en": "Paprika Chicken"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Parmesan & grünem Salat",
-            "en": "with Parmesan and green salad"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Alt Wiener Schinkenfleckerl",
-            "en": "Alt Wiener Schinkenfleckerl"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "with grünem Salat A, C, G",
-            "en": "with green salad A, C, G"
+            "de": "in cremiger Rahmsauce G, L, M, O",
+            "en": "in creamy cream sauce G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Tomaten Basilikum Risotto",
-            "en": "Tomato Basil Risotto"
+            "de": "Cashew Beef-Korma",
+            "en": "Cashew Beef Korma"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Feta & grünem Salat VEGGIE A, G, L",
-            "en": "with Feta and green salad VEGGIE A, G, L"
+            "de": "mit Basmatireis E, F, H, L, M, N, O",
+            "en": "with basmati rice E, F, H, L, M, N, O"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Kürbis-Ricotta Lasagne",
+            "en": "Pumpkin Ricotta Lasagna"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit grünem Salat VEGGIE G, L, M, O",
+            "en": "with green salad VEGGIE G, L, M, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Erdnuss-Brokkoli Curry",
-            "en": "Peanut Broccoli Curry"
+            "de": "Süßkartoffel-Spinat Gratin",
+            "en": "Sweet Potato Spinach Gratin"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Kokonusssauce VEGGFLF",
-            "en": "in creamy coconut sauce VEGGFLF"
+            "de": "mit Erdäpfel, Feta & grünem Salat VEGGIE G, L, M, O",
+            "en": "with potatoes, feta and green salad VEGGIE G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-23T10:54:29.855630",
+      "scraped_at": "2026-03-24T10:26:02.372363",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Verfügbar am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-03-24T10:26:02.832885",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -141,16 +162,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-23T10:54:30.157847",
+      "scraped_at": "2026-03-24T10:26:03.277919",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 9
+    "total_items": 10
   }
 }
