@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-24T10:26:03.277967",
+  "last_updated": "2026-03-24T10:54:35.788595",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-24T10:25:45.980261",
+      "scraped_at": "2026-03-24T10:54:14.795748",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,37 +21,37 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein herzhafter Pilzgulasch, serviert mit leichten Serviettenknödeln",
-            "en": "A hearty mushroom goulash, served with light bread dumplings"
+            "de": "Gulasch mit Serviettenknödel",
+            "en": "Goulash with bread dumplings"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Linsen Dal mit Naan (Brot)",
-            "en": "Lentil Dal with Naan Bread"
+            "de": "Linsen Dal mit Naan",
+            "en": "Lentil Dal with Naan"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein traditionelles indisches Gericht aus Linsen und Gewürzen, serviert mit frischem Naan-Brot",
-            "en": "A traditional Indian dish made from lentils and spices, served with fresh naan bread"
+            "de": "Linsen Dal mit Naan Brot",
+            "en": "Lentil dal with naan bread"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Naturschnitzel vom Schwein Erbsenragout und Reis",
-            "en": "Pork Cutlet with Pea Ragout and Rice"
+            "de": "Naturschnitzel vom Schwein",
+            "en": "Pork Schnitzel"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein zartes Schweineschnitzel, serviert mit einem cremigen Erbsenragout und Duftreis",
-            "en": "A tender pork cutlet, served with a creamy pea ragout and fragrant rice"
+            "de": "Schnitzel vom Schwein mit Erbsenragout und Reis",
+            "en": "Pork schnitzel with pea ragout and rice"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-24T10:25:49.808660",
+      "scraped_at": "2026-03-24T10:54:19.072292",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -78,8 +78,8 @@
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Rahmsauce G, L, M, O",
-            "en": "in creamy cream sauce G, L, M, O"
+            "de": "in cremiger Rahmsauce, G, L, M, O",
+            "en": "in creamy cream sauce, G, L, M, O"
           },
           "dietary": "meat"
         },
@@ -90,8 +90,8 @@
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Basmatireis E, F, H, L, M, N, O",
-            "en": "with basmati rice E, F, H, L, M, N, O"
+            "de": "mit Basmatireis, E, F, H, L, M, N, O",
+            "en": "with basmati rice, E, F, H, L, M, N, O"
           },
           "dietary": "meat"
         },
@@ -102,8 +102,8 @@
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit grünem Salat VEGGIE G, L, M, O",
-            "en": "with green salad VEGGIE G, L, M, O"
+            "de": "mit grünem Salat, VEGGIE, G, L, M, O",
+            "en": "with green salad, veggie, G, L, M, O"
           },
           "dietary": "vegetarian"
         },
@@ -114,13 +114,13 @@
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Erdäpfel, Feta & grünem Salat VEGGIE G, L, M, O",
-            "en": "with potatoes, feta and green salad VEGGIE G, L, M, O"
+            "de": "mit Erdäpfel, Feta & grünem Salat, VEGGIE, G, L, M, O",
+            "en": "with potatoes, feta and green salad, veggie, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-24T10:26:02.372363",
+      "scraped_at": "2026-03-24T10:54:34.656618",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -135,13 +135,13 @@
           },
           "price": "€8-13",
           "description": {
-            "de": "Verfügbar am Dienstag",
+            "de": "Erhältlich am Dienstag",
             "en": "Available on Tuesday"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-24T10:26:02.832885",
+      "scraped_at": "2026-03-24T10:54:35.317988",
       "available": true,
       "type": "food_truck"
     },
@@ -162,7 +162,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-24T10:26:03.277919",
+      "scraped_at": "2026-03-24T10:54:35.788518",
       "available": true,
       "extraction_method": "Static menu"
     }
