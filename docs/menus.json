@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-24T10:54:35.788595",
+  "last_updated": "2026-03-25T10:25:55.166289",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-24T10:54:14.795748",
+      "scraped_at": "2026-03-25T10:25:33.030128",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,7 +21,7 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Gulasch mit Serviettenknödel",
+            "de": "Gulasch with bread dumplings",
             "en": "Goulash with bread dumplings"
           },
           "dietary": "meat"
@@ -33,10 +33,10 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Linsen Dal mit Naan Brot",
+            "de": "Linsen dal with naan bread",
             "en": "Lentil dal with naan bread"
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Schnitzel vom Schwein mit Erbsenragout und Reis",
+            "de": "Pork schnitzel with pea ragout and rice",
             "en": "Pork schnitzel with pea ragout and rice"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-24T10:54:19.072292",
+      "scraped_at": "2026-03-25T10:25:36.822574",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -66,84 +66,63 @@
           },
           "price": "€7.50/€10.90",
           "description": {
-            "de": "VEGGIE",
-            "en": "Veggie"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Paprika Hühnchen",
-            "en": "Paprika Chicken"
+            "de": "Griechische Hühnerpfanne",
+            "en": "Greek Chicken Pan"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Rahmsauce, G, L, M, O",
-            "en": "in creamy cream sauce, G, L, M, O"
+            "de": "Pfanne mit Schmorgemüse, Tzatziki & Grünem Salat G, L, M, O",
+            "en": "Pan with stewed vegetables, tzatziki & green salad G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Cashew Beef-Korma",
-            "en": "Cashew Beef Korma"
+            "de": "Hascheehörnchen",
+            "en": "Hash Brown Hörnchen"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Basmatireis, E, F, H, L, M, N, O",
-            "en": "with basmati rice, E, F, H, L, M, N, O"
+            "de": "mit Faschiertem & grünem Salat A, G, L",
+            "en": "with minced meat & green salad A, G, L"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Kürbis-Ricotta Lasagne",
-            "en": "Pumpkin Ricotta Lasagna"
+            "de": "Indisches Dal",
+            "en": "Indian Dal"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit grünem Salat, VEGGIE, G, L, M, O",
-            "en": "with green salad, veggie, G, L, M, O"
+            "de": "mit roten Linsen in cremiger Kokos-Spinatsauce VEGGIE A, G, L",
+            "en": "with red lentils in creamy coconut spinach sauce VEGGIE A, G, L"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Süßkartoffel-Spinat Gratin",
-            "en": "Sweet Potato Spinach Gratin"
+            "de": "Käsespätzle",
+            "en": "Cheese Spätzle"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Erdäpfel, Feta & grünem Salat, VEGGIE, G, L, M, O",
-            "en": "with potatoes, feta and green salad, veggie, G, L, M, O"
+            "de": "aus dem Ofen mit geriebenem Bergkäse & grünem Salat VEGGIE A, C, G, L, M, O",
+            "en": "from the oven with grated mountain cheese & green salad VEGGIE A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-24T10:54:34.656618",
+      "scraped_at": "2026-03-25T10:25:54.622281",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Erhältlich am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-03-24T10:54:35.317988",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -162,16 +141,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-24T10:54:35.788518",
+      "scraped_at": "2026-03-25T10:25:55.166196",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 10
+    "total_items": 9
   }
 }
