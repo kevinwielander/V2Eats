@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-25T10:25:55.166289",
+  "last_updated": "2026-03-25T10:54:05.215832",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-25T10:25:33.030128",
+      "scraped_at": "2026-03-25T10:53:45.738397",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -28,20 +28,20 @@
         },
         {
           "name": {
-            "de": "Linsen Dal mit Naan",
-            "en": "Lentil Dal with Naan"
+            "de": "Linsen Dal mit Naan (Brot)",
+            "en": "Lentil Dal with Naan Bread"
           },
           "price": "€7.90",
           "description": {
-            "de": "Linsen dal with naan bread",
+            "de": "Lentil dal with naan bread",
             "en": "Lentil dal with naan bread"
           },
           "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Naturschnitzel vom Schwein",
-            "en": "Pork Schnitzel"
+            "de": "Naturschnitzel vom Schwein Erbsenragout und Reis",
+            "en": "Pork Schnitzel with Pea Ragout and Rice"
           },
           "price": "€7.90",
           "description": {
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-25T10:25:36.822574",
+      "scraped_at": "2026-03-25T10:53:50.042779",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -69,7 +69,7 @@
             "de": "",
             "en": ""
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
@@ -79,14 +79,14 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "Pfanne mit Schmorgemüse, Tzatziki & Grünem Salat G, L, M, O",
-            "en": "Pan with stewed vegetables, tzatziki & green salad G, L, M, O"
+            "en": "Pan with sautéed vegetables, tzatziki & green salad G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Hascheehörnchen",
-            "en": "Hash Brown Hörnchen"
+            "en": "Hash Brown Croquettes"
           },
           "price": "€7.50/€11.90",
           "description": {
@@ -120,7 +120,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-25T10:25:54.622281",
+      "scraped_at": "2026-03-25T10:54:04.751120",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-25T10:25:55.166196",
+      "scraped_at": "2026-03-25T10:54:05.215769",
       "available": true,
       "extraction_method": "Static menu"
     }
