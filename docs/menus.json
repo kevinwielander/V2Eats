@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-26T10:28:20.590702",
+  "last_updated": "2026-03-26T10:54:24.821951",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-26T10:28:01.052318",
+      "scraped_at": "2026-03-26T10:54:11.553985",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,37 +21,37 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Gulasch with bread dumplings",
-            "en": "Goulash with bread dumplings"
+            "de": "Gulasch mit Schwammerl und Serviettenknödel",
+            "en": "Goulash with mushroom and bread dumplings"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Linsen Dal mit Naan (Brot)",
-            "en": "Lentil Dal with Naan Bread"
+            "de": "Linsen Dal mit Naan",
+            "en": "Lentil Dal with Naan"
           },
           "price": "€7.90",
           "description": {
-            "de": "Lentil dal with naan bread",
+            "de": "Linsen Dal mit Naan Brot",
             "en": "Lentil dal with naan bread"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Naturschnitzel vom Schwein Erbsenragout und Reis",
-            "en": "Pork Schnitzel with Pea Ragout and Rice"
+            "de": "Naturschnitzel vom Schwein",
+            "en": "Pork Schnitzel"
           },
           "price": "€7.90",
           "description": {
-            "de": "Pork schnitzel with pea ragout and rice",
+            "de": "Schnitzel vom Schwein mit Erbsenragout und Reis",
             "en": "Pork schnitzel with pea ragout and rice"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-26T10:28:04.722972",
+      "scraped_at": "2026-03-26T10:54:15.240758",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -102,8 +102,8 @@
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "VEGFLF E, F, H, L, M, N, O",
-            "en": "VEGFLF E, F, H, L, M, N, O"
+            "de": "VEGGFLF E, F, H, L, M, N, O",
+            "en": "VEGGFLF E, F, H, L, M, N, O"
           },
           "dietary": "vegetarian"
         },
@@ -120,7 +120,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-26T10:28:19.795982",
+      "scraped_at": "2026-03-26T10:54:23.655752",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-26T10:28:20.152155",
+      "scraped_at": "2026-03-26T10:54:24.206317",
       "available": true,
       "type": "food_truck"
     },
@@ -162,7 +162,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-26T10:28:20.590646",
+      "scraped_at": "2026-03-26T10:54:24.821885",
       "available": true,
       "extraction_method": "Static menu"
     }
