@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-25T10:54:05.215832",
+  "last_updated": "2026-03-26T10:28:20.590702",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-25T10:53:45.738397",
+      "scraped_at": "2026-03-26T10:28:01.052318",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-25T10:53:50.042779",
+      "scraped_at": "2026-03-26T10:28:04.722972",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,56 +73,77 @@
         },
         {
           "name": {
-            "de": "Griechische Hühnerpfanne",
-            "en": "Greek Chicken Pan"
+            "de": "Gnocchi mit Rindfleischstreifen, Eierschwammerl & grünem Salat",
+            "en": "Gnocchi with Beef Strips, Chanterelle Mushrooms & Green Salad"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "Pfanne mit Schmorgemüse, Tzatziki & Grünem Salat G, L, M, O",
-            "en": "Pan with sautéed vegetables, tzatziki & green salad G, L, M, O"
+            "de": "A, C, G, L, M, O",
+            "en": "A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Hascheehörnchen",
-            "en": "Hash Brown Croquettes"
+            "de": "Faschierter Braten mit Bratensaft, grünem Salat",
+            "en": "Shredded Roast with Roast Juice, Green Salad"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Faschiertem & grünem Salat A, G, L",
-            "en": "with minced meat & green salad A, G, L"
+            "de": "A, C, G, L, M, O",
+            "en": "A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Indisches Dal",
-            "en": "Indian Dal"
+            "de": "Erdnuss Brokkoli Curry in cremiger Kokossauce",
+            "en": "Peanut Broccoli Curry in Creamy Coconut Sauce"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit roten Linsen in cremiger Kokos-Spinatsauce VEGGIE A, G, L",
-            "en": "with red lentils in creamy coconut spinach sauce VEGGIE A, G, L"
+            "de": "VEGFLF E, F, H, L, M, N, O",
+            "en": "VEGFLF E, F, H, L, M, N, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Käsespätzle",
-            "en": "Cheese Spätzle"
+            "de": "Vegetarisches Moussaka mit mediterranem Gemüse & grünem Salat",
+            "en": "Vegetarian Moussaka with Mediterranean Vegetables & Green Salad"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "aus dem Ofen mit geriebenem Bergkäse & grünem Salat VEGGIE A, C, G, L, M, O",
-            "en": "from the oven with grated mountain cheese & green salad VEGGIE A, C, G, L, M, O"
+            "de": "VEGGIE A, G, L, M, O",
+            "en": "VEGGIE A, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-25T10:54:04.751120",
+      "scraped_at": "2026-03-26T10:28:19.795982",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
+          "price": "€8-12",
+          "description": {
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-03-26T10:28:20.152155",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -141,16 +162,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-25T10:54:05.215769",
+      "scraped_at": "2026-03-26T10:28:20.590646",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 9
+    "total_items": 10
   }
 }
