@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-26T10:54:24.821951",
+  "last_updated": "2026-03-27T10:24:36.674354",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-26T10:54:11.553985",
+      "scraped_at": "2026-03-27T10:24:19.541466",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,8 +21,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Gulasch mit Schwammerl und Serviettenknödel",
-            "en": "Goulash with mushroom and bread dumplings"
+            "de": "Gulasch with bread dumplings",
+            "en": "Goulash with bread dumplings"
           },
           "dietary": "meat"
         },
@@ -33,15 +33,15 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Linsen Dal mit Naan Brot",
+            "de": "Linsen Dal mit Naanbrot",
             "en": "Lentil dal with naan bread"
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
             "de": "Naturschnitzel vom Schwein",
-            "en": "Pork Schnitzel"
+            "en": "Natural Pork Schnitzel"
           },
           "price": "€7.90",
           "description": {
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-26T10:54:15.240758",
+      "scraped_at": "2026-03-27T10:24:23.502159",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,77 +73,44 @@
         },
         {
           "name": {
-            "de": "Gnocchi mit Rindfleischstreifen, Eierschwammerl & grünem Salat",
-            "en": "Gnocchi with Beef Strips, Chanterelle Mushrooms & Green Salad"
+            "de": "Indisches Butter Chicken",
+            "en": "Indian Butter Chicken"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "A, C, G, L, M, O",
-            "en": "A, C, G, L, M, O"
+            "de": "A, G, L",
+            "en": "A, G, L"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Faschierter Braten mit Bratensaft, grünem Salat",
-            "en": "Shredded Roast with Roast Juice, Green Salad"
+            "de": "Balsamico Linsen mit Semmelknödel",
+            "en": "Balsamico Lentils with Semmelknödel"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "A, C, G, L, M, O",
-            "en": "A, C, G, L, M, O"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Erdnuss Brokkoli Curry in cremiger Kokossauce",
-            "en": "Peanut Broccoli Curry in Creamy Coconut Sauce"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "VEGGFLF E, F, H, L, M, N, O",
-            "en": "VEGGFLF E, F, H, L, M, N, O"
+            "de": "VEGGIE G, L, M, O",
+            "en": "VEGGIE G, L, M, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Vegetarisches Moussaka mit mediterranem Gemüse & grünem Salat",
-            "en": "Vegetarian Moussaka with Mediterranean Vegetables & Green Salad"
+            "de": "Tomaten Mozzarella Lasagne mit Bechamelsauce & grünem Salat",
+            "en": "Tomato Mozzarella Lasagna with Bechamel Sauce & Green Salad"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "VEGGIE A, G, L, M, O",
-            "en": "VEGGIE A, G, L, M, O"
+            "de": "VEGGIE A, G, L",
+            "en": "VEGGIE A, G, L"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-26T10:54:23.655752",
+      "scraped_at": "2026-03-27T10:24:36.281049",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pinsa Food Truck",
-      "url": "https://www.pinsalino.at",
-      "items": [
-        {
-          "name": {
-            "de": "Römische Pizza mit verschiedenen Belägen",
-            "en": "Roman-style pizza with various toppings"
-          },
-          "price": "€8-12",
-          "description": {
-            "de": "Erhältlich am Donnerstag",
-            "en": "Available on Thursday"
-          },
-          "dietary": "meat"
-        }
-      ],
-      "scraped_at": "2026-03-26T10:54:24.206317",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -156,22 +123,22 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "de": "Vordefinierte oder individuelle Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-26T10:54:24.821885",
+      "scraped_at": "2026-03-27T10:24:36.674287",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 10
+    "total_items": 8
   }
 }
