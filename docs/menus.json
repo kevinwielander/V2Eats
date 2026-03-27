@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-27T10:24:36.674354",
+  "last_updated": "2026-03-27T10:54:07.491746",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-27T10:24:19.541466",
+      "scraped_at": "2026-03-27T10:53:49.858992",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -33,15 +33,15 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Linsen Dal mit Naanbrot",
+            "de": "Linsen Dal mit Naan Brot",
             "en": "Lentil dal with naan bread"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
             "de": "Naturschnitzel vom Schwein",
-            "en": "Natural Pork Schnitzel"
+            "en": "Pork Schnitzel"
           },
           "price": "€7.90",
           "description": {
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-03-27T10:24:23.502159",
+      "scraped_at": "2026-03-27T10:53:53.639171",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -86,7 +86,7 @@
         {
           "name": {
             "de": "Balsamico Linsen mit Semmelknödel",
-            "en": "Balsamico Lentils with Semmelknödel"
+            "en": "Balsamic Lentils with Semmelknödel"
           },
           "price": "€7.50/€11.90",
           "description": {
@@ -108,7 +108,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-27T10:24:36.281049",
+      "scraped_at": "2026-03-27T10:54:06.885154",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -123,13 +123,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder individuelle Schalen",
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-27T10:24:36.674287",
+      "scraped_at": "2026-03-27T10:54:07.491681",
       "available": true,
       "extraction_method": "Static menu"
     }
