@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-27T10:54:07.491746",
+  "last_updated": "2026-03-30T10:38:27.027254",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-27T10:53:49.858992",
+      "scraped_at": "2026-03-30T10:38:13.003579",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,42 +16,42 @@
       "items": [
         {
           "name": {
-            "de": "Schwammerlgulasch mit Serviettenknödel",
-            "en": "Mushroom Goulash with Bread Dumplings"
+            "de": "Spare Ribs mit Wedges",
+            "en": "Spare Ribs with Wedges"
           },
           "price": "€7.90",
           "description": {
-            "de": "Gulasch with bread dumplings",
-            "en": "Goulash with bread dumplings"
+            "de": "Spare Ribs mit Wedges",
+            "en": "Spare Ribs with Wedges"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Linsen Dal mit Naan",
-            "en": "Lentil Dal with Naan"
+            "de": "Karfiol mit Basmati Reis und Sauce Tartare",
+            "en": "Cauliflower with Basmati rice and Tartare sauce"
           },
           "price": "€7.90",
           "description": {
-            "de": "Linsen Dal mit Naan Brot",
-            "en": "Lentil dal with naan bread"
+            "de": "Karfiol mit Basmati Reis und Sauce Tartare",
+            "en": "Cauliflower with Basmati rice and Tartare sauce"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Naturschnitzel vom Schwein",
-            "en": "Pork Schnitzel"
+            "de": "Linseneintopf mit Serviettenknödel",
+            "en": "Lentil stew with bread dumplings"
           },
           "price": "€7.90",
           "description": {
-            "de": "Schnitzel vom Schwein mit Erbsenragout und Reis",
-            "en": "Pork schnitzel with pea ragout and rice"
+            "de": "Linseneintopf mit Serviettenknödel",
+            "en": "Lentil stew with bread dumplings"
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-27T10:53:53.639171",
+      "scraped_at": "2026-03-30T10:38:18.633235",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -66,49 +66,61 @@
           },
           "price": "€7.50/€10.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Haussalat VEGGIE",
+            "en": "House salad VEGGIE"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Indisches Butter Chicken",
-            "en": "Indian Butter Chicken"
+            "de": "Indisches Chicken Tikka",
+            "en": "Indian Chicken Tikka"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "A, G, L",
-            "en": "A, G, L"
+            "de": "in cremiger Masalasauce mit Erbsen mit Basmatireis, E, F, H, L, M, N, O",
+            "en": "in creamy Masala sauce with peas and Basmati rice, E, F, H, L, M, N, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Balsamico Linsen mit Semmelknödel",
-            "en": "Balsamic Lentils with Semmelknödel"
+            "de": "Griechisches Moussaka",
+            "en": "Greek Moussaka"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "VEGGIE G, L, M, O",
-            "en": "VEGGIE G, L, M, O"
+            "de": "aus dem Ofen mit Fleischragout, Schmormelanzani & grünem Salat A, G, L, M, O",
+            "en": "from the oven with meat ragout, eggplant and green salad A, G, L, M, O"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Balsamico Linsen",
+            "en": "Balsamic Lentils"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit Semmelknödel & Sauerrahm Dip VEGGIE A, C, G, L, M, O",
+            "en": "with bread dumpling and sour cream dip VEGGIE A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Tomaten Mozzarella Lasagne mit Bechamelsauce & grünem Salat",
-            "en": "Tomato Mozzarella Lasagna with Bechamel Sauce & Green Salad"
+            "de": "Eierschwammerl Risotto",
+            "en": "Chanterelle Risotto"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "VEGGIE A, G, L",
-            "en": "VEGGIE A, G, L"
+            "de": "mit Parmesan, Spinat & grünem Salat VEGGIE G, L, M, O",
+            "en": "with Parmesan, spinach and green salad VEGGIE G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-27T10:54:06.885154",
+      "scraped_at": "2026-03-30T10:38:26.423451",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -129,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-27T10:54:07.491681",
+      "scraped_at": "2026-03-30T10:38:27.027189",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -139,6 +151,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 8
+    "total_items": 9
   }
 }
