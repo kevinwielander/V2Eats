@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-31T10:30:20.987771",
+  "last_updated": "2026-03-31T10:54:44.009251",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-03-31T10:30:02.986031",
+      "scraped_at": "2026-03-31T10:54:31.291625",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -41,17 +41,17 @@
         {
           "name": {
             "de": "Linseneintopf mit Serviettenknödel",
-            "en": "Lentil stew with napkin dumplings"
+            "en": "Lentil stew with bread dumplings"
           },
           "price": "€7.90",
           "description": {
             "de": "Linseneintopf mit Serviettenknödel",
-            "en": "Lentil stew with napkin dumplings"
+            "en": "Lentil stew with bread dumplings"
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         }
       ],
-      "scraped_at": "2026-03-31T10:30:06.520519",
+      "scraped_at": "2026-03-31T10:54:34.745841",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -69,7 +69,7 @@
             "de": "Haussalat",
             "en": "House Salad"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
@@ -103,24 +103,24 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "with Bratkartoffel, veganem Cream Dip, Kürbiskernen & grünem Salat VEGGIE",
-            "en": "with pan-fried potatoes, vegan cream dip, pumpkin seeds & green salad VEGGIE"
+            "en": "with pan-fried potatoes, vegan cream dip, pumpkin seeds & green salad"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Mexican Sweet Potato Chili Sin Carne",
+            "de": "Mexikanischer Süßkartoffel Chili Sin Carne",
             "en": "Mexican Sweet Potato Chili Sin Carne"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "with Avocado-Guacamole VEGGIE mit Langkornreis",
-            "en": "with avocado guacamole VEGGIE with long-grain rice"
+            "de": "mit Avocado-Guacamole VEGGIE mit Langkornreis",
+            "en": "with avocado guacamole & long-grain rice"
           },
           "dietary": "vegan"
         }
       ],
-      "scraped_at": "2026-03-31T10:30:19.830539",
+      "scraped_at": "2026-03-31T10:54:42.691051",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-31T10:30:20.398067",
+      "scraped_at": "2026-03-31T10:54:43.392293",
       "available": true,
       "type": "food_truck"
     },
@@ -162,7 +162,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-03-31T10:30:20.987699",
+      "scraped_at": "2026-03-31T10:54:44.009168",
       "available": true,
       "extraction_method": "Static menu"
     }
