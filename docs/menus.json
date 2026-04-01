@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-01T10:31:02.622150",
+  "last_updated": "2026-04-01T10:55:24.742890",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-01T10:30:44.431998",
+      "scraped_at": "2026-04-01T10:55:04.432502",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -48,10 +48,10 @@
             "de": "Linseneintopf mit Serviettenknödel",
             "en": "Lentil stew with bread dumplings"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-01T10:30:48.991692",
+      "scraped_at": "2026-04-01T10:55:08.334173",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -91,7 +91,7 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "Pfanne mit Schmorgemüse, Tzatziki & Grünem Salat",
-            "en": "Pan with stewed vegetables, tzatziki and green salad"
+            "en": "pan with stewed vegetables, tzatziki and green salad"
           },
           "dietary": "meat"
         },
@@ -120,7 +120,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-01T10:31:01.968552",
+      "scraped_at": "2026-04-01T10:55:24.207153",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-01T10:31:02.622075",
+      "scraped_at": "2026-04-01T10:55:24.742825",
       "available": true,
       "extraction_method": "Static menu"
     }
