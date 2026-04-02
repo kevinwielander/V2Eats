@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-02T10:28:25.544774",
+  "last_updated": "2026-04-02T10:54:36.107541",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-02T10:28:08.602877",
+      "scraped_at": "2026-04-02T10:54:16.557195",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-02T10:28:13.009516",
+      "scraped_at": "2026-04-02T10:54:20.549445",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -78,32 +78,32 @@
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "with Rucola, Parmesan & grünem Salat",
-            "en": "with Arugula, Parmesan & Green Salad"
+            "de": "mit Rucola, Parmesan & grünem Salat (B, G, L, M, O)",
+            "en": "with Arugula, Parmesan & Green Salad (B, G, L, M, O)"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Ofenfrischer Faschierter Braten",
-            "en": "Fresh Roast Beef"
+            "en": "Oven-Fresh Carved Roast"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "with Bratensaft, grünem Salatmit Erdäpfelpüree",
-            "en": "with Roast Beef Juice, Green Salad and Mashed Potatoes"
+            "de": "with Bratensaft, grünem Salat mit Erdäpfelpüree (A, G, L, M, O)",
+            "en": "with Roast Juice, Green Salad with Mashed Potatoes (A, G, L, M, O)"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Bärlauch-Parmesan Gnocchi",
-            "en": "Wild Garlic Parmesan Gnocchi"
+            "en": "Wild Garlic-Parmesan Gnocchi"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "with grünem Salat VEGGIE",
-            "en": "with Green Salad VEGGIE"
+            "de": "with grünem Salat VEGGIE (A, C, G, L, M, O)",
+            "en": "with Green Salad VEGGIE (A, C, G, L, M, O)"
           },
           "dietary": "vegetarian"
         },
@@ -114,13 +114,13 @@
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "with Basmatireis VEGGIE",
-            "en": "with Basmati Rice VEGGIE"
+            "de": "with Basmatireis VEGGIE (E, F, H, L, M, N, O)",
+            "en": "with Basmati Rice VEGGIE (E, F, H, L, M, N, O)"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-02T10:28:24.835322",
+      "scraped_at": "2026-04-02T10:54:34.952911",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-04-02T10:28:25.463553",
+      "scraped_at": "2026-04-02T10:54:35.551053",
       "available": true,
       "type": "food_truck"
     },
@@ -150,12 +150,19 @@
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-02T10:28:25.544729",
+      "scraped_at": "2026-04-02T10:54:36.107474",
       "available": true,
       "extraction_method": "Static menu"
     }
