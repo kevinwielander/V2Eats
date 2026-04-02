@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-01T10:55:24.742890",
+  "last_updated": "2026-04-02T10:28:25.544774",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-01T10:55:04.432502",
+      "scraped_at": "2026-04-02T10:28:08.602877",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-01T10:55:08.334173",
+      "scraped_at": "2026-04-02T10:28:13.009516",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -67,90 +67,104 @@
           "price": "€7.50/€10.90",
           "description": {
             "de": "Haussalat",
-            "en": "House salad"
+            "en": "House Salad"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Lasagne Bolognese",
-            "en": "Lasagne Bolognese"
+            "de": "Safran-Garnelen Risotto",
+            "en": "Saffron Shrimp Risotto"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Fleischragout, Mozarella & grünem Salat",
-            "en": "with meat ragout, mozzarella and green salad"
+            "de": "with Rucola, Parmesan & grünem Salat",
+            "en": "with Arugula, Parmesan & Green Salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Griechische Hühnerpfanne",
-            "en": "Greek Chicken Pan"
+            "de": "Ofenfrischer Faschierter Braten",
+            "en": "Fresh Roast Beef"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "Pfanne mit Schmorgemüse, Tzatziki & Grünem Salat",
-            "en": "pan with stewed vegetables, tzatziki and green salad"
+            "de": "with Bratensaft, grünem Salatmit Erdäpfelpüree",
+            "en": "with Roast Beef Juice, Green Salad and Mashed Potatoes"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Waldpilzgulasch",
-            "en": "Mushroom Goulash"
+            "de": "Bärlauch-Parmesan Gnocchi",
+            "en": "Wild Garlic Parmesan Gnocchi"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Rahmsauce mit Thymiankartoffel VEGGIE",
-            "en": "in creamy cream sauce with thyme potatoes, vegetarian"
+            "de": "with grünem Salat VEGGIE",
+            "en": "with Green Salad VEGGIE"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Spinatspätzle",
-            "en": "Spinach Spätzle"
+            "de": "Süßkartoffel Cashew Tikka Masala",
+            "en": "Sweet Potato Cashew Tikka Masala"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "with geschmolzenem Mozzarella, gerösteten Mandeln & grünem Salat VEGGIE",
-            "en": "with melted mozzarella, roasted almonds and green salad, vegetarian"
+            "de": "with Basmatireis VEGGIE",
+            "en": "with Basmati Rice VEGGIE"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-01T10:55:24.207153",
+      "scraped_at": "2026-04-02T10:28:24.835322",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
+          "price": "€8-12",
+          "description": {
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-04-02T10:28:25.463553",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-04-01T10:55:24.742825",
+      "scraped_at": "2026-04-02T10:28:25.544729",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 9
+    "total_items": 10
   }
 }
