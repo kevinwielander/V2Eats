@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-02T10:54:36.107541",
+  "last_updated": "2026-04-03T10:22:32.194974",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-02T10:54:16.557195",
+      "scraped_at": "2026-04-03T10:22:15.569236",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-02T10:54:20.549445",
+      "scraped_at": "2026-04-03T10:22:19.144617",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -66,112 +66,48 @@
           },
           "price": "€7.50/€10.90",
           "description": {
-            "de": "Haussalat",
-            "en": "House Salad"
+            "de": "",
+            "en": ""
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Safran-Garnelen Risotto",
-            "en": "Saffron Shrimp Risotto"
+            "de": "Rotes Thai Chicken",
+            "en": "Red Thai Chicken"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Rucola, Parmesan & grünem Salat (B, G, L, M, O)",
-            "en": "with Arugula, Parmesan & Green Salad (B, G, L, M, O)"
+            "de": "in cremiger roten Kokos-Currysauce & Gemüse mit Basmatreis",
+            "en": "in creamy red coconut curry sauce with vegetables and basmati rice"
           },
           "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Ofenfrischer Faschierter Braten",
-            "en": "Oven-Fresh Carved Roast"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "with Bratensaft, grünem Salat mit Erdäpfelpüree (A, G, L, M, O)",
-            "en": "with Roast Juice, Green Salad with Mashed Potatoes (A, G, L, M, O)"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Bärlauch-Parmesan Gnocchi",
-            "en": "Wild Garlic-Parmesan Gnocchi"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "with grünem Salat VEGGIE (A, C, G, L, M, O)",
-            "en": "with Green Salad VEGGIE (A, C, G, L, M, O)"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Süßkartoffel Cashew Tikka Masala",
-            "en": "Sweet Potato Cashew Tikka Masala"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "with Basmatireis VEGGIE (E, F, H, L, M, N, O)",
-            "en": "with Basmati Rice VEGGIE (E, F, H, L, M, N, O)"
-          },
-          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-02T10:54:34.952911",
+      "scraped_at": "2026-04-03T10:22:32.141639",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pinsa Food Truck",
-      "url": "https://www.pinsalino.at",
-      "items": [
-        {
-          "name": {
-            "de": "Römische Pizza mit verschiedenen Belägen",
-            "en": "Roman-style pizza with various toppings"
-          },
-          "price": "€8-12",
-          "description": {
-            "de": "Erhältlich am Donnerstag",
-            "en": "Available on Thursday"
-          },
-          "dietary": "meat"
-        }
-      ],
-      "scraped_at": "2026-04-02T10:54:35.551053",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-04-02T10:54:36.107474",
+      "scraped_at": "2026-04-03T10:22:32.194922",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 10
+    "total_items": 6
   }
 }
