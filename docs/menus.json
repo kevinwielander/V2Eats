@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-03T10:22:32.194974",
+  "last_updated": "2026-04-03T10:53:35.668698",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-03T10:22:15.569236",
+      "scraped_at": "2026-04-03T10:53:18.372233",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-03T10:22:19.144617",
+      "scraped_at": "2026-04-03T10:53:22.268677",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -66,10 +66,10 @@
           },
           "price": "€7.50/€10.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Haussalat",
+            "en": "House salad"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
@@ -82,9 +82,33 @@
             "en": "in creamy red coconut curry sauce with vegetables and basmati rice"
           },
           "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Steinpilz Gnocchi",
+            "en": "Steinpilz Gnocchi"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "in Parmesansauce with Ruccola & grünem Salat",
+            "en": "in parmesan sauce with arugula and green salad"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Süßkartoffel Gratin",
+            "en": "Sweet Potato Gratin"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "with Feta, Spinat & grünem Salat, VEGGIE",
+            "en": "with feta, spinach and green salad, veggie"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-03T10:22:32.141639",
+      "scraped_at": "2026-04-03T10:53:35.084576",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -93,12 +117,19 @@
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-03T10:22:32.194922",
+      "scraped_at": "2026-04-03T10:53:35.668628",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -108,6 +139,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 6
+    "total_items": 8
   }
 }
