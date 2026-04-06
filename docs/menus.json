@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-06T10:32:35.657751",
+  "last_updated": "2026-04-06T10:55:11.395713",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-06T10:32:18.448316",
+      "scraped_at": "2026-04-06T10:54:53.995106",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,8 +21,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Spare Ribs mit Wedges",
-            "en": "Spare Ribs with Wedges"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
@@ -33,25 +33,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Karfiol mit Basmati Reis und Sauce Tartare",
-            "en": "Cauliflower with Basmati rice and Tartare sauce"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
             "de": "Linseneintopf mit Serviettenknödel",
-            "en": "Lentil Stew with Bread Dumplings"
+            "en": "Lentil Stew with Serviettenknödel"
           },
           "price": "€7.90",
           "description": {
-            "de": "Linseneintopf mit Serviettenknödel",
-            "en": "Lentil stew with bread dumplings"
+            "de": "",
+            "en": ""
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-06T10:32:23.835066",
+      "scraped_at": "2026-04-06T10:54:58.633559",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -59,7 +59,7 @@
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
       "items": [],
-      "scraped_at": "2026-04-06T10:32:35.198119",
+      "scraped_at": "2026-04-06T10:55:10.971839",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -74,13 +74,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder individuelle Schalen",
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-06T10:32:35.657686",
+      "scraped_at": "2026-04-06T10:55:11.395650",
       "available": true,
       "extraction_method": "Static menu"
     }
