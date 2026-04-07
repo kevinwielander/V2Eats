@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-06T10:55:11.395713",
+  "last_updated": "2026-04-07T10:30:32.556005",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-06T10:54:53.995106",
+      "scraped_at": "2026-04-07T10:30:08.915676",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,80 +16,148 @@
       "items": [
         {
           "name": {
-            "de": "Spare Ribs mit Wedges",
-            "en": "Spare Ribs with Wedges"
+            "de": "Bärlauchnockerl",
+            "en": "Wild Garlic Dumplings"
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "mit Röstzwiebel und grünem Salat",
+            "en": "with roasted onions and green salad"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Tom Kha Gai Huhn",
+            "en": "Tom Kha Gai Chicken"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "mit Basmati Reis",
+            "en": "with Basmati rice"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Karfiol mit Basmati Reis und Sauce Tartare",
-            "en": "Cauliflower with Basmati Rice and Tartare Sauce"
+            "de": "Steirisches Backhendl",
+            "en": "Styrian Fried Chicken"
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "mit Erdäpfel-Vogerl-Salat",
+            "en": "with potato and bird's salad"
           },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Linseneintopf mit Serviettenknödel",
-            "en": "Lentil Stew with Serviettenknödel"
-          },
-          "price": "€7.90",
-          "description": {
-            "de": "",
-            "en": ""
-          },
-          "dietary": "vegetarian"
+          "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-04-06T10:54:58.633559",
+      "scraped_at": "2026-04-07T10:30:14.248404",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
     {
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
-      "items": [],
-      "scraped_at": "2026-04-06T10:55:10.971839",
+      "items": [
+        {
+          "name": {
+            "de": "Saladbowl",
+            "en": "Salad Bowl"
+          },
+          "price": "€7.50/€10.90",
+          "description": {
+            "de": "VEGGIE",
+            "en": "Veggie"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Indisches Butter Chicken",
+            "en": "Indian Butter Chicken"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "in cremiger Cashewsauce mit Joghurt mit Basmatireis",
+            "en": "in creamy cashew sauce with yogurt and basmati rice"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Garnelen auf Bärlauchrisotto",
+            "en": "Shrimp on Wild Garlic Risotto"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit Zitrone, Parmesan & frischem Blattsalat",
+            "en": "with lemon, parmesan and fresh leaf salad"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Waldpilz Gnocchi",
+            "en": "Mushroom Gnocchi"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "in Parmesansauce mit Ruccola & grünem Salat, VEGGIE",
+            "en": "in parmesan sauce with arugula and green salad, veggie"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Kürbis-Feta Gratin",
+            "en": "Pumpkin Feta Gratin"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "with Spinat, überbackenem Käse & grünem Salat, VEGGIE",
+            "en": "with spinach, baked cheese and green salad, veggie"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-04-07T10:30:32.376743",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": "Pasta dishes with fresh ingredients",
+          "price": "€8-13",
+          "description": "Available on tuesday"
+        }
+      ],
+      "scraped_at": "2026-04-07T10:30:32.463996",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-04-06T10:55:11.395650",
+      "scraped_at": "2026-04-07T10:30:32.555932",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 4
+    "total_items": 10
   }
 }
