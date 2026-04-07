@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-07T10:30:32.556005",
+  "last_updated": "2026-04-07T10:55:18.880227",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-07T10:30:08.915676",
+      "scraped_at": "2026-04-07T10:54:47.671257",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -34,7 +34,7 @@
           "price": "€7.90",
           "description": {
             "de": "mit Basmati Reis",
-            "en": "with Basmati rice"
+            "en": "with basmati rice"
           },
           "dietary": "meat"
         },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-04-07T10:30:14.248404",
+      "scraped_at": "2026-04-07T10:54:51.455233",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -64,10 +64,10 @@
             "de": "Saladbowl",
             "en": "Salad Bowl"
           },
-          "price": "€7.50/€10.90",
+          "price": "Klein €7.50/Gross €10.90",
           "description": {
-            "de": "VEGGIE",
-            "en": "Veggie"
+            "de": "Haussalat VEGGIE",
+            "en": "House salad VEGGIE"
           },
           "dietary": "vegetarian"
         },
@@ -76,7 +76,7 @@
             "de": "Indisches Butter Chicken",
             "en": "Indian Butter Chicken"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
             "de": "in cremiger Cashewsauce mit Joghurt mit Basmatireis",
             "en": "in creamy cashew sauce with yogurt and basmati rice"
@@ -88,7 +88,7 @@
             "de": "Garnelen auf Bärlauchrisotto",
             "en": "Shrimp on Wild Garlic Risotto"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
             "de": "mit Zitrone, Parmesan & frischem Blattsalat",
             "en": "with lemon, parmesan and fresh leaf salad"
@@ -100,10 +100,10 @@
             "de": "Waldpilz Gnocchi",
             "en": "Mushroom Gnocchi"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in Parmesansauce mit Ruccola & grünem Salat, VEGGIE",
-            "en": "in parmesan sauce with arugula and green salad, veggie"
+            "de": "in Parmesansauce mit Ruccola & grünem Salat VEGGIE",
+            "en": "in parmesan sauce with arugula and green salad VEGGIE"
           },
           "dietary": "vegetarian"
         },
@@ -112,15 +112,15 @@
             "de": "Kürbis-Feta Gratin",
             "en": "Pumpkin Feta Gratin"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "with Spinat, überbackenem Käse & grünem Salat, VEGGIE",
-            "en": "with spinach, baked cheese and green salad, veggie"
+            "de": "with Spinat, überbackenem Käse & grünem Salat VEGGIE",
+            "en": "with spinach, baked cheese and green salad VEGGIE"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-07T10:30:32.376743",
+      "scraped_at": "2026-04-07T10:55:18.498256",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -129,12 +129,19 @@
       "url": "https://pastaheld.at",
       "items": [
         {
-          "name": "Pasta dishes with fresh ingredients",
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
           "price": "€8-13",
-          "description": "Available on tuesday"
+          "description": {
+            "de": "Erhältlich am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-07T10:30:32.463996",
+      "scraped_at": "2026-04-07T10:55:18.784934",
       "available": true,
       "type": "food_truck"
     },
@@ -148,7 +155,7 @@
           "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-04-07T10:30:32.555932",
+      "scraped_at": "2026-04-07T10:55:18.880154",
       "available": true,
       "extraction_method": "Static menu"
     }
