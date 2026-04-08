@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-07T10:55:18.880227",
+  "last_updated": "2026-04-08T10:31:35.665627",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-07T10:54:47.671257",
+      "scraped_at": "2026-04-08T10:31:17.473758",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,7 +17,7 @@
         {
           "name": {
             "de": "Bärlauchnockerl",
-            "en": "Wild Garlic Dumplings"
+            "en": "Bärlauchnockerl"
           },
           "price": "€7.90",
           "description": {
@@ -34,14 +34,14 @@
           "price": "€7.90",
           "description": {
             "de": "mit Basmati Reis",
-            "en": "with basmati rice"
+            "en": "with Basmati rice"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Steirisches Backhendl",
-            "en": "Styrian Fried Chicken"
+            "en": "Steirisches Backhendl"
           },
           "price": "€7.90",
           "description": {
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-04-07T10:54:51.455233",
+      "scraped_at": "2026-04-08T10:31:21.762094",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,98 +73,84 @@
         },
         {
           "name": {
-            "de": "Indisches Butter Chicken",
-            "en": "Indian Butter Chicken"
+            "de": "Zartes Kalbsrahmgulasch",
+            "en": "Tender Veal Goulash"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in cremiger Cashewsauce mit Joghurt mit Basmatireis",
-            "en": "in creamy cashew sauce with yogurt and basmati rice"
+            "de": "in Paprika-Oberssauce mit Sauerrahm Dip mit Spätzle",
+            "en": "in paprika sour cream sauce with sour cream dip and spaetzle"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Garnelen auf Bärlauchrisotto",
-            "en": "Shrimp on Wild Garlic Risotto"
+            "de": "Griechisches Moussaka",
+            "en": "Greek Moussaka"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Zitrone, Parmesan & frischem Blattsalat",
-            "en": "with lemon, parmesan and fresh leaf salad"
+            "de": "aus dem Ofen mit Fleischragout, Schmormelanzani & grünem Salat",
+            "en": "from the oven with meat stew, eggplant and green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Waldpilz Gnocchi",
-            "en": "Mushroom Gnocchi"
+            "de": "Cashew Süßkartoffel Masala",
+            "en": "Cashew Sweet Potato Masala"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in Parmesansauce mit Ruccola & grünem Salat VEGGIE",
-            "en": "in parmesan sauce with arugula and green salad VEGGIE"
+            "de": "in Kokossauce VEGGIE mit Basmatireis",
+            "en": "in coconut sauce VEGGIE with basmati rice"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Kürbis-Feta Gratin",
-            "en": "Pumpkin Feta Gratin"
+            "de": "Spargel Weissweinrisotto",
+            "en": "Asparagus White Wine Risotto"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "with Spinat, überbackenem Käse & grünem Salat VEGGIE",
-            "en": "with spinach, baked cheese and green salad VEGGIE"
+            "de": "mit Basilikum und Tomaten VEGGIE",
+            "en": "with basil and tomatoes VEGGIE"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-07T10:55:18.498256",
+      "scraped_at": "2026-04-08T10:31:35.321500",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Erhältlich am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-04-07T10:55:18.784934",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-07T10:55:18.880154",
+      "scraped_at": "2026-04-08T10:31:35.665581",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 10
+    "total_items": 9
   }
 }
