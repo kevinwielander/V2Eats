@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-08T10:31:35.665627",
+  "last_updated": "2026-04-08T10:55:04.515109",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-08T10:31:17.473758",
+      "scraped_at": "2026-04-08T10:54:46.069872",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,7 +17,7 @@
         {
           "name": {
             "de": "Bärlauchnockerl",
-            "en": "Bärlauchnockerl"
+            "en": "Wild Garlic Dumplings"
           },
           "price": "€7.90",
           "description": {
@@ -41,7 +41,7 @@
         {
           "name": {
             "de": "Steirisches Backhendl",
-            "en": "Steirisches Backhendl"
+            "en": "Styrian Fried Chicken"
           },
           "price": "€7.90",
           "description": {
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-04-08T10:31:21.762094",
+      "scraped_at": "2026-04-08T10:54:50.459602",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -79,7 +79,7 @@
           "price": "Klein €7.50/Gross €11.90",
           "description": {
             "de": "in Paprika-Oberssauce mit Sauerrahm Dip mit Spätzle",
-            "en": "in paprika sour cream sauce with sour cream dip and spaetzle"
+            "en": "in paprika cream sauce with sour cream dip and spaetzle"
           },
           "dietary": "meat"
         },
@@ -102,8 +102,8 @@
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in Kokossauce VEGGIE mit Basmatireis",
-            "en": "in coconut sauce VEGGIE with basmati rice"
+            "de": "VEGGIE mit Basmatireis",
+            "en": "VEGGIE with basmati rice"
           },
           "dietary": "vegetarian"
         },
@@ -114,13 +114,13 @@
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Basilikum und Tomaten VEGGIE",
-            "en": "with basil and tomatoes VEGGIE"
+            "de": "VEGGIE mit Basilikum und Tomaten",
+            "en": "VEGGIE with basil and tomatoes"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-08T10:31:35.321500",
+      "scraped_at": "2026-04-08T10:55:04.225588",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-08T10:31:35.665581",
+      "scraped_at": "2026-04-08T10:55:04.515042",
       "available": true,
       "extraction_method": "Static menu"
     }
