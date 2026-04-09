@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-08T10:55:04.515109",
+  "last_updated": "2026-04-09T10:34:30.138692",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-08T10:54:46.069872",
+      "scraped_at": "2026-04-09T10:34:10.583971",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-04-08T10:54:50.459602",
+      "scraped_at": "2026-04-09T10:34:15.474081",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -62,67 +62,88 @@
         {
           "name": {
             "de": "Saladbowl",
-            "en": "Salad Bowl"
+            "en": "Saladbowl"
           },
-          "price": "Klein €7.50/Gross €10.90",
+          "price": "€7.50/€10.90",
           "description": {
-            "de": "Haussalat VEGGIE",
-            "en": "House salad VEGGIE"
+            "de": "VEGGIE",
+            "en": "VEGGIE"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Zartes Kalbsrahmgulasch",
-            "en": "Tender Veal Goulash"
+            "de": "Rehragout",
+            "en": "Venison Stew"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "in Paprika-Oberssauce mit Sauerrahm Dip mit Spätzle",
-            "en": "in paprika cream sauce with sour cream dip and spaetzle"
+            "de": "in Wacholdersauce mit Wurzelgemüse mit Polenta (A, C, G, L, M, O)",
+            "en": "in juniper sauce with root vegetables and polenta (A, C, G, L, M, O)"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Griechisches Moussaka",
-            "en": "Greek Moussaka"
+            "de": "Chicken-Stroganoff",
+            "en": "Chicken-Stroganoff"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "aus dem Ofen mit Fleischragout, Schmormelanzani & grünem Salat",
-            "en": "from the oven with meat stew, eggplant and green salad"
+            "de": "in Senf-Rahmsauce mit Waldpilzen & Sauerrahm Dip mit Spinatspätzle (A, C, G, L, M, O)",
+            "en": "in mustard cream sauce with wild mushrooms and sour cream dip with spinach spätzle (A, C, G, L, M, O)"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Cashew Süßkartoffel Masala",
-            "en": "Cashew Sweet Potato Masala"
+            "de": "Cremiges Erdnuss-Brokkoli-Curry",
+            "en": "Creamy Peanut-Broccoli Curry"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "VEGGIE mit Basmatireis",
-            "en": "VEGGIE with basmati rice"
+            "de": "VEGGIE, in Erdnussauce mit Basmatireis (E, F, H, L, M, N, O)",
+            "en": "VEGGIE, in peanut sauce with basmati rice (E, F, H, L, M, N, O)"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Spargel Weissweinrisotto",
-            "en": "Asparagus White Wine Risotto"
+            "de": "Kürbis-Ricotta Lasagne",
+            "en": "Pumpkin-Ricotta Lasagna"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "VEGGIE mit Basilikum und Tomaten",
-            "en": "VEGGIE with basil and tomatoes"
+            "de": "VEGGIE, mit Bechamelsauce & grünem Salat (A, C, G, L, M, O)",
+            "en": "VEGGIE, with bechamel sauce and green salad (A, C, G, L, M, O)"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-08T10:55:04.225588",
+      "scraped_at": "2026-04-09T10:34:29.513200",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
+          "price": "€8-12",
+          "description": {
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-04-09T10:34:29.782199",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -141,16 +162,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-08T10:55:04.515042",
+      "scraped_at": "2026-04-09T10:34:30.138644",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 9
+    "total_items": 10
   }
 }
