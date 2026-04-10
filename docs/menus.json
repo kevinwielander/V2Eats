@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-10T10:30:15.020531",
+  "last_updated": "2026-04-10T10:55:02.574842",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-10T10:29:59.218921",
+      "scraped_at": "2026-04-10T10:54:44.709767",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -34,7 +34,7 @@
           "price": "€7.90",
           "description": {
             "de": "mit Basmati Reis",
-            "en": "with basmati rice"
+            "en": "with Basmati rice"
           },
           "dietary": "meat"
         },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-04-10T10:30:02.782742",
+      "scraped_at": "2026-04-10T10:54:48.339793",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -108,7 +108,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-10T10:30:14.965937",
+      "scraped_at": "2026-04-10T10:55:02.191219",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -117,12 +117,19 @@
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-10T10:30:15.020458",
+      "scraped_at": "2026-04-10T10:55:02.574746",
       "available": true,
       "extraction_method": "Static menu"
     }
