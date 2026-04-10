@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-09T10:55:49.242969",
+  "last_updated": "2026-04-10T10:30:15.020531",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-09T10:55:31.210142",
+      "scraped_at": "2026-04-10T10:29:59.218921",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -34,7 +34,7 @@
           "price": "€7.90",
           "description": {
             "de": "mit Basmati Reis",
-            "en": "with Basmati rice"
+            "en": "with basmati rice"
           },
           "dietary": "meat"
         },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-04-09T10:55:34.907897",
+      "scraped_at": "2026-04-10T10:30:02.782742",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,105 +73,65 @@
         },
         {
           "name": {
-            "de": "Rehragout",
-            "en": "Venison Stew"
+            "de": "Gebratenes Lachsfilet mit Safran-Zucchinireis",
+            "en": "Grilled Salmon Fillet with Saffron Zucchini Rice"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in Wacholdersauce mit Wurzelgemüse mit Polenta (A, C, G, L, M, O)",
-            "en": "in juniper sauce with root vegetables and polenta (A, C, G, L, M, O)"
+            "de": "E, F, H, L, M, N, O",
+            "en": "E, F, H, L, M, N, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Chicken-Stroganoff",
-            "en": "Chicken Stroganoff"
+            "de": "Griechisches Veggie Moussaka mit mediterranem Gemüse & grünem Salat",
+            "en": "Greek Veggie Moussaka with Mediterranean Vegetables & Green Salad"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in Senf-Rahmsauce mit Waldpilzen & Sauerrahm Dip mit Spinatspätzle (A, C, G, L, M, O)",
-            "en": "in mustard cream sauce with wild mushrooms and sour cream dip with spinach spätzle (A, C, G, L, M, O)"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Creamy Peanut-Broccoli Curry",
-            "en": "Creamy Peanut-Broccoli Curry"
-          },
-          "price": "Klein €7.50/Gross €11.90",
-          "description": {
-            "de": "in Erdnussauce VEGGIE mit Basmatireis (E, F, H, L, M, N, O)",
-            "en": "in peanut sauce VEGGIE with basmati rice (E, F, H, L, M, N, O)"
+            "de": "VEGGIE A, G, L, M, O",
+            "en": "VEGGIE A, G, L, M, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Kürbis-Ricotta Lasagne",
-            "en": "Pumpkin Ricotta Lasagna"
+            "de": "Eierschwammerl Risotto mit Parmesan, Spinat & grünem Salat",
+            "en": "Chanterelle Risotto with Parmesan, Spinach & Green Salad"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Bechamelsauce & grünem Salat VEGGIE (A, C, G, L, M, O)",
-            "en": "with bechamel sauce and green salad VEGGIE (A, C, G, L, M, O)"
+            "de": "VEGGIE G, L, M, O",
+            "en": "VEGGIE G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-09T10:55:48.590116",
+      "scraped_at": "2026-04-10T10:30:14.965937",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pinsa Food Truck",
-      "url": "https://www.pinsalino.at",
-      "items": [
-        {
-          "name": {
-            "de": "Römische Pizza mit verschiedenen Belägen",
-            "en": "Roman-style pizza with various toppings"
-          },
-          "price": "€8-12",
-          "description": {
-            "de": "Erhältlich am Donnerstag",
-            "en": "Available on Thursday"
-          },
-          "dietary": "meat"
-        }
-      ],
-      "scraped_at": "2026-04-09T10:55:48.902256",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-04-09T10:55:49.242898",
+      "scraped_at": "2026-04-10T10:30:15.020458",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 10
+    "total_items": 8
   }
 }
