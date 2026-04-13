@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-10T10:55:02.574842",
+  "last_updated": "2026-04-13T10:41:46.834224",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-10T10:54:44.709767",
+      "scraped_at": "2026-04-13T10:41:26.226343",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,42 +16,42 @@
       "items": [
         {
           "name": {
-            "de": "Bärlauchnockerl",
-            "en": "Wild Garlic Dumplings"
+            "de": "Pikantes Bakonyi-Schweinsragout mit Butternockerl",
+            "en": "Spicy Bakonyi Pork Ragout with Butter Dumplings"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Röstzwiebel und grünem Salat",
-            "en": "with roasted onions and green salad"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Tom Kha Gai Huhn",
-            "en": "Tom Kha Gai Chicken"
-          },
-          "price": "€7.90",
-          "description": {
-            "de": "mit Basmati Reis",
-            "en": "with Basmati rice"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Steirisches Backhendl",
-            "en": "Styrian Fried Chicken"
+            "de": "Schinkenfleckerl",
+            "en": "Ham Fleckerl"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Erdäpfel-Vogerl-Salat",
-            "en": "with potato and bird's salad"
+            "de": "",
+            "en": ""
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Gebackene Hühnerkeule mit Erdäpfel-Vogerlsalat",
+            "en": "Baked Chicken Leg with Potato-Vogerlsalat"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-04-10T10:54:48.339793",
+      "scraped_at": "2026-04-13T10:41:30.645996",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -64,51 +64,63 @@
             "de": "Saladbowl",
             "en": "Salad Bowl"
           },
-          "price": "Klein €7.50/Gross €10.90",
+          "price": "€7.50/€10.90",
           "description": {
-            "de": "Haussalat VEGGIE",
-            "en": "House salad VEGGIE"
+            "de": "VEGGIE",
+            "en": "Veggie"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Gebratenes Lachsfilet mit Safran-Zucchinireis",
-            "en": "Grilled Salmon Fillet with Saffron Zucchini Rice"
+            "de": "Indisches Chicken Tikka",
+            "en": "Indian Chicken Tikka"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "E, F, H, L, M, N, O",
-            "en": "E, F, H, L, M, N, O"
+            "de": "in cremiger Masalasauce mit Erbsen mit Basmatireis, E, F, H, L, M, N, O",
+            "en": "in creamy Masala sauce with peas and Basmati rice, E, F, H, L, M, N, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Griechisches Veggie Moussaka mit mediterranem Gemüse & grünem Salat",
-            "en": "Greek Veggie Moussaka with Mediterranean Vegetables & Green Salad"
+            "de": "Gnocchi in cremiger Carbonara",
+            "en": "Gnocchi in Creamy Carbonara"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "VEGGIE A, G, L, M, O",
-            "en": "VEGGIE A, G, L, M, O"
+            "de": "mit knusprigem Speck und Parmesan, A, C, G, L, M, O",
+            "en": "with crispy bacon and Parmesan, A, C, G, L, M, O"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Cremiges Safran-Risotto",
+            "en": "Creamy Saffron Risotto"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit weißem Spargel, Cherrytomaten und Parmesan, VEGGIE, G, L, M, O",
+            "en": "with white asparagus, cherry tomatoes, and Parmesan, VEGGIE, G, L, M, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Eierschwammerl Risotto mit Parmesan, Spinat & grünem Salat",
-            "en": "Chanterelle Risotto with Parmesan, Spinach & Green Salad"
+            "de": "Süßkartoffel Lasagne",
+            "en": "Sweet Potato Lasagna"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "VEGGIE G, L, M, O",
-            "en": "VEGGIE G, L, M, O"
+            "de": "mit geschmolzenem Mozzarella, Blattspinat, Béchamelsauce & grünem Salat, VEGGIE, A, C, G, L, M, O",
+            "en": "with melted mozzarella, spinach, Béchamel sauce, and green salad, VEGGIE, A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-10T10:55:02.191219",
+      "scraped_at": "2026-04-13T10:41:46.464930",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -129,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-10T10:55:02.574746",
+      "scraped_at": "2026-04-13T10:41:46.834160",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -139,6 +151,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 8
+    "total_items": 9
   }
 }
