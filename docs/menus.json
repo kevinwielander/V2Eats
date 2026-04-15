@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-14T10:56:30.874280",
+  "last_updated": "2026-04-15T10:36:18.414960",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-14T10:56:17.355510",
+      "scraped_at": "2026-04-15T10:36:00.454660",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,13 +16,13 @@
       "items": [
         {
           "name": {
-            "de": "Pikantes Bakonyi-Schweinsragout mit Butternockerl",
-            "en": "Spicy Bakonyi Pork Ragout with Butter Dumplings"
+            "de": "Pikantes Bakonyi-Schweinsragout",
+            "en": "Spicy Bakonyi Pork Stew"
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "mit Butternockerl",
+            "en": "with butter dumplings"
           },
           "dietary": "meat"
         },
@@ -40,18 +40,18 @@
         },
         {
           "name": {
-            "de": "Gebackene Hühnerkeule mit Erdäpfel-Vogerlsalat",
-            "en": "Baked Chicken Leg with Potato-Vogerlsalat"
+            "de": "Gebackene Hühnerkeule",
+            "en": "Baked Chicken Leg"
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "mit Erdäpfel-Vogerlsalat",
+            "en": "with potato and mixed salad"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-04-14T10:56:21.805090",
+      "scraped_at": "2026-04-15T10:36:04.002343",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,70 +61,68 @@
       "items": [
         {
           "name": {
-            "de": "Griechisches Hühnerpfanne",
-            "en": "Greek Chicken Pan"
+            "de": "Pasta Spargel Salat",
+            "en": "Pasta Asparagus Salad"
           },
-          "price": "€7.50/€11.90",
+          "price": "€7.50/€10.90",
           "description": {
-            "de": "Griechische Hühnerpfanne mit mediterranem Eintopf, Kartoffeln, cremigem Tzatziki und grünem Salat",
-            "en": "Greek chicken pan with Mediterranean stew, potatoes, creamy tzatziki and green salad"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Geschmortes Beef Stripes",
-            "en": "Braised Beef Stripes"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "Geschmorte Rinderstreifen in Pilzcremesauce mit Langkornreis",
-            "en": "Braised beef strips in mushroom cream sauce with long-grain rice"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Griechisches Veggie Moussaka",
-            "en": "Greek Veggie Moussaka"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "Griechische Gemüsemoussaka mit mediterranen Gemüsen und grünem Salat",
-            "en": "Greek vegetable moussaka with Mediterranean vegetables and green salad"
+            "de": "with Melone, Tomaten & Paprika",
+            "en": "with Melon, Tomatoes & Bell Peppers"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Süßkartoffel Chili Sin Carne",
-            "en": "Sweet Potato Chili Sin Carne"
+            "de": "Paprikahühnchen",
+            "en": "Paprika Chicken"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "Süßkartoffelchili ohne Fleisch mit Avocadoguacamole",
-            "en": "Sweet potato chili without meat with avocado guacamole"
+            "de": "in cremiger Rahmsauce & Sauerrahm Dip mit Spätzle",
+            "en": "in creamy Cream Sauce & Sour Cream Dip with Spätzle"
           },
-          "dietary": "vegan"
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Burritos Chili Con Carne",
+            "en": "Burritos Chili Con Carne"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "with Avocado-Guacamole, überbackenem Käse & grünem Salat",
+            "en": "with Avocado Guacamole, baked Cheese & green Salad"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Geröstetes Karfiol Curry",
+            "en": "Roasted Cauliflower Curry"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "in cremiger Mandelsauce mit Basmatireis",
+            "en": "in creamy Almond Sauce with Basmati Rice"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Kürbis-Feta Gratin",
+            "en": "Pumpkin-Feta Gratin"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "with Spinat, überbackenem Käse & grünem Salat",
+            "en": "with Spinach, baked Cheese & green Salad"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-14T10:56:30.398953",
+      "scraped_at": "2026-04-15T10:36:18.044889",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": "Pasta dishes with fresh ingredients",
-          "price": "€8-13",
-          "description": "Available on tuesday"
-        }
-      ],
-      "scraped_at": "2026-04-14T10:56:30.475235",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -143,15 +141,15 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-14T10:56:30.874202",
+      "scraped_at": "2026-04-15T10:36:18.414894",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
     "total_items": 9
   }
