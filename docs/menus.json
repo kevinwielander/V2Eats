@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-16T10:38:02.990181",
+  "last_updated": "2026-04-16T10:56:35.592435",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-16T10:37:44.782099",
+      "scraped_at": "2026-04-16T10:56:14.320611",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,7 +17,7 @@
         {
           "name": {
             "de": "Pikantes Bakonyi-Schweinsragout mit Butternockerl",
-            "en": "Spicy Bakonyi Pork Ragout with Butter Dumplings"
+            "en": "Spicy Bakonyi Pork Stew with Butter Dumplings"
           },
           "price": "€7.90",
           "description": {
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-04-16T10:37:48.670353",
+      "scraped_at": "2026-04-16T10:56:17.918955",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -66,7 +66,7 @@
           },
           "price": "€7.50/€10.90",
           "description": {
-            "de": "Salat-Schüssel",
+            "de": "Salatschüssel",
             "en": "Salad bowl"
           },
           "dietary": "vegetarian"
@@ -110,7 +110,7 @@
         {
           "name": {
             "de": "Red Thai Curry in cremiger Kokos-Limettensauce & Wokgemüse",
-            "en": "Red Thai Curry in Creamy Coconut-Lime Sauce & Wok Vegetables"
+            "en": "Red Thai Curry in Creamy Coconut Lime Sauce & Wok Vegetables"
           },
           "price": "€7.50/€11.90",
           "description": {
@@ -120,7 +120,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-16T10:38:02.836188",
+      "scraped_at": "2026-04-16T10:56:35.056801",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -129,12 +129,19 @@
       "url": "https://www.pinsalino.at",
       "items": [
         {
-          "name": "Roman-style pizza with various toppings",
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
           "price": "€8-12",
-          "description": "Available on thursday"
+          "description": {
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-04-16T10:38:02.914703",
+      "scraped_at": "2026-04-16T10:56:35.524372",
       "available": true,
       "type": "food_truck"
     },
@@ -148,7 +155,7 @@
           "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-04-16T10:38:02.990090",
+      "scraped_at": "2026-04-16T10:56:35.592348",
       "available": true,
       "extraction_method": "Static menu"
     }
