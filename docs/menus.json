@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-17T10:55:06.308714",
+  "last_updated": "2026-04-20T10:43:14.262836",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-17T10:54:49.303839",
+      "scraped_at": "2026-04-20T10:43:01.101591",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,8 +16,8 @@
       "items": [
         {
           "name": {
-            "de": "Pikantes Bakonyi-Schweinsragout mit Butternockerl",
-            "en": "Spicy Bakonyi Pork Ragout with Butter Dumplings"
+            "de": "Hühnercurry mit Basmati Reis",
+            "en": "Chicken Curry with Basmati Rice"
           },
           "price": "€7.90",
           "description": {
@@ -28,30 +28,30 @@
         },
         {
           "name": {
-            "de": "Wiener Erdäpfelgulasch",
-            "en": "Viennese Potato Goulash"
+            "de": "Krautfleckerl",
+            "en": "Cabbage Fleckerl"
           },
           "price": "€7.90",
           "description": {
             "de": "",
             "en": ""
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Gebackene Hühnerkeule mit Erdäpfel-Vogerlsalat",
-            "en": "Baked Chicken Leg with Potato-Vogerlsalat"
+            "de": "Gnocchi alla Norma mit Parmesan",
+            "en": "Gnocchi alla Norma with Parmesan"
           },
           "price": "€7.90",
           "description": {
             "de": "",
             "en": ""
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-17T10:54:52.739753",
+      "scraped_at": "2026-04-20T10:43:05.600560",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,54 +61,18 @@
       "items": [
         {
           "name": {
-            "de": "Pasta Spargel Salat",
-            "en": "Pasta Asparagus Salad"
+            "de": "Garnelen Spargel Risotto",
+            "en": "Shrimp Asparagus Risotto"
           },
-          "price": "€7.50/€10.90",
+          "price": "€8.90/€13.40",
           "description": {
-            "de": "mit Melone, Tomaten & Paprika",
-            "en": "with melon, tomatoes & bell peppers"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Tandoori Hühnchen",
-            "en": "Tandoori Chicken"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit zart mariniertem Hühnerfilet in cremiger Tandoori-Tomatencreme mit Basmatireis",
-            "en": "with tender marinated chicken breast in creamy tandoori tomato sauce with basmati rice"
+            "de": "mit Safran & Pinienkernen, A, C, G, L, M, O",
+            "en": "with saffron & pine nuts, A, C, G, L, M, O"
           },
           "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Cremige Spargel-Bärlauch Gnocchi",
-            "en": "Creamy Asparagus Wild Garlic Gnocchi"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit grünem Salat",
-            "en": "with green salad"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Tomaten Basilikum Risotto",
-            "en": "Tomato Basil Risotto"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit Feta & grünem Salat",
-            "en": "with feta & green salad"
-          },
-          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-17T10:55:06.233285",
+      "scraped_at": "2026-04-20T10:43:14.131317",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -122,7 +86,7 @@
           "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-04-17T10:55:06.308623",
+      "scraped_at": "2026-04-20T10:43:14.262788",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -132,6 +96,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 8
+    "total_items": 5
   }
 }
