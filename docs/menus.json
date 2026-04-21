@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-21T10:39:19.023207",
+  "last_updated": "2026-04-21T10:57:21.251790",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-21T10:38:57.625481",
+      "scraped_at": "2026-04-21T10:57:01.195997",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-21T10:39:01.100924",
+      "scraped_at": "2026-04-21T10:57:04.764312",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,66 +61,66 @@
       "items": [
         {
           "name": {
-            "de": "Saladbowl",
-            "en": "Salad Bowl"
+            "de": "Veganer Spargel Pasta Salat mit Melone & Cherrytomaten",
+            "en": "Vegan Asparagus Pasta Salad with Melon & Cherry Tomatoes"
           },
           "price": "Klein €7.50/Gross €10.90",
           "description": {
-            "de": "Veganer Spargel Pasta Salat mit Melone & Cherrytomaten, VEG",
-            "en": "Vegan asparagus pasta salad with melon and cherry tomatoes, VEG"
+            "de": "VEG",
+            "en": "VEG"
           },
           "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Paprikahühnchen",
-            "en": "Paprika Chicken"
+            "de": "Paprikahühnchen in cremiger Rahmsauce & Sauerrahm Dip",
+            "en": "Paprika Chicken in Creamy Sauce & Sour Cream Dip"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in cremiger Rahmsauce & Sauerrahm Dip mit Spätzle, G, L, M, U",
-            "en": "in creamy cream sauce and sour cream dip with spaetzle, G, L, M, U"
+            "de": "mit Spätzle, G, L, M, U",
+            "en": "with Spätzle, G, L, M, U"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Cremige Balsamico Linsen",
-            "en": "Creamy Balsamic Lentils"
+            "de": "Cremige Balsamico Linsen mit Speck und Sauerrahm Dip",
+            "en": "Creamy Balsamic Lentils with Bacon and Sour Cream Dip"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Speck und Sauerrahm Dip mit Semmelknödel, A, C, G, L, M, O",
-            "en": "with bacon and sour cream dip with bread dumplings, A, C, G, L, M, O"
+            "de": "mit Semmelknödel, A, C, G, L, M, O",
+            "en": "with Semmelknödel, A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Geröstetes Karfiol Curry",
-            "en": "Roasted Cauliflower Curry"
+            "de": "Geröstetes Karfiol Curry in cremiger Mandelsauce",
+            "en": "Roasted Cauliflower Curry in Creamy Almond Sauce"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in cremiger Mandelsauce, VEGGIE, mit Basmatireis, E, F, H, L, M, N, O",
-            "en": "in creamy almond sauce, VEGGIE, with basmati rice, E, F, H, L, M, N, O"
+            "de": "VEGGIE, mit Basmatireis, E, F, H, L, M, N, O",
+            "en": "VEGGIE, with Basmati rice, E, F, H, L, M, N, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Tomaten Mozzarella Lasagne",
-            "en": "Tomato Mozzarella Lasagna"
+            "de": "Tomaten Mozzarella Lasagne mit Bechamelsauce & grünem Salat",
+            "en": "Tomato Mozzarella Lasagna with Bechamel Sauce & Green Salad"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Bechamelsauce & grünem Salat, VEGGIE, A, C, G, L, M, O",
-            "en": "with bechamel sauce and green salad, VEGGIE, A, C, G, L, M, O"
+            "de": "VEGGIE, A, C, G, L, M, O",
+            "en": "VEGGIE, A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-21T10:39:18.225558",
+      "scraped_at": "2026-04-21T10:57:20.627884",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-21T10:39:18.561811",
+      "scraped_at": "2026-04-21T10:57:20.969295",
       "available": true,
       "type": "food_truck"
     },
@@ -162,7 +162,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-21T10:39:19.023127",
+      "scraped_at": "2026-04-21T10:57:21.251720",
       "available": true,
       "extraction_method": "Static menu"
     }
