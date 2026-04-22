@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-22T10:39:07.085772",
+  "last_updated": "2026-04-22T10:57:06.106612",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-22T10:38:49.769414",
+      "scraped_at": "2026-04-22T10:56:52.398817",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-22T10:38:53.474853",
+      "scraped_at": "2026-04-22T10:56:56.436699",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -73,25 +73,25 @@
         },
         {
           "name": {
-            "de": "Zartes Kalbsrahmgulasch",
-            "en": "Tender Veal Goulash"
+            "de": "Zartes Kalbsrahmgulasch in Paprika-Oberssauce mit Sauerrahm Dip",
+            "en": "Tender Veal Goulash in Paprika Sour Cream Sauce with Sour Cream Dip"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in Paprika-Oberssauce mit Sauerrahm Dip mit Spätzle, G, L, M, O",
-            "en": "in paprika sour cream sauce with sour cream dip and spaetzle, G, L, M, O"
+            "de": "mit Spätzle, G, L, M, O",
+            "en": "with Spätzle, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Ofenfrischer Faschierter Braten",
-            "en": "Oven-Fresh Carved Roast"
+            "de": "Ofenfrischer Faschierter Braten mit Bratensaft, grünem Salat",
+            "en": "Oven-Fresh Carved Roast with Roast Juice, Green Salad"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Bratensaft, grünem Salat mit Erdäpfelpüree, A, C, G, L, M, O",
-            "en": "with roast juice, green salad with potato puree, A, C, G, L, M, O"
+            "de": "mit Erdäpfelpüree, A, C, G, L, M, O",
+            "en": "with Mashed Potatoes, A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
@@ -103,7 +103,7 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "VEGGIE, mit Basmatireis, E, F, H, L, M, N, O",
-            "en": "VEGGIE, with basmati rice, E, F, H, L, M, N, O"
+            "en": "VEGGIE, with Basmati Rice, E, F, H, L, M, N, O"
           },
           "dietary": "vegetarian"
         },
@@ -120,7 +120,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-22T10:39:06.694415",
+      "scraped_at": "2026-04-22T10:57:05.947454",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -129,19 +129,12 @@
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-04-22T10:39:07.085700",
+      "scraped_at": "2026-04-22T10:57:06.106531",
       "available": true,
       "extraction_method": "Static menu"
     }
