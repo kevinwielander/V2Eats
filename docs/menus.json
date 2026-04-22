@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-21T10:57:21.251790",
+  "last_updated": "2026-04-22T10:39:07.085772",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-21T10:57:01.195997",
+      "scraped_at": "2026-04-22T10:38:49.769414",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-21T10:57:04.764312",
+      "scraped_at": "2026-04-22T10:38:53.474853",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -64,7 +64,7 @@
             "de": "Veganer Spargel Pasta Salat mit Melone & Cherrytomaten",
             "en": "Vegan Asparagus Pasta Salad with Melon & Cherry Tomatoes"
           },
-          "price": "Klein €7.50/Gross €10.90",
+          "price": "€7.50/€10.90",
           "description": {
             "de": "VEG",
             "en": "VEG"
@@ -73,77 +73,56 @@
         },
         {
           "name": {
-            "de": "Paprikahühnchen in cremiger Rahmsauce & Sauerrahm Dip",
-            "en": "Paprika Chicken in Creamy Sauce & Sour Cream Dip"
+            "de": "Zartes Kalbsrahmgulasch",
+            "en": "Tender Veal Goulash"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Spätzle, G, L, M, U",
-            "en": "with Spätzle, G, L, M, U"
+            "de": "in Paprika-Oberssauce mit Sauerrahm Dip mit Spätzle, G, L, M, O",
+            "en": "in paprika sour cream sauce with sour cream dip and spaetzle, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Cremige Balsamico Linsen mit Speck und Sauerrahm Dip",
-            "en": "Creamy Balsamic Lentils with Bacon and Sour Cream Dip"
+            "de": "Ofenfrischer Faschierter Braten",
+            "en": "Oven-Fresh Carved Roast"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Semmelknödel, A, C, G, L, M, O",
-            "en": "with Semmelknödel, A, C, G, L, M, O"
+            "de": "mit Bratensaft, grünem Salat mit Erdäpfelpüree, A, C, G, L, M, O",
+            "en": "with roast juice, green salad with potato puree, A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Geröstetes Karfiol Curry in cremiger Mandelsauce",
-            "en": "Roasted Cauliflower Curry in Creamy Almond Sauce"
+            "de": "Creamy Cashew Sweetpotato Masala",
+            "en": "Creamy Cashew Sweetpotato Masala"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "VEGGIE, mit Basmatireis, E, F, H, L, M, N, O",
-            "en": "VEGGIE, with Basmati rice, E, F, H, L, M, N, O"
+            "en": "VEGGIE, with basmati rice, E, F, H, L, M, N, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Tomaten Mozzarella Lasagne mit Bechamelsauce & grünem Salat",
-            "en": "Tomato Mozzarella Lasagna with Bechamel Sauce & Green Salad"
+            "de": "Mediterrrane Zucchini-Ricotta Lasagne mit Tomaten",
+            "en": "Mediterranean Zucchini-Ricotta Lasagna with Tomatoes"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "VEGGIE, A, C, G, L, M, O",
-            "en": "VEGGIE, A, C, G, L, M, O"
+            "de": "VEGGIE, A, G, L",
+            "en": "VEGGIE, A, G, L"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-21T10:57:20.627884",
+      "scraped_at": "2026-04-22T10:39:06.694415",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Erhältlich am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-04-21T10:57:20.969295",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -162,16 +141,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-21T10:57:21.251720",
+      "scraped_at": "2026-04-22T10:39:07.085700",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 10
+    "total_items": 9
   }
 }
