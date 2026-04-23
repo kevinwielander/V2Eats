@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-23T10:40:29.728277",
+  "last_updated": "2026-04-23T10:58:07.139318",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-23T10:39:46.761247",
+      "scraped_at": "2026-04-23T10:57:52.605317",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-23T10:39:50.850012",
+      "scraped_at": "2026-04-23T10:57:56.056130",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -79,7 +79,7 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "in Rotwein-Senfsauce mit Wurzelgemüse mit Kräuterpüree, G, L, M, O",
-            "en": "in red wine mustard sauce with root vegetables and herb purée, G, L, M, O"
+            "en": "in red wine mustard sauce with root vegetables and herb puree, G, L, M, O"
           },
           "dietary": "meat"
         },
@@ -102,8 +102,8 @@
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in Spargelsauce VEGGIE, A, C, G, L, M, O",
-            "en": "in asparagus sauce VEGGIE, A, C, G, L, M, O"
+            "de": "in Spargelsauce, VEGGIE, A, C, G, L, M, O",
+            "en": "in asparagus sauce, VEGGIE, A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         },
@@ -114,13 +114,13 @@
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Feta, Spinat & grünem Salat VEGGIE, A, C, G, L, M, O",
-            "en": "with feta, spinach & green salad VEGGIE, A, C, G, L, M, O"
+            "de": "mit Feta, Spinat & grünem Salat, VEGGIE, A, C, G, L, M, O",
+            "en": "with feta, spinach & green salad, VEGGIE, A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-23T10:40:29.028216",
+      "scraped_at": "2026-04-23T10:58:06.262068",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-04-23T10:40:29.417586",
+      "scraped_at": "2026-04-23T10:58:06.682983",
       "available": true,
       "type": "food_truck"
     },
@@ -162,7 +162,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-23T10:40:29.728213",
+      "scraped_at": "2026-04-23T10:58:07.139263",
       "available": true,
       "extraction_method": "Static menu"
     }
