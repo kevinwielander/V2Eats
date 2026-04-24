@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-24T10:40:43.047109",
+  "last_updated": "2026-04-24T10:57:14.596647",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-24T10:40:25.128051",
+      "scraped_at": "2026-04-24T10:56:55.020663",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-24T10:40:29.288596",
+      "scraped_at": "2026-04-24T10:57:00.666624",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -66,8 +66,8 @@
           },
           "price": "€7.50/€10.90",
           "description": {
-            "de": "VEG",
-            "en": "VEG"
+            "de": "VEGGIE",
+            "en": "VEGGIE"
           },
           "dietary": "vegan"
         },
@@ -108,7 +108,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-24T10:40:42.655149",
+      "scraped_at": "2026-04-24T10:57:14.030602",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -129,7 +129,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-24T10:40:43.047041",
+      "scraped_at": "2026-04-24T10:57:14.596593",
       "available": true,
       "extraction_method": "Static menu"
     }
