@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-27T10:47:58.878268",
+  "last_updated": "2026-04-27T11:17:23.431728",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-27T10:47:40.439752",
+      "scraped_at": "2026-04-27T11:17:04.865823",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-04-27T10:47:45.543556",
+      "scraped_at": "2026-04-27T11:17:08.529256",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -66,15 +66,15 @@
           },
           "price": "€7.50/€10.90",
           "description": {
-            "de": "VEG",
-            "en": "VEG"
+            "de": "VEGGIE",
+            "en": "VEGGIE"
           },
           "dietary": "vegan"
         },
         {
           "name": {
             "de": "Alt Wiener Schinkenfleckerl mit grünem Salat & Sauerrahm Dip",
-            "en": "Alt Wiener Ham Fritters with Green Salad & Sour Cream Dip"
+            "en": "Old Viennese Ham Fritters with Green Salad & Sour Cream Dip"
           },
           "price": "€7.50/€11.90",
           "description": {
@@ -110,7 +110,7 @@
         {
           "name": {
             "de": "Erdäpfel-Walnuss Gratin mit Mozzarella, Spinat & grünem Salat",
-            "en": "Erdäpfel-Walnut Gratin with Mozzarella, Spinach & Green Salad"
+            "en": "Potato-Walnut Gratin with Mozzarella, Spinach & Green Salad"
           },
           "price": "€7.50/€11.90",
           "description": {
@@ -120,7 +120,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-27T10:47:58.395482",
+      "scraped_at": "2026-04-27T11:17:23.028128",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-27T10:47:58.878195",
+      "scraped_at": "2026-04-27T11:17:23.431660",
       "available": true,
       "extraction_method": "Static menu"
     }
