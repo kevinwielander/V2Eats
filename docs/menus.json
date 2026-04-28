@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-27T11:17:23.431728",
+  "last_updated": "2026-04-28T10:49:25.101565",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-27T11:17:04.865823",
+      "scraped_at": "2026-04-28T10:49:06.190160",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -34,7 +34,7 @@
           "price": "€7.90",
           "description": {
             "de": "Eine cremige Lasagne mit Spinat und Gorgonzola-Käse",
-            "en": "A creamy lasagna with spinach and Gorgonzola cheese"
+            "en": "A creamy lasagna with spinach and gorgonzola cheese"
           },
           "dietary": "vegetarian"
         },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-04-27T11:17:08.529256",
+      "scraped_at": "2026-04-28T10:49:10.100702",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,96 +61,110 @@
       "items": [
         {
           "name": {
-            "de": "Veganer Spargel Pasta Salat mit Melone & Cherrytomaten",
-            "en": "Vegan Asparagus Pasta Salad with Melon & Cherry Tomatoes"
+            "de": "Saladbowl",
+            "en": "Salad Bowl"
           },
           "price": "€7.50/€10.90",
           "description": {
-            "de": "VEGGIE",
-            "en": "VEGGIE"
+            "de": "Veganer Spargel Pasta Salat mit Melone & Cherrytomaten, VEG",
+            "en": "Vegan asparagus pasta salad with melon and cherry tomatoes, vegan"
           },
           "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Alt Wiener Schinkenfleckerl mit grünem Salat & Sauerrahm Dip",
-            "en": "Old Viennese Ham Fritters with Green Salad & Sour Cream Dip"
+            "de": "Griechische Hühnerpfanne",
+            "en": "Greek Chicken Pan"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "E, F, H, L, M, N, O",
-            "en": "E, F, H, L, M, N, O"
+            "de": "Pfanne mit Schmorgemüse, Tzatziki & Grünem Salat, A, L, G, M, O",
+            "en": "Pan with stewed vegetables, tzatziki and green salad, A, L, G, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Chicken Tikka Masala mit Basmatireis",
-            "en": "Chicken Tikka Masala with Basmati Rice"
+            "de": "Rindsgeschnetzeltes in Pilzrahmsauce mit Spätzle",
+            "en": "Beef Strips in Mushroom Cream Sauce with Spätzle"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "E, F, H, L, M, N, O",
-            "en": "E, F, H, L, M, N, O"
+            "de": "L, M, O",
+            "en": "Beef strips in mushroom cream sauce with spätzle, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Schupfnudeln mit Steinpilze, Spargel und Lauch",
-            "en": "Schupfnudeln with Porcini Mushrooms, Asparagus and Leek"
+            "de": "Spargel-Bärlauch Gnocchi mit Ruccola, Parmesan & grünem Salat",
+            "en": "Asparagus-Ramp Gnocchi with Arugula, Parmesan and Green Salad"
           },
           "price": "€7.50/€11.90",
           "description": {
             "de": "VEGGIE, A, C, G, L, M, O",
-            "en": "VEGGIE, A, C, G, L, M, O"
+            "en": "VEGGIE, with arugula, parmesan and green salad, A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Erdäpfel-Walnuss Gratin mit Mozzarella, Spinat & grünem Salat",
-            "en": "Potato-Walnut Gratin with Mozzarella, Spinach & Green Salad"
+            "de": "Süßkartoffel-Zucchini Lasagne mit Ricotta",
+            "en": "Sweet Potato-Zucchini Lasagna with Ricotta"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "VEGGIE, A, G, H, L, M, O",
-            "en": "VEGGIE, A, G, H, L, M, O"
+            "de": "VEGGIE, A, C, G, L, M, O",
+            "en": "VEGGIE, with sweet potato, zucchini and ricotta, A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-27T11:17:23.028128",
+      "scraped_at": "2026-04-28T10:49:24.582029",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Erhältlich am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-04-28T10:49:24.960063",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-04-27T11:17:23.431660",
+      "scraped_at": "2026-04-28T10:49:25.101481",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 9
+    "total_items": 10
   }
 }
