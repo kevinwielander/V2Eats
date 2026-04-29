@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-04-29T10:44:18.314398",
+  "last_updated": "2026-04-29T11:12:06.924857",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-04-29T10:43:57.298412",
+      "scraped_at": "2026-04-29T11:11:47.411795",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-04-29T10:44:01.856205",
+      "scraped_at": "2026-04-29T11:11:51.459437",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -66,8 +66,8 @@
           },
           "price": "€7.50/€10.90",
           "description": {
-            "de": "VEG",
-            "en": "Vegan"
+            "de": "VEGGIE",
+            "en": "VEGGIE"
           },
           "dietary": "vegan"
         },
@@ -86,7 +86,7 @@
         {
           "name": {
             "de": "Faschierter Braten ofenfrisch mit Bratensaft, grünem Salat mit Erdäpfelpüree",
-            "en": "Faschierter Roast fresh from the oven with Roast Juice, Green Salad with Potato Purée"
+            "en": "Roast Beef fresh from the oven with Roast Juice, Green Salad with Potato Purée"
           },
           "price": "€7.50/€11.90",
           "description": {
@@ -108,7 +108,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-29T10:44:18.000139",
+      "scraped_at": "2026-04-29T11:12:06.356477",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -129,7 +129,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-04-29T10:44:18.314311",
+      "scraped_at": "2026-04-29T11:12:06.924812",
       "available": true,
       "extraction_method": "Static menu"
     }
