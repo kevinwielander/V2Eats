@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-01T10:57:57.184699",
+  "last_updated": "2026-05-04T10:48:54.317052",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-01T10:57:40.703716",
+      "scraped_at": "2026-05-04T10:48:41.692299",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,50 +16,99 @@
       "items": [
         {
           "name": {
-            "de": "Linsen Dal",
-            "en": "Lentil Dal"
+            "de": "Spinatnockerl mit Rahmsauce",
+            "en": "Spinach Dumplings with Cream Sauce"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein traditionelles indisches Gericht aus Linsen",
-            "en": "A traditional Indian dish made from lentils"
-          },
-          "dietary": "vegan"
-        },
-        {
-          "name": {
-            "de": "Spinatlasagne mit Gorgonzola",
-            "en": "Spinach Lasagna with Gorgonzola"
-          },
-          "price": "€7.90",
-          "description": {
-            "de": "Eine cremige Lasagne mit Spinat und Gorgonzola-Käse",
-            "en": "A creamy lasagna with spinach and Gorgonzola cheese"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Schweinsbraten mit Speckkraut & Serviettenknödel",
-            "en": "Roast Pork with Sauerkraut and Dumplings"
+            "de": "Schweinsschnitzel mit Reis und Coleslaw Salat",
+            "en": "Pork Cutlet with Rice and Coleslaw Salad"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein klassisches bayerisches Gericht mit Schweinebraten, Speckkraut und Serviettenknödeln",
-            "en": "A classic Bavarian dish with roast pork, sauerkraut, and dumplings"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Lasagne al forno",
+            "en": "Lasagne al forno"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "",
+            "en": ""
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-01T10:57:45.171304",
+      "scraped_at": "2026-05-04T10:48:46.239529",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
     {
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
-      "items": [],
-      "scraped_at": "2026-05-01T10:57:56.846863",
+      "items": [
+        {
+          "name": {
+            "de": "Indisches Butter Chicken",
+            "en": "Indian Butter Chicken"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "in cremiger Cashewsaucemit Basmatireis, G, L, M",
+            "en": "in creamy cashew sauce with basmati rice, G, L, M"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Zartes Kalbsrahmgulasch",
+            "en": "Tender Veal Goulash"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "in Paprika-Oberssauce mit Sauerrahm Dip, G, L, M, O",
+            "en": "in paprika sour cream sauce with sour cream dip, G, L, M, O"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Balsamico Linsen",
+            "en": "Balsamic Lentils"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit Semmelknödel, VEGGIE, A, G, L",
+            "en": "with bread dumpling, VEGGIE, A, G, L"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Spargel Steinpilz Gratin",
+            "en": "Asparagus Mushroom Gratin"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit überbackenem Cheddar & grünem Salat, VEGGIE, A, G, L",
+            "en": "with baked cheddar and green salad, VEGGIE, A, G, L"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-05-04T10:48:54.010939",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -74,13 +123,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder individuelle Schalen",
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-01T10:57:57.184622",
+      "scraped_at": "2026-05-04T10:48:54.316971",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -90,6 +139,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 4
+    "total_items": 8
   }
 }
