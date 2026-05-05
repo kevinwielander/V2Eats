@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-04T11:17:47.782619",
+  "last_updated": "2026-05-05T10:41:40.486331",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-04T11:17:30.368980",
+      "scraped_at": "2026-05-05T10:41:22.057500",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-04T11:17:34.203387",
+      "scraped_at": "2026-05-05T10:41:25.377723",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,77 +61,105 @@
       "items": [
         {
           "name": {
-            "de": "Indisches Butter Chicken",
-            "en": "Indian Butter Chicken"
+            "de": "Garnelen auf Bärlauchrisotto",
+            "en": "Shrimp on Wild Garlic Risotto"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Cashewsaucemit Basmatireis, G, L, M",
-            "en": "in creamy cashew sauce with basmati rice, G, L, M"
+            "de": "mit Zitrone, Parmesan & frischem Blattsalat",
+            "en": "with lemon, parmesan, and fresh leaf salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Zartes Kalbsrahmgulasch",
-            "en": "Tender Veal Goulash"
+            "de": "Gnocchi mit geschmorter Bolognese",
+            "en": "Gnocchi with Braised Bolognese"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in Paprika-Oberssauce mit Sauerrahm Dip, G, L, M, O",
-            "en": "in paprika sour cream sauce with sour cream dip, G, L, M, O"
+            "de": "mit Parmesan & grünem Salat",
+            "en": "with parmesan and green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Balsamico Linsen mit Semmelknödel",
-            "en": "Balsamic Lentils with Bread Dumplings"
+            "de": "Geröstetes Karfiol Curry",
+            "en": "Roasted Cauliflower Curry"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "VEGGIE, A, G, L",
-            "en": "VEGGIE, A, G, L"
+            "de": "in cremiger Mandelsauce mit Basmatireis",
+            "en": "in creamy almond sauce with basmati rice"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Spargel Steinpilz Gratin",
-            "en": "Asparagus Mushroom Gratin"
+            "de": "Lasagne mit geröstetem Kürbis",
+            "en": "Lasagna with Roasted Pumpkin"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit überbackenem Cheddar & grünem Salat, VEGGIE, A, G, L",
-            "en": "with baked cheddar and green salad, VEGGIE, A, G, L"
+            "de": "mit Ricotta, Kürbiskernen & grünem Salat",
+            "en": "with ricotta, pumpkin seeds, and green salad"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-04T11:17:47.651672",
+      "scraped_at": "2026-05-05T10:41:39.775908",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Erhältlich am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-05-05T10:41:40.179793",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-04T11:17:47.782530",
+      "scraped_at": "2026-05-05T10:41:40.486224",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 8
+    "total_items": 9
   }
 }
