@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-05T11:05:18.512018",
+  "last_updated": "2026-05-06T10:49:50.813133",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-05T11:05:02.736584",
+      "scraped_at": "2026-05-06T10:49:29.865878",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-05T11:05:06.148398",
+      "scraped_at": "2026-05-06T10:49:34.139988",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,77 +61,56 @@
       "items": [
         {
           "name": {
-            "de": "Garnelen auf Bärlauchrisotto",
-            "en": "Shrimp on Wild Garlic Risotto"
+            "de": "Rotes Thai Chicken",
+            "en": "Red Thai Chicken"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Zitrone, Parmesan & frischem Blattsalat, G, L, M, U",
-            "en": "with lemon, parmesan & fresh leaf salad, G, L, M, U"
+            "de": "in cremiger roten Currysauce mit Kokosmilch & frischem Gemüse mit Basmatireis, E, F, H, L, M, N, O",
+            "en": "in creamy red curry sauce with coconut milk & fresh vegetables with basmati rice, E, F, H, L, M, N, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gnocchi mit geschmorter Bolognese",
-            "en": "Gnocchi with Braised Bolognese"
+            "de": "Griechisches Moussaka",
+            "en": "Greek Moussaka"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Parmesan & grünem Salat, A, C, G, L, M, O",
-            "en": "with parmesan & green salad, A, C, G, L, M, O"
+            "de": "aus dem Ofen mit Fleischragout, Schmormelanzani & grünem Salat, G, L, M, O",
+            "en": "from the oven with meat stew, eggplant & green salad, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Geröstetes Karfiol Curry",
-            "en": "Roasted Cauliflower Curry"
+            "de": "Spargel-Bärlauch Gnocchi",
+            "en": "Asparagus-Ramp Gnocchi"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Mandelsauce mit Basmatireis, VEGGIE, E, F, H, L, M, N, O",
-            "en": "in creamy almond sauce with basmati rice, VEGGIE, E, F, H, L, M, N, O"
+            "de": "mit Ruccola, Parmesan & grünem Salat, VEGGIE, G, L, M, O",
+            "en": "with arugula, parmesan & green salad, VEGGIE, G, L, M, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Lasagne mit geröstetem Kürbis",
-            "en": "Lasagna with Roasted Pumpkin"
+            "de": "Käsespätzle",
+            "en": "Cheese Spaetzle"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Ricotta, Kürbiskernen & grünem Salat, VEGGIE, A, G, L, M, O",
-            "en": "with ricotta, pumpkin seeds & green salad, VEGGIE, A, G, L, M, O"
+            "de": "aus dem Ofen mit geriebenem Bergkäse mit grünem Salat, VEGGIE, A, C, G, L, M, O",
+            "en": "from the oven with grated mountain cheese with green salad, VEGGIE, A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-05T11:05:17.915333",
+      "scraped_at": "2026-05-06T10:49:50.304129",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Verfügbar am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-05-05T11:05:18.188440",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -150,16 +129,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-05T11:05:18.511943",
+      "scraped_at": "2026-05-06T10:49:50.813068",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 9
+    "total_items": 8
   }
 }
