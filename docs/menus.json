@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-07T11:18:23.374925",
+  "last_updated": "2026-05-08T10:41:36.696102",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-07T11:18:03.803464",
+      "scraped_at": "2026-05-08T10:41:25.005955",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-07T11:18:08.720067",
+      "scraped_at": "2026-05-08T10:41:28.593252",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,105 +61,65 @@
       "items": [
         {
           "name": {
-            "de": "Gebratenes Welsfilet auf Spargel-Safranrisotto mit Sesam Wasabi Dip",
-            "en": "Fried Catfish on Asparagus Saffron Risotto with Sesame Wasabi Dip"
+            "de": "Hühnerfilet mit Röstkartoffel-Gemüsepfanne",
+            "en": "Chicken Breast with Roasted Potato and Vegetable Pan"
           },
-          "price": "€7.50/€13.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "mit Zitronen Kräuter Dip, B, G, L, M, O",
+            "en": "with lemon herb dip, B, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Indisches Cashew Beef in cremiger Kormasaucemit Basmatireis",
-            "en": "Indian Cashew Beef in Creamy Korma Sauce with Basmati Rice"
+            "de": "Grünes Curry mit Süßkartoffel & Brokkoli",
+            "en": "Green Curry with Sweet Potato and Broccoli"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "E, F, H, L, M, N, O",
-            "en": "E, F, H, L, M, N, O"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Überbackene Bärlauchspätzle mit Tomaten & grünem Salat",
-            "en": "Baked Wild Garlic Spaetzle with Tomatoes and Green Salad"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "A, C, G, L, M, O",
-            "en": "A, C, G, L, M, O"
+            "de": "VEGGIE, mit Basmatireis, E, F, H, L, M, N, O",
+            "en": "VEGGIE, with basmati rice, E, F, H, L, M, N, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Süßkartoffel Lasagne mit Bechamelsauce",
-            "en": "Sweet Potato Lasagna with Bechamel Sauce"
+            "de": "Tomaten Mozzarella Lasagne mit Bechamelsauce",
+            "en": "Tomato Mozzarella Lasagna with Bechamel Sauce"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "VEGGIE, A, C, G, L, M, O",
-            "en": "VEGGIE, A, C, G, L, M, O"
+            "de": "VEGGIE, mit grünem Salat, A, C, G, L, M, O",
+            "en": "VEGGIE, with green salad, A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-07T11:18:22.547906",
+      "scraped_at": "2026-05-08T10:41:36.642204",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pinsa Food Truck",
-      "url": "https://www.pinsalino.at",
-      "items": [
-        {
-          "name": {
-            "de": "Römische Pizza mit verschiedenen Belägen",
-            "en": "Roman-style pizza with various toppings"
-          },
-          "price": "€8-12",
-          "description": {
-            "de": "Erhältlich am Donnerstag",
-            "en": "Available on Thursday"
-          },
-          "dietary": "meat"
-        }
-      ],
-      "scraped_at": "2026-05-07T11:18:22.924090",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-05-07T11:18:23.374847",
+      "scraped_at": "2026-05-08T10:41:36.696035",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 9
+    "total_items": 7
   }
 }
