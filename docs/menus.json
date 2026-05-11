@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-11T11:14:49.339108",
+  "last_updated": "2026-05-11T11:40:59.779481",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-11T11:14:16.756585",
+      "scraped_at": "2026-05-11T11:40:40.293983",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -14,9 +14,9 @@
       "name": "DELI Glashaus",
       "url": "https://www.dasglashaus.at/deli",
       "items": [],
-      "scraped_at": "2026-05-11T11:14:34.405056",
-      "available": false,
-      "error": "HTTPSConnectionPool(host='www.dasglashaus.at', port=443): Read timed out."
+      "scraped_at": "2026-05-11T11:40:45.364570",
+      "available": true,
+      "extraction_method": "LLM (claude)"
     },
     {
       "name": "Topf und Deckel",
@@ -71,7 +71,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-11T11:14:49.029289",
+      "scraped_at": "2026-05-11T11:40:59.367719",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -92,18 +92,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-11T11:14:49.339040",
+      "scraped_at": "2026-05-11T11:40:59.779414",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
-  "errors": [
-    "Error scraping DELI Glashaus: HTTPSConnectionPool(host='www.dasglashaus.at', port=443): Read timed out."
-  ],
+  "errors": [],
   "stats": {
     "total_restaurants": 4,
-    "successful": 3,
-    "failed": 1,
+    "successful": 4,
+    "failed": 0,
     "total_items": 5
   }
 }
