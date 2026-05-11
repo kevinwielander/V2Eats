@@ -1,59 +1,22 @@
 {
-  "last_updated": "2026-05-08T10:59:15.983503",
+  "last_updated": "2026-05-11T11:14:49.339108",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-08T10:59:01.097556",
+      "scraped_at": "2026-05-11T11:14:16.756585",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
     {
       "name": "DELI Glashaus",
       "url": "https://www.dasglashaus.at/deli",
-      "items": [
-        {
-          "name": {
-            "de": "Spinatnockerl mit Rahmsauce",
-            "en": "Spinach Dumplings with Cream Sauce"
-          },
-          "price": "€7.90",
-          "description": {
-            "de": "",
-            "en": ""
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Schweinsschnitzel mit Reis und Coleslaw Salat",
-            "en": "Pork Cutlet with Rice and Coleslaw Salad"
-          },
-          "price": "€7.90",
-          "description": {
-            "de": "",
-            "en": ""
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Lasagne al forno",
-            "en": "Lasagne al forno"
-          },
-          "price": "€7.90",
-          "description": {
-            "de": "",
-            "en": ""
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-05-08T10:59:05.299899",
-      "available": true,
-      "extraction_method": "LLM (claude)"
+      "items": [],
+      "scraped_at": "2026-05-11T11:14:34.405056",
+      "available": false,
+      "error": "HTTPSConnectionPool(host='www.dasglashaus.at', port=443): Read timed out."
     },
     {
       "name": "Topf und Deckel",
@@ -61,42 +24,54 @@
       "items": [
         {
           "name": {
-            "de": "Hühnerfilet mit Röstkartoffel-Gemüsepfanne",
-            "en": "Chicken Breast with Roasted Potato and Vegetable Pan"
+            "de": "Alt Wiener Schinkenfleckerl",
+            "en": "Old Viennese Ham Fleckerl"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Zitronen Kräuter Dip, B, G, L, M, O",
-            "en": "with lemon herb dip, B, G, L, M, O"
+            "de": "mit grünem Salat & Sauerrahm Dip, A, C, G, L, M, O",
+            "en": "with green salad & sour cream dip, A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Grünes Curry mit Süßkartoffel & Brokkoli",
-            "en": "Green Curry with Sweet Potato and Broccoli"
+            "de": "Rindsgeschnetzeltes",
+            "en": "Beef Strips"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "VEGGIE, mit Basmatireis, E, F, H, L, M, N, O",
-            "en": "VEGGIE, with basmati rice, E, F, H, L, M, N, O"
+            "de": "in cremiger Pilzrahmsauce, A, C, G, L, M, O",
+            "en": "in creamy mushroom cream sauce, A, C, G, L, M, O"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Italienische Parmigiana Di Melanzane",
+            "en": "Italian Parmigiana Di Melanzane"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "VEGGIE, A, C, G, L, M, O",
+            "en": "VEGGIE, A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Tomaten Mozzarella Lasagne mit Bechamelsauce",
-            "en": "Tomato Mozzarella Lasagna with Bechamel Sauce"
+            "de": "Rotes Thai Curry",
+            "en": "Red Thai Curry"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "VEGGIE, mit grünem Salat, A, C, G, L, M, O",
-            "en": "VEGGIE, with green salad, A, C, G, L, M, O"
+            "de": "in cremiger Kokos-Limettensauce & Wokgemüse, E, F, H, L, M, N, O",
+            "en": "in creamy coconut-lime sauce & wok vegetables, E, F, H, L, M, N, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-08T10:59:15.847576",
+      "scraped_at": "2026-05-11T11:14:49.029289",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -105,21 +80,30 @@
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-08T10:59:15.983448",
+      "scraped_at": "2026-05-11T11:14:49.339040",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
-  "errors": [],
+  "errors": [
+    "Error scraping DELI Glashaus: HTTPSConnectionPool(host='www.dasglashaus.at', port=443): Read timed out."
+  ],
   "stats": {
     "total_restaurants": 4,
-    "successful": 4,
-    "failed": 0,
-    "total_items": 7
+    "successful": 3,
+    "failed": 1,
+    "total_items": 5
   }
 }
