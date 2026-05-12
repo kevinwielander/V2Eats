@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-12T10:55:52.104297",
+  "last_updated": "2026-05-12T11:24:10.661872",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-12T10:55:31.855399",
+      "scraped_at": "2026-05-12T11:23:55.156334",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-05-12T10:55:36.896062",
+      "scraped_at": "2026-05-12T11:24:00.229063",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -64,10 +64,10 @@
             "de": "Paprikahühnchen",
             "en": "Paprika Chicken"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Rahmsauce & Sauerrahm Dip mit Spätzle",
-            "en": "in creamy sour cream sauce & sour cream dip with spaetzle"
+            "de": "in cremiger Rahmsauce & Sauerrahm Dip mit Spätzle, G, L, M, O",
+            "en": "in creamy sour cream sauce & sour cream dip with spaetzle, G, L, M, O"
           },
           "dietary": "meat"
         },
@@ -76,10 +76,10 @@
             "de": "Lasagne Bolognese",
             "en": "Lasagne Bolognese"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Fleischragout, Mozarella & grünem Salat",
-            "en": "with meat ragout, mozzarella & green salad"
+            "de": "mit Fleischragout, Mozarella & grünem Salat, E, F, H, L, M, N, O",
+            "en": "with meat ragout, mozzarella & green salad, E, F, H, L, M, N, O"
           },
           "dietary": "meat"
         },
@@ -88,10 +88,10 @@
             "de": "Veggie Spargel-Bärlauch Gnocchi",
             "en": "Veggie Asparagus-Chive Gnocchi"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "Tomaten & grünem Salat",
-            "en": "with tomatoes & green salad"
+            "de": "Tomaten & grünem Salat, A, C, G, L, M, O",
+            "en": "with tomatoes & green salad, A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         },
@@ -100,15 +100,15 @@
             "de": "Geröstetes Karfiol Curry",
             "en": "Roasted Cauliflower Curry"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Mandelsauce mit Basmatireis",
-            "en": "in creamy almond sauce with basmati rice"
+            "de": "in cremiger Mandelsauce mit Basmatireis, E, F, H, L, M, N, O",
+            "en": "in creamy almond sauce with basmati rice, E, F, H, L, M, N, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-12T10:55:51.639605",
+      "scraped_at": "2026-05-12T11:24:10.244988",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -129,7 +129,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-12T10:55:52.037324",
+      "scraped_at": "2026-05-12T11:24:10.598832",
       "available": true,
       "type": "food_truck"
     },
@@ -143,7 +143,7 @@
           "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-05-12T10:55:52.104222",
+      "scraped_at": "2026-05-12T11:24:10.661772",
       "available": true,
       "extraction_method": "Static menu"
     }
