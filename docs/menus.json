@@ -1,20 +1,57 @@
 {
-  "last_updated": "2026-05-11T11:40:59.779481",
+  "last_updated": "2026-05-12T10:55:52.104297",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-11T11:40:40.293983",
+      "scraped_at": "2026-05-12T10:55:31.855399",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
     {
       "name": "DELI Glashaus",
       "url": "https://www.dasglashaus.at/deli",
-      "items": [],
-      "scraped_at": "2026-05-11T11:40:45.364570",
+      "items": [
+        {
+          "name": {
+            "de": "Farfalle Bolognese mit Parmesan",
+            "en": "Farfalle Bolognese with Parmesan"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "Farfalle mit Bolognese und Parmesan",
+            "en": "Farfalle with Bolognese and Parmesan"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Gnocchi mit Schwammerlsauce",
+            "en": "Gnocchi with Mushroom Sauce"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "Gnocchi mit Schwammerlsauce",
+            "en": "Gnocchi with mushroom sauce"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Szegedinger Gulasch mit Schwarzbrot",
+            "en": "Szegediner Goulash with Black Bread"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "Szegedinger Gulasch mit Schwarzbrot",
+            "en": "Szegediner goulash with black bread"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-05-12T10:55:36.896062",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -24,84 +61,98 @@
       "items": [
         {
           "name": {
-            "de": "Alt Wiener Schinkenfleckerl",
-            "en": "Old Viennese Ham Fleckerl"
+            "de": "Paprikahühnchen",
+            "en": "Paprika Chicken"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit grünem Salat & Sauerrahm Dip, A, C, G, L, M, O",
-            "en": "with green salad & sour cream dip, A, C, G, L, M, O"
+            "de": "in cremiger Rahmsauce & Sauerrahm Dip mit Spätzle",
+            "en": "in creamy sour cream sauce & sour cream dip with spaetzle"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Rindsgeschnetzeltes",
-            "en": "Beef Strips"
+            "de": "Lasagne Bolognese",
+            "en": "Lasagne Bolognese"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in cremiger Pilzrahmsauce, A, C, G, L, M, O",
-            "en": "in creamy mushroom cream sauce, A, C, G, L, M, O"
+            "de": "mit Fleischragout, Mozarella & grünem Salat",
+            "en": "with meat ragout, mozzarella & green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Italienische Parmigiana Di Melanzane",
-            "en": "Italian Parmigiana Di Melanzane"
+            "de": "Veggie Spargel-Bärlauch Gnocchi",
+            "en": "Veggie Asparagus-Chive Gnocchi"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "VEGGIE, A, C, G, L, M, O",
-            "en": "VEGGIE, A, C, G, L, M, O"
+            "de": "Tomaten & grünem Salat",
+            "en": "with tomatoes & green salad"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Rotes Thai Curry",
-            "en": "Red Thai Curry"
+            "de": "Geröstetes Karfiol Curry",
+            "en": "Roasted Cauliflower Curry"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in cremiger Kokos-Limettensauce & Wokgemüse, E, F, H, L, M, N, O",
-            "en": "in creamy coconut-lime sauce & wok vegetables, E, F, H, L, M, N, O"
+            "de": "in cremiger Mandelsauce mit Basmatireis",
+            "en": "in creamy almond sauce with basmati rice"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-11T11:40:59.367719",
+      "scraped_at": "2026-05-12T10:55:51.639605",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Erhältlich am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-05-12T10:55:52.037324",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-05-11T11:40:59.779414",
+      "scraped_at": "2026-05-12T10:55:52.104222",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 5
+    "total_items": 9
   }
 }
