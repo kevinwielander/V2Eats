@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-13T10:59:47.012185",
+  "last_updated": "2026-05-13T11:26:26.811924",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-13T10:59:30.605711",
+      "scraped_at": "2026-05-13T11:26:13.670638",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,42 +16,42 @@
       "items": [
         {
           "name": {
-            "de": "Farfalle Bolognese mit Parmesan",
-            "en": "Farfalle Bolognese with Parmesan"
+            "de": "Farfalle Bolognese",
+            "en": "Farfalle Bolognese"
           },
           "price": "€7.90",
           "description": {
-            "de": "Pasta-Gericht",
-            "en": "Pasta dish"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Gnocchi mit Schwammerlsauce",
-            "en": "Gnocchi with Mushroom Sauce"
-          },
-          "price": "€7.90",
-          "description": {
-            "de": "Gnocchi mit Pilzsoße",
-            "en": "Gnocchi with mushroom sauce"
+            "de": "mit Parmesan",
+            "en": "with Parmesan"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Szegedinger Gulasch mit Schwarzbrot",
-            "en": "Szegediner Goulash with Black Bread"
+            "de": "Gnocchi",
+            "en": "Gnocchi"
           },
           "price": "€7.90",
           "description": {
-            "de": "Gulasch mit Schwarzbrot",
-            "en": "Goulash with black bread"
+            "de": "mit Schwammerlsauce",
+            "en": "with mushroom sauce"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Szegedinger Gulasch",
+            "en": "Szegedinger Goulash"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "mit Schwarzbrot",
+            "en": "with black bread"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-05-13T10:59:35.053895",
+      "scraped_at": "2026-05-13T11:26:18.069154",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -66,8 +66,8 @@
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "Pfanne mit Schmorgemüse, Tzatziki & Grünem Salat, G, L, M, O",
-            "en": "Pan with sautéed vegetables, tzatziki & green salad, G, L, M, O"
+            "de": "Pfanne mit Schmorgemüse, Tzatziki & Grünem Salat",
+            "en": "Pan with stewed vegetables, tzatziki & green salad"
           },
           "dietary": "meat"
         },
@@ -78,22 +78,22 @@
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "aus dem Ofen mit geriebenem Bergkäse & grünem Salat, A, C, G, L, M, O",
-            "en": "from the oven with grated mountain cheese & green salad, A, C, G, L, M, O"
+            "de": "aus dem Ofen mit geriebenem Bergkäse & grünem Salat",
+            "en": "from the oven with grated mountain cheese & green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "VeggieMexican Sweet Potato Chili Sin Carne",
-            "en": "VeggieMexican Sweet Potato Chili Sin Carne"
+            "de": "Veggie Mexican Sweet Potato Chili Sin Carne",
+            "en": "Veggie Mexican Sweet Potato Chili Sin Carne"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Avocado-Guacamole mit Langkornreis, A, C, G, L, M, O",
-            "en": "with avocado guacamole and long-grain rice, A, C, G, L, M, O"
+            "de": "mit Avocado-Guacamole mit Langkornreis",
+            "en": "with avocado guacamole and long-grain rice"
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         },
         {
           "name": {
@@ -102,13 +102,13 @@
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Feta & grünem Salat, A, G, L, M, O",
-            "en": "with feta & green salad, A, G, L, M, O"
+            "de": "mit Feta & grünem Salat",
+            "en": "with feta & green salad"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-13T10:59:46.656653",
+      "scraped_at": "2026-05-13T11:26:26.526513",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -129,7 +129,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-13T10:59:47.012130",
+      "scraped_at": "2026-05-13T11:26:26.811855",
       "available": true,
       "extraction_method": "Static menu"
     }
