@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-12T11:24:10.661872",
+  "last_updated": "2026-05-13T10:59:47.012185",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-12T11:23:55.156334",
+      "scraped_at": "2026-05-13T10:59:30.605711",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,8 +21,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Farfalle mit Bolognese und Parmesan",
-            "en": "Farfalle with Bolognese and Parmesan"
+            "de": "Pasta-Gericht",
+            "en": "Pasta dish"
           },
           "dietary": "meat"
         },
@@ -33,7 +33,7 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Gnocchi mit Schwammerlsauce",
+            "de": "Gnocchi mit Pilzsoße",
             "en": "Gnocchi with mushroom sauce"
           },
           "dietary": "vegetarian"
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Szegedinger Gulasch mit Schwarzbrot",
-            "en": "Szegediner goulash with black bread"
+            "de": "Gulasch mit Schwarzbrot",
+            "en": "Goulash with black bread"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-05-12T11:24:00.229063",
+      "scraped_at": "2026-05-13T10:59:35.053895",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,98 +61,84 @@
       "items": [
         {
           "name": {
-            "de": "Paprikahühnchen",
-            "en": "Paprika Chicken"
+            "de": "Griechische Hühnerpfanne",
+            "en": "Greek Chicken Pan"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Rahmsauce & Sauerrahm Dip mit Spätzle, G, L, M, O",
-            "en": "in creamy sour cream sauce & sour cream dip with spaetzle, G, L, M, O"
+            "de": "Pfanne mit Schmorgemüse, Tzatziki & Grünem Salat, G, L, M, O",
+            "en": "Pan with sautéed vegetables, tzatziki & green salad, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Lasagne Bolognese",
-            "en": "Lasagne Bolognese"
+            "de": "Käse-Speck Spätzle",
+            "en": "Cheese and Bacon Spätzle"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Fleischragout, Mozarella & grünem Salat, E, F, H, L, M, N, O",
-            "en": "with meat ragout, mozzarella & green salad, E, F, H, L, M, N, O"
+            "de": "aus dem Ofen mit geriebenem Bergkäse & grünem Salat, A, C, G, L, M, O",
+            "en": "from the oven with grated mountain cheese & green salad, A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Veggie Spargel-Bärlauch Gnocchi",
-            "en": "Veggie Asparagus-Chive Gnocchi"
+            "de": "VeggieMexican Sweet Potato Chili Sin Carne",
+            "en": "VeggieMexican Sweet Potato Chili Sin Carne"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "Tomaten & grünem Salat, A, C, G, L, M, O",
-            "en": "with tomatoes & green salad, A, C, G, L, M, O"
+            "de": "mit Avocado-Guacamole mit Langkornreis, A, C, G, L, M, O",
+            "en": "with avocado guacamole and long-grain rice, A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Geröstetes Karfiol Curry",
-            "en": "Roasted Cauliflower Curry"
+            "de": "Tomaten Basilikum Risotto",
+            "en": "Tomato Basil Risotto"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Mandelsauce mit Basmatireis, E, F, H, L, M, N, O",
-            "en": "in creamy almond sauce with basmati rice, E, F, H, L, M, N, O"
+            "de": "mit Feta & grünem Salat, A, G, L, M, O",
+            "en": "with feta & green salad, A, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-12T11:24:10.244988",
+      "scraped_at": "2026-05-13T10:59:46.656653",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Erhältlich am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-05-12T11:24:10.598832",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-12T11:24:10.661772",
+      "scraped_at": "2026-05-13T10:59:47.012130",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 9
+    "total_items": 8
   }
 }
