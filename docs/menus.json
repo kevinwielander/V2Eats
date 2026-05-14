@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-14T10:56:27.416233",
+  "last_updated": "2026-05-14T11:20:41.546036",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-14T10:56:10.311796",
+      "scraped_at": "2026-05-14T11:20:26.209471",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,42 +16,42 @@
       "items": [
         {
           "name": {
-            "de": "Farfalle Bolognese mit Parmesan",
-            "en": "Farfalle Bolognese with Parmesan"
+            "de": "Farfalle Bolognese",
+            "en": "Farfalle Bolognese"
           },
           "price": "€7.90",
           "description": {
-            "de": "Farfalle mit Bolognese und Parmesan",
-            "en": "Farfalle with Bolognese and Parmesan"
+            "de": "mit Parmesan",
+            "en": "with Parmesan"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gnocchi mit Schwammerlsauce",
-            "en": "Gnocchi with Mushroom Sauce"
+            "de": "Gnocchi",
+            "en": "Gnocchi"
           },
           "price": "€7.90",
           "description": {
-            "de": "Gnocchi mit Schwammerlsauce",
-            "en": "Gnocchi with mushroom sauce"
+            "de": "mit Schwammerlsauce",
+            "en": "with mushroom sauce"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Szegedinger Gulasch mit Schwarzbrot",
-            "en": "Szegediner Goulash with Black Bread"
+            "de": "Szegediner Gulasch",
+            "en": "Szegediner Goulash"
           },
           "price": "€7.90",
           "description": {
-            "de": "Szegedinger Gulasch mit Schwarzbrot",
-            "en": "Szegediner goulash with black bread"
+            "de": "mit Schwarzbrot",
+            "en": "with black bread"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-05-14T10:56:13.723245",
+      "scraped_at": "2026-05-14T11:20:29.838379",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -59,7 +59,7 @@
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
       "items": [],
-      "scraped_at": "2026-05-14T10:56:26.724745",
+      "scraped_at": "2026-05-14T11:20:41.019633",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -80,7 +80,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-05-14T10:56:27.060159",
+      "scraped_at": "2026-05-14T11:20:41.445479",
       "available": true,
       "type": "food_truck"
     },
@@ -89,19 +89,12 @@
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-05-14T10:56:27.416169",
+      "scraped_at": "2026-05-14T11:20:41.545963",
       "available": true,
       "extraction_method": "Static menu"
     }
