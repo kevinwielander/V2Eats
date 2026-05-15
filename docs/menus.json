@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-14T11:20:41.546036",
+  "last_updated": "2026-05-15T10:56:22.309425",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-14T11:20:26.209471",
+      "scraped_at": "2026-05-15T10:56:08.182621",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,94 +16,117 @@
       "items": [
         {
           "name": {
-            "de": "Farfalle Bolognese",
-            "en": "Farfalle Bolognese"
+            "de": "Farfalle Bolognese mit Parmesan",
+            "en": "Farfalle Bolognese with Parmesan"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Parmesan",
-            "en": "with Parmesan"
+            "de": "Farfalle mit Bolognese und Parmesan",
+            "en": "Farfalle with Bolognese and Parmesan"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gnocchi",
-            "en": "Gnocchi"
+            "de": "Gnocchi mit Schwammerlsauce",
+            "en": "Gnocchi with Mushroom Sauce"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Schwammerlsauce",
-            "en": "with mushroom sauce"
+            "de": "Gnocchi mit Schwammerlsauce",
+            "en": "Gnocchi with mushroom sauce"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Szegediner Gulasch",
-            "en": "Szegediner Goulash"
+            "de": "Szegedinger Gulasch mit Schwarzbrot",
+            "en": "Szegediner Goulash with Black Bread"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Schwarzbrot",
-            "en": "with black bread"
+            "de": "Szegediner Gulasch mit Schwarzbrot",
+            "en": "Szegediner goulash with black bread"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-05-14T11:20:29.838379",
+      "scraped_at": "2026-05-15T10:56:11.732614",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
     {
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
-      "items": [],
-      "scraped_at": "2026-05-14T11:20:41.019633",
-      "available": true,
-      "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pinsa Food Truck",
-      "url": "https://www.pinsalino.at",
       "items": [
         {
           "name": {
-            "de": "Römische Pizza mit verschiedenen Belägen",
-            "en": "Roman-style pizza with various toppings"
+            "de": "Ofenfrischer Faschierter Braten",
+            "en": "Oven-Fresh Shredded Roast"
           },
-          "price": "€8-12",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "Erhältlich am Donnerstag",
-            "en": "Available on Thursday"
+            "de": "mit Bratensaft, grünem Salat, A, C, G, L, M, O",
+            "en": "with roast juice, green salad, A, C, G, L, M, O"
           },
           "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Rotes Thai Chicken",
+            "en": "Red Thai Chicken"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "in cremiger roter Currysauce mit Kokosmilch & frischem Gemüse mit Basmatireis, E, F, H, L, M, N, O",
+            "en": "in creamy red curry sauce with coconut milk and fresh vegetables with basmati rice, E, F, H, L, M, N, O"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "VeggieSpinat Feta Lasagne",
+            "en": "Veggie Spinach Feta Lasagna"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit Bechamelsauce & grünem Salat, A, C, G, L, M, O",
+            "en": "with bechamel sauce and green salad, A, C, G, L, M, O"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-14T11:20:41.445479",
+      "scraped_at": "2026-05-15T10:56:21.971059",
       "available": true,
-      "type": "food_truck"
+      "extraction_method": "Selenium + LLM (groq)"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-14T11:20:41.545963",
+      "scraped_at": "2026-05-15T10:56:22.309359",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 5
+    "total_items": 7
   }
 }
