@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-15T10:56:22.309425",
+  "last_updated": "2026-05-15T11:24:13.738651",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-15T10:56:08.182621",
+      "scraped_at": "2026-05-15T11:23:51.433946",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,8 +21,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Farfalle mit Bolognese und Parmesan",
-            "en": "Farfalle with Bolognese and Parmesan"
+            "de": "Pasta dish with bolognese sauce and parmesan",
+            "en": "Pasta dish with bolognese sauce and parmesan"
           },
           "dietary": "meat"
         },
@@ -33,7 +33,7 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Gnocchi mit Schwammerlsauce",
+            "de": "Gnocchi with mushroom sauce",
             "en": "Gnocchi with mushroom sauce"
           },
           "dietary": "vegetarian"
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Szegediner Gulasch mit Schwarzbrot",
+            "de": "Szegediner goulash with black bread",
             "en": "Szegediner goulash with black bread"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-05-15T10:56:11.732614",
+      "scraped_at": "2026-05-15T11:23:56.632337",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -67,36 +67,36 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "mit Bratensaft, grünem Salat, A, C, G, L, M, O",
-            "en": "with roast juice, green salad, A, C, G, L, M, O"
+            "en": "with roast gravy, green salad, A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Rotes Thai Chicken",
+            "de": "Rotes Thai Hühnchen",
             "en": "Red Thai Chicken"
           },
           "price": "€7.50/€11.90",
           "description": {
             "de": "in cremiger roter Currysauce mit Kokosmilch & frischem Gemüse mit Basmatireis, E, F, H, L, M, N, O",
-            "en": "in creamy red curry sauce with coconut milk and fresh vegetables with basmati rice, E, F, H, L, M, N, O"
+            "en": "in creamy red curry sauce with coconut milk & fresh vegetables with basmati rice, E, F, H, L, M, N, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "VeggieSpinat Feta Lasagne",
-            "en": "Veggie Spinach Feta Lasagna"
+            "en": "VeggieSpinat Feta Lasagne"
           },
           "price": "€7.50/€11.90",
           "description": {
             "de": "mit Bechamelsauce & grünem Salat, A, C, G, L, M, O",
-            "en": "with bechamel sauce and green salad, A, C, G, L, M, O"
+            "en": "with bechamel sauce & green salad, A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-15T10:56:21.971059",
+      "scraped_at": "2026-05-15T11:24:13.246004",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -117,7 +117,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-15T10:56:22.309359",
+      "scraped_at": "2026-05-15T11:24:13.738583",
       "available": true,
       "extraction_method": "Static menu"
     }
