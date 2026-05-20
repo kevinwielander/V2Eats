@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-19T11:39:36.038960",
+  "last_updated": "2026-05-20T11:11:45.251429",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-19T11:39:22.968642",
+      "scraped_at": "2026-05-20T11:11:22.122835",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,8 +21,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Keine Beschreibung verfügbar",
+            "en": "No description available"
           },
           "dietary": "vegetarian"
         },
@@ -33,25 +33,25 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Keine Beschreibung verfügbar",
+            "en": "No description available"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
             "de": "Paprika Hendl mit Nockerl",
-            "en": "Paprika Chicken with Dumplings"
+            "en": "Paprika Chicken with Nockerl"
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Keine Beschreibung verfügbar",
+            "en": "No description available"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-05-19T11:39:26.365983",
+      "scraped_at": "2026-05-20T11:11:27.135341",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,105 +61,77 @@
       "items": [
         {
           "name": {
-            "de": "Rindsgeschnettzeltes",
-            "en": "Beef Strips"
+            "de": "Paprikahühnchen",
+            "en": "Paprika Chicken"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Pilzrahmsauce mit Spätzle - A, C, G, L, M, O",
-            "en": "in creamy mushroom cream sauce with spaetzle - A, C, G, L, M, O"
+            "de": "in cremiger Rahmsauce & Sauerrahm Dip mit Spätzle. A, C, G, L, M, O",
+            "en": "in creamy sour cream sauce & sour cream dip with spaetzle. A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Gelbes Thai-Curry-Hühnchen",
-            "en": "Yellow Thai Curry Chicken"
+            "de": "Garnelen-Spargelrisotto",
+            "en": "Shrimp-Asparagus Risotto"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Currysauce mit Kokosmilch & frischem Gemüse mit Basmatireis - E, F, H, L, M, N, O",
-            "en": "in creamy curry sauce with coconut milk & fresh vegetables with basmati rice - E, F, H, L, M, N, O"
+            "de": "mit Cherrytomaten, Parmesan & grünem Salat. A, L, M",
+            "en": "with cherry tomatoes, parmesan & green salad. A, L, M"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Veggie Spargel Gröstl",
-            "en": "Veggie Asparagus Gröstl"
+            "de": "Süßkartoffel Gratin",
+            "en": "Sweet Potato Gratin"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Kartoffel, Lauch, Süßkartoffel & Basilikum Dip - A, C, G, L, M, O",
-            "en": "with potato, leek, sweet potato & basil dip - A, C, G, L, M, O"
+            "de": "mit Feta, Spinat & grünem Salat. G, L, M, O, VEGGIE",
+            "en": "with feta, spinach & green salad. G, L, M, O, VEGGIE"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Balsamico Linsen",
-            "en": "Balsamic Lentils"
+            "de": "Spinatspätzle",
+            "en": "Spinach Spaetzle"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit hausgemachten Semmelknödel - G, L, M, O",
-            "en": "with homemade bread dumplings - G, L, M, O"
+            "de": "mit geschmolzenem Mozzarella, gerösteten Mandeln & grünem Salat. A, C, G, L, M, O, VEGGIE",
+            "en": "with melted mozzarella, roasted almonds & green salad. A, C, G, L, M, O, VEGGIE"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-19T11:39:35.361428",
+      "scraped_at": "2026-05-20T11:11:45.122213",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Verfügbar am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-05-19T11:39:35.680355",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder individuelle Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-05-19T11:39:36.038880",
+      "scraped_at": "2026-05-20T11:11:45.251359",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 9
+    "total_items": 8
   }
 }
