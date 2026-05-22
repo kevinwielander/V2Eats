@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-21T11:42:11.704078",
+  "last_updated": "2026-05-22T11:11:25.333814",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-21T11:41:51.893588",
+      "scraped_at": "2026-05-22T11:11:11.821212",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-05-21T11:41:55.284662",
+      "scraped_at": "2026-05-22T11:11:15.305983",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,77 +61,44 @@
       "items": [
         {
           "name": {
-            "de": "Rehragout in Wacholdersauce mit Wurzelgemüse mit Polenta",
-            "en": "Venison Ragout in Juniper Sauce with Root Vegetables and Polenta"
+            "de": "Garnelen auf Bärlauchrisotto",
+            "en": "Shrimp on Wild Garlic Risotto"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "A, C, G, L, M, O",
-            "en": "A, C, G, L, M, O (Note: Description is not translated as it seems to be a list of allergens or ingredients)"
+            "de": "mit Zitrone, Parmesan & frischem Blattsalat, B, G, L, M, O",
+            "en": "with lemon, parmesan & fresh leaf salad, B, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Ofenfrischer Faschierter Braten mit Bratensaft, grünem Salat mit Erdäpfelpüree",
-            "en": "Oven-Fresh Roast with Roast Juice, Green Salad with Mashed Potatoes"
+            "de": "Indisches Butter Chicken",
+            "en": "Indian Butter Chicken"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "A, C, G, L, M, O",
-            "en": "A, C, G, L, M, O (Note: Description is not translated as it seems to be a list of allergens or ingredients)"
+            "de": "in cremiger Cashewsaucemit Basmatireis, E, F, H, L, M, N, O",
+            "en": "in creamy cashew sauce with basmati rice, E, F, H, L, M, N, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Veggie Creamy Cashew Sweetpotato Masala mit Brokkoli & Basmatireis",
-            "en": "Veggie Creamy Cashew Sweet Potato Masala with Broccoli and Basmati Rice"
+            "de": "VeggieKürbis-Gratin",
+            "en": "Veggie Pumpkin Gratin"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "E, F, H, L, M, N, O",
-            "en": "E, F, H, L, M, N, O (Note: Description is not translated as it seems to be a list of allergens or ingredients)"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Steinpilz Gnocchi in Parmesansauce mit Ruccola & grünem Salat",
-            "en": "Porcini Gnocchi in Parmesan Sauce with Arugula and Green Salad"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "A, C, G, L, M, O",
-            "en": "A, C, G, L, M, O (Note: Description is not translated as it seems to be a list of allergens or ingredients)"
+            "de": "mit Feta, Nüssen & roter Rübe, A, G, L, M, O",
+            "en": "with feta, nuts & red beet, A, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-21T11:42:10.608352",
+      "scraped_at": "2026-05-22T11:11:24.953321",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pinsa Food Truck",
-      "url": "https://www.pinsalino.at",
-      "items": [
-        {
-          "name": {
-            "de": "Römische Pizza mit verschiedenen Belägen",
-            "en": "Roman-style pizza with various toppings"
-          },
-          "price": "€8-12",
-          "description": {
-            "de": "Erhältlich am Donnerstag",
-            "en": "Available on Thursday"
-          },
-          "dietary": "meat"
-        }
-      ],
-      "scraped_at": "2026-05-21T11:42:11.207595",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -144,22 +111,22 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder individuelle Schalen",
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-21T11:42:11.704021",
+      "scraped_at": "2026-05-22T11:11:25.333741",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 9
+    "total_items": 7
   }
 }
