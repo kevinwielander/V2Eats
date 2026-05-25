@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-25T11:31:41.576193",
+  "last_updated": "2026-05-25T11:54:21.323998",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-25T11:31:26.269921",
+      "scraped_at": "2026-05-25T11:54:01.047781",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,42 +16,42 @@
       "items": [
         {
           "name": {
-            "de": "Geb. Karfiol mit Erdäpfelsalat und Sauce Tartare",
-            "en": "Roasted Cauliflower with Potato Salad and Tartare Sauce"
+            "de": "Geb. Karfiol",
+            "en": "Roasted Cauliflower"
           },
           "price": "€7.90",
           "description": {
-            "de": "Mit Kartoffelsalat und Sauce Tartare",
-            "en": "With potato salad and tartare sauce"
+            "de": "mit Erdäpfelsalat und Sauce Tartare",
+            "en": "with potato salad and tartare sauce"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Farfalle an Tomatensauce mit Parmesan",
-            "en": "Farfalle with Tomato Sauce and Parmesan"
+            "de": "Farfalle",
+            "en": "Farfalle"
           },
           "price": "€7.90",
           "description": {
-            "de": "Farfalle mit Tomatensauce und Parmesan",
-            "en": "Farfalle with tomato sauce and parmesan"
+            "de": "an Tomatensauce mit Parmesan",
+            "en": "with tomato sauce and parmesan"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Paprika Hendl mit Nockerl",
-            "en": "Paprika Chicken with Noodles"
+            "de": "Paprika Hendl",
+            "en": "Paprika Chicken"
           },
           "price": "€7.90",
           "description": {
-            "de": "Paprika Hendl mit Nockerl",
-            "en": "Paprika chicken with noodles"
+            "de": "mit Nockerl",
+            "en": "with dumplings"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-05-25T11:31:32.229556",
+      "scraped_at": "2026-05-25T11:54:04.832324",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -66,13 +66,13 @@
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "Erhältlich in klein oder gross Größe",
+            "de": "Erhältlich in klein oder groß",
             "en": "Available in small or large size"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-05-25T11:31:41.154250",
+      "scraped_at": "2026-05-25T11:54:20.950740",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -93,7 +93,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-25T11:31:41.576115",
+      "scraped_at": "2026-05-25T11:54:21.323920",
       "available": true,
       "extraction_method": "Static menu"
     }
