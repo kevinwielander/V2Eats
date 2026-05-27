@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-27T11:23:04.550627",
+  "last_updated": "2026-05-27T11:48:43.219461",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-27T11:22:43.089446",
+      "scraped_at": "2026-05-27T11:48:19.571346",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,8 +21,8 @@
           },
           "price": "LOS",
           "description": {
-            "de": "Hühnchen in Teriyaki-Soße mit Basmati-Reis",
-            "en": "Teriyaki chicken with basmati rice"
+            "de": "Huhn mit Teriyaki-Sauce, serviert mit Basmati Reis",
+            "en": "Chicken with teriyaki sauce, served with basmati rice"
           },
           "dietary": "meat"
         },
@@ -33,8 +33,8 @@
           },
           "price": "LOS",
           "description": {
-            "de": "Süßkartoffel-Curry mit Reis",
-            "en": "Sweet potato curry with rice"
+            "de": "Süßkartoffel-Curry, serviert mit Reis",
+            "en": "Sweet potato curry, served with rice"
           },
           "dietary": "vegan"
         },
@@ -45,13 +45,13 @@
           },
           "price": "AGLO",
           "description": {
-            "de": "Gnocchi mit Spinat und Gorgonzola",
-            "en": "Spinach and gorgonzola gnocchi"
+            "de": "Gnocchi mit Spinat und Gorgonzola-Käse",
+            "en": "Gnocchi with spinach and gorgonzola cheese"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-27T11:22:46.467015",
+      "scraped_at": "2026-05-27T11:48:23.572987",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -64,10 +64,10 @@
             "de": "Indisches Chicken Tikka",
             "en": "Indian Chicken Tikka"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Masalasauce mit Erbsen und Basmatireis",
-            "en": "in creamy masala sauce with peas and basmati rice"
+            "de": "Indisches Chicken Tikka in cremiger Masala-Soße mit Erbsen und Basmati-Reis",
+            "en": "Indian chicken tikka in creamy masala sauce with peas and basmati rice"
           },
           "dietary": "meat"
         },
@@ -76,39 +76,39 @@
             "de": "Griechisches Moussaka",
             "en": "Greek Moussaka"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "aus dem Ofen mit Fleischragout, Schmormelanzani & grünem Salat",
-            "en": "from the oven with meat stew, eggplant and green salad"
+            "de": "Griechisches Moussaka aus dem Ofen mit Fleisch-Ragout, Aubergine und grünem Salat",
+            "en": "Greek moussaka from the oven with meat ragout, eggplant and green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Veggie Spargel-Bärlauch Gnocchi",
-            "en": "Veggie Asparagus-Chive Gnocchi"
+            "en": "Veggie Asparagus-Garlic Gnocchi"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Ruccola, Parmesan & grünem Salat",
-            "en": "with arugula, parmesan and green salad"
+            "de": "Veggie Spargel-Bärlauch Gnocchi mit Rucola, Parmesan und grünem Salat",
+            "en": "Veggie asparagus-garlic gnocchi with arugula, parmesan and green salad"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Mexikanische Süßkartoffel-Chili ohne Fleisch",
+            "de": "Mexikanisches Süßkartoffel-Chili Sin Carne",
             "en": "Mexican Sweet Potato Chili Sin Carne"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Avocado-Guacamole und Langkornreis",
-            "en": "with avocado-guacamole and long-grain rice"
+            "de": "Mexikanisches Süßkartoffel-Chili ohne Fleisch mit Avocado-Guacamole und Langkornreis",
+            "en": "Mexican sweet potato chili without meat with avocado-guacamole and long-grain rice"
           },
           "dietary": "vegan"
         }
       ],
-      "scraped_at": "2026-05-27T11:23:04.169771",
+      "scraped_at": "2026-05-27T11:48:42.747665",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -129,7 +129,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-27T11:23:04.550570",
+      "scraped_at": "2026-05-27T11:48:43.219393",
       "available": true,
       "extraction_method": "Static menu"
     }
