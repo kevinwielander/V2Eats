@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-28T11:23:23.111021",
+  "last_updated": "2026-05-28T11:49:39.457540",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-28T11:22:56.302600",
+      "scraped_at": "2026-05-28T11:49:18.654344",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,7 +22,7 @@
           "price": "LOS",
           "description": {
             "de": "Hühnchen in Teriyaki-Soße, serviert mit Basmati-Reis",
-            "en": "Chicken in teriyaki sauce, served with basmati rice"
+            "en": "Teriyaki chicken with basmati rice"
           },
           "dietary": "meat"
         },
@@ -33,8 +33,8 @@
           },
           "price": "LOS",
           "description": {
-            "de": "Süßkartoffel-Curry mit Reis, eine vegane Delikatesse",
-            "en": "Sweet potato curry with rice, a vegan delight"
+            "de": "Süßkartoffel-Curry, serviert mit Reis",
+            "en": "Sweet potato curry with rice"
           },
           "dietary": "vegan"
         },
@@ -51,7 +51,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-28T11:23:00.409378",
+      "scraped_at": "2026-05-28T11:49:22.800582",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,102 +61,54 @@
       "items": [
         {
           "name": {
-            "de": "Schupfnudeln in Steinpilzrahmsauce (klein)",
-            "en": "Pan noodles in mushroom cream sauce (small)"
+            "de": "Schupfnudeln in Steinpilzrahmsauce",
+            "en": "Pan-Fried Noodles in Mushroom Cream Sauce"
           },
-          "price": "€7.50",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Spargel & Hühnerstreifen & grünem Salat, mit Basmatireis. A, C, G, L, M, O",
-            "en": "with asparagus and chicken strips and green salad, with basmati rice. A, C, G, L, M, O"
+            "de": "mit Spargel & Hühnerstreifen & grünem Salat mit Basmatireis. A, C, G, L, M, O, Veggie",
+            "en": "with asparagus & chicken strips & green salad with basmati rice. A, C, G, L, M, O, Veggie"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Schupfnudeln in Steinpilzrahmsauce (groß)",
-            "en": "Pan noodles in mushroom cream sauce (large)"
+            "de": "Veggie Eierschwammerl Risotto",
+            "en": "Veggie Chanterelle Risotto"
           },
-          "price": "€11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Spargel & Hühnerstreifen & grünem Salat, mit Basmatireis. A, C, G, L, M, O",
-            "en": "with asparagus and chicken strips and green salad, with basmati rice. A, C, G, L, M, O"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "VeggieEierschwammerl Risotto (klein)",
-            "en": "Veggie mushroom risotto (small)"
-          },
-          "price": "€7.50",
-          "description": {
-            "de": "mit Parmesan, Spinat & grünem Salat, G, L, M, O",
-            "en": "with parmesan, spinach and green salad, G, L, M, O"
+            "de": "mit Parmesan, Spinat & grünem Salat. G, L, M, O, Veggie",
+            "en": "with parmesan, spinach & green salad. G, L, M, O, Veggie"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "VeggieEierschwammerl Risotto (groß)",
-            "en": "Veggie mushroom risotto (large)"
+            "de": "Spinat Feta Lasagne",
+            "en": "Spinach Feta Lasagna"
           },
-          "price": "€11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Parmesan, Spinat & grünem Salat, G, L, M, O",
-            "en": "with parmesan, spinach and green salad, G, L, M, O"
+            "de": "mit Bechamelsauce & grünem Salat. A, C, G, L, M, O, Veggie",
+            "en": "with bechamel sauce & green salad. A, C, G, L, M, O, Veggie"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Spinat Feta Lasagne (klein)",
-            "en": "Spinach feta lasagna (small)"
+            "de": "Huhn in mediterraner Tomatensauce",
+            "en": "Chicken in Mediterranean Tomato Sauce"
           },
-          "price": "€7.50",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Bechamelsauce & grünem Salat, A, C, G, L, M, O",
-            "en": "with bechamel sauce and green salad, A, C, G, L, M, O"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Spinat Feta Lasagne (groß)",
-            "en": "Spinach feta lasagna (large)"
-          },
-          "price": "€11.90",
-          "description": {
-            "de": "mit Bechamelsauce & grünem Salat, A, C, G, L, M, O",
-            "en": "with bechamel sauce and green salad, A, C, G, L, M, O"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Huhn in mediterraner Tomatensauce (klein)",
-            "en": "Chicken in Mediterranean tomato sauce (small)"
-          },
-          "price": "€7.50",
-          "description": {
-            "de": "mit Oliven & Kapern & Zitronen-Couscous, A, C, G, L, M, O",
-            "en": "with olives and capers and lemon couscous, A, C, G, L, M, O"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Huhn in mediterraner Tomatensauce (groß)",
-            "en": "Chicken in Mediterranean tomato sauce (large)"
-          },
-          "price": "€11.90",
-          "description": {
-            "de": "mit Oliven & Kapern & Zitronen-Couscous, A, C, G, L, M, O",
-            "en": "with olives and capers and lemon couscous, A, C, G, L, M, O"
+            "de": "mit Oliven & Kapern & Zitronen-Couscous. A, C, G, L, M, O",
+            "en": "with olives & capers & lemon couscous. A, C, G, L, M, O"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-05-28T11:23:22.707526",
+      "scraped_at": "2026-05-28T11:49:38.954717",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -165,12 +117,19 @@
       "url": "https://www.pinsalino.at",
       "items": [
         {
-          "name": "Roman-style pizza with various toppings",
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
           "price": "€8-12",
-          "description": "Available on thursday"
+          "description": {
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-05-28T11:23:22.775122",
+      "scraped_at": "2026-05-28T11:49:39.349247",
       "available": true,
       "type": "food_truck"
     },
@@ -179,19 +138,12 @@
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-05-28T11:23:23.110943",
+      "scraped_at": "2026-05-28T11:49:39.457467",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -201,6 +153,6 @@
     "total_restaurants": 5,
     "successful": 5,
     "failed": 0,
-    "total_items": 13
+    "total_items": 9
   }
 }
