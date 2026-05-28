@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-27T11:48:43.219461",
+  "last_updated": "2026-05-28T11:23:23.111021",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-27T11:48:19.571346",
+      "scraped_at": "2026-05-28T11:22:56.302600",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,8 +21,8 @@
           },
           "price": "LOS",
           "description": {
-            "de": "Huhn mit Teriyaki-Sauce, serviert mit Basmati Reis",
-            "en": "Chicken with teriyaki sauce, served with basmati rice"
+            "de": "Hühnchen in Teriyaki-Soße, serviert mit Basmati-Reis",
+            "en": "Chicken in teriyaki sauce, served with basmati rice"
           },
           "dietary": "meat"
         },
@@ -33,8 +33,8 @@
           },
           "price": "LOS",
           "description": {
-            "de": "Süßkartoffel-Curry, serviert mit Reis",
-            "en": "Sweet potato curry, served with rice"
+            "de": "Süßkartoffel-Curry mit Reis, eine vegane Delikatesse",
+            "en": "Sweet potato curry with rice, a vegan delight"
           },
           "dietary": "vegan"
         },
@@ -51,7 +51,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-27T11:48:23.572987",
+      "scraped_at": "2026-05-28T11:23:00.409378",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,56 +61,118 @@
       "items": [
         {
           "name": {
-            "de": "Indisches Chicken Tikka",
-            "en": "Indian Chicken Tikka"
+            "de": "Schupfnudeln in Steinpilzrahmsauce (klein)",
+            "en": "Pan noodles in mushroom cream sauce (small)"
           },
-          "price": "€7.50/€11.90",
+          "price": "€7.50",
           "description": {
-            "de": "Indisches Chicken Tikka in cremiger Masala-Soße mit Erbsen und Basmati-Reis",
-            "en": "Indian chicken tikka in creamy masala sauce with peas and basmati rice"
+            "de": "mit Spargel & Hühnerstreifen & grünem Salat, mit Basmatireis. A, C, G, L, M, O",
+            "en": "with asparagus and chicken strips and green salad, with basmati rice. A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Griechisches Moussaka",
-            "en": "Greek Moussaka"
+            "de": "Schupfnudeln in Steinpilzrahmsauce (groß)",
+            "en": "Pan noodles in mushroom cream sauce (large)"
           },
-          "price": "€7.50/€11.90",
+          "price": "€11.90",
           "description": {
-            "de": "Griechisches Moussaka aus dem Ofen mit Fleisch-Ragout, Aubergine und grünem Salat",
-            "en": "Greek moussaka from the oven with meat ragout, eggplant and green salad"
+            "de": "mit Spargel & Hühnerstreifen & grünem Salat, mit Basmatireis. A, C, G, L, M, O",
+            "en": "with asparagus and chicken strips and green salad, with basmati rice. A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Veggie Spargel-Bärlauch Gnocchi",
-            "en": "Veggie Asparagus-Garlic Gnocchi"
+            "de": "VeggieEierschwammerl Risotto (klein)",
+            "en": "Veggie mushroom risotto (small)"
           },
-          "price": "€7.50/€11.90",
+          "price": "€7.50",
           "description": {
-            "de": "Veggie Spargel-Bärlauch Gnocchi mit Rucola, Parmesan und grünem Salat",
-            "en": "Veggie asparagus-garlic gnocchi with arugula, parmesan and green salad"
+            "de": "mit Parmesan, Spinat & grünem Salat, G, L, M, O",
+            "en": "with parmesan, spinach and green salad, G, L, M, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Mexikanisches Süßkartoffel-Chili Sin Carne",
-            "en": "Mexican Sweet Potato Chili Sin Carne"
+            "de": "VeggieEierschwammerl Risotto (groß)",
+            "en": "Veggie mushroom risotto (large)"
           },
-          "price": "€7.50/€11.90",
+          "price": "€11.90",
           "description": {
-            "de": "Mexikanisches Süßkartoffel-Chili ohne Fleisch mit Avocado-Guacamole und Langkornreis",
-            "en": "Mexican sweet potato chili without meat with avocado-guacamole and long-grain rice"
+            "de": "mit Parmesan, Spinat & grünem Salat, G, L, M, O",
+            "en": "with parmesan, spinach and green salad, G, L, M, O"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Spinat Feta Lasagne (klein)",
+            "en": "Spinach feta lasagna (small)"
+          },
+          "price": "€7.50",
+          "description": {
+            "de": "mit Bechamelsauce & grünem Salat, A, C, G, L, M, O",
+            "en": "with bechamel sauce and green salad, A, C, G, L, M, O"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Spinat Feta Lasagne (groß)",
+            "en": "Spinach feta lasagna (large)"
+          },
+          "price": "€11.90",
+          "description": {
+            "de": "mit Bechamelsauce & grünem Salat, A, C, G, L, M, O",
+            "en": "with bechamel sauce and green salad, A, C, G, L, M, O"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Huhn in mediterraner Tomatensauce (klein)",
+            "en": "Chicken in Mediterranean tomato sauce (small)"
+          },
+          "price": "€7.50",
+          "description": {
+            "de": "mit Oliven & Kapern & Zitronen-Couscous, A, C, G, L, M, O",
+            "en": "with olives and capers and lemon couscous, A, C, G, L, M, O"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Huhn in mediterraner Tomatensauce (groß)",
+            "en": "Chicken in Mediterranean tomato sauce (large)"
+          },
+          "price": "€11.90",
+          "description": {
+            "de": "mit Oliven & Kapern & Zitronen-Couscous, A, C, G, L, M, O",
+            "en": "with olives and capers and lemon couscous, A, C, G, L, M, O"
+          },
+          "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-05-27T11:48:42.747665",
+      "scraped_at": "2026-05-28T11:23:22.707526",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": "Roman-style pizza with various toppings",
+          "price": "€8-12",
+          "description": "Available on thursday"
+        }
+      ],
+      "scraped_at": "2026-05-28T11:23:22.775122",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -129,16 +191,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-27T11:48:43.219393",
+      "scraped_at": "2026-05-28T11:23:23.110943",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 8
+    "total_items": 13
   }
 }
