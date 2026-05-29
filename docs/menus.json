@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-28T11:49:39.457540",
+  "last_updated": "2026-05-29T11:15:47.196690",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-28T11:49:18.654344",
+      "scraped_at": "2026-05-29T11:15:27.847381",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,7 +21,7 @@
           },
           "price": "LOS",
           "description": {
-            "de": "Hühnchen in Teriyaki-Soße, serviert mit Basmati-Reis",
+            "de": "Huhn im Teriyaki-Stil mit Basmati-Reis",
             "en": "Teriyaki chicken with basmati rice"
           },
           "dietary": "meat"
@@ -33,7 +33,7 @@
           },
           "price": "LOS",
           "description": {
-            "de": "Süßkartoffel-Curry, serviert mit Reis",
+            "de": "Süßkartoffel-Curry mit Reis",
             "en": "Sweet potato curry with rice"
           },
           "dietary": "vegan"
@@ -43,15 +43,15 @@
             "de": "Spinat-Gorgonzola-Gnocchi",
             "en": "Spinach and Gorgonzola Gnocchi"
           },
-          "price": "AGLO",
+          "price": "AGL",
           "description": {
-            "de": "Gnocchi mit Spinat und Gorgonzola-Käse",
-            "en": "Gnocchi with spinach and gorgonzola cheese"
+            "de": "Gnocchi mit Spinat und Gorgonzola",
+            "en": "Spinach and gorgonzola gnocchi"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-28T11:49:22.800582",
+      "scraped_at": "2026-05-29T11:15:31.440097",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,98 +61,72 @@
       "items": [
         {
           "name": {
-            "de": "Schupfnudeln in Steinpilzrahmsauce",
-            "en": "Pan-Fried Noodles in Mushroom Cream Sauce"
+            "de": "Saftig gebratenes Lachsfilet",
+            "en": "Juicy Roasted Salmon Fillet"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Spargel & Hühnerstreifen & grünem Salat mit Basmatireis. A, C, G, L, M, O, Veggie",
-            "en": "with asparagus & chicken strips & green salad with basmati rice. A, C, G, L, M, O, Veggie"
+            "de": "Saftig gebratenes Lachsfilet mit frischem Mango-Couscous, Limette und Kräutern",
+            "en": "Juicy roasted salmon fillet with fresh mango-couscous, lime and herbs"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Veggie Eierschwammerl Risotto",
-            "en": "Veggie Chanterelle Risotto"
+            "de": "VeggieGrünes Curry",
+            "en": "Veggie Green Curry"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Parmesan, Spinat & grünem Salat. G, L, M, O, Veggie",
-            "en": "with parmesan, spinach & green salad. G, L, M, O, Veggie"
+            "de": "Grünes Curry mit Süßkartoffeln und Brokkoli in Kokos-Limettensauce mit Basmati-Reis",
+            "en": "Green curry with sweet potato and broccoli in coconut-lime sauce with basmati rice"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Spinat Feta Lasagne",
-            "en": "Spinach Feta Lasagna"
+            "de": "Indisches Cashew Beef",
+            "en": "Indian Cashew Beef"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Bechamelsauce & grünem Salat. A, C, G, L, M, O, Veggie",
-            "en": "with bechamel sauce & green salad. A, C, G, L, M, O, Veggie"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Huhn in mediterraner Tomatensauce",
-            "en": "Chicken in Mediterranean Tomato Sauce"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit Oliven & Kapern & Zitronen-Couscous. A, C, G, L, M, O",
-            "en": "with olives & capers & lemon couscous. A, C, G, L, M, O"
+            "de": "Indisches Cashew-Rindfleisch in cremiger Korma-Sauce mit Basmati-Reis",
+            "en": "Indian cashew beef in creamy korma sauce with basmati rice"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-05-28T11:49:38.954717",
+      "scraped_at": "2026-05-29T11:15:46.727810",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pinsa Food Truck",
-      "url": "https://www.pinsalino.at",
-      "items": [
-        {
-          "name": {
-            "de": "Römische Pizza mit verschiedenen Belägen",
-            "en": "Roman-style pizza with various toppings"
-          },
-          "price": "€8-12",
-          "description": {
-            "de": "Erhältlich am Donnerstag",
-            "en": "Available on Thursday"
-          },
-          "dietary": "meat"
-        }
-      ],
-      "scraped_at": "2026-05-28T11:49:39.349247",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-28T11:49:39.457467",
+      "scraped_at": "2026-05-29T11:15:47.196617",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 9
+    "total_items": 7
   }
 }
