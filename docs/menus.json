@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-29T11:43:00.127976",
+  "last_updated": "2026-06-01T12:07:17.141316",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-05-29T11:42:38.163635",
+      "scraped_at": "2026-06-01T12:06:53.483776",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,42 +16,42 @@
       "items": [
         {
           "name": {
-            "de": "Teriyaki Huhn mit Basmati Reis",
-            "en": "Teriyaki Chicken with Basmati Rice"
+            "de": "Paprikabraten mit Wedges",
+            "en": "Bell Pepper Roast with Wedges"
           },
-          "price": "€LOS",
+          "price": "€7.90",
           "description": {
-            "de": "Hühnchen in Teriyaki-Soße, serviert mit Basmati-Reis",
-            "en": "Teriyaki chicken with basmati rice"
+            "de": "Paprikabraten mit Wedges",
+            "en": "Bell pepper roast served with wedges"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Süßkartoffel-Curry mit Reis",
-            "en": "Sweet Potato Curry with Rice"
+            "de": "Champignons mit Reis & Sauce Tartare",
+            "en": "Mushrooms with Rice & Tartare Sauce"
           },
-          "price": "€LOS",
+          "price": "€7.90",
           "description": {
-            "de": "Süßkartoffel-Curry mit Reis",
-            "en": "Sweet potato curry with rice"
+            "de": "Champignons mit Reis & Sauce Tartare",
+            "en": "Mushrooms served with rice and tartare sauce"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Spinat-Gorgonzola-Gnocchi",
-            "en": "Spinach and Gorgonzola Gnocchi"
+            "de": "Linseneintopf mit Serviettenknödel",
+            "en": "Lentil Stew with Serviettenknödel"
           },
-          "price": "€AGLO",
+          "price": "€7.90",
           "description": {
-            "de": "Gnocchi mit Spinat und Gorgonzola-Käse",
-            "en": "Spinach and gorgonzola gnocchi"
+            "de": "Linseneintopf mit Serviettenknödel",
+            "en": "Lentil stew served with serviettenknödel"
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         }
       ],
-      "scraped_at": "2026-05-29T11:42:42.669716",
+      "scraped_at": "2026-06-01T12:06:58.171619",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,42 +61,42 @@
       "items": [
         {
           "name": {
-            "de": "Saftig gebratenes Lachsfilet",
-            "en": "Juicy Grilled Salmon Fillet"
+            "de": "Indisches Butter Chicken",
+            "en": "Indian Butter Chicken"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "Lachsfilet auf frischem Mango-Couscous mit Limette & Kräutern",
-            "en": "Salmon fillet on fresh mango couscous with lime and herbs"
+            "de": "in cremiger Cashewsauce mit Joghurt Dip, E, F, H, L, M, N, O",
+            "en": "in creamy cashew sauce with yogurt dip, E, F, H, L, M, N, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "VeggieGrünes Curry",
-            "en": "Veggie Green Curry"
+            "de": "Veggie Spargel-Süßkartoffel Gröstl",
+            "en": "Veggie Asparagus-Sweet Potato Gröstl"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "Grünes Curry mit Süßkartoffel & Brokkoli in Kokos-Zitronensaucemit Basmatireis",
-            "en": "Green curry with sweet potato and broccoli in coconut lemon sauce with basmati rice"
+            "de": "mit grünem Salat & cremigem Basilikum Dip, G, L, M",
+            "en": "with green salad and creamy basil dip, G, L, M"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Indisches Cashew Beef",
-            "en": "Indian Cashew Beef"
+            "de": "Veggie Tomaten Basilikum Risotto",
+            "en": "Veggie Tomato Basil Risotto"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "Indisches Cashew Beef in cremiger Kormasaucemit Basmatireis",
-            "en": "Indian cashew beef in creamy korma sauce with basmati rice"
+            "de": "mit Feta & grünem Salat, G, L, M, U",
+            "en": "with feta and green salad, G, L, M, U"
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-29T11:42:59.635637",
+      "scraped_at": "2026-06-01T12:07:16.806607",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -117,7 +117,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-05-29T11:43:00.127909",
+      "scraped_at": "2026-06-01T12:07:17.141242",
       "available": true,
       "extraction_method": "Static menu"
     }
