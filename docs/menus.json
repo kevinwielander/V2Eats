@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-02T11:39:59.704929",
+  "last_updated": "2026-06-02T11:56:56.142951",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-02T11:39:32.246250",
+      "scraped_at": "2026-06-02T11:56:32.441394",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -48,10 +48,10 @@
             "de": "Linseneintopf mit Serviettenknödel",
             "en": "Lentil stew served with serviettenknödel"
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         }
       ],
-      "scraped_at": "2026-06-02T11:39:37.093414",
+      "scraped_at": "2026-06-02T11:56:35.759190",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -96,7 +96,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-02T11:39:59.017749",
+      "scraped_at": "2026-06-02T11:56:55.471393",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -117,7 +117,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-02T11:39:59.353055",
+      "scraped_at": "2026-06-02T11:56:55.805121",
       "available": true,
       "type": "food_truck"
     },
@@ -132,13 +132,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder individuelle Schalen",
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-02T11:39:59.704849",
+      "scraped_at": "2026-06-02T11:56:56.142887",
       "available": true,
       "extraction_method": "Static menu"
     }
