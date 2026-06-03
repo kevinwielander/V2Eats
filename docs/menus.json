@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-02T11:56:56.142951",
+  "last_updated": "2026-06-03T11:47:28.897537",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-02T11:56:32.441394",
+      "scraped_at": "2026-06-03T11:47:09.944281",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -29,7 +29,7 @@
         {
           "name": {
             "de": "Champignons mit Reis & Sauce Tartare",
-            "en": "Mushrooms with Rice & Tartare Sauce"
+            "en": "Mushrooms with Rice and Tartare Sauce"
           },
           "price": "€7.90",
           "description": {
@@ -48,78 +48,20 @@
             "de": "Linseneintopf mit Serviettenknödel",
             "en": "Lentil stew served with serviettenknödel"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-02T11:56:35.759190",
+      "scraped_at": "2026-06-03T11:47:14.189744",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
     {
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
-      "items": [
-        {
-          "name": {
-            "de": "Griechische Hühnerpfanne",
-            "en": "Greek Chicken Pan"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "Pfanne mit Schmorgemüse, Tzatziki & Grünem Salat, G, L, M, O",
-            "en": "Pan with stewed vegetables, tzatziki & green salad, G, L, M, O"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Süßkartoffel-Masala",
-            "en": "Sweet Potato Masala"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "in cremiger Kokos-Cashew-Sauce mit Basmatireis, Veggie",
-            "en": "in creamy coconut-cashew sauce with basmati rice, veggie"
-          },
-          "dietary": "vegan"
-        },
-        {
-          "name": {
-            "de": "Mediterrane Gemüse-Moussaka",
-            "en": "Mediterranean Vegetable Moussaka"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "aus dem Ofen mit frischem Blattsalat, A, G, L, M, O",
-            "en": "from the oven with fresh leaf salad, A, G, L, M, O"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-06-02T11:56:55.471393",
+      "items": [],
+      "scraped_at": "2026-06-03T11:47:28.491196",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Erhältlich am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-06-02T11:56:55.805121",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -132,22 +74,22 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "de": "Vordefinierte oder individuelle Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-02T11:56:56.142887",
+      "scraped_at": "2026-06-03T11:47:28.897471",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 8
+    "total_items": 4
   }
 }
