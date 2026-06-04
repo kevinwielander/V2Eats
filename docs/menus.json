@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-04T11:13:26.406449",
+  "last_updated": "2026-06-04T11:36:17.424919",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-04T11:13:13.816358",
+      "scraped_at": "2026-06-04T11:35:59.720999",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -29,7 +29,7 @@
         {
           "name": {
             "de": "Champignons mit Reis & Sauce Tartare",
-            "en": "Mushrooms with Rice and Tartare Sauce"
+            "en": "Mushrooms with Rice & Tartare Sauce"
           },
           "price": "€7.90",
           "description": {
@@ -51,7 +51,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-04T11:13:17.462571",
+      "scraped_at": "2026-06-04T11:36:03.420217",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -59,7 +59,7 @@
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
       "items": [],
-      "scraped_at": "2026-06-04T11:13:25.558556",
+      "scraped_at": "2026-06-04T11:36:16.363878",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -80,7 +80,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-04T11:13:25.962801",
+      "scraped_at": "2026-06-04T11:36:17.077658",
       "available": true,
       "type": "food_truck"
     },
@@ -101,7 +101,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-04T11:13:26.406381",
+      "scraped_at": "2026-06-04T11:36:17.424840",
       "available": true,
       "extraction_method": "Static menu"
     }
