@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-05T11:40:57.481397",
+  "last_updated": "2026-06-08T11:45:40.679468",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-05T11:40:37.777512",
+      "scraped_at": "2026-06-08T11:45:20.967562",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,42 +16,42 @@
       "items": [
         {
           "name": {
-            "de": "Paprikabraten mit Wedges",
-            "en": "Bell Pepper Roast with Wedges"
+            "de": "Gnocchi alla Norma",
+            "en": "Gnocchi alla Norma"
           },
           "price": "€7.90",
           "description": {
-            "de": "Paprikabraten mit Wedges",
-            "en": "Bell pepper roast served with wedges"
+            "de": "Ein traditionelles italienisches Gericht mit Gnocchi, Tomaten und Auberginen",
+            "en": "A traditional Italian dish with gnocchi, tomatoes, and eggplant"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Backhendl mit Erdäpfel-Vogerl-Salat",
+            "en": "Fried Chicken with Potato and Pea Salad"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "Knusprig frittiertes Hähnchen mit einem leichten Erdäpfel-Vogerl-Salat",
+            "en": "Crispy fried chicken with a light potato and pea salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Champignons mit Reis & Sauce Tartare",
-            "en": "Mushrooms with Rice and Tartare Sauce"
+            "de": "Szegediner Gulasch mit Serviettenknödel",
+            "en": "Szegediner Goulash with Serviettenknödel"
           },
           "price": "€7.90",
           "description": {
-            "de": "Champignons mit Reis & Sauce Tartare",
-            "en": "Mushrooms served with rice and tartare sauce"
+            "de": "Ein herzhaftes ungarisches Gulasch mit zarten Serviettenknödeln",
+            "en": "A hearty Hungarian goulash with tender serviettenknödel"
           },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Linseneintopf mit Serviettenknödel",
-            "en": "Lentil Stew with Serviettenknödel"
-          },
-          "price": "€7.90",
-          "description": {
-            "de": "Linseneintopf mit Serviettenknödel",
-            "en": "Lentil stew served with serviettenknödel"
-          },
-          "dietary": "vegetarian"
+          "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-05T11:40:41.326353",
+      "scraped_at": "2026-06-08T11:45:25.495069",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,30 +61,42 @@
       "items": [
         {
           "name": {
-            "de": "Alt Wiener Schinkenfleckerl",
-            "en": "Old Viennese Ham Fritters"
+            "de": "Zartes Kalbsrahmgulasch",
+            "en": "Tender Veal Goulash"
           },
-          "price": "€7.50/€11.90",
+          "price": "€11.90/€13.90",
           "description": {
-            "de": "mit grünem Salat & Sauerrahm Dip, Allergene: A, C, G, L, M, O",
-            "en": "with green salad & sour cream dip, allergens: A, C, G, L, M, O"
+            "de": "in Paprika-Oberssauce mit Spätzle & Sauerrahm Dip, G, L, M, O",
+            "en": "in paprika sour cream sauce with spaetzle and sour cream dip, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Mediterrane Tomaten-Mozzarella-Lasagne",
-            "en": "Mediterranean Tomato Mozzarella Lasagna"
+            "de": "Karfiolcurry",
+            "en": "Cauliflower Curry"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Béchamel & frischem Blattsalat, Allergene: A, C, G, L, M, O",
-            "en": "with Béchamel sauce & fresh leaf salad, allergens: A, C, G, L, M, O"
+            "de": "in aromatischer Mandel-Kokossauce mit Kichererbsen & Basmatireis, E, F, H, L, M, N, O",
+            "en": "in aromatic almond coconut sauce with chickpeas and basmati rice, E, F, H, L, M, N, O"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Süßkartoffel Gratin",
+            "en": "Sweet Potato Gratin"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit Feta, Spinat & grünem Salat, G, L, M, O",
+            "en": "with feta, spinach and green salad, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-05T11:40:57.125913",
+      "scraped_at": "2026-06-08T11:45:40.391297",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -105,7 +117,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-05T11:40:57.481354",
+      "scraped_at": "2026-06-08T11:45:40.679400",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -115,6 +127,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 6
+    "total_items": 7
   }
 }
