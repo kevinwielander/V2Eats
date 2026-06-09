@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-08T12:12:15.392704",
+  "last_updated": "2026-06-09T11:12:54.512386",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-08T12:11:57.062944",
+      "scraped_at": "2026-06-09T11:12:41.358792",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -29,12 +29,12 @@
         {
           "name": {
             "de": "Backhendl mit Erdäpfel-Vogerl-Salat",
-            "en": "Fried Chicken with Potato and Pea Salad"
+            "en": "Backhendl with Potato and Pea Salad"
           },
           "price": "€7.90",
           "description": {
-            "de": "Knusprig frittiertes Hähnchen mit einem leichten Salat aus Erdäpfeln und Erbsen",
-            "en": "Crispy fried chicken with a light salad of potatoes and peas"
+            "de": "Gebratenes Hähnchen mit einem leichten Salat aus Erdäpfeln und Erbsen",
+            "en": "Fried chicken with a light salad of potatoes and peas"
           },
           "dietary": "meat"
         },
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein klassisches ungarisches Gulasch mit zarten Rindfleischstücken und Serviettenknödeln",
-            "en": "A classic Hungarian goulash with tender beef pieces and serviettenknödel"
+            "de": "Ein klassisches ungarisches Gulasch mit Rindfleisch und Serviettenknödeln",
+            "en": "A classic Hungarian goulash with beef and serviettenknödel"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-08T12:12:00.853395",
+      "scraped_at": "2026-06-09T11:12:45.002608",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,72 +61,79 @@
       "items": [
         {
           "name": {
-            "de": "Zartes Kalbsrahmgulasch",
-            "en": "Tender Veal Goulash"
+            "de": "Ofenfrische Lasagne Bolognese",
+            "en": "Oven-Fresh Lasagna Bolognese"
           },
-          "price": "€11.90/€13.90",
+          "price": "€11.90/€7.50",
           "description": {
-            "de": "in Paprika-Oberssauce mit Spätzle & Sauerrahm Dip, G, L, M, O",
-            "en": "in paprika sour cream sauce with spaetzle and sour cream dip, G, L, M, O"
+            "de": "mit herzhaftem Fleischragout, Mozzarella & grünem Salat, A, C, G, L, M, O",
+            "en": "with hearty meat ragout, mozzarella & green salad, A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Karfiolcurry",
-            "en": "Cauliflower Curry"
+            "de": "Mexikanisches Süßkartoffel-Chili sin Carne",
+            "en": "Mexican Sweet Potato Chili without Meat"
           },
-          "price": "€7.50/€11.90",
+          "price": "€11.90/€7.50",
           "description": {
-            "de": "in aromatischer Mandel-Kokossauce mit Kichererbsen & Basmatireis, E, F, H, L, M, N, O",
-            "en": "in aromatic almond coconut sauce with chickpeas and basmati rice, E, F, H, L, M, N, O"
+            "de": "mit Avocado-Guacamole & Langkornreis, A, G, L, M, O, VEGGIE",
+            "en": "with avocado guacamole & long-grain rice, A, G, L, M, O, VEGGIE"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Süßkartoffel Gratin",
-            "en": "Sweet Potato Gratin"
+            "de": "Cremige Gnocchi in Kürbis-Ricotta-Sauce",
+            "en": "Creamy Gnocchi in Pumpkin-Ricotta Sauce"
           },
-          "price": "€7.50/€11.90",
+          "price": "€11.90/€7.50",
           "description": {
-            "de": "mit Feta, Spinat & grünem Salat, G, L, M, O",
-            "en": "with feta, spinach and green salad, G, L, M, O"
+            "de": "mit Rucola & grünem Salat, A, C, G, L, M, O",
+            "en": "with arugula & green salad, A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-08T12:12:15.041613",
+      "scraped_at": "2026-06-09T11:12:54.288445",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": "Pasta dishes with fresh ingredients",
+          "price": "€8-13",
+          "description": "Available on tuesday"
+        }
+      ],
+      "scraped_at": "2026-06-09T11:12:54.387729",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-06-08T12:12:15.392631",
+      "scraped_at": "2026-06-09T11:12:54.512297",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 7
+    "total_items": 8
   }
 }
