@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-11T11:41:42.725205",
+  "last_updated": "2026-06-11T12:00:02.498539",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-11T11:41:22.079816",
+      "scraped_at": "2026-06-11T11:59:41.702478",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,15 +21,15 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Gnocchi mit Tomatensauce und Ricotta",
-            "en": "Gnocchi with tomato sauce and ricotta"
+            "de": "Gnocchi mit Tomaten und Auberginen",
+            "en": "Gnocchi with tomatoes and eggplant"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
             "de": "Backhendl mit Erdäpfel-Vogerl-Salat",
-            "en": "Fried Chicken with Potato and Pea Salad"
+            "en": "Backhendl with Potato and Pea Salad"
           },
           "price": "€7.90",
           "description": {
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-11T11:41:25.593690",
+      "scraped_at": "2026-06-11T11:59:45.124574",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -62,12 +62,12 @@
         {
           "name": {
             "de": "Ofenfrischer Faschierter Braten",
-            "en": "Oven-Fresh Carved Roast"
+            "en": "Roasted Shredded Beef"
           },
           "price": "€7.50/€11.90",
           "description": {
             "de": "mit Bratensaft, grünem Salat mit Erdäpfelpüree, A, C, G, L, M, O",
-            "en": "with roast gravy, green salad with potato purée, A, C, G, L, M, O"
+            "en": "with roast gravy, green salad with mashed potatoes, A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
@@ -96,7 +96,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-11T11:41:42.021950",
+      "scraped_at": "2026-06-11T12:00:01.189306",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -117,7 +117,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-11T11:41:42.383365",
+      "scraped_at": "2026-06-11T12:00:01.835587",
       "available": true,
       "type": "food_truck"
     },
@@ -132,13 +132,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "de": "Vorgefertigte oder benutzerdefinierte Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-11T11:41:42.725126",
+      "scraped_at": "2026-06-11T12:00:02.498469",
       "available": true,
       "extraction_method": "Static menu"
     }
