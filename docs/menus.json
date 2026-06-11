@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-10T11:47:30.415399",
+  "last_updated": "2026-06-11T11:41:42.725205",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-10T11:47:10.348420",
+      "scraped_at": "2026-06-11T11:41:22.079816",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,20 +21,20 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein traditionelles sizilianisches Gericht mit Gnocchi, Tomaten und Auberginen",
-            "en": "A traditional Sicilian dish with gnocchi, tomatoes, and eggplant"
+            "de": "Gnocchi mit Tomatensauce und Ricotta",
+            "en": "Gnocchi with tomato sauce and ricotta"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
             "de": "Backhendl mit Erdäpfel-Vogerl-Salat",
-            "en": "Backhendl with Potato and Pea Salad"
+            "en": "Fried Chicken with Potato and Pea Salad"
           },
           "price": "€7.90",
           "description": {
-            "de": "Gebratenes Hähnchen mit einem leichten Salat aus Erdäpfeln und Erbsen",
-            "en": "Fried chicken with a light salad of potatoes and peas"
+            "de": "Gebratenes Hähnchen mit Kartoffel- und Erbsensalat",
+            "en": "Fried chicken with potato and pea salad"
           },
           "dietary": "meat"
         },
@@ -45,23 +45,81 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein klassisches ungarisches Gulasch mit Rindfleisch und Serviettenknödeln",
-            "en": "A classic Hungarian goulash with beef and serviettenknödel"
+            "de": "Ungarisches Rindergulasch mit Serviettenknödel",
+            "en": "Hungarian beef goulash with serviettenknödel"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-10T11:47:14.085768",
+      "scraped_at": "2026-06-11T11:41:25.593690",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
     {
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
-      "items": [],
-      "scraped_at": "2026-06-10T11:47:30.046787",
+      "items": [
+        {
+          "name": {
+            "de": "Ofenfrischer Faschierter Braten",
+            "en": "Oven-Fresh Carved Roast"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit Bratensaft, grünem Salat mit Erdäpfelpüree, A, C, G, L, M, O",
+            "en": "with roast gravy, green salad with potato purée, A, C, G, L, M, O"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "VeggieGnocchi",
+            "en": "VeggieGnocchi"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "in Zucchini-Basilikumsauce mit Mozzarella & grünem Salat, A, C, G, L, M, O",
+            "en": "in zucchini-basil sauce with mozzarella and green salad, A, C, G, L, M, O"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Mediterrane Tomaten-Mozzarella-Lasagne",
+            "en": "Mediterranean Tomato Mozzarella Lasagna"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit Béchamel & frischem Blattsalat, A, C, G, L, M, O",
+            "en": "with Béchamel sauce and fresh leaf salad, A, C, G, L, M, O"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-06-11T11:41:42.021950",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
+          "price": "€8-12",
+          "description": {
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-06-11T11:41:42.383365",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -80,16 +138,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-10T11:47:30.415323",
+      "scraped_at": "2026-06-11T11:41:42.725126",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 4
+    "total_items": 8
   }
 }
