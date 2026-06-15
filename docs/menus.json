@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-15T12:09:09.057687",
+  "last_updated": "2026-06-15T12:44:57.419754",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-15T12:08:49.874202",
+      "scraped_at": "2026-06-15T12:44:44.748520",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -29,14 +29,14 @@
         {
           "name": {
             "de": "Pilzrahmgulasch mit Servittenknödel",
-            "en": "Mushroom Cream Goulash with Serviette Dumplings"
+            "en": "Mushroom Cream Goulash with Servietten Knödel"
           },
           "price": "€7.90",
           "description": {
             "de": "",
             "en": ""
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         },
         {
           "name": {
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-15T12:08:55.342203",
+      "scraped_at": "2026-06-15T12:44:48.894364",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -96,7 +96,7 @@
           "dietary": "vegan"
         }
       ],
-      "scraped_at": "2026-06-15T12:09:08.904269",
+      "scraped_at": "2026-06-15T12:44:57.335086",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -110,7 +110,7 @@
           "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-06-15T12:09:09.057612",
+      "scraped_at": "2026-06-15T12:44:57.419678",
       "available": true,
       "extraction_method": "Static menu"
     }
