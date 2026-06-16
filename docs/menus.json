@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-15T12:44:57.419754",
+  "last_updated": "2026-06-16T11:54:05.780899",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-15T12:44:44.748520",
+      "scraped_at": "2026-06-16T11:53:37.747254",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -29,7 +29,7 @@
         {
           "name": {
             "de": "Pilzrahmgulasch mit Servittenknödel",
-            "en": "Mushroom Cream Goulash with Servietten Knödel"
+            "en": "Mushroom Cream Goulash with Serviette Dumplings"
           },
           "price": "€7.90",
           "description": {
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-15T12:44:48.894364",
+      "scraped_at": "2026-06-16T11:53:41.229980",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,65 +61,93 @@
       "items": [
         {
           "name": {
-            "de": "Paprikahühnchen",
-            "en": "Paprika Chicken"
+            "de": "Chili Con Carne",
+            "en": "Chili Con Carne"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in cremiger Rahmsauce mit Sauerrahm-Dip mit Spätzle, Allergene: A, C, G, L, M, O",
-            "en": "in creamy sour cream sauce with sour cream dip and spaetzle, allergens: A, C, G, L, M, O"
+            "de": "mit Faschiertem, Avocado Dip & Langkornreis, L, M, O",
+            "en": "with minced meat, avocado dip and long-grain rice, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Veggie Spinat Feta Lasagne",
-            "en": "Veggie Spinach Feta Lasagna"
+            "de": "VeggiePasta Puttanesca",
+            "en": "VeggiePasta Puttanesca"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Bechamelsauce & grünem Salat, Allergene: A, C, G, L, M, O",
-            "en": "with bechamel sauce and green salad, allergens: A, C, G, L, M, O"
+            "de": "mit Oliven, Kapern, Tomatensauce & grünem Salat, A, C, G, L, M, O",
+            "en": "with olives, capers, tomato sauce and green salad, A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Süßkartoffel-Masala",
-            "en": "Sweet Potato Masala"
+            "de": "Spinatspätzle",
+            "en": "Spinach Spaetzle"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in cremiger Kokos-Cashew-Sauce mit Basmatireis, Allergene: E, F, H, L, M, N, O",
-            "en": "in creamy coconut cashew sauce with basmati rice, allergens: E, F, H, L, M, N, O"
+            "de": "mit geschmolzenem Mozzarella, gerösteten Mandeln & grünem Salat, A, C, G, L, M, O",
+            "en": "with melted mozzarella, roasted almonds and green salad, A, C, G, L, M, O"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-15T12:44:57.335086",
+      "scraped_at": "2026-06-16T11:54:05.020611",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Verfügbar am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-06-16T11:54:05.360866",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-15T12:44:57.419678",
+      "scraped_at": "2026-06-16T11:54:05.780824",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 7
+    "total_items": 8
   }
 }
