@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-16T11:54:05.780899",
+  "last_updated": "2026-06-16T12:20:29.177910",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-16T11:53:37.747254",
+      "scraped_at": "2026-06-16T12:20:06.789604",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,7 +17,7 @@
         {
           "name": {
             "de": "Schweinsmedaillons mit Erdäpfel-Vogerl-Salat",
-            "en": "Pork Medallions with Potato and Pea Salad"
+            "en": "Pork Medallions with Potato-Vogerl Salad"
           },
           "price": "€7.90",
           "description": {
@@ -29,14 +29,14 @@
         {
           "name": {
             "de": "Pilzrahmgulasch mit Servittenknödel",
-            "en": "Mushroom Cream Goulash with Serviette Dumplings"
+            "en": "Mushroom Cream Goulash with Servitten Dumplings"
           },
           "price": "€7.90",
           "description": {
             "de": "",
             "en": ""
           },
-          "dietary": "vegetarian"
+          "dietary": "meat"
         },
         {
           "name": {
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-16T11:53:41.229980",
+      "scraped_at": "2026-06-16T12:20:10.380313",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -64,7 +64,7 @@
             "de": "Chili Con Carne",
             "en": "Chili Con Carne"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "mit Faschiertem, Avocado Dip & Langkornreis, L, M, O",
             "en": "with minced meat, avocado dip and long-grain rice, L, M, O"
@@ -76,7 +76,7 @@
             "de": "VeggiePasta Puttanesca",
             "en": "VeggiePasta Puttanesca"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "mit Oliven, Kapern, Tomatensauce & grünem Salat, A, C, G, L, M, O",
             "en": "with olives, capers, tomato sauce and green salad, A, C, G, L, M, O"
@@ -88,7 +88,7 @@
             "de": "Spinatspätzle",
             "en": "Spinach Spaetzle"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "mit geschmolzenem Mozzarella, gerösteten Mandeln & grünem Salat, A, C, G, L, M, O",
             "en": "with melted mozzarella, roasted almonds and green salad, A, C, G, L, M, O"
@@ -96,7 +96,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-16T11:54:05.020611",
+      "scraped_at": "2026-06-16T12:20:28.450000",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -105,19 +105,12 @@
       "url": "https://pastaheld.at",
       "items": [
         {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
+          "name": "Pasta dishes with fresh ingredients",
           "price": "€8-13",
-          "description": {
-            "de": "Verfügbar am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
+          "description": "Available on tuesday"
         }
       ],
-      "scraped_at": "2026-06-16T11:54:05.360866",
+      "scraped_at": "2026-06-16T12:20:28.515497",
       "available": true,
       "type": "food_truck"
     },
@@ -138,7 +131,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-16T11:54:05.780824",
+      "scraped_at": "2026-06-16T12:20:29.177844",
       "available": true,
       "extraction_method": "Static menu"
     }
