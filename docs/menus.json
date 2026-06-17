@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-16T12:20:29.177910",
+  "last_updated": "2026-06-17T11:41:08.101668",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-16T12:20:06.789604",
+      "scraped_at": "2026-06-17T11:40:52.100152",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,7 +17,7 @@
         {
           "name": {
             "de": "Schweinsmedaillons mit Erdäpfel-Vogerl-Salat",
-            "en": "Pork Medallions with Potato-Vogerl Salad"
+            "en": "Pork Medallions with Potato and Herb Salad"
           },
           "price": "€7.90",
           "description": {
@@ -29,14 +29,14 @@
         {
           "name": {
             "de": "Pilzrahmgulasch mit Servittenknödel",
-            "en": "Mushroom Cream Goulash with Servitten Dumplings"
+            "en": "Mushroom Cream Goulash with Servietten Knödel"
           },
           "price": "€7.90",
           "description": {
             "de": "",
             "en": ""
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         },
         {
           "name": {
@@ -51,68 +51,17 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-16T12:20:10.380313",
+      "scraped_at": "2026-06-17T11:40:57.047853",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
     {
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
-      "items": [
-        {
-          "name": {
-            "de": "Chili Con Carne",
-            "en": "Chili Con Carne"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit Faschiertem, Avocado Dip & Langkornreis, L, M, O",
-            "en": "with minced meat, avocado dip and long-grain rice, L, M, O"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "VeggiePasta Puttanesca",
-            "en": "VeggiePasta Puttanesca"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit Oliven, Kapern, Tomatensauce & grünem Salat, A, C, G, L, M, O",
-            "en": "with olives, capers, tomato sauce and green salad, A, C, G, L, M, O"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Spinatspätzle",
-            "en": "Spinach Spaetzle"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit geschmolzenem Mozzarella, gerösteten Mandeln & grünem Salat, A, C, G, L, M, O",
-            "en": "with melted mozzarella, roasted almonds and green salad, A, C, G, L, M, O"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-06-16T12:20:28.450000",
+      "items": [],
+      "scraped_at": "2026-06-17T11:41:07.811544",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": "Pasta dishes with fresh ingredients",
-          "price": "€8-13",
-          "description": "Available on tuesday"
-        }
-      ],
-      "scraped_at": "2026-06-16T12:20:28.515497",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -131,16 +80,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-16T12:20:29.177844",
+      "scraped_at": "2026-06-17T11:41:08.101600",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 8
+    "total_items": 4
   }
 }
