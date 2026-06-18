@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-17T12:06:05.546350",
+  "last_updated": "2026-06-18T11:32:17.452561",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-17T12:05:48.127691",
+      "scraped_at": "2026-06-18T11:31:53.533786",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -17,7 +17,7 @@
         {
           "name": {
             "de": "Schweinsmedaillons mit Erdäpfel-Vogerl-Salat",
-            "en": "Pork Medallions with Potato and Pea Salad"
+            "en": "Pork Medallions with Potato-Vogerl Salad"
           },
           "price": "€7.90",
           "description": {
@@ -29,12 +29,12 @@
         {
           "name": {
             "de": "Pilzrahmgulasch mit Servittenknödel",
-            "en": "Mushroom Cream Goulash with Servietten Knödel"
+            "en": "Mushroom Cream Goulash with Servitten Knödel"
           },
           "price": "€7.90",
           "description": {
-            "de": "AGLO",
-            "en": "Allergen information available"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         },
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "AGLO",
-            "en": "Allergen information available"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-17T12:05:51.727068",
+      "scraped_at": "2026-06-18T11:31:57.066243",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,44 +61,53 @@
       "items": [
         {
           "name": {
-            "de": "Italienische Hühnerpfanne",
-            "en": "Italian Chicken Pan"
+            "de": "Ofenfrische Lasagne Bolognese",
+            "en": "Oven-Fresh Lasagna Bolognese"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Rosmarinkartoffeln, grünen Oliven, getrockneten Tomaten & Zitronen-Kräuter Dip",
-            "en": "with rosemary potatoes, green olives, dried tomatoes & lemon herb dip"
+            "de": "mit herzhaftem Fleischragout, Mozzarella & grünem Salat",
+            "en": "with hearty meat ragout, mozzarella & green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "VeggieLasagne",
-            "en": "VeggieLasagne"
+            "de": "Cremiges Brokkoli-Kokoscurry",
+            "en": "Creamy Broccoli Coconut Curry"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Süßkartoffeln, Ricotta, Kürbiskernen & grünem Salat",
-            "en": "with sweet potatoes, ricotta, pumpkin seeds & green salad"
+            "de": "mit gerösteten Erdnüssen & Basmatireis",
+            "en": "with roasted peanuts & basmati rice"
           },
           "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Rotes Linsen-Kürbiscurry",
-            "en": "Red Lentil Pumpkin Curry"
-          },
-          "price": "Klein €7.50/Gross €11.90",
-          "description": {
-            "de": "in cremiger Kokossauce mit Erbsen & Basmatireis",
-            "en": "in creamy coconut sauce with peas & basmati rice"
-          },
-          "dietary": "vegan"
         }
       ],
-      "scraped_at": "2026-06-17T12:06:05.100609",
+      "scraped_at": "2026-06-18T11:32:16.707186",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
+          "price": "€8-12",
+          "description": {
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-06-18T11:32:17.042466",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -117,15 +126,15 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-17T12:06:05.546283",
+      "scraped_at": "2026-06-18T11:32:17.452486",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
     "total_items": 7
   }
