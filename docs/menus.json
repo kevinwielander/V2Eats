@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-22T12:08:21.105418",
+  "last_updated": "2026-06-22T12:36:20.933505",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-22T12:07:56.894351",
+      "scraped_at": "2026-06-22T12:36:03.728903",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,37 +21,37 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Lasagne al forno, italienische Schichtlasagne",
-            "en": "Lasagne al forno, Italian layered lasagna"
+            "de": "Lasagne al forno",
+            "en": "Lasagne al forno"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Spinatspätzle an Rahmsauce",
-            "en": "Spinach Spaetzle with Cream Sauce"
+            "de": "Spinatspätzle",
+            "en": "Spinach Spaetzle"
           },
           "price": "€7.90",
           "description": {
-            "de": "Spinatspätzle mit Rahmsauce",
+            "de": "Spinatspätzle an Rahmsauce",
             "en": "Spinach spaetzle with cream sauce"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Geb. Hühnerstreifen in Sesampanade auf Caesar Salad",
-            "en": "Breaded Chicken Strips on Caesar Salad"
+            "de": "Hühnerstreifen",
+            "en": "Chicken Strips"
           },
           "price": "€7.90",
           "description": {
             "de": "Geb. Hühnerstreifen in Sesampanade auf Caesar Salad",
-            "en": "Breaded chicken strips in sesame breading on Caesar salad"
+            "en": "Breaded chicken strips in sesame crust on Caesar salad"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-22T12:08:05.650102",
+      "scraped_at": "2026-06-22T12:36:07.045112",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -91,12 +91,12 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "Mediterrane Tomaten-Mozzarella-Lasagne mit Béchamel & frischem Blattsalat, A, C, G, L, M, O",
-            "en": "Mediterranean tomato mozzarella lasagna with béchamel and fresh leaf salad, A, C, G, L, M, O"
+            "en": "Mediterranean tomato mozzarella lasagna with béchamel sauce and fresh leaf salad, A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-22T12:08:20.705525",
+      "scraped_at": "2026-06-22T12:36:20.655262",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -117,7 +117,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-22T12:08:21.105357",
+      "scraped_at": "2026-06-22T12:36:20.933438",
       "available": true,
       "extraction_method": "Static menu"
     }
