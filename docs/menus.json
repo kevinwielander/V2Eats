@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-23T11:12:12.851786",
+  "last_updated": "2026-06-23T11:39:39.136364",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-23T11:11:51.042386",
+      "scraped_at": "2026-06-23T11:39:17.943714",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,10 +21,10 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "AGLO",
+            "en": "AGLO"
           },
-          "dietary": "vegetarian"
+          "dietary": "meat"
         },
         {
           "name": {
@@ -33,8 +33,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "an Rahmsauce",
-            "en": "with cream sauce"
+            "de": "an Rahmsauce AGLO",
+            "en": "with cream sauce AGLO"
           },
           "dietary": "vegetarian"
         },
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "in Sesampanade auf Caesar Salad",
-            "en": "in sesame breading on Caesar salad"
+            "de": "in Sesampanade auf Caesar Salad ACGLO",
+            "en": "in sesame breading on Caesar salad ACGLO"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-23T11:11:54.739725",
+      "scraped_at": "2026-06-23T11:39:21.585453",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -66,8 +66,8 @@
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Bratensaft, grünem Salat, A, C, G, L, M, O",
-            "en": "with roast juice, green salad, A, C, G, L, M, O"
+            "de": "Ofenfrischer Faschierter Braten mit Bratensaft, grünem Salat, A, C, G, L, M, O",
+            "en": "Oven-fresh shredded roast with roast juice, green salad, A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
@@ -78,8 +78,8 @@
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in cremiger Rahmsauce mit Sauerrahm-Dip, A, C, G, L, M, O",
-            "en": "in creamy sour cream sauce with sour cream dip, A, C, G, L, M, O"
+            "de": "Paprikahühnchen in cremiger Rahmsauce mit Sauerrahm-Dip, A, C, G, L, M, O",
+            "en": "Paprika chicken in creamy sour cream sauce with sour cream dip, A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
@@ -90,13 +90,13 @@
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Feta, Spinat & grünem Salat, A, C, G, L, M, O",
-            "en": "with Feta, spinach, and green salad, A, C, G, L, M, O"
+            "de": "Süßkartoffel Gratin mit Feta, Spinat & grünem Salat, A, C, G, L, M, O",
+            "en": "Sweet potato gratin with feta, spinach & green salad, A, C, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-23T11:12:11.577438",
+      "scraped_at": "2026-06-23T11:39:38.411793",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -117,7 +117,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-23T11:12:12.143818",
+      "scraped_at": "2026-06-23T11:39:38.712756",
       "available": true,
       "type": "food_truck"
     },
@@ -138,7 +138,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-23T11:12:12.851708",
+      "scraped_at": "2026-06-23T11:39:39.136287",
       "available": true,
       "extraction_method": "Static menu"
     }
