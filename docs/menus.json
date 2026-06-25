@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-25T11:06:16.909607",
+  "last_updated": "2026-06-25T11:28:42.827987",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-25T11:05:56.841954",
+      "scraped_at": "2026-06-25T11:28:27.003658",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,37 +21,37 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Italienische Lasagne mit frischen Zutaten",
-            "en": "Italian lasagna with fresh ingredients"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Spinatspätzle an Rahmsauce",
-            "en": "Spinach Spätzle in Cream Sauce"
+            "de": "Spinatspätzle",
+            "en": "Spinach Spaetzle"
           },
           "price": "€7.90",
           "description": {
-            "de": "Frische Spinatblätter mit Spätzle und cremiger Rahmsauce",
-            "en": "Fresh spinach leaves with spätzle and creamy cream sauce"
+            "de": "an Rahmsauce",
+            "en": "with cream sauce"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Geb. Hühnerstreifen in Sesampanade auf Caesar Salad",
-            "en": "Breaded Chicken Strips on Caesar Salad"
+            "de": "Geb. Hühnerstreifen",
+            "en": "Breaded Chicken Strips"
           },
           "price": "€7.90",
           "description": {
-            "de": "Knusprige Hühnerstreifen in Sesampanade auf einem klassischen Caesar Salad",
-            "en": "Crispy chicken strips in sesame breading on a classic Caesar salad"
+            "de": "in Sesampanade auf Caesar Salad",
+            "en": "in sesame breading on Caesar salad"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-25T11:06:00.496547",
+      "scraped_at": "2026-06-25T11:28:31.175292",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -96,7 +96,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-25T11:06:16.137497",
+      "scraped_at": "2026-06-25T11:28:41.892201",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -117,7 +117,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-25T11:06:16.567522",
+      "scraped_at": "2026-06-25T11:28:42.372045",
       "available": true,
       "type": "food_truck"
     },
@@ -138,7 +138,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-25T11:06:16.909526",
+      "scraped_at": "2026-06-25T11:28:42.827926",
       "available": true,
       "extraction_method": "Static menu"
     }
