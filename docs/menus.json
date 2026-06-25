@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-24T11:31:20.031428",
+  "last_updated": "2026-06-25T11:06:16.909607",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-24T11:31:00.882679",
+      "scraped_at": "2026-06-25T11:05:56.841954",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,37 +21,37 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Italienische Lasagne mit frischen Zutaten",
+            "en": "Italian lasagna with fresh ingredients"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Spinatspätzle",
-            "en": "Spinach Spaetzle"
+            "de": "Spinatspätzle an Rahmsauce",
+            "en": "Spinach Spätzle in Cream Sauce"
           },
           "price": "€7.90",
           "description": {
-            "de": "an Rahmsauce",
-            "en": "with cream sauce"
+            "de": "Frische Spinatblätter mit Spätzle und cremiger Rahmsauce",
+            "en": "Fresh spinach leaves with spätzle and creamy cream sauce"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Geb. Hühnerstreifen",
-            "en": "Breaded Chicken Strips"
+            "de": "Geb. Hühnerstreifen in Sesampanade auf Caesar Salad",
+            "en": "Breaded Chicken Strips on Caesar Salad"
           },
           "price": "€7.90",
           "description": {
-            "de": "in Sesampanade auf Caesar Salad",
-            "en": "in sesame breading on Caesar salad"
+            "de": "Knusprige Hühnerstreifen in Sesampanade auf einem klassischen Caesar Salad",
+            "en": "Crispy chicken strips in sesame breading on a classic Caesar salad"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-24T11:31:04.491268",
+      "scraped_at": "2026-06-25T11:06:00.496547",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,76 +61,92 @@
       "items": [
         {
           "name": {
-            "de": "Indisches Butter Chicken",
-            "en": "Indian Butter Chicken"
+            "de": "Alt Wiener Schinkenfleckerl",
+            "en": "Old Viennese Ham Fleckerl"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Cashewsauce mit Joghurt Dip, E, F, H, L, M, N, O",
-            "en": "in creamy cashew sauce with yogurt dip, E, F, H, L, M, N, O"
+            "de": "mit grünem Salat & Sauerrahm Dip, A, C, G, L, M, O",
+            "en": "with green salad & sour cream dip, A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Ofenfrische Burritos",
-            "en": "Oven-Fresh Burritos"
+            "de": "Geschmortes Bœuf Bourguignon",
+            "en": "Braised Beef Bourguignon"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Chili con Carne, geschmolzenem Käse & Avocado-Guacamole, A, C, G, L, M, O",
-            "en": "with chili con carne, melted cheese & avocado guacamole, A, C, G, L, M, O"
+            "de": "in Rotwein-Senfsauce mit aromatischem Wurzelgemüse, G, L, M, U",
+            "en": "in red wine mustard sauce with aromatic root vegetables, G, L, M, U"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Veggie",
-            "en": "Veggie"
+            "de": "Mexikanisches Süßkartoffel-Chili sin Carne",
+            "en": "Mexican Sweet Potato Chili without Meat"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "",
-            "en": ""
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Getrüffeltes Eierschwammerl-Parmesan Risotto",
-            "en": "Truffled Mushroom-Parmesan Risotto"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit grünem Salat, A, G, L",
-            "en": "with green salad, A, G, L"
+            "de": "mit Avocado-Guacamole & Langkornreis, A, G, L, M, O",
+            "en": "with avocado guacamole & long-grain rice, A, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-24T11:31:19.962579",
+      "scraped_at": "2026-06-25T11:06:16.137497",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
+          "price": "€8-12",
+          "description": {
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-06-25T11:06:16.567522",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-24T11:31:20.031362",
+      "scraped_at": "2026-06-25T11:06:16.909526",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
     "total_items": 8
   }
