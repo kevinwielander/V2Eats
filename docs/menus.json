@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-25T11:28:42.827987",
+  "last_updated": "2026-06-26T11:09:51.799424",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-25T11:28:27.003658",
+      "scraped_at": "2026-06-26T11:09:24.420046",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -51,7 +51,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-25T11:28:31.175292",
+      "scraped_at": "2026-06-26T11:09:27.784041",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,65 +61,32 @@
       "items": [
         {
           "name": {
-            "de": "Alt Wiener Schinkenfleckerl",
-            "en": "Old Viennese Ham Fleckerl"
+            "de": "Indisches Tandoori Chicken",
+            "en": "Indian Tandoori Chicken"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit grünem Salat & Sauerrahm Dip, A, C, G, L, M, O",
-            "en": "with green salad & sour cream dip, A, C, G, L, M, O"
+            "de": "in cremiger Gewürzsauce, E, F, H, L, M, N, O",
+            "en": "in creamy spice sauce, E, F, H, L, M, N, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Geschmortes Bœuf Bourguignon",
-            "en": "Braised Beef Bourguignon"
+            "de": "Veggie Garnelen",
+            "en": "Veggie Shrimp"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in Rotwein-Senfsauce mit aromatischem Wurzelgemüse, G, L, M, U",
-            "en": "in red wine mustard sauce with aromatic root vegetables, G, L, M, U"
+            "de": "auf cremigen Zucchini-Fetarisotto mit grünem Salat, B, G, L, M, O",
+            "en": "on creamy zucchini-feta risotto with green salad, B, G, L, M, O"
           },
           "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Mexikanisches Süßkartoffel-Chili sin Carne",
-            "en": "Mexican Sweet Potato Chili without Meat"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit Avocado-Guacamole & Langkornreis, A, G, L, M, O",
-            "en": "with avocado guacamole & long-grain rice, A, G, L, M, O"
-          },
-          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-25T11:28:41.892201",
+      "scraped_at": "2026-06-26T11:09:51.386588",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pinsa Food Truck",
-      "url": "https://www.pinsalino.at",
-      "items": [
-        {
-          "name": {
-            "de": "Römische Pizza mit verschiedenen Belägen",
-            "en": "Roman-style pizza with various toppings"
-          },
-          "price": "€8-12",
-          "description": {
-            "de": "Erhältlich am Donnerstag",
-            "en": "Available on Thursday"
-          },
-          "dietary": "meat"
-        }
-      ],
-      "scraped_at": "2026-06-25T11:28:42.372045",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -132,22 +99,22 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "de": "Vordefinierte oder individuelle Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-25T11:28:42.827926",
+      "scraped_at": "2026-06-26T11:09:51.799357",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 8
+    "total_items": 6
   }
 }
