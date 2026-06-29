@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-26T11:32:01.717714",
+  "last_updated": "2026-06-29T11:48:34.013976",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-26T11:31:48.671387",
+      "scraped_at": "2026-06-29T11:48:11.882647",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,42 +16,42 @@
       "items": [
         {
           "name": {
-            "de": "Lasagne al forno",
-            "en": "Lasagne al forno"
+            "de": "Chili con Carne mit Basmati Reis",
+            "en": "Chili con Carne with Basmati Rice"
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Scharfes Chili con Carne mit Basmati Reis",
+            "en": "Spicy Chili con Carne with Basmati rice"
           },
-          "dietary": "vegetarian"
+          "dietary": "meat"
         },
         {
           "name": {
-            "de": "Spinatspätzle",
-            "en": "Spinach Spaetzle"
+            "de": "Cremige Schinkenfleckerl",
+            "en": "Creamy Ham Fleckerl"
           },
           "price": "€7.90",
           "description": {
-            "de": "an Rahmsauce",
-            "en": "with cream sauce"
+            "de": "Cremige Schinkenfleckerl",
+            "en": "Creamy ham fleckerl"
           },
-          "dietary": "vegetarian"
+          "dietary": "meat"
         },
         {
           "name": {
-            "de": "Geb. Hühnerstreifen",
-            "en": "Breaded Chicken Strips"
+            "de": "Erdäpfelgulasch mit Schwarzbrot",
+            "en": "Potato Goulash with Black Bread"
           },
           "price": "€7.90",
           "description": {
-            "de": "in Sesampanade auf Caesar Salad",
-            "en": "in sesame breading on Caesar salad"
+            "de": "Erdäpfelgulasch mit Schwarzbrot",
+            "en": "Potato goulash with black bread"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-26T11:31:52.021179",
+      "scraped_at": "2026-06-29T11:48:17.585168",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,30 +61,42 @@
       "items": [
         {
           "name": {
-            "de": "Indisches Tandoori Chicken",
-            "en": "Indian Tandoori Chicken"
+            "de": "Griechisches Moussaka",
+            "en": "Greek Moussaka"
           },
-          "price": "€7.50/€11.90",
+          "price": "€11.90",
           "description": {
-            "de": "in cremiger Gewürzsauce, E, F, H, L, M, N, O",
-            "en": "in creamy spice sauce, E, F, H, L, M, N, O"
+            "de": "aus dem Ofen mit Fleischragout, Schmormelanzani & grünem Salat, A, C, G, L, M, O",
+            "en": "from the oven with meat ragout, eggplant and green salad, A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "VeggieGarnelen",
-            "en": "Veggie Shrimp"
+            "de": "Veggie Eierschwammerl-Risotto",
+            "en": "Veggie Oyster Mushroom Risotto"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "auf cremigen Zucchini-Fetarisotto mit grünem Salat, B, G, L, M, O",
-            "en": "on creamy zucchini-feta risotto with green salad, B, G, L, M, O"
+            "de": "mit Burrata & grünem Salat, Veggie",
+            "en": "with burrata and green salad, veggie"
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Grünes Kichererbsen-Tofu-Curry",
+            "en": "Green Chickpea Tofu Curry"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit asiatischem Gemüse, Sesam & Basmatireis, E, F, H, L, M, N, O",
+            "en": "with Asian vegetables, sesame and basmati rice, E, F, H, L, M, N, O"
+          },
+          "dietary": "vegan"
         }
       ],
-      "scraped_at": "2026-06-26T11:32:01.407535",
+      "scraped_at": "2026-06-29T11:48:33.932420",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -93,19 +105,12 @@
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-06-26T11:32:01.717650",
+      "scraped_at": "2026-06-29T11:48:34.013897",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -115,6 +120,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 6
+    "total_items": 7
   }
 }
