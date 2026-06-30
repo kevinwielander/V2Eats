@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-06-29T12:13:38.154940",
+  "last_updated": "2026-06-30T11:10:56.054185",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-06-29T12:13:16.719569",
+      "scraped_at": "2026-06-30T11:10:33.743452",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,20 +21,20 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Scharfes Rindfleisch-Gericht mit Basmati-Reis",
-            "en": "Spicy beef dish with Basmati rice"
+            "de": "Scharfes Chili con Carne mit Basmati Reis",
+            "en": "Spicy Chili con Carne with Basmati rice"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Schinkenfleckerl",
-            "en": "Schinkenfleckerl"
+            "de": "Cremige Schinkenfleckerl",
+            "en": "Creamy Ham Fleckerl"
           },
           "price": "€7.90",
           "description": {
-            "de": "Cremiges Schinkengericht",
-            "en": "Creamy ham dish"
+            "de": "Cremige Schinkenfleckerl",
+            "en": "Creamy ham fleckerl"
           },
           "dietary": "meat"
         },
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Kartoffelgulasch mit schwarzen Brot",
+            "de": "Erdäpfelgulasch mit Schwarzbrot",
             "en": "Potato goulash with black bread"
           },
-          "dietary": "vegetarian"
+          "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-06-29T12:13:22.370966",
+      "scraped_at": "2026-06-30T11:10:39.349850",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,44 +61,65 @@
       "items": [
         {
           "name": {
-            "de": "Griechisches Moussaka",
-            "en": "Greek Moussaka"
+            "de": "Italienische Hühnerpfanne",
+            "en": "Italian Chicken Pan"
           },
-          "price": "€11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "aus dem Ofen mit Fleischragout, Schmormelanzani & grünem Salat, A, C, G, L, M, O",
-            "en": "from the oven with meat ragout, eggplant and green salad, A, C, G, L, M, O"
+            "de": "mit Rosmarinkartoffeln, grünen Oliven, getrockneten Tomaten & Zitronen-Kräuter Dip, Veggie",
+            "en": "with rosemary potatoes, green olives, dried tomatoes & lemon-herb dip, Veggie"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Veggie Eierschwammerl-Risotto",
-            "en": "Veggie Oyster Mushroom Risotto"
+            "de": "Tomaten-Mozzarella-Lasagne",
+            "en": "Tomato Mozzarella Lasagna"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Burrata & grünem Salat",
-            "en": "with Burrata and green salad"
+            "de": "mit Basilikum & frischem Blattsalat, A, C, G, L, M, O, Veggie",
+            "en": "with basil & fresh leaf salad, A, C, G, L, M, O, Veggie"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Grünes Kichererbsen-Tofu-Curry",
-            "en": "Green Chickpea Tofu Curry"
+            "de": "Süßkartoffel-Cashew Tikka Masala",
+            "en": "Sweet Potato Cashew Tikka Masala"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit asiatischem Gemüse, Sesam & Basmatireis, E, F, H, L, M, N, O",
-            "en": "with Asian vegetables, sesame and basmati rice, E, F, H, L, M, N, O"
+            "de": "in cremiger Kokossauce mit Basmatireis, E, F, H, L, M, N, O, Veggie",
+            "en": "in creamy coconut sauce with basmati rice, E, F, H, L, M, N, O, Veggie"
           },
-          "dietary": "vegan"
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-29T12:13:37.689007",
+      "scraped_at": "2026-06-30T11:10:55.401932",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
+          "price": "€8-13",
+          "description": {
+            "de": "Erhältlich am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-06-30T11:10:55.795506",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -117,16 +138,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-06-29T12:13:38.154878",
+      "scraped_at": "2026-06-30T11:10:56.054111",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 7
+    "total_items": 8
   }
 }
