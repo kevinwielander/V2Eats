@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-01T11:39:06.959801",
+  "last_updated": "2026-07-02T11:01:12.106196",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-01T11:38:43.298813",
+      "scraped_at": "2026-07-02T11:00:59.120934",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,7 +22,7 @@
           "price": "€7.90",
           "description": {
             "de": "Scharfes Chili con Carne mit Basmati Reis",
-            "en": "Spicy Chili con Carne with Basmati Rice"
+            "en": "Spicy Chili con Carne with Basmati rice"
           },
           "dietary": "meat"
         },
@@ -34,7 +34,7 @@
           "price": "€7.90",
           "description": {
             "de": "Cremige Schinkenfleckerl",
-            "en": "Creamy Ham Fleckerl"
+            "en": "Creamy ham fleckerl"
           },
           "dietary": "meat"
         },
@@ -46,50 +46,94 @@
           "price": "€7.90",
           "description": {
             "de": "Erdäpfelgulasch mit Schwarzbrot",
-            "en": "Potato Goulash with Black Bread"
+            "en": "Potato goulash with black bread"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-01T11:38:49.034953",
+      "scraped_at": "2026-07-02T11:01:03.666947",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
     {
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
-      "items": [],
-      "scraped_at": "2026-07-01T11:39:06.490207",
+      "items": [
+        {
+          "name": {
+            "de": "Indisches Butter Chicken",
+            "en": "Indian Butter Chicken"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "in cremiger Cashewsauce mit Joghurt Dip, E, F, H, L, M, N, O",
+            "en": "in creamy cashew sauce with yogurt dip, E, F, H, L, M, N, O"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "VeggieGnocchi",
+            "en": "Veggie Gnocchi"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit Eierschwammerln in Rahmsauce, A, C, G, L, M, O",
+            "en": "with mushroom in cream sauce, A, C, G, L, M, O"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Süßkartoffel-Feta Gratin",
+            "en": "Sweet Potato Feta Gratin"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit Ricotta und Spinat, G, L, M, O",
+            "en": "with ricotta and spinach, G, L, M, O"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-07-02T11:01:11.967488",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": "Roman-style pizza with various toppings",
+          "price": "€8-12",
+          "description": "Available on thursday"
+        }
+      ],
+      "scraped_at": "2026-07-02T11:01:12.036550",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-07-01T11:39:06.959721",
+      "scraped_at": "2026-07-02T11:01:12.106125",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 4
+    "total_items": 8
   }
 }
