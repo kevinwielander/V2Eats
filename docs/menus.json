@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-02T11:01:12.106196",
+  "last_updated": "2026-07-02T11:26:30.593050",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-02T11:00:59.120934",
+      "scraped_at": "2026-07-02T11:26:09.203223",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,7 +22,7 @@
           "price": "€7.90",
           "description": {
             "de": "Scharfes Chili con Carne mit Basmati Reis",
-            "en": "Spicy Chili con Carne with Basmati rice"
+            "en": "Spicy Chili con Carne with Basmati Rice"
           },
           "dietary": "meat"
         },
@@ -34,7 +34,7 @@
           "price": "€7.90",
           "description": {
             "de": "Cremige Schinkenfleckerl",
-            "en": "Creamy ham fleckerl"
+            "en": "Creamy ham pasta"
           },
           "dietary": "meat"
         },
@@ -46,57 +46,20 @@
           "price": "€7.90",
           "description": {
             "de": "Erdäpfelgulasch mit Schwarzbrot",
-            "en": "Potato goulash with black bread"
+            "en": "Hearty potato goulash served with black bread"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-02T11:01:03.666947",
+      "scraped_at": "2026-07-02T11:26:13.680373",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
     {
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
-      "items": [
-        {
-          "name": {
-            "de": "Indisches Butter Chicken",
-            "en": "Indian Butter Chicken"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "in cremiger Cashewsauce mit Joghurt Dip, E, F, H, L, M, N, O",
-            "en": "in creamy cashew sauce with yogurt dip, E, F, H, L, M, N, O"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "VeggieGnocchi",
-            "en": "Veggie Gnocchi"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit Eierschwammerln in Rahmsauce, A, C, G, L, M, O",
-            "en": "with mushroom in cream sauce, A, C, G, L, M, O"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Süßkartoffel-Feta Gratin",
-            "en": "Sweet Potato Feta Gratin"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit Ricotta und Spinat, G, L, M, O",
-            "en": "with ricotta and spinach, G, L, M, O"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-07-02T11:01:11.967488",
+      "items": [],
+      "scraped_at": "2026-07-02T11:26:30.220391",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -105,12 +68,19 @@
       "url": "https://www.pinsalino.at",
       "items": [
         {
-          "name": "Roman-style pizza with various toppings",
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
           "price": "€8-12",
-          "description": "Available on thursday"
+          "description": {
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-07-02T11:01:12.036550",
+      "scraped_at": "2026-07-02T11:26:30.510862",
       "available": true,
       "type": "food_truck"
     },
@@ -124,7 +94,7 @@
           "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-07-02T11:01:12.106125",
+      "scraped_at": "2026-07-02T11:26:30.592906",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -134,6 +104,6 @@
     "total_restaurants": 5,
     "successful": 5,
     "failed": 0,
-    "total_items": 8
+    "total_items": 5
   }
 }
