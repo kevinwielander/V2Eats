@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-03T12:28:26.358314",
+  "last_updated": "2026-07-06T13:55:34.855911",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-03T12:27:59.256850",
+      "scraped_at": "2026-07-06T13:55:13.835213",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,42 +16,42 @@
       "items": [
         {
           "name": {
-            "de": "Chili con Carne mit Basmati Reis",
-            "en": "Chili con Carne with Basmati Rice"
+            "de": "Backhendl mit Erdäpfel-Vogerl-Salat",
+            "en": "Fried Chicken with Potato and Pea Salad"
           },
           "price": "€7.90",
           "description": {
-            "de": "Scharfes Chili con Carne mit Basmati Reis",
-            "en": "Spicy chili con carne with basmati rice"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Cremige Schinkenfleckerl",
-            "en": "Creamy Ham Fleckerl"
+            "de": "Linseneintopf mit Serviettenknödel",
+            "en": "Lentil Stew with Bread Dumplings"
           },
           "price": "€7.90",
           "description": {
-            "de": "Cremige Schinkenfleckerl mit Sahne",
-            "en": "Creamy ham fleckerl with cream"
+            "de": "",
+            "en": ""
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Erdäpfelgulasch mit Schwarzbrot",
-            "en": "Potato Goulash with Black Bread"
+            "de": "Gnocchi an cremiger Schwammerlsauce",
+            "en": "Gnocchi in Creamy Mushroom Sauce"
           },
           "price": "€7.90",
           "description": {
-            "de": "Erdäpfelgulasch mit Kartoffeln und Schwarzbrot",
-            "en": "Potato goulash with potatoes and black bread"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-03T12:28:04.349182",
+      "scraped_at": "2026-07-06T13:55:18.596116",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,30 +61,42 @@
       "items": [
         {
           "name": {
-            "de": "Cremige Gnocchi Carbonara",
-            "en": "Creamy Gnocchi Carbonara"
+            "de": "Garnelen Zitronen Pasta",
+            "en": "Shrimp Lemon Pasta"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit geröstetem Speck, Parmesan & frischem Blattsalat, A, C, G, L, M, O",
-            "en": "with roasted bacon, parmesan & fresh leaf salad, A, C, G, L, M, O"
+            "de": "mit Zucchini & gehobeltem Parmesan, A, B, C, G, L, M, O",
+            "en": "with zucchini and shaved parmesan, A, B, C, G, L, M, O"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Cremiges Brokkoli-Kokoscurry",
-            "en": "Creamy Broccoli Coconut Curry"
+            "de": "Balsamico Linsen",
+            "en": "Balsamic Lentils"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit gerösteten Erdnüssen & Basmatireis, E, F, H, L, M, N, O",
-            "en": "with roasted peanuts & basmati rice, E, F, H, L, M, N, O"
+            "de": "mit hausgemachten Semmelknödel, A, G, L",
+            "en": "with homemade bread dumplings, A, G, L"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Eierschwammerl-Risotto",
+            "en": "Chanterelle Risotto"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit Rucola und cremiger Burrata, A, G, L, M, O",
+            "en": "with arugula and creamy burrata, A, G, L, M, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-03T12:28:26.069795",
+      "scraped_at": "2026-07-06T13:55:34.459349",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -93,19 +105,12 @@
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder individuelle Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-07-03T12:28:26.358216",
+      "scraped_at": "2026-07-06T13:55:34.855846",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -115,6 +120,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 6
+    "total_items": 7
   }
 }
