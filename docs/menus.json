@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-06T13:55:34.855911",
+  "last_updated": "2026-07-06T14:09:03.065128",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-06T13:55:13.835213",
+      "scraped_at": "2026-07-06T14:08:16.736631",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,20 +21,20 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Knusprig frittiertes Hähnchen mit einem leichten Erdäpfel-Vogerl-Salat",
+            "en": "Crispy fried chicken with a light potato and pea salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Linseneintopf mit Serviettenknödel",
-            "en": "Lentil Stew with Bread Dumplings"
+            "en": "Lentil Stew with Serviettenknödel"
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Ein herzhafter Linseneintopf mit weichen Serviettenknödeln",
+            "en": "A hearty lentil stew with soft serviettenknödel"
           },
           "dietary": "vegetarian"
         },
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Weiche Gnocchi in einer reichen und cremigen Schwammerlsauce",
+            "en": "Soft gnocchi in a rich and creamy mushroom sauce"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-06T13:55:18.596116",
+      "scraped_at": "2026-07-06T14:08:20.777353",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -64,10 +64,10 @@
             "de": "Garnelen Zitronen Pasta",
             "en": "Shrimp Lemon Pasta"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Zucchini & gehobeltem Parmesan, A, B, C, G, L, M, O",
-            "en": "with zucchini and shaved parmesan, A, B, C, G, L, M, O"
+            "de": "mit Zucchini & gehobeltem Parmesan, A, B, C, G, L, M, O, VEGGIE",
+            "en": "with zucchini and shaved parmesan, A, B, C, G, L, M, O, VEGGIE"
           },
           "dietary": "meat"
         },
@@ -76,10 +76,10 @@
             "de": "Balsamico Linsen",
             "en": "Balsamic Lentils"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit hausgemachten Semmelknödel, A, G, L",
-            "en": "with homemade bread dumplings, A, G, L"
+            "de": "mit hausgemachten Semmelknödel, A, G, L, VEGGIE",
+            "en": "with homemade bread dumplings, A, G, L, VEGGIE"
           },
           "dietary": "vegetarian"
         },
@@ -88,15 +88,15 @@
             "de": "Eierschwammerl-Risotto",
             "en": "Chanterelle Risotto"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Rucola und cremiger Burrata, A, G, L, M, O",
-            "en": "with arugula and creamy burrata, A, G, L, M, O"
+            "de": "mit Rucola und cremiger Burrata, A, G, L, M, O, VEGGIE",
+            "en": "with arugula and creamy burrata, A, G, L, M, O, VEGGIE"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-06T13:55:34.459349",
+      "scraped_at": "2026-07-06T14:09:02.659931",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -105,12 +105,19 @@
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-06T13:55:34.855846",
+      "scraped_at": "2026-07-06T14:09:03.065041",
       "available": true,
       "extraction_method": "Static menu"
     }
