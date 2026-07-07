@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-07T12:32:34.179486",
+  "last_updated": "2026-07-07T13:01:40.695656",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-07T12:32:11.497709",
+      "scraped_at": "2026-07-07T13:01:22.744882",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,20 +21,20 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Knusprig frittiertes Hähnchen mit einem leichten Salat aus Erdäpfeln und Vogerl",
-            "en": "Crispy fried chicken with a light salad of potatoes and peas"
+            "de": "Klassisches Backhendl mit einem leichten Erdäpfel-Vogerl-Salat",
+            "en": "Classic fried chicken with a light potato and pea salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Linseneintopf mit Serviettenknödel",
-            "en": "Lentil Stew with Serviettenknödel"
+            "en": "Lentil Stew with Bread Dumplings"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein herzhafter Eintopf aus Linsen, serviert mit weichen Serviettenknödeln",
-            "en": "A hearty stew made from lentils, served with soft serviettenknödel"
+            "de": "Herzhafter Linseneintopf mit weichen Serviettenknödeln",
+            "en": "Hearty lentil stew with soft bread dumplings"
           },
           "dietary": "vegetarian"
         },
@@ -45,21 +45,46 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Weiche Gnocchi in einer reichen, cremigen Schwammerlsauce",
-            "en": "Soft gnocchi in a rich, creamy mushroom sauce"
+            "de": "Weiche Gnocchi in einer reichen cremigen Schwammerlsauce",
+            "en": "Soft gnocchi in a rich creamy mushroom sauce"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-07T12:32:17.654190",
+      "scraped_at": "2026-07-07T13:01:26.685830",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
     {
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
-      "items": [],
-      "scraped_at": "2026-07-07T12:32:32.626340",
+      "items": [
+        {
+          "name": {
+            "de": "Chili Con Carne",
+            "en": "Chili Con Carne"
+          },
+          "price": "Klein €7.50/Gross €11.90",
+          "description": {
+            "de": "mit Faschiertem, Avocado Dip & Langkornreis, Veggie",
+            "en": "with ground meat, avocado dip and long-grain rice, veggie"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Kürbis Risotto",
+            "en": "Pumpkin Risotto"
+          },
+          "price": "Klein €7.50/Gross €11.90",
+          "description": {
+            "de": "mit Ruccola, Granatapfel & Parmesan",
+            "en": "with arugula, pomegranate and parmesan"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-07-07T13:01:40.545420",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -68,19 +93,12 @@
       "url": "https://pastaheld.at",
       "items": [
         {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
+          "name": "Pasta dishes with fresh ingredients",
           "price": "€8-13",
-          "description": {
-            "de": "Erhältlich am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
+          "description": "Available on tuesday"
         }
       ],
-      "scraped_at": "2026-07-07T12:32:33.889577",
+      "scraped_at": "2026-07-07T13:01:40.621683",
       "available": true,
       "type": "food_truck"
     },
@@ -89,19 +107,12 @@
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder individuelle Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-07-07T12:32:34.179406",
+      "scraped_at": "2026-07-07T13:01:40.695549",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -111,6 +122,6 @@
     "total_restaurants": 5,
     "successful": 5,
     "failed": 0,
-    "total_items": 5
+    "total_items": 7
   }
 }
