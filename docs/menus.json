@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-08T11:52:01.629774",
+  "last_updated": "2026-07-08T12:06:13.841505",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-08T11:51:37.286627",
+      "scraped_at": "2026-07-08T12:05:53.751968",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,20 +21,20 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein klassisches österreichisches Gericht mit knusprigem Hähnchen und einem leichten Salat aus Erdäpfeln und Erbsen.",
-            "en": "A classic Austrian dish with crispy fried chicken and a light salad of potatoes and peas."
+            "de": "Knusprig frittiertes Hähnchen mit einem leichten Salat aus Erdäpfeln und Vogerl",
+            "en": "Crispy fried chicken with a light salad of potatoes and peas"
           },
           "dietary": "meat"
         },
         {
           "name": {
             "de": "Linseneintopf mit Serviettenknödel",
-            "en": "Lentil Stew with Bread Dumplings"
+            "en": "Lentil Stew with Serviettenknödel"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein herzhafter Eintopf aus Linsen und Gemüse, serviert mit weichen Serviettenknödeln.",
-            "en": "A hearty stew made from lentils and vegetables, served with soft bread dumplings."
+            "de": "Ein herzhafter Linseneintopf mit weichen Serviettenknödeln",
+            "en": "A hearty lentil stew with soft serviettenknödel"
           },
           "dietary": "vegetarian"
         },
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Weiche Gnocchi in einer reichen und cremigen Schwammerlsauce.",
-            "en": "Soft gnocchi in a rich and creamy mushroom sauce."
+            "de": "Weiche Gnocchi in einer reichen und cremigen Schwammerlsauce",
+            "en": "Soft gnocchi in a rich and creamy mushroom sauce"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-08T11:51:41.223284",
+      "scraped_at": "2026-07-08T12:05:58.244472",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -62,12 +62,12 @@
         {
           "name": {
             "de": "Ofenfrischer Faschierter Braten",
-            "en": "Oven Fresh Shredded Roast"
+            "en": "Roasted Mashed Meat"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Bratensaft, grünem Salat",
-            "en": "with roast gravy, green salad"
+            "de": "mit Bratensaft, grünem Salat, A, C, G, L, M, O",
+            "en": "with roast gravy, green salad, A, C, G, L, M, O"
           },
           "dietary": "meat"
         },
@@ -76,10 +76,10 @@
             "de": "Italienische Parmigiana di Melanzane",
             "en": "Italian Parmigiana di Melanzane"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit frischem Blattsalat",
-            "en": "with fresh leaf salad"
+            "de": "mit frischem Blattsalat, A, C, G, L, M, O, VEGGIE",
+            "en": "with fresh leaf salad, A, C, G, L, M, O, vegetarian"
           },
           "dietary": "vegetarian"
         },
@@ -88,15 +88,15 @@
             "de": "Gelbes Thai-Curry",
             "en": "Yellow Thai Curry"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit asiatischem Wokgemüse, Kokos-Limettensauce & Basmatireis",
-            "en": "with Asian wok vegetables, coconut lime sauce & basmati rice"
+            "de": "mit asiatischem Wokgemüse, Kokos-Limettensauce & Basmatireis, E, F, H, L, M, N, O",
+            "en": "with Asian wok vegetables, coconut-lime sauce & basmati rice, E, F, H, L, M, N, O"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-08T11:52:01.235369",
+      "scraped_at": "2026-07-08T12:06:13.037660",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -117,7 +117,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-08T11:52:01.629720",
+      "scraped_at": "2026-07-08T12:06:13.841412",
       "available": true,
       "extraction_method": "Static menu"
     }
