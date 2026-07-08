@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-07T13:01:40.695656",
+  "last_updated": "2026-07-08T11:52:01.629774",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-07T13:01:22.744882",
+      "scraped_at": "2026-07-08T11:51:37.286627",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,8 +21,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Klassisches Backhendl mit einem leichten Erdäpfel-Vogerl-Salat",
-            "en": "Classic fried chicken with a light potato and pea salad"
+            "de": "Ein klassisches österreichisches Gericht mit knusprigem Hähnchen und einem leichten Salat aus Erdäpfeln und Erbsen.",
+            "en": "A classic Austrian dish with crispy fried chicken and a light salad of potatoes and peas."
           },
           "dietary": "meat"
         },
@@ -33,8 +33,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Herzhafter Linseneintopf mit weichen Serviettenknödeln",
-            "en": "Hearty lentil stew with soft bread dumplings"
+            "de": "Ein herzhafter Eintopf aus Linsen und Gemüse, serviert mit weichen Serviettenknödeln.",
+            "en": "A hearty stew made from lentils and vegetables, served with soft bread dumplings."
           },
           "dietary": "vegetarian"
         },
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Weiche Gnocchi in einer reichen cremigen Schwammerlsauce",
-            "en": "Soft gnocchi in a rich creamy mushroom sauce"
+            "de": "Weiche Gnocchi in einer reichen und cremigen Schwammerlsauce.",
+            "en": "Soft gnocchi in a rich and creamy mushroom sauce."
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-07T13:01:26.685830",
+      "scraped_at": "2026-07-08T11:51:41.223284",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,66 +61,71 @@
       "items": [
         {
           "name": {
-            "de": "Chili Con Carne",
-            "en": "Chili Con Carne"
+            "de": "Ofenfrischer Faschierter Braten",
+            "en": "Oven Fresh Shredded Roast"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Faschiertem, Avocado Dip & Langkornreis, Veggie",
-            "en": "with ground meat, avocado dip and long-grain rice, veggie"
+            "de": "mit Bratensaft, grünem Salat",
+            "en": "with roast gravy, green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Kürbis Risotto",
-            "en": "Pumpkin Risotto"
+            "de": "Italienische Parmigiana di Melanzane",
+            "en": "Italian Parmigiana di Melanzane"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Ruccola, Granatapfel & Parmesan",
-            "en": "with arugula, pomegranate and parmesan"
+            "de": "mit frischem Blattsalat",
+            "en": "with fresh leaf salad"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Gelbes Thai-Curry",
+            "en": "Yellow Thai Curry"
+          },
+          "price": "Klein €7.50/Gross €11.90",
+          "description": {
+            "de": "mit asiatischem Wokgemüse, Kokos-Limettensauce & Basmatireis",
+            "en": "with Asian wok vegetables, coconut lime sauce & basmati rice"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-07T13:01:40.545420",
+      "scraped_at": "2026-07-08T11:52:01.235369",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": "Pasta dishes with fresh ingredients",
-          "price": "€8-13",
-          "description": "Available on tuesday"
-        }
-      ],
-      "scraped_at": "2026-07-07T13:01:40.621683",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-07T13:01:40.695549",
+      "scraped_at": "2026-07-08T11:52:01.629720",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
     "total_items": 7
   }
