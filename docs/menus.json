@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-14T11:59:04.968152",
+  "last_updated": "2026-07-15T11:42:27.769014",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-14T11:58:45.358699",
+      "scraped_at": "2026-07-15T11:41:57.186394",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,13 +16,13 @@
       "items": [
         {
           "name": {
-            "de": "Boheneintopf mit Serviettenknödel",
+            "de": "Bohneintopf mit Serviettenknödel",
             "en": "Bean Stew with Serviette Dumplings"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein herzhafter Eintopf mit Bohnen und Serviettenknödeln",
-            "en": "A hearty stew with beans and serviette dumplings"
+            "de": "Ein herzhafter Bohneneintopf mit weichen Serviettenknödeln",
+            "en": "A hearty bean stew with soft serviette dumplings"
           },
           "dietary": "vegetarian"
         },
@@ -33,7 +33,7 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Farfalle Nudeln mit klassischer Bolognesesauce",
+            "de": "Farfalle Nudeln mit klassischer Bolognese-Soße",
             "en": "Farfalle pasta with classic Bolognese sauce"
           },
           "dietary": "meat"
@@ -45,13 +45,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein cremiges Hühnercurry mit Duftreis",
-            "en": "A creamy chicken curry with fragrant basmati rice"
+            "de": "Würziges Hühnercurry serviert mit Duftreis",
+            "en": "Spicy chicken curry served with fragrant basmati rice"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-07-14T11:58:49.276704",
+      "scraped_at": "2026-07-15T11:42:00.914677",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,86 +61,72 @@
       "items": [
         {
           "name": {
-            "de": "Paprikahühnchen",
-            "en": "Paprika Chicken"
+            "de": "Ofenfrische Lasagne Bolognese",
+            "en": "Oven-Fresh Lasagna Bolognese"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in cremiger Rahmsauce mit Sauerrahm-Dip & Spätzle",
-            "en": "in creamy paprika sauce with sour cream dip and spaetzle"
+            "de": "mit herzhaftem Fleischragout, Mozzarella & grünem Salat",
+            "en": "with hearty meat ragout, mozzarella & green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Vegetarisches Moussaka",
-            "en": "Vegetarian Moussaka"
+            "de": "VeggieRigatoni",
+            "en": "Veggie Rigatoni"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit geschmorten Melanzani & überbackenem Käse",
-            "en": "with braised eggplant and baked cheese"
+            "de": "in Zucchini-Basilikumsauce mit Ricotta & grünem Salat",
+            "en": "in zucchini-basil sauce with ricotta & green salad"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Eierschwammerl Gröstl",
-            "en": "Eierschwammerl Gröstl"
+            "de": "Süßkartoffel-Cashew Tikka Masala",
+            "en": "Sweet Potato-Cashew Tikka Masala"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Bratkartoffel & Sauerrahm Creme-Dip",
-            "en": "with fried potatoes and sour cream creme dip"
+            "de": "in cremiger Kokossauce mit Basmatireis",
+            "en": "in creamy coconut sauce with basmati rice"
           },
-          "dietary": "vegetarian"
+          "dietary": "vegan"
         }
       ],
-      "scraped_at": "2026-07-14T11:59:04.462607",
+      "scraped_at": "2026-07-15T11:42:27.100941",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Erhältlich am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-07-14T11:59:04.891332",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-14T11:59:04.968058",
+      "scraped_at": "2026-07-15T11:42:27.768951",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 8
+    "total_items": 7
   }
 }
