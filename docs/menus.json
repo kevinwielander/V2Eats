@@ -1,22 +1,59 @@
 {
-  "last_updated": "2026-07-16T12:04:33.581131",
+  "last_updated": "2026-07-17T11:26:38.638444",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-16T12:04:17.574168",
+      "scraped_at": "2026-07-17T11:26:21.549400",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
     {
       "name": "DELI Glashaus",
       "url": "https://www.dasglashaus.at/deli",
-      "items": [],
-      "scraped_at": "2026-07-16T12:04:18.044645",
-      "available": false,
-      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "items": [
+        {
+          "name": {
+            "de": "Bohneintopf mit Serviettenknödel",
+            "en": "Bean Stew with Serviette Dumplings"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "Ein herzhafter Bohneneintopf mit weichen Serviettenknödeln",
+            "en": "A hearty bean stew with soft serviette dumplings"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Farfalle Bolognese",
+            "en": "Farfalle Bolognese"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "Farfalle Nudeln mit klassischer Bolognese-Soße",
+            "en": "Farfalle pasta with classic Bolognese sauce"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Hühnercurry mit Basmati Reis",
+            "en": "Chicken Curry with Basmati Rice"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "Ein würziges Hühnercurry mit Duftreis",
+            "en": "A spicy chicken curry with fragrant basmati rice"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-07-17T11:26:25.720043",
+      "available": true,
+      "extraction_method": "LLM (claude)"
     },
     {
       "name": "Topf und Deckel",
@@ -24,65 +61,32 @@
       "items": [
         {
           "name": {
-            "de": "Huhn in mediterraner Tomatensauce",
-            "en": "Chicken in Mediterranean Tomato Sauce"
+            "de": "Indisches Butter Chicken",
+            "en": "Indian Butter Chicken"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Oliven & Kapern & Kräutercouscous",
-            "en": "with olives and capers and herb couscous"
+            "de": "in cremiger Cashewsauce mit Joghurt Dip",
+            "en": "in creamy cashew sauce with yogurt dip"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Zitronen Zucchini Gnocchi",
-            "en": "Lemon Zucchini Gnocchi"
+            "de": "VeggiePasta Puttanesca",
+            "en": "VeggiePasta Puttanesca"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Cherrytomaten, Feta & frischem Blattsalat, A, C, G, L, M, O",
-            "en": "with cherry tomatoes, feta and fresh leaf salad, A, C, G, L, M, O"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Kürbis-Feta-Gratin",
-            "en": "Pumpkin Feta Gratin"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "aus dem Ofen mit Blattspinat & grünem Salat, A, G, H",
-            "en": "from the oven with spinach and green salad, A, G, H"
+            "de": "mit Oliven, Kapern, Tomatensauce & grünem Salat",
+            "en": "with olives, capers, tomato sauce & green salad"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-16T12:04:33.157207",
+      "scraped_at": "2026-07-17T11:26:38.541354",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pinsa Food Truck",
-      "url": "https://www.pinsalino.at",
-      "items": [
-        {
-          "name": {
-            "de": "Römische Pizza mit verschiedenen Belägen",
-            "en": "Roman-style pizza with various toppings"
-          },
-          "price": "€8-12",
-          "description": {
-            "de": "Erhältlich am Donnerstag",
-            "en": "Available on Thursday"
-          },
-          "dietary": "meat"
-        }
-      ],
-      "scraped_at": "2026-07-16T12:04:33.498123",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -94,18 +98,16 @@
           "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-07-16T12:04:33.581053",
+      "scraped_at": "2026-07-17T11:26:38.638353",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
-  "errors": [
-    "Error scraping DELI Glashaus: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  ],
+  "errors": [],
   "stats": {
-    "total_restaurants": 5,
+    "total_restaurants": 4,
     "successful": 4,
-    "failed": 1,
-    "total_items": 5
+    "failed": 0,
+    "total_items": 6
   }
 }
