@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-17T11:54:20.673032",
+  "last_updated": "2026-07-20T12:23:00.640930",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-17T11:54:01.817328",
+      "scraped_at": "2026-07-20T12:22:41.662404",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,42 +16,42 @@
       "items": [
         {
           "name": {
-            "de": "Bohneintopf mit Serviettenknödel",
-            "en": "Bean Stew with Serviette Dumplings"
+            "de": "Gebackene Champignons",
+            "en": "Baked Mushrooms"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein herzhafter Bohneneintopf, serviert mit leichten Serviettenknödeln",
-            "en": "A hearty bean stew, served with light serviette dumplings"
+            "de": "mit Sauce Tartare",
+            "en": "with Tartare Sauce"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Farfalle Bolognese",
-            "en": "Farfalle Bolognese"
+            "de": "Linsen Dal",
+            "en": "Lentil Dal"
           },
           "price": "€7.90",
           "description": {
-            "de": "Farfalle Nudeln mit klassischer Bolognese-Sauce, zubereitet mit Rindfleisch und Tomaten",
-            "en": "Farfalle pasta with classic Bolognese sauce, made with beef and tomatoes"
+            "de": "mit Basmati Reis",
+            "en": "with Basmati Rice"
           },
-          "dietary": "meat"
+          "dietary": "vegan"
         },
         {
           "name": {
-            "de": "Hühnercurry mit Basmati Reis",
-            "en": "Chicken Curry with Basmati Rice"
+            "de": "Hühnerkeule",
+            "en": "Chicken Leg"
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein cremiges Hühnercurry, serviert mit Duftreis",
-            "en": "A creamy chicken curry, served with fragrant basmati rice"
+            "de": "in Honig-Soja-Marinade mit Ofengemüse",
+            "en": "in Honey-Soja Marinade with Roasted Vegetables"
           },
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-07-17T11:54:06.597721",
+      "scraped_at": "2026-07-20T12:22:46.727441",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,30 +61,42 @@
       "items": [
         {
           "name": {
-            "de": "Indisches Butter Chicken",
-            "en": "Indian Butter Chicken"
+            "de": "Cremiges Zitronen-Zucchini-Risotto",
+            "en": "Creamy Lemon Zucchini Risotto"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€11.90/€7.50",
           "description": {
-            "de": "in cremiger Cashewsauce mit Joghurt Dip",
-            "en": "in creamy cashew sauce with yogurt dip"
+            "de": "mit Garnelen, Parmesan & grünem Salat",
+            "en": "with shrimp, parmesan, and green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "VeggiePasta Puttanesca",
-            "en": "VeggiePasta Puttanesca"
+            "de": "Hühner-Fajita-Pfanne",
+            "en": "Chicken Fajita Pan"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€11.90/€7.50",
           "description": {
-            "de": "mit Oliven, Kapern, Tomatensauce & grünem Salat",
-            "en": "with olives, capers, tomato sauce & green salad"
+            "de": "mit Paprika, roten Zwiebeln & Mais auf Limetten Reis mit Avocado-Joghurt-Dip",
+            "en": "with bell peppers, red onions, and corn on lime rice with avocado-yogurt dip"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Veggie Feta",
+            "en": "Veggie Feta"
+          },
+          "price": "€11.90/€7.50",
+          "description": {
+            "de": "auf mediterranem Schmorgemüse mit Zitronen-Kräuter-Couscous, frischem Salat & Kräuter-Joghurt Dip",
+            "en": "on Mediterranean stewed vegetables with lemon-herb couscous, fresh salad, and herb-yogurt dip"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-17T11:54:20.244818",
+      "scraped_at": "2026-07-20T12:23:00.553535",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -93,19 +105,12 @@
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-07-17T11:54:20.672982",
+      "scraped_at": "2026-07-20T12:23:00.640867",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -115,6 +120,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 6
+    "total_items": 7
   }
 }
