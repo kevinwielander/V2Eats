@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-22T11:55:48.134459",
+  "last_updated": "2026-07-22T12:13:19.694284",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-22T11:55:27.468840",
+      "scraped_at": "2026-07-22T12:13:00.967832",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -41,7 +41,7 @@
         {
           "name": {
             "de": "Hühnerkeule",
-            "en": "Chicken Leg"
+            "en": "Chicken Thigh"
           },
           "price": "€7.90",
           "description": {
@@ -51,15 +51,52 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-07-22T11:55:31.771516",
+      "scraped_at": "2026-07-22T12:13:04.846416",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
     {
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
-      "items": [],
-      "scraped_at": "2026-07-22T11:55:47.622165",
+      "items": [
+        {
+          "name": {
+            "de": "Ofenfrische Burritos",
+            "en": "Oven Fresh Burritos"
+          },
+          "price": "Klein €7.50/Gross €11.90",
+          "description": {
+            "de": "mit Chili con Carne, geschmolzenem Käse, grünem Salat & Avocado-Guacamole",
+            "en": "with chili con carne, melted cheese, green salad & avocado guacamole"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Italienische Hühnerpfanne",
+            "en": "Italian Chicken Pan"
+          },
+          "price": "Klein €7.50/Gross €11.90",
+          "description": {
+            "de": "mit Rosmarinkartoffeln, grünen Oliven, getrockneten Tomaten & Zitronen-Kräuter Dip",
+            "en": "with rosemary potatoes, green olives, dried tomatoes & lemon herb dip"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "VeggieRigatoni",
+            "en": "Veggie Rigatoni"
+          },
+          "price": "Klein €7.50/Gross €11.90",
+          "description": {
+            "de": "in Eierschwammerl-Kräutersauce mit Rucola & Parmesan",
+            "en": "in mushroom herb sauce with arugula & parmesan"
+          },
+          "dietary": "vegetarian"
+        }
+      ],
+      "scraped_at": "2026-07-22T12:13:19.635359",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -68,19 +105,12 @@
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-07-22T11:55:48.134380",
+      "scraped_at": "2026-07-22T12:13:19.694222",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -90,6 +120,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 4
+    "total_items": 7
   }
 }
