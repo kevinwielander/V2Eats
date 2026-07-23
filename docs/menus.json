@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-22T12:13:19.694284",
+  "last_updated": "2026-07-23T11:56:18.110183",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-22T12:13:00.967832",
+      "scraped_at": "2026-07-23T11:55:57.723350",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -41,7 +41,7 @@
         {
           "name": {
             "de": "Hühnerkeule",
-            "en": "Chicken Thigh"
+            "en": "Chicken Leg"
           },
           "price": "€7.90",
           "description": {
@@ -51,75 +51,66 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-07-22T12:13:04.846416",
+      "scraped_at": "2026-07-23T11:56:01.122741",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
     {
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
+      "items": [],
+      "scraped_at": "2026-07-23T11:56:16.963848",
+      "available": true,
+      "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
       "items": [
         {
           "name": {
-            "de": "Ofenfrische Burritos",
-            "en": "Oven Fresh Burritos"
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€8-12",
           "description": {
-            "de": "mit Chili con Carne, geschmolzenem Käse, grünem Salat & Avocado-Guacamole",
-            "en": "with chili con carne, melted cheese, green salad & avocado guacamole"
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
           },
           "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Italienische Hühnerpfanne",
-            "en": "Italian Chicken Pan"
-          },
-          "price": "Klein €7.50/Gross €11.90",
-          "description": {
-            "de": "mit Rosmarinkartoffeln, grünen Oliven, getrockneten Tomaten & Zitronen-Kräuter Dip",
-            "en": "with rosemary potatoes, green olives, dried tomatoes & lemon herb dip"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "VeggieRigatoni",
-            "en": "Veggie Rigatoni"
-          },
-          "price": "Klein €7.50/Gross €11.90",
-          "description": {
-            "de": "in Eierschwammerl-Kräutersauce mit Rucola & Parmesan",
-            "en": "in mushroom herb sauce with arugula & parmesan"
-          },
-          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-22T12:13:19.635359",
+      "scraped_at": "2026-07-23T11:56:17.646310",
       "available": true,
-      "extraction_method": "Selenium + LLM (groq)"
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-22T12:13:19.694222",
+      "scraped_at": "2026-07-23T11:56:18.110103",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 7
+    "total_items": 5
   }
 }
