@@ -1,22 +1,59 @@
 {
-  "last_updated": "2026-07-23T12:11:30.937554",
+  "last_updated": "2026-07-24T11:48:39.911276",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-23T12:11:10.170088",
+      "scraped_at": "2026-07-24T11:48:25.374206",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
     {
       "name": "DELI Glashaus",
       "url": "https://www.dasglashaus.at/deli",
-      "items": [],
-      "scraped_at": "2026-07-23T12:11:14.316835",
-      "available": false,
-      "error": "500 Server Error: Internal Server Error for url: https://www.dasglashaus.at/deli"
+      "items": [
+        {
+          "name": {
+            "de": "Gebackene Champignons",
+            "en": "Baked Mushrooms"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "mit Sauce Tartare",
+            "en": "with Tartare Sauce"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Linsen Dal",
+            "en": "Lentil Dal"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "mit Basmati Reis",
+            "en": "with Basmati Rice"
+          },
+          "dietary": "vegan"
+        },
+        {
+          "name": {
+            "de": "Hühnerkeule",
+            "en": "Chicken Leg"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "in Honig-Soja-Marinade mit Ofengemüse",
+            "en": "in Honey-Soja Marinade with Roasted Vegetables"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-07-24T11:48:30.699438",
+      "available": true,
+      "extraction_method": "LLM (claude)"
     },
     {
       "name": "Topf und Deckel",
@@ -24,88 +61,60 @@
       "items": [
         {
           "name": {
-            "de": "Hühnerfilet",
-            "en": "Chicken Fillet"
+            "de": "Mediterrane Chicken-Caprese Pfanne",
+            "en": "Mediterranean Chicken-Caprese Pan"
           },
-          "price": "€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in cremiger Waldpilzrahmsauce mit Spinatspätzle & Sauerrahm Dip",
-            "en": "in creamy mushroom cream sauce with spinach spaetzle and sour cream dip"
+            "de": "mit Schmorgemüse, Mozzarella & grünem Salat",
+            "en": "with sautéed vegetables, mozzarella & green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Griechisches Moussaka",
-            "en": "Greek Moussaka"
+            "de": "Geschmortes Bœuf Bourguignon",
+            "en": "Braised Bœuf Bourguignon"
           },
-          "price": "€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "aus dem Ofen mit Fleischragout, Schmormelanzani & grünem Salat",
-            "en": "from the oven with meat stew, eggplant and green salad"
+            "de": "in Rotwein-Senfsauce mit aromatischem Wurzelgemüse & Bratkartoffeln",
+            "en": "in red wine mustard sauce with aromatic root vegetables & fried potatoes"
           },
           "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Grünes Curry",
-            "en": "Green Curry"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit Süßkartoffel & Brokkoli in Kokos-Zitronensauce, E, F, H, L, M, N, O",
-            "en": "with sweet potato and broccoli in coconut-lemon sauce, E, F, H, L, M, N, O"
-          },
-          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-23T12:11:30.400322",
+      "scraped_at": "2026-07-24T11:48:39.540493",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pinsa Food Truck",
-      "url": "https://www.pinsalino.at",
-      "items": [
-        {
-          "name": {
-            "de": "Römische Pizza mit verschiedenen Belägen",
-            "en": "Roman-style pizza with various toppings"
-          },
-          "price": "€8-12",
-          "description": {
-            "de": "Erhältlich am Donnerstag",
-            "en": "Available on Thursday"
-          },
-          "dietary": "meat"
-        }
-      ],
-      "scraped_at": "2026-07-23T12:11:30.855292",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-23T12:11:30.937507",
+      "scraped_at": "2026-07-24T11:48:39.911185",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
-  "errors": [
-    "Error scraping DELI Glashaus: 500 Server Error: Internal Server Error for url: https://www.dasglashaus.at/deli"
-  ],
+  "errors": [],
   "stats": {
-    "total_restaurants": 5,
+    "total_restaurants": 4,
     "successful": 4,
-    "failed": 1,
-    "total_items": 5
+    "failed": 0,
+    "total_items": 6
   }
 }
