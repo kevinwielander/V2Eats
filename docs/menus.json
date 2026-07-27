@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-24T12:03:53.740285",
+  "last_updated": "2026-07-27T13:16:38.319690",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-24T12:03:40.174838",
+      "scraped_at": "2026-07-27T13:16:16.565793",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,42 +16,66 @@
       "items": [
         {
           "name": {
-            "de": "Gebackene Champignons",
-            "en": "Baked Mushrooms"
+            "de": "Gebackener Karfiol",
+            "en": "Baked Cauliflower"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Sauce Tartare",
-            "en": "with Tartare Sauce"
+            "de": "mit Sauce Tartare & Salat",
+            "en": "with Tartare Sauce and Salad"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Linsen Dal",
-            "en": "Lentil Dal"
+            "de": "Hühner Teriyaki",
+            "en": "Chicken Teriyaki"
           },
           "price": "€7.90",
           "description": {
             "de": "mit Basmati Reis",
             "en": "with Basmati Rice"
           },
-          "dietary": "vegan"
+          "dietary": "meat"
         },
         {
           "name": {
-            "de": "Hühnerkeule",
-            "en": "Chicken Leg"
+            "de": "Caesar Salat mit Huhn",
+            "en": "Caesar Salad with Chicken"
           },
           "price": "€7.90",
           "description": {
-            "de": "in Honig-Soja-Marinade mit Ofengemüse",
-            "en": "in Honey-Soja Marinade with Roasted Vegetables"
+            "de": "Sommerspecial",
+            "en": "Summer Special"
           },
           "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Cremige Spinatspätzle",
+            "en": "Creamy Spinach Spaetzle"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "",
+            "en": ""
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Griechischer Bauernsalat",
+            "en": "Greek Farmer's Salad"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "Sommerspecial",
+            "en": "Summer Special"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-24T12:03:46.126450",
+      "scraped_at": "2026-07-27T13:16:22.075107",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -61,30 +85,54 @@
       "items": [
         {
           "name": {
-            "de": "Mediterrane Chicken-Caprese Pfanne",
-            "en": "Mediterranean Chicken-Caprese Pan"
+            "de": "Hühnerpfanne",
+            "en": "Chicken Pan"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Schmorgemüse, Mozzarella & grünem Salat",
-            "en": "with sautéed vegetables, mozzarella & green salad"
+            "de": "auf cremigem Hummus mit geröstetem mediterranem Gemüse & Feta Crumble, A, G, N",
+            "en": "with creamy hummus, roasted Mediterranean vegetables & feta crumble, A, G, N"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Geschmortes Bœuf Bourguignon",
-            "en": "Braised Bœuf Bourguignon"
+            "de": "Rigatoni Bolognese",
+            "en": "Rigatoni Bolognese"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in Rotwein-Senfsauce mit aromatischem Wurzelgemüse & Bratkartoffeln",
-            "en": "in red wine mustard sauce with aromatic root vegetables & fried potatoes"
+            "de": "mit frischem Blattsalat, A, G, L, V",
+            "en": "with fresh lettuce, A, G, L, V"
           },
           "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Italienische Parmigiana di Melanzane",
+            "en": "Italian Parmigiana di Melanzane"
+          },
+          "price": "Klein €7.50/Gross €11.90",
+          "description": {
+            "de": "mit frischem Blattsalat, A, C, G, L, M, O, V",
+            "en": "with fresh lettuce, A, C, G, L, M, O, V"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Rotes Thai Curry",
+            "en": "Red Thai Curry"
+          },
+          "price": "Klein €7.50/Gross €11.90",
+          "description": {
+            "de": "in cremiger Kokos-Limettensauce mit Wokgemüse & Basmatireis, E, F, H, L, M, N, O",
+            "en": "in creamy coconut-lime sauce with wok vegetables & basmati rice, E, F, H, L, M, N, O"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-24T12:03:53.670906",
+      "scraped_at": "2026-07-27T13:16:37.865435",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -93,12 +141,19 @@
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-24T12:03:53.740219",
+      "scraped_at": "2026-07-27T13:16:38.319623",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -108,6 +163,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 6
+    "total_items": 10
   }
 }
