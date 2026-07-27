@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-27T13:16:38.319690",
+  "last_updated": "2026-07-27T13:25:43.735808",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-27T13:16:16.565793",
+      "scraped_at": "2026-07-27T13:25:28.857332",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,7 +22,7 @@
           "price": "€7.90",
           "description": {
             "de": "mit Sauce Tartare & Salat",
-            "en": "with Tartare Sauce and Salad"
+            "en": "with Tartare Sauce & Salad"
           },
           "dietary": "vegetarian"
         },
@@ -53,7 +53,7 @@
         {
           "name": {
             "de": "Cremige Spinatspätzle",
-            "en": "Creamy Spinach Spaetzle"
+            "en": "Creamy Spinach Spätzle"
           },
           "price": "€7.90",
           "description": {
@@ -75,7 +75,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-27T13:16:22.075107",
+      "scraped_at": "2026-07-27T13:25:34.364343",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -102,8 +102,8 @@
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit frischem Blattsalat, A, G, L, V",
-            "en": "with fresh lettuce, A, G, L, V"
+            "de": "mit frischem Blattsalat, A, G, L",
+            "en": "with fresh leaf salad, A, G, L"
           },
           "dietary": "meat"
         },
@@ -114,8 +114,8 @@
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit frischem Blattsalat, A, C, G, L, M, O, V",
-            "en": "with fresh lettuce, A, C, G, L, M, O, V"
+            "de": "mit frischem Blattsalat, A, C, G, L, M, O, Veggie",
+            "en": "with fresh leaf salad, A, C, G, L, M, O, Veggie"
           },
           "dietary": "vegetarian"
         },
@@ -132,7 +132,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-27T13:16:37.865435",
+      "scraped_at": "2026-07-27T13:25:43.224922",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -153,7 +153,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-27T13:16:38.319623",
+      "scraped_at": "2026-07-27T13:25:43.735724",
       "available": true,
       "extraction_method": "Static menu"
     }
