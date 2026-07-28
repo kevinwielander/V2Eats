@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-28T12:03:39.370481",
+  "last_updated": "2026-07-28T12:23:09.179728",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-28T12:03:16.873476",
+      "scraped_at": "2026-07-28T12:22:41.606841",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -75,7 +75,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-28T12:03:21.429623",
+      "scraped_at": "2026-07-28T12:22:45.807097",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -103,7 +103,7 @@
           "price": "€7.50/€11.90",
           "description": {
             "de": "mit Bratensaft, Kartoffelpüree & grünem Salat",
-            "en": "with roast juice, mashed potatoes & green salad"
+            "en": "with roast gravy, mashed potatoes & green salad"
           },
           "dietary": "meat"
         },
@@ -120,7 +120,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-28T12:03:38.869243",
+      "scraped_at": "2026-07-28T12:23:08.408853",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -129,12 +129,19 @@
       "url": "https://pastaheld.at",
       "items": [
         {
-          "name": "Pasta dishes with fresh ingredients",
+          "name": {
+            "de": "Pasta-Gerichte mit frischen Zutaten",
+            "en": "Pasta dishes with fresh ingredients"
+          },
           "price": "€8-13",
-          "description": "Available on tuesday"
+          "description": {
+            "de": "Verfügbar am Dienstag",
+            "en": "Available on Tuesday"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-28T12:03:38.927546",
+      "scraped_at": "2026-07-28T12:23:08.675450",
       "available": true,
       "type": "food_truck"
     },
@@ -155,7 +162,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-28T12:03:39.370412",
+      "scraped_at": "2026-07-28T12:23:09.179624",
       "available": true,
       "extraction_method": "Static menu"
     }
