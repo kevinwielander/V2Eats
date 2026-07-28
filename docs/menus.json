@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-27T13:25:43.735808",
+  "last_updated": "2026-07-28T12:03:39.370481",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-27T13:25:28.857332",
+      "scraped_at": "2026-07-28T12:03:16.873476",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -53,7 +53,7 @@
         {
           "name": {
             "de": "Cremige Spinatspätzle",
-            "en": "Creamy Spinach Spätzle"
+            "en": "Creamy Spinach Spaetzle"
           },
           "price": "€7.90",
           "description": {
@@ -75,7 +75,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-27T13:25:34.364343",
+      "scraped_at": "2026-07-28T12:03:21.429623",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -88,53 +88,55 @@
             "de": "Hühnerpfanne",
             "en": "Chicken Pan"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "auf cremigem Hummus mit geröstetem mediterranem Gemüse & Feta Crumble, A, G, N",
-            "en": "with creamy hummus, roasted Mediterranean vegetables & feta crumble, A, G, N"
+            "de": "auf cremigem Hummus mit geröstetem mediterranem Gemüse & Feta Crumble",
+            "en": "on creamy hummus with roasted Mediterranean vegetables & feta crumble"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Rigatoni Bolognese",
-            "en": "Rigatoni Bolognese"
+            "de": "Ofenfrischer Faschierter Braten",
+            "en": "Oven-Fresh Shredded Roast"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit frischem Blattsalat, A, G, L",
-            "en": "with fresh leaf salad, A, G, L"
+            "de": "mit Bratensaft, Kartoffelpüree & grünem Salat",
+            "en": "with roast juice, mashed potatoes & green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Italienische Parmigiana di Melanzane",
-            "en": "Italian Parmigiana di Melanzane"
+            "de": "Mediterrrane Zucchini-Feta Lasagne",
+            "en": "Mediterranean Zucchini-Feta Lasagna"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit frischem Blattsalat, A, C, G, L, M, O, Veggie",
-            "en": "with fresh leaf salad, A, C, G, L, M, O, Veggie"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Rotes Thai Curry",
-            "en": "Red Thai Curry"
-          },
-          "price": "Klein €7.50/Gross €11.90",
-          "description": {
-            "de": "in cremiger Kokos-Limettensauce mit Wokgemüse & Basmatireis, E, F, H, L, M, N, O",
-            "en": "in creamy coconut-lime sauce with wok vegetables & basmati rice, E, F, H, L, M, N, O"
+            "de": "mit Tomaten & grünem Salat, VEGGIE",
+            "en": "with tomatoes & green salad, VEGGIE"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-27T13:25:43.224922",
+      "scraped_at": "2026-07-28T12:03:38.869243",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pasta Food Truck",
+      "url": "https://pastaheld.at",
+      "items": [
+        {
+          "name": "Pasta dishes with fresh ingredients",
+          "price": "€8-13",
+          "description": "Available on tuesday"
+        }
+      ],
+      "scraped_at": "2026-07-28T12:03:38.927546",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -153,15 +155,15 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-27T13:25:43.735724",
+      "scraped_at": "2026-07-28T12:03:39.370412",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
     "total_items": 10
   }
