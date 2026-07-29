@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-28T12:23:09.179728",
+  "last_updated": "2026-07-29T12:08:33.468507",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-28T12:22:41.606841",
+      "scraped_at": "2026-07-29T12:08:12.918231",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -75,7 +75,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-28T12:22:45.807097",
+      "scraped_at": "2026-07-29T12:08:17.754624",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -88,7 +88,7 @@
             "de": "Hühnerpfanne",
             "en": "Chicken Pan"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
             "de": "auf cremigem Hummus mit geröstetem mediterranem Gemüse & Feta Crumble",
             "en": "on creamy hummus with roasted Mediterranean vegetables & feta crumble"
@@ -97,53 +97,44 @@
         },
         {
           "name": {
-            "de": "Ofenfrischer Faschierter Braten",
-            "en": "Oven-Fresh Shredded Roast"
+            "de": "Zitronen Pasta",
+            "en": "Lemon Pasta"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Bratensaft, Kartoffelpüree & grünem Salat",
-            "en": "with roast gravy, mashed potatoes & green salad"
+            "de": "mit Zucchini, Shrimps & gehobeltem Parmesan",
+            "en": "with zucchini, shrimp & shaved parmesan"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Mediterrrane Zucchini-Feta Lasagne",
-            "en": "Mediterranean Zucchini-Feta Lasagna"
+            "de": "VeggieCremiges Safran-Risotto",
+            "en": "Veggie Creamy Saffron Risotto"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Tomaten & grünem Salat, VEGGIE",
-            "en": "with tomatoes & green salad, VEGGIE"
+            "de": "mit geschmorten Cherrytomaten, Burrata & gemischtem Salat",
+            "en": "with braised cherry tomatoes, burrata & mixed salad"
           },
           "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-07-28T12:23:08.408853",
-      "available": true,
-      "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
+        },
         {
           "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
+            "de": "Süßkartoffel-Cashew Tikka Masala",
+            "en": "Sweet Potato Cashew Tikka Masala"
           },
-          "price": "€8-13",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "Verfügbar am Dienstag",
-            "en": "Available on Tuesday"
+            "de": "in cremiger Kokossauce mit Basmatireis",
+            "en": "in creamy coconut sauce with basmati rice"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-28T12:23:08.675450",
+      "scraped_at": "2026-07-29T12:08:32.948089",
       "available": true,
-      "type": "food_truck"
+      "extraction_method": "Selenium + LLM (groq)"
     },
     {
       "name": "Fat Monk Bowls",
@@ -162,15 +153,15 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-28T12:23:09.179624",
+      "scraped_at": "2026-07-29T12:08:33.468430",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
     "total_items": 10
   }
