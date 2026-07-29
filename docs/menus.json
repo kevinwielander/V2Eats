@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-29T12:08:33.468507",
+  "last_updated": "2026-07-29T12:31:53.718893",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-29T12:08:12.918231",
+      "scraped_at": "2026-07-29T12:31:29.201183",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -75,7 +75,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-29T12:08:17.754624",
+      "scraped_at": "2026-07-29T12:31:33.168951",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -88,7 +88,7 @@
             "de": "Hühnerpfanne",
             "en": "Chicken Pan"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "auf cremigem Hummus mit geröstetem mediterranem Gemüse & Feta Crumble",
             "en": "on creamy hummus with roasted Mediterranean vegetables & feta crumble"
@@ -100,7 +100,7 @@
             "de": "Zitronen Pasta",
             "en": "Lemon Pasta"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "mit Zucchini, Shrimps & gehobeltem Parmesan",
             "en": "with zucchini, shrimp & shaved parmesan"
@@ -112,7 +112,7 @@
             "de": "VeggieCremiges Safran-Risotto",
             "en": "Veggie Creamy Saffron Risotto"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "mit geschmorten Cherrytomaten, Burrata & gemischtem Salat",
             "en": "with braised cherry tomatoes, burrata & mixed salad"
@@ -122,9 +122,9 @@
         {
           "name": {
             "de": "Süßkartoffel-Cashew Tikka Masala",
-            "en": "Sweet Potato Cashew Tikka Masala"
+            "en": "Sweet Potato-Cashew Tikka Masala"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
             "de": "in cremiger Kokossauce mit Basmatireis",
             "en": "in creamy coconut sauce with basmati rice"
@@ -132,7 +132,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-29T12:08:32.948089",
+      "scraped_at": "2026-07-29T12:31:53.362583",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -153,7 +153,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-29T12:08:33.468430",
+      "scraped_at": "2026-07-29T12:31:53.718813",
       "available": true,
       "extraction_method": "Static menu"
     }
