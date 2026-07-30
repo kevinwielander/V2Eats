@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-29T12:31:53.718893",
+  "last_updated": "2026-07-30T11:57:44.748267",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-29T12:31:29.201183",
+      "scraped_at": "2026-07-30T11:57:24.639476",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -75,7 +75,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-29T12:31:33.168951",
+      "scraped_at": "2026-07-30T11:57:28.731217",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -88,81 +88,59 @@
             "de": "Hühnerpfanne",
             "en": "Chicken Pan"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "auf cremigem Hummus mit geröstetem mediterranem Gemüse & Feta Crumble",
-            "en": "on creamy hummus with roasted Mediterranean vegetables & feta crumble"
+            "de": "auf cremigem Hummus mit geröstetem mediterranem Gemüse & Feta Crumble, G, L, M, N, O",
+            "en": "on creamy hummus with roasted Mediterranean vegetables & feta crumble, G, L, M, N, O"
           },
           "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Zitronen Pasta",
-            "en": "Lemon Pasta"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit Zucchini, Shrimps & gehobeltem Parmesan",
-            "en": "with zucchini, shrimp & shaved parmesan"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "VeggieCremiges Safran-Risotto",
-            "en": "Veggie Creamy Saffron Risotto"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit geschmorten Cherrytomaten, Burrata & gemischtem Salat",
-            "en": "with braised cherry tomatoes, burrata & mixed salad"
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Süßkartoffel-Cashew Tikka Masala",
-            "en": "Sweet Potato-Cashew Tikka Masala"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "in cremiger Kokossauce mit Basmatireis",
-            "en": "in creamy coconut sauce with basmati rice"
-          },
-          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-29T12:31:53.362583",
+      "scraped_at": "2026-07-30T11:57:44.241344",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": {
+            "de": "Römische Pizza mit verschiedenen Belägen",
+            "en": "Roman-style pizza with various toppings"
+          },
+          "price": "€8-12",
+          "description": {
+            "de": "Erhältlich am Donnerstag",
+            "en": "Available on Thursday"
+          },
+          "dietary": "meat"
+        }
+      ],
+      "scraped_at": "2026-07-30T11:57:44.677895",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": {
-            "de": "Schale",
-            "en": "Bowl"
-          },
+          "name": "Bowl",
           "price": "€9-11",
-          "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
-            "en": "Prebuilt or custom bowls"
-          },
-          "dietary": "vegetarian"
+          "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-07-29T12:31:53.718813",
+      "scraped_at": "2026-07-30T11:57:44.748198",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 10
+    "total_items": 8
   }
 }
