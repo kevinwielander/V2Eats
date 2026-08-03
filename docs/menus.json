@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-31T12:30:14.556975",
+  "last_updated": "2026-08-03T13:15:28.051712",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-07-31T12:29:54.566355",
+      "scraped_at": "2026-08-03T13:15:13.944692",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,25 +16,25 @@
       "items": [
         {
           "name": {
-            "de": "Gebackener Karfiol",
-            "en": "Baked Cauliflower"
+            "de": "Spinatlasagne",
+            "en": "Spinach Lasagna"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Sauce Tartare & Salat",
-            "en": "with Tartare Sauce & Salad"
+            "de": "",
+            "en": ""
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Hühner Teriyaki",
-            "en": "Chicken Teriyaki"
+            "de": "Piri Piri Hühnchen mit Basmati Reis",
+            "en": "Piri Piri Chicken with Basmati Rice"
           },
           "price": "€7.90",
           "description": {
-            "de": "mit Basmati Reis",
-            "en": "with Basmati Rice"
+            "de": "",
+            "en": ""
           },
           "dietary": "meat"
         },
@@ -52,8 +52,8 @@
         },
         {
           "name": {
-            "de": "Cremige Spinatspätzle",
-            "en": "Creamy Spinach Spätzle"
+            "de": "Farfalle Quattro Formaggi",
+            "en": "Farfalle Quattro Formaggi"
           },
           "price": "€7.90",
           "description": {
@@ -75,52 +75,15 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-31T12:29:58.883334",
+      "scraped_at": "2026-08-03T13:15:19.137191",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
     {
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
-      "items": [
-        {
-          "name": {
-            "de": "Hühnerpfanne",
-            "en": "Chicken Pan"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "auf cremigem Hummus mit geröstetem mediterranem Gemüse & Feta Crumble",
-            "en": "on creamy hummus with roasted Mediterranean vegetables & feta crumble"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "Eierschwammerl Risotto",
-            "en": "Chanterelle Mushroom Risotto"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit gerösttem Speck & Burrata",
-            "en": "with roasted bacon & burrata"
-          },
-          "dietary": "meat"
-        },
-        {
-          "name": {
-            "de": "VeggieTomaten-Mozzarella-Lasagne",
-            "en": "Veggie Tomato Mozzarella Lasagna"
-          },
-          "price": "€7.50/€11.90",
-          "description": {
-            "de": "mit Basilikum & frischem Blattsalat",
-            "en": "with basil & fresh leaf salad"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-07-31T12:30:14.498986",
+      "items": [],
+      "scraped_at": "2026-08-03T13:15:27.693852",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -129,12 +92,19 @@
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-07-31T12:30:14.556909",
+      "scraped_at": "2026-08-03T13:15:28.051633",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -144,6 +114,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 9
+    "total_items": 6
   }
 }
