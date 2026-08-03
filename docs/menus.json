@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-03T13:15:28.051712",
+  "last_updated": "2026-08-03T13:26:14.260706",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-08-03T13:15:13.944692",
+      "scraped_at": "2026-08-03T13:25:53.779900",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -75,7 +75,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-03T13:15:19.137191",
+      "scraped_at": "2026-08-03T13:25:59.281399",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -83,7 +83,7 @@
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
       "items": [],
-      "scraped_at": "2026-08-03T13:15:27.693852",
+      "scraped_at": "2026-08-03T13:26:13.749647",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -98,13 +98,13 @@
           },
           "price": "€9-11",
           "description": {
-            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "de": "Vordefinierte oder individuelle Schalen",
             "en": "Prebuilt or custom bowls"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-03T13:15:28.051633",
+      "scraped_at": "2026-08-03T13:26:14.260631",
       "available": true,
       "extraction_method": "Static menu"
     }
