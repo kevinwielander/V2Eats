@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-04T12:27:27.484524",
+  "last_updated": "2026-08-05T12:05:38.406527",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-08-04T12:27:05.165228",
+      "scraped_at": "2026-08-05T12:05:24.685602",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,8 +21,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Spinatlasagne",
+            "en": "Spinach Lasagna"
           },
           "dietary": "vegetarian"
         },
@@ -33,8 +33,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Piri Piri Hühnchen mit Basmati Reis",
+            "en": "Piri Piri Chicken with Basmati Rice"
           },
           "dietary": "meat"
         },
@@ -45,8 +45,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Sommerspecial",
-            "en": "Summer Special"
+            "de": "Sommerspecial: Caesar Salat mit Huhn",
+            "en": "Summer Special: Caesar Salad with Chicken"
           },
           "dietary": "meat"
         },
@@ -57,8 +57,8 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "",
-            "en": ""
+            "de": "Farfalle Quattro Formaggi",
+            "en": "Farfalle with Four Cheeses"
           },
           "dietary": "vegetarian"
         },
@@ -69,13 +69,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Sommerspecial",
-            "en": "Summer Special"
+            "de": "Sommerspecial: Griechischer Bauernsalat",
+            "en": "Summer Special: Greek Farmer's Salad"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-04T12:27:10.233202",
+      "scraped_at": "2026-08-05T12:05:29.108455",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -85,65 +85,44 @@
       "items": [
         {
           "name": {
-            "de": "Ofenfrische Lasagne Bolognese",
-            "en": "Oven-Fresh Lasagna Bolognese"
+            "de": "Indisches Butter Chicken",
+            "en": "Indian Butter Chicken"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit herzhaftem Fleischragout, Mozzarella & grünem Salat, Allergene: A, C, G, L, M, O",
-            "en": "with hearty meat ragout, mozzarella & green salad, allergens: A, C, G, L, M, O"
+            "de": "in cremiger Cashewsauce mit Basmatireis & Joghurt Dip",
+            "en": "in creamy cashew sauce with basmati rice and yogurt dip"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Rotes Thai Curry",
-            "en": "Red Thai Curry"
+            "de": "Kürbis-Ricotta Lasagne",
+            "en": "Pumpkin-Ricotta Lasagna"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "in cremiger Kokos-Limettensauce mit Wokgemüse & Basmatireis, VEGGIE",
-            "en": "in creamy coconut-lime sauce with wok vegetables & basmati rice, VEGGIE"
+            "de": "mit Mozzarella überbacken & grünem Salat",
+            "en": "with mozzarella topping and green salad"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
-            "de": "Eierschwammerl Gröstl",
-            "en": "Chanterelle Gröstl"
+            "de": "Eierschwammerl-Rigatoni",
+            "en": "Chanterelle Mushroom Rigatoni"
           },
           "price": "€7.50/€11.90",
           "description": {
-            "de": "mit Bratkartoffel & Sauerrahm Creme-Dip, VEGGIE",
-            "en": "with fried potatoes & sour cream dip, VEGGIE"
+            "de": "in Zitronensauce mit Burratasauce & grünem Salat",
+            "en": "in lemon sauce with burrata sauce and green salad"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-04T12:27:26.644353",
+      "scraped_at": "2026-08-05T12:05:37.865284",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
-          "price": "€8-13",
-          "description": {
-            "de": "Erhältlich am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
-        }
-      ],
-      "scraped_at": "2026-08-04T12:27:27.054880",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -162,16 +141,16 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-04T12:27:27.484447",
+      "scraped_at": "2026-08-05T12:05:38.406444",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 10
+    "total_items": 9
   }
 }
