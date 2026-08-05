@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-05T12:05:38.406527",
+  "last_updated": "2026-08-05T12:24:56.543593",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-08-05T12:05:24.685602",
+      "scraped_at": "2026-08-05T12:24:42.924162",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -75,7 +75,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-05T12:05:29.108455",
+      "scraped_at": "2026-08-05T12:24:47.549668",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -88,10 +88,10 @@
             "de": "Indisches Butter Chicken",
             "en": "Indian Butter Chicken"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in cremiger Cashewsauce mit Basmatireis & Joghurt Dip",
-            "en": "in creamy cashew sauce with basmati rice and yogurt dip"
+            "de": "Indisches Butter Chicken in cremiger Cashewsauce mit Basmatireis & Joghurt Dip",
+            "en": "Indian Butter Chicken in creamy cashew sauce with basmati rice and yogurt dip"
           },
           "dietary": "meat"
         },
@@ -100,27 +100,27 @@
             "de": "Kürbis-Ricotta Lasagne",
             "en": "Pumpkin-Ricotta Lasagna"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Mozzarella überbacken & grünem Salat",
-            "en": "with mozzarella topping and green salad"
+            "de": "Veggie Kürbis-Ricotta Lasagne mit Mozzarella überbacken & grünem Salat",
+            "en": "Veggie pumpkin-ricotta lasagna with mozzarella topping and green salad"
           },
           "dietary": "vegetarian"
         },
         {
           "name": {
             "de": "Eierschwammerl-Rigatoni",
-            "en": "Chanterelle Mushroom Rigatoni"
+            "en": "Chanterelle-Rigatoni"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in Zitronensauce mit Burratasauce & grünem Salat",
-            "en": "in lemon sauce with burrata sauce and green salad"
+            "de": "Eierschwammerl-Rigatoni in Zitronensauce mit Burratasauce & grünem Salat",
+            "en": "Chanterelle-rigatoni in lemon sauce with burrata sauce and green salad"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-05T12:05:37.865284",
+      "scraped_at": "2026-08-05T12:24:56.173446",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-05T12:05:38.406444",
+      "scraped_at": "2026-08-05T12:24:56.543537",
       "available": true,
       "extraction_method": "Static menu"
     }
