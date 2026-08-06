@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-06T12:08:18.072141",
+  "last_updated": "2026-08-06T12:28:19.587875",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-08-06T12:08:03.354424",
+      "scraped_at": "2026-08-06T12:27:56.746414",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -46,7 +46,7 @@
           "price": "€7.90",
           "description": {
             "de": "Sommerspecial",
-            "en": "Summer special"
+            "en": "Summer Special"
           },
           "dietary": "meat"
         },
@@ -70,12 +70,12 @@
           "price": "€7.90",
           "description": {
             "de": "Sommerspecial",
-            "en": "Summer special"
+            "en": "Summer Special"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-06T12:08:08.502045",
+      "scraped_at": "2026-08-06T12:28:00.793714",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -97,7 +97,7 @@
         },
         {
           "name": {
-            "de": "VeggieKarfiol",
+            "de": "Veggie Karfiol",
             "en": "Veggie Cauliflower"
           },
           "price": "Klein €7.50/Gross €11.90",
@@ -120,7 +120,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-06T12:08:17.701755",
+      "scraped_at": "2026-08-06T12:28:18.740708",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-08-06T12:08:18.011041",
+      "scraped_at": "2026-08-06T12:28:19.187641",
       "available": true,
       "type": "food_truck"
     },
@@ -150,12 +150,19 @@
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-06T12:08:18.072051",
+      "scraped_at": "2026-08-06T12:28:19.587793",
       "available": true,
       "extraction_method": "Static menu"
     }
