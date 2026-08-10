@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-07T11:25:18.652693",
+  "last_updated": "2026-08-10T11:15:18.784462",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-08-07T11:25:03.444889",
+      "scraped_at": "2026-08-10T11:15:00.036840",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -16,20 +16,8 @@
       "items": [
         {
           "name": {
-            "de": "Spinatlasagne",
-            "en": "Spinach Lasagna"
-          },
-          "price": "€7.90",
-          "description": {
-            "de": "",
-            "en": ""
-          },
-          "dietary": "vegetarian"
-        },
-        {
-          "name": {
-            "de": "Piri Piri Hühnchen mit Basmati Reis",
-            "en": "Piri Piri Chicken with Basmati Rice"
+            "de": "Erdäpfelgulasch mit Brot",
+            "en": "Potato Goulash with Bread"
           },
           "price": "€7.90",
           "description": {
@@ -37,6 +25,18 @@
             "en": ""
           },
           "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "Krautfleckerl",
+            "en": "Cabbage Fleckerl"
+          },
+          "price": "€7.90",
+          "description": {
+            "de": "",
+            "en": ""
+          },
+          "dietary": "vegetarian"
         },
         {
           "name": {
@@ -52,15 +52,15 @@
         },
         {
           "name": {
-            "de": "Farfalle Quattro Formaggi",
-            "en": "Farfalle Quattro Formaggi"
+            "de": "Schweineragout mit Erbsen & Reis",
+            "en": "Pork Ragout with Peas and Rice"
           },
           "price": "€7.90",
           "description": {
             "de": "",
             "en": ""
           },
-          "dietary": "vegetarian"
+          "dietary": "meat"
         },
         {
           "name": {
@@ -75,7 +75,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-07T11:25:08.008733",
+      "scraped_at": "2026-08-10T11:15:09.127969",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -85,30 +85,54 @@
       "items": [
         {
           "name": {
-            "de": "Alt Wiener Schinkenfleckerl",
-            "en": "Old Viennese Ham Fleckerl"
+            "de": "Rigatoni Bolognese",
+            "en": "Rigatoni Bolognese"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit grünem Salat & Sauerrahm Dip, Allergene: A, C, G, L, M, O",
-            "en": "with green salad & sour cream dip, allergens: A, C, G, L, M, O"
+            "de": "mit Fleischragout, Parmesan & grünem Salat",
+            "en": "with meat ragout, parmesan & green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Veggie Cremiges Kürbis-Curry",
-            "en": "Veggie Creamy Pumpkin Curry"
+            "de": "Paprikahühnchen",
+            "en": "Paprika Chicken"
           },
-          "price": "Klein €7.50/Gross €11.90",
+          "price": "€7.50/€11.90",
           "description": {
-            "de": "mit roten Linsen, Basmatireis & gerösteten Cashewkernen, Allergene: E, F, H, L, M, N, O",
-            "en": "with red lentils, basmati rice & roasted cashews, allergens: E, F, H, L, M, N, O"
+            "de": "in cremiger Rahmsauce mit Sauerrahm-Dip & Spätzle",
+            "en": "in creamy sour cream sauce with sour cream dip & spaetzle"
+          },
+          "dietary": "meat"
+        },
+        {
+          "name": {
+            "de": "VeggieCremige Gnocchi Pomodoro",
+            "en": "Veggie Creamy Gnocchi Pomodoro"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "mit cremiger Burrata, Ruccola & Basilikum Pesto",
+            "en": "with creamy burrata, arugula & basil pesto"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Kürbis-Feta-Gratin",
+            "en": "Pumpkin Feta Gratin"
+          },
+          "price": "€7.50/€11.90",
+          "description": {
+            "de": "aus dem Ofen mit Blattspinat & grünem Salat",
+            "en": "from the oven with spinach & green salad"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-07T11:25:18.188828",
+      "scraped_at": "2026-08-10T11:15:18.200839",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -129,7 +153,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-07T11:25:18.652618",
+      "scraped_at": "2026-08-10T11:15:18.784390",
       "available": true,
       "extraction_method": "Static menu"
     }
@@ -139,6 +163,6 @@
     "total_restaurants": 4,
     "successful": 4,
     "failed": 0,
-    "total_items": 8
+    "total_items": 10
   }
 }
