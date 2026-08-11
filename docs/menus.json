@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-11T10:57:42.473737",
+  "last_updated": "2026-08-11T11:23:54.742031",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-08-11T10:57:23.984362",
+      "scraped_at": "2026-08-11T11:23:42.326834",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,7 +21,7 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Kartoffel-Gulasch mit Brot",
+            "de": "Kartoffelgulasch mit Brot",
             "en": "Potato goulash with bread"
           },
           "dietary": "meat"
@@ -33,10 +33,10 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein traditionelles österreichisches Gericht mit Kraut und Nudeln",
-            "en": "A traditional Austrian dish with cabbage and noodles"
+            "de": "Krautfleckerl, ein traditionelles österreichisches Gericht",
+            "en": "Krautfleckerl, a traditional Austrian dish"
           },
-          "dietary": "vegetarian"
+          "dietary": "meat"
         },
         {
           "name": {
@@ -45,7 +45,7 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Caesar-Salat mit Hühnchen",
+            "de": "Caesar Salat mit Huhn",
             "en": "Caesar salad with chicken"
           },
           "dietary": "meat"
@@ -57,7 +57,7 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Schweine-Ragout mit Erbsen und Reis",
+            "de": "Schweineragout mit Erbsen und Reis",
             "en": "Pork ragout with peas and rice"
           },
           "dietary": "meat"
@@ -69,13 +69,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Ein traditioneller griechischer Salat mit Gemüse, Feta und Oliven",
-            "en": "A traditional Greek salad with vegetables, feta, and olives"
+            "de": "Griechischer Bauernsalat mit Tomaten, Gurken, Zwiebeln und Feta",
+            "en": "Greek farmer's salad with tomatoes, cucumbers, onions and feta"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-11T10:57:29.664256",
+      "scraped_at": "2026-08-11T11:23:46.583364",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -86,9 +86,9 @@
         {
           "name": {
             "de": "Ofenfrischer Faschierter Braten",
-            "en": "Roasted Beef Braten"
+            "en": "Oven-Fresh Braised Beef"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
             "de": "mit Bratensaft, Kartoffelpüree & grünem Salat, A, C, G, L, M, O",
             "en": "with roast gravy, mashed potatoes & green salad, A, C, G, L, M, O"
@@ -100,10 +100,10 @@
             "de": "Safran Risotto",
             "en": "Saffron Risotto"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
             "de": "mit Garnelen, Cherrytomaten, Spinat & grünem Salat, Veggie",
-            "en": "with shrimp, cherry tomatoes, spinach & green salad, Veggie"
+            "en": "with shrimp, cherry tomatoes, spinach & green salad, veggie"
           },
           "dietary": "meat"
         },
@@ -112,15 +112,15 @@
             "de": "Schupfnudeln",
             "en": "Schupfnudeln"
           },
-          "price": "€7.50/€11.90",
+          "price": "Klein €7.50/Gross €11.90",
           "description": {
             "de": "in Eierschwammerlsauce mit Ruccola, Pinienkernen & grünem Salat, Veggie",
-            "en": "in egg mushroom sauce with arugula, pine nuts & green salad, Veggie"
+            "en": "in mushroom egg sauce with arugula, pine nuts & green salad, veggie"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-11T10:57:41.992669",
+      "scraped_at": "2026-08-11T11:23:54.618480",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -129,19 +129,12 @@
       "url": "https://pastaheld.at",
       "items": [
         {
-          "name": {
-            "de": "Pasta-Gerichte mit frischen Zutaten",
-            "en": "Pasta dishes with fresh ingredients"
-          },
+          "name": "Pasta dishes with fresh ingredients",
           "price": "€8-13",
-          "description": {
-            "de": "Verfügbar am Dienstag",
-            "en": "Available on Tuesday"
-          },
-          "dietary": "vegetarian"
+          "description": "Available on tuesday"
         }
       ],
-      "scraped_at": "2026-08-11T10:57:42.373322",
+      "scraped_at": "2026-08-11T11:23:54.685968",
       "available": true,
       "type": "food_truck"
     },
@@ -155,7 +148,7 @@
           "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-08-11T10:57:42.473661",
+      "scraped_at": "2026-08-11T11:23:54.741946",
       "available": true,
       "extraction_method": "Static menu"
     }
