@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-11T11:23:54.742031",
+  "last_updated": "2026-08-12T11:05:32.544794",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-08-11T11:23:42.326834",
+      "scraped_at": "2026-08-12T11:05:03.803553",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -24,7 +24,7 @@
             "de": "Kartoffelgulasch mit Brot",
             "en": "Potato goulash with bread"
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         },
         {
           "name": {
@@ -33,10 +33,10 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Krautfleckerl, ein traditionelles österreichisches Gericht",
-            "en": "Krautfleckerl, a traditional Austrian dish"
+            "de": "Ein traditionelles österreichisches Gericht mit Kraut und Nudeln",
+            "en": "A traditional Austrian dish with cabbage and noodles"
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         },
         {
           "name": {
@@ -45,7 +45,7 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Caesar Salat mit Huhn",
+            "de": "Caesar Salat mit Hühnchen",
             "en": "Caesar salad with chicken"
           },
           "dietary": "meat"
@@ -69,13 +69,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Griechischer Bauernsalat mit Tomaten, Gurken, Zwiebeln und Feta",
-            "en": "Greek farmer's salad with tomatoes, cucumbers, onions and feta"
+            "de": "Ein traditioneller griechischer Salat mit Gemüse, Feta und Oliven",
+            "en": "A traditional Greek salad with vegetables, feta, and olives"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-11T11:23:46.583364",
+      "scraped_at": "2026-08-12T11:05:08.225377",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -85,78 +85,83 @@
       "items": [
         {
           "name": {
-            "de": "Ofenfrischer Faschierter Braten",
-            "en": "Oven-Fresh Braised Beef"
+            "de": "Italienische Hühnerpfanne",
+            "en": "Italian Chicken Pan"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Bratensaft, Kartoffelpüree & grünem Salat, A, C, G, L, M, O",
-            "en": "with roast gravy, mashed potatoes & green salad, A, C, G, L, M, O"
+            "de": "mit Tomaten-Mozzarella Salat & Basilikum Pesto",
+            "en": "with tomato-mozzarella salad and basil pesto"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Safran Risotto",
-            "en": "Saffron Risotto"
+            "de": "Griechisches Moussaka",
+            "en": "Greek Moussaka"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "mit Garnelen, Cherrytomaten, Spinat & grünem Salat, Veggie",
-            "en": "with shrimp, cherry tomatoes, spinach & green salad, veggie"
+            "de": "aus dem Ofen mit Fleischragout, Schmormelanzani & grünem Salat",
+            "en": "from the oven with meat ragout, eggplant and green salad"
           },
           "dietary": "meat"
         },
         {
           "name": {
-            "de": "Schupfnudeln",
-            "en": "Schupfnudeln"
+            "de": "Süßkartoffel-Cashew Tikka Masala",
+            "en": "Sweet Potato-Cashew Tikka Masala"
           },
           "price": "Klein €7.50/Gross €11.90",
           "description": {
-            "de": "in Eierschwammerlsauce mit Ruccola, Pinienkernen & grünem Salat, Veggie",
-            "en": "in mushroom egg sauce with arugula, pine nuts & green salad, veggie"
+            "de": "in cremiger Kokossauce mit Basmatireis",
+            "en": "in creamy coconut sauce with basmati rice"
+          },
+          "dietary": "vegetarian"
+        },
+        {
+          "name": {
+            "de": "Steinpilzrisotto",
+            "en": "Porcini Risotto"
+          },
+          "price": "Klein €7.50/Gross €11.90",
+          "description": {
+            "de": "mit Babyspinat, Tomaten, gehobeltem Parmesan & grünem Salat",
+            "en": "with baby spinach, tomatoes, shaved parmesan and green salad"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-11T11:23:54.618480",
+      "scraped_at": "2026-08-12T11:05:32.085201",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": "Pasta dishes with fresh ingredients",
-          "price": "€8-13",
-          "description": "Available on tuesday"
-        }
-      ],
-      "scraped_at": "2026-08-11T11:23:54.685968",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
       "url": "https://www.fatmonk.com/files/PressFiles/file/XX-Speisekarte-Online-Print-DE-08-25.pdf",
       "items": [
         {
-          "name": "Bowl",
+          "name": {
+            "de": "Schale",
+            "en": "Bowl"
+          },
           "price": "€9-11",
-          "description": "Prebuilt or custom bowls"
+          "description": {
+            "de": "Vordefinierte oder benutzerdefinierte Schalen",
+            "en": "Prebuilt or custom bowls"
+          },
+          "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-11T11:23:54.741946",
+      "scraped_at": "2026-08-12T11:05:32.544722",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
     "total_items": 10
   }
