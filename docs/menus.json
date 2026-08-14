@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-14T11:03:21.831516",
+  "last_updated": "2026-08-14T11:21:50.681846",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-08-14T11:03:00.617012",
+      "scraped_at": "2026-08-14T11:21:21.632469",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -21,7 +21,7 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Kartoffel-Gulasch mit Brot",
+            "de": "Kartoffelgulasch mit Brot",
             "en": "Potato goulash with bread"
           },
           "dietary": "meat"
@@ -33,10 +33,10 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Krautfleckerl, traditionelles österreichisches Gericht",
-            "en": "Krautfleckerl, traditional Austrian dish"
+            "de": "Ein traditionelles österreichisches Gericht",
+            "en": "A traditional Austrian dish"
           },
-          "dietary": "meat"
+          "dietary": "vegetarian"
         },
         {
           "name": {
@@ -45,7 +45,7 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Caesar-Salat mit Hühnchen",
+            "de": "Caesar Salat mit Hühnchen",
             "en": "Caesar salad with chicken"
           },
           "dietary": "meat"
@@ -69,13 +69,13 @@
           },
           "price": "€7.90",
           "description": {
-            "de": "Traditioneller griechischer Bauernsalat",
-            "en": "Traditional Greek farmer's salad"
+            "de": "Ein traditioneller griechischer Salat",
+            "en": "A traditional Greek salad"
           },
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-14T11:03:05.293155",
+      "scraped_at": "2026-08-14T11:21:26.313524",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -85,8 +85,8 @@
       "items": [
         {
           "name": {
-            "de": "Veggie Spinat Feta Lasagne",
-            "en": "Veggie Spinach Feta Lasagna"
+            "de": "VeggieSpinat Feta Lasagne",
+            "en": "VeggieSpinat Feta Lasagna"
           },
           "price": "€7.50/€11.90",
           "description": {
@@ -110,7 +110,7 @@
         {
           "name": {
             "de": "Chicken in cremiger Eierschwammerlsauce",
-            "en": "Chicken in creamy Morel sauce"
+            "en": "Chicken in creamy Chanterelle sauce"
           },
           "price": "€7.50/€11.90",
           "description": {
@@ -120,7 +120,7 @@
           "dietary": "meat"
         }
       ],
-      "scraped_at": "2026-08-14T11:03:20.968521",
+      "scraped_at": "2026-08-14T11:21:50.331594",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -141,7 +141,7 @@
           "dietary": "vegetarian"
         }
       ],
-      "scraped_at": "2026-08-14T11:03:21.831452",
+      "scraped_at": "2026-08-14T11:21:50.681776",
       "available": true,
       "extraction_method": "Static menu"
     }
