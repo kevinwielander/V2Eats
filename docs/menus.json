@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-09-15T15:14:24.814132",
+  "last_updated": "2026-09-16T14:47:45.016914",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-09-15T15:14:04.730971",
+      "scraped_at": "2026-09-16T14:47:27.119012",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -14,7 +14,7 @@
       "name": "DELI Glashaus",
       "url": "https://www.dasglashaus.at/deli",
       "items": [],
-      "scraped_at": "2026-09-15T15:14:07.122355",
+      "scraped_at": "2026-09-16T14:47:30.395794",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,23 +22,9 @@
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
       "items": [],
-      "scraped_at": "2026-09-15T15:14:24.644079",
+      "scraped_at": "2026-09-16T14:47:44.867051",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": "Pasta dishes with fresh ingredients",
-          "price": "€8-13",
-          "description": "Available on tuesday"
-        }
-      ],
-      "scraped_at": "2026-09-15T15:14:24.725052",
-      "available": true,
-      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -50,16 +36,16 @@
           "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-09-15T15:14:24.814060",
+      "scraped_at": "2026-09-16T14:47:45.016849",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
+    "total_restaurants": 4,
+    "successful": 4,
     "failed": 0,
-    "total_items": 2
+    "total_items": 1
   }
 }
