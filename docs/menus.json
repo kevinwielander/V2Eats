@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-21T15:01:50.068569",
+  "last_updated": "2026-10-21T15:32:29.556777",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-10-21T15:01:31.254081",
+      "scraped_at": "2026-10-21T15:32:14.922278",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -14,7 +14,7 @@
       "name": "DELI Glashaus",
       "url": "https://www.dasglashaus.at/deli",
       "items": [],
-      "scraped_at": "2026-10-21T15:01:33.516388",
+      "scraped_at": "2026-10-21T15:32:17.445441",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,7 +22,7 @@
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
       "items": [],
-      "scraped_at": "2026-10-21T15:01:49.991800",
+      "scraped_at": "2026-10-21T15:32:29.485001",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
     },
@@ -36,7 +36,7 @@
           "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-10-21T15:01:50.068526",
+      "scraped_at": "2026-10-21T15:32:29.556713",
       "available": true,
       "extraction_method": "Static menu"
     }
