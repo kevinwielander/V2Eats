@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-10-27T15:59:17.845155",
+  "last_updated": "2026-10-28T16:38:58.734192",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-10-27T15:59:04.279838",
+      "scraped_at": "2026-10-28T16:32:56.256684",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -14,7 +14,7 @@
       "name": "DELI Glashaus",
       "url": "https://www.dasglashaus.at/deli",
       "items": [],
-      "scraped_at": "2026-10-27T15:59:09.050432",
+      "scraped_at": "2026-10-28T16:32:58.874075",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,23 +22,9 @@
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
       "items": [],
-      "scraped_at": "2026-10-27T15:59:17.639615",
-      "available": true,
-      "extraction_method": "Selenium + LLM (groq)"
-    },
-    {
-      "name": "Pasta Food Truck",
-      "url": "https://pastaheld.at",
-      "items": [
-        {
-          "name": "Pasta dishes with fresh ingredients",
-          "price": "€8-13",
-          "description": "Available on tuesday"
-        }
-      ],
-      "scraped_at": "2026-10-27T15:59:17.743790",
-      "available": true,
-      "type": "food_truck"
+      "scraped_at": "2026-10-28T16:38:58.617609",
+      "available": false,
+      "error": "Selenium scraping failed"
     },
     {
       "name": "Fat Monk Bowls",
@@ -50,16 +36,18 @@
           "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-10-27T15:59:17.845090",
+      "scraped_at": "2026-10-28T16:38:58.734128",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
-  "errors": [],
+  "errors": [
+    "Error scraping Topf und Deckel: Selenium scraping failed"
+  ],
   "stats": {
-    "total_restaurants": 5,
-    "successful": 5,
-    "failed": 0,
-    "total_items": 2
+    "total_restaurants": 4,
+    "successful": 3,
+    "failed": 1,
+    "total_items": 1
   }
 }
