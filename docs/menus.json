@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-11-11T18:00:40.121803",
+  "last_updated": "2026-11-12T18:07:19.187201",
   "llm_provider": "claude",
   "restaurants": [
     {
       "name": "WU Mensa",
       "url": "https://www.wumensa.at/menueplan-english/",
       "items": [],
-      "scraped_at": "2026-11-11T18:00:16.226453",
+      "scraped_at": "2026-11-12T18:07:00.733008",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -14,7 +14,7 @@
       "name": "DELI Glashaus",
       "url": "https://www.dasglashaus.at/deli",
       "items": [],
-      "scraped_at": "2026-11-11T18:00:18.762889",
+      "scraped_at": "2026-11-12T18:07:03.337875",
       "available": true,
       "extraction_method": "LLM (claude)"
     },
@@ -22,9 +22,23 @@
       "name": "Topf und Deckel",
       "url": "https://www.topfdeckel.at/",
       "items": [],
-      "scraped_at": "2026-11-11T18:00:40.025654",
+      "scraped_at": "2026-11-12T18:07:19.012315",
       "available": true,
       "extraction_method": "Selenium + LLM (groq)"
+    },
+    {
+      "name": "Pinsa Food Truck",
+      "url": "https://www.pinsalino.at",
+      "items": [
+        {
+          "name": "Roman-style pizza with various toppings",
+          "price": "€8-12",
+          "description": "Available on thursday"
+        }
+      ],
+      "scraped_at": "2026-11-12T18:07:19.098154",
+      "available": true,
+      "type": "food_truck"
     },
     {
       "name": "Fat Monk Bowls",
@@ -36,16 +50,16 @@
           "description": "Prebuilt or custom bowls"
         }
       ],
-      "scraped_at": "2026-11-11T18:00:40.121732",
+      "scraped_at": "2026-11-12T18:07:19.187131",
       "available": true,
       "extraction_method": "Static menu"
     }
   ],
   "errors": [],
   "stats": {
-    "total_restaurants": 4,
-    "successful": 4,
+    "total_restaurants": 5,
+    "successful": 5,
     "failed": 0,
-    "total_items": 1
+    "total_items": 2
   }
 }
